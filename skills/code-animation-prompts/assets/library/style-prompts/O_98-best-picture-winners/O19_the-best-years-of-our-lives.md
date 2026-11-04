@@ -8,7 +8,7 @@
 
 ## Style prompt
 
-Each frame is a 1946 picture-magazine photo spread. Render the scene as a grey photo (3D or painted): low sun, long shadows, deep focus (near and far both sharp). The photo bleeds across both pages, crossed by a soft vertical gutter crease. Print as a 45° black halftone, dot pitch about 1/250 of frame width, ink #1A1A1A on off-white coated stock #ECE6D8. A short black headline and caption sit in a quiet area. Only the hero the story centres on, at least 1/4 of frame height, prints on its own spot-orange plate (e.g. #D97757) at another angle, 2-3 px off, black only in its deepest shadows. Camera: walk in, push to a detail, pull back to reveal an open magazine. References: cinematographer Gregg Toland; *Life* post-war photo essays. Avoid: the gutter cutting the hero, coarse dots that break the photo.
+Each frame is a 1946 picture-magazine photo spread. Render the scene as a grey photo (3D or painted): low sun, long shadows, deep focus (near and far both sharp). The photo bleeds across both pages, crossed by a soft vertical gutter crease. Print as a 45° black halftone, dot pitch about 1/250 of frame width, ink #1A1A1A on off-white coated stock #ECE6D8. A short black headline and caption sit in a quiet area. Only the hero the story centres on, at least 1/4 of frame height, prints on its own spot-orange plate (e.g. #D97757) at another angle, 2-3 px off, black only in its deepest shadows. Camera: walk in, push to a detail, pull back to reveal an open magazine. References: cinematographer Gregg Toland; *Life* post-war photo essays. Avoid: the gutter cutting the hero, coarse dots that break the photo. Slight ink gain. The headline and caption are overprinted from the first shot.
 
 ## Notes
 

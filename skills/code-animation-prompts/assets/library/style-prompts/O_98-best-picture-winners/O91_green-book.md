@@ -8,7 +8,7 @@
 
 ## Style prompt
 
-A 1950s–60s linen postcard, Curt Teich manner. Linen-weave card: ink only on raised threads, a fine crosshatch about 1/300 of frame width, white specks in the hollows. Saturated hand-separated colour, airbrush blends: sky blue #3fa0dc, grass green #4fae57, pink #f08cb0, teal #2fb5b8 for the main object or water, cream card #f6e4b8 for paper and border. The main object large, side-on, about half the card's height. Star glints on shiny surfaces; registration off 1–2 px. Big navy 3D block letters with white outlines across the top third spell the place or title (invent one if needed), a small scene in each letter, a red ribbon banner above. Open on the card on a desk, push in until it fills the frame and comes alive (water, figures move), then track sideways. Avoid: weave-less gradients, greyish colour, photographic perspective.
+A 1950s–60s linen postcard, Curt Teich manner. Linen-weave card: ink only on raised threads, a fine crosshatch about 1/300 of frame width, white specks in the hollows. Saturated hand-separated colour, airbrush blends: sky blue #3fa0dc, grass green #4fae57, pink #f08cb0, teal #2fb5b8 for the main object or water, cream card #f6e4b8 for paper and border. The main object large, side-on, about half the card's height. Star glints on shiny surfaces; registration off 1–2 px. Big navy 3D block letters with white outlines across the top third spell the place or title (invent one if needed), a small scene in each letter, a red ribbon banner above. Open on the card on a desk, push in until it fills the frame and comes alive (water, figures move), then track sideways. Avoid: weave-less gradients, greyish colour, photographic perspective. Star glints are four-pointed.
 
 ## Notes
 

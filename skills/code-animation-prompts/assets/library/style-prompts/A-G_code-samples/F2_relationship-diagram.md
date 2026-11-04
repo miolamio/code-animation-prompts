@@ -17,7 +17,7 @@ Below is our own reference implementation: a drawing function S.F2(c, w, h, t, s
 S.F2 = (c, w, h, t, s) => {
   const tm = t % 10, fade = 1 - ss(9, 10, tm), m = Math.min(w, h), fs = Math.max(10, m / 20);
   const Nd = { Me: [.5, .55], Dad: [.22, .3], Mom: [.78, .3], Grandma: [.5, .12], School: [.2, .82], Work: [.8, .82] };
-  const E = [['Dad', 'Me', 'For your good', 1], ['Mom', 'Me', 'Obey', 1.8], ['Grandma', 'Dad', 'Endure hardship', 2.6], ['Me', 'School', 'Make us proud', 3.4], ['Me', 'Work', 'Never be weak', 4.2], ['Me', 'Mom', 'Cannot say it', 5.2]];
+  const E = [['Dad', 'Me', 'For your own good', 1], ['Mom', 'Me', 'Obey', 1.8], ['Grandma', 'Dad', 'Endure hardship', 2.6], ['Me', 'School', 'Make us proud', 3.4], ['Me', 'Work', 'Never be weak', 4.2], ['Me', 'Mom', 'Cannot say it', 5.2]];
   c.fillStyle = '#0e1116'; c.fillRect(0, 0, w, h); c.globalAlpha = fade;
   const R = m * .075, at = k => [Nd[k][0] * w, Nd[k][1] * h];
   for (const [a, b, lab, t0] of E) {

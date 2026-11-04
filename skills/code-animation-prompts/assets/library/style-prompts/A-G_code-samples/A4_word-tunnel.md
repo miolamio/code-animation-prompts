@@ -1,13 +1,13 @@
 # A4 Word Tunnel
 
 - Category: A–G Code Samples · A Words
-- Looks like: Words form ring after ring, and the shot burrows inward.
+- Looks like: Words form ring after ring, and the camera burrows inward.
 - Best for: being unable to make sense of something, thoughts spiraling deeper
 - Keywords: tunnel, rotation, burrowing inward
 
 ## Style prompt
 
-Use code (Canvas 2D) to draw an animation of "Word Tunnel": Words form ring after ring, and the shot burrows inward.
+Use code (Canvas 2D) to draw an animation of "Word Tunnel": Words form ring after ring, and the camera burrows inward.
 Good for telling: being unable to make sense of something, thoughts spiraling deeper
 Keywords: tunnel, rotation, burrowing inward
 

@@ -30,7 +30,7 @@ Not **Data Storytelling** (charts are short inserts between footage, never the w
 | Channel bug | top left, x 96 y 52, 46 px high | yellow block with a fictional channel name + topic in the film's language (and the second language, if any) in small caps |
 | Source tag | under the bug, y 108, 36 px | white "Source" + dark label (`USDA NASS · 2026.08.03`, `… · p. 13`); only on data and document shots, slides in 0.2 s |
 | Footage credit | top right, 19 px on a 50 % dark chip | `Video Author · CC BY 3.0`; every CC BY shot carries it |
-| Lower third | x 120, y 742, 96 px high | yellow bar + label + one English line; for a place, date or speaker, never for the main sentence |
+| Lower third | x 120, y 742, 96 px high | yellow bar + label + one optional second-language line; for a place, date or speaker, never for the main sentence |
 
 Under the caption: a bottom gradient (0 → 84 % from y 560) plus a soft dark radial from the bottom-left corner; a top gradient (55 % → 0 over 200 px) under the bug and the credit. Data cards use a lighter gradient that starts at y 820. Graphics and charts sit right of centre and bleed to the frame edge; their title and source sit top left, never centred.
 
@@ -49,7 +49,7 @@ Vertical 9:16 is a different layout, not a crop: put the caption under a 1080×1
 - **Main line** (the film's language): Noto Sans 900 (add the Noto family for the film's script as fallback, e.g. Noto Sans CJK for CJK films; subset to the characters used), 88 px (verdict lines 110 px), ivory `#F7F5EF`, 20 px dark soft shadow. Split into 2–3 chunks with `|` in the timeline; each chunk slams 0.12 s after the previous: scale 1.3 → 1 in 0.13 s (back ease, overshoot 1.6), opacity full in 0.04 s.
 - **Keyword**: `{…}` inside a chunk; a honey-yellow block `#FFC21A` wipes left → right in 0.12 s behind it, text turns ink `#0E0E0C`. One keyword per caption, at most.
 - **Second-language line** (optional, e.g. English): Inter Tight 500, 33 px, ivory, fades and rises 10 px in 0.18 s, 0.1 s after the first chunk. It is the spoken line (numbers as digits), not a translation of the main line.
-- **One line per language, always.** If either language would wrap, split the sentence into two captions. A caption is on screen ≥ 1.8 s and ideally ≥ the spoken line + 0.6 s; the main line is a paraphrase short enough to read in that time (≤ ~36 characters; for CJK scripts ≤ ~14).
+- **One line per language, always.** If either language would wrap, split the sentence into two captions. A caption is on screen ≥ 1.8 s and ideally ≥ the spoken line + 0.6 s; the main line is a paraphrase short enough to read in that time (≤ ~34 characters, ≤ ~27 on 110 px verdict lines; for CJK scripts ≤ ~14).
 - The `.srt` is generated from the same timeline (`timeline.json` → `tools/cues.py` → `core/render/srt.py`): one main-language line and, if the film carries a second language, one line of it per cue.
 - A text-only beat (caption with no voice) is native to the style: use it for the breath after the turn.
 
@@ -57,14 +57,14 @@ Vertical 9:16 is a different layout, not a crop: put the caption under a 1080×1
 
 - **Ledger card** (the data-card ground): `#151512` sheet, faint ruled lines every 54 px (4.5 % white), a thin red double margin at x 78/86 — the "account book" that ties every chart together. It slides in from the right over 0.18 s; inside, a slow push (×1.025–1.03 over the shot).
 - **Colour meaning**: honey `#FFC21A` = the point / gains / the highlight; red `#FF4A3D` = losses, the spike, the bad number; ivory = everything else; grey `#8D8B83` = labels and units; `#5E5C55` = the bars that don't matter.
-- **Numbers**: Inter Tight 800 with fixed-width digit cells (`num()` in `demo/main.js`), so a rolling counter never jitters. Counters roll with ease-out and turn their colour when they arrive. Units (e.g. boxes, 10k boxes) set smaller after the number.
+- **Numbers**: Inter Tight 800 with fixed-width digit cells (`num()` in `demo/main.js`), so a rolling counter never jitters. Counters roll with ease-out and turn their colour when they arrive. Units (e.g. colonies, 10k colonies) set smaller after the number.
 - **Charts**: titled top left in the film's language (Noto Sans 900 64 px, ≤ ~16 characters so it can be read in the shot; ≤ 6 for CJK scripts) with an optional grey second-language line; lines draw segment by segment (eio); the key point gets a bigger dot, an expanding ring (0.7 s) and a block label; bars grow from the left one after another (first one slower and longer if it is the point).
 - **Map**: state shapes from Natural Earth, projected (Albers), sequential fill in five steps of one hue, states without data in dark grey with a "not listed separately" legend swatch; the subject state outlined in yellow with a leader and a label; the map pushes in on it.
 - **Documents**: the PDF page rendered at 220 dpi as white paper on a dark desk (±1–2° tilt, soft shadow, vignette), pushed in slowly; highlighter rectangles placed from `pdftotext -bbox` coordinates (1 pt = 3.0556 px), `multiply` blend, swept left → right in 0.3–0.5 s; the number read from it is re-set as a big yellow block beside the page. The printed text is picture; what must be read is re-set in type.
 - **Split screen**: two halves with a 4 px yellow divider that drops first; the "bad" half desaturated, darkened and tinted red, the "good" half in full grade; a label block (one word in the film's language, plus its second-language word if any) and a counter in each; a shared stamp centred on the divider.
 - **Grid**: three panels (632 px, 12 px gaps) rising staggered; each one lights up (yellow border, label turns yellow) on the word that names it; numbered 1–2–3.
 - **Freeze frame**: the shot stops on a frame, a 0.14 s white flash, punch 1.0 → 1.12, saturation drops to 45 %, yellow corner brackets close in on the subject, a timecode chip with a pause mark appears top right.
-- **Title sting**: a yellow ruled page (the ledger again, in yellow) wipes across the left 45 % over live footage; the title slams, the English title and a dateline chip follow; the page wipes off left and the title becomes the channel bug.
+- **Title sting**: a yellow ruled page (the ledger again, in yellow) wipes across the left 45 % over live footage; the title slams, the second-language title, if any, and a dateline chip follow; the page wipes off left and the title becomes the channel bug.
 
 ## 6. Grade and image quality
 
@@ -114,7 +114,7 @@ Master −14 LUFS, true peak −1.2 dB (`core/render/mux.sh`).
 
 Copy `demo/` into the project and replace the content:
 - `main.js` — the page (`window.render(t)` draws synchronously with placeholders first, so `TEXTS(t)` is valid for `readcheck.mjs`, then loads the frames it needs and draws again). Shot functions per format; `SHOTS` table for cuts.
-- `timeline.json` — captions (the main language with `|` chunks and `{keyword}`, plus an optional second-language field such as `en`), voice start times, silences and hits; read by the page, `tools/cues.py` (.srt + timing check) and `audio/mix.py`.
+- `timeline.json` — captions (`text` with `|` chunks and `{keyword}`, plus an optional second-language field such as `en`), voice start times, silences and hits; read by the page, `tools/cues.py` (.srt + timing check) and `audio/mix.py`.
 - `tools/prep.sh` — every video shot as a 30 fps JPEG sequence at its display size (crop, lanczos, unsharp, delogo); report pages; photos; the map projection (`tools/map_prep.py`).
 - `audio/mix.py` — sampled score from the timeline, foley from `events.json`, voice, natural sound, ducking.
 - `tools/fonts.sh` (OFL subsets for every character in `main.js`), `tools/final_check.sh` (loudness, black frames, speech-to-text of the final mix).

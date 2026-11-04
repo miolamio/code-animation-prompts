@@ -36,7 +36,7 @@ const person = (x,y)=>(x*x+(y+.55)*(y+.55)<=.05)||(y>=-.28&&y<=.85&&Math.abs(x)<
 ```
 
 - Heart, house, person: in [-1,1]², do "rejection sampling" with seeded random points, keeping those that land inside the shape until you have N.
-- Chinese character: on a 400×400 offscreen canvas, draw the glyph (or any word the user supplies; the CJK-capable font stack keeps it rendering) in white bold (`bold 340px "Noto Serif SC","Songti SC","Noto Serif CJK SC","SimSun","Times New Roman",serif`, horizontally centered, `textBaseline='middle'`, y=210); after `getImageData`, take one point with alpha>128 every 2 pixels and convert it to [-1,1]; after a seeded shuffle, take N (if there are too few, take repeatedly and add ±0.004 jitter).
+- Chinese character: on a 400×400 offscreen canvas, draw the glyph (for a longer word, shrink the font to fit 400px wide; the CJK-capable font stack keeps it rendering) in white bold (`bold 340px "Noto Serif SC","Songti SC","Noto Serif CJK SC","SimSun","Times New Roman",serif`, horizontally centered, `textBaseline='middle'`, y=210); after `getImageData`, take one point with alpha>128 every 2 pixels and convert it to [-1,1]; after a seeded shuffle, take N (if there are too few, take repeatedly and add ±0.004 jitter).
 - Shuffle each of the four target sets once. Particle i goes to the i-th target point in each of the four shapes, so it looks like "the same batch of particles changing shape".
 
 ## Fixed parameters per particle (generated once at startup)

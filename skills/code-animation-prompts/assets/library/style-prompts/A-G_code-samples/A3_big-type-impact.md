@@ -15,7 +15,7 @@ Below is our own reference implementation: a drawing function S.A3(c, w, h, t, s
 
 ```js
 S.A3 = (c, w, h, t, s) => {
-  const L = [["You", .145, .33, .30, 0, .23], ["know", .435, .30, .22, 0, .29], ["nothing", .785, .33, .17, 0, .36], ["It's", .16, .62, .20, 0, .24], ["all", .41, .62, .14, 0, .18], ["for your good", .46, .84, .16, 1, .72], ["Obey", .76, .60, .13, 0, .30], ["!", .875, .84, .22, 1, .10]];
+  const L = [["You", .145, .33, .30, 0, .23], ["know", .435, .30, .22, 0, .29], ["nothing", .785, .33, .17, 0, .36], ["It's", .16, .62, .20, 0, .24], ["all", .41, .62, .14, 0, .18], ["for your own good", .46, .84, .16, 1, .72], ["Obey", .76, .60, .13, 0, .30], ["!", .875, .84, .22, 1, .10]];
   const beat = .4, len = L.length * beat + 1.4, tm = t % len, k = Math.floor(tm / beat), age = tm - k * beat;
   const m = Math.min(w, h), hit = k < L.length ? Math.exp(-age * 9) : 0;
   c.fillStyle = mixHex('#08080a', '#2a2a2e', hit * .5); c.fillRect(0, 0, w, h);

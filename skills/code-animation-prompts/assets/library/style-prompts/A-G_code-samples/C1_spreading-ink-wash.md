@@ -2,13 +2,13 @@
 
 - Category: A–G Code Samples · C Line and Ink
 - Looks like: Ink bleeds outward across rice paper, bloom after bloom.
-- Best for: a Chinese feeling, memories, grief
+- Best for: a Chinese sensibility, memories, grief
 - Keywords: ink wash, bleed outward, rice paper
 
 ## Style prompt
 
 Use code (Canvas 2D) to draw an animation of "Spreading Ink Wash": Ink bleeds outward across rice paper, bloom after bloom.
-Good for telling: a Chinese feeling, memories, grief
+Good for telling: a Chinese sensibility, memories, grief
 Keywords: ink wash, bleed outward, rice paper
 
 Below is our own reference implementation: a drawing function S.C1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.

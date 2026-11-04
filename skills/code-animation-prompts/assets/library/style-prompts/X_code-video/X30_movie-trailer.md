@@ -1,7 +1,7 @@
 # X30 Movie trailer
 
 - Category: X code-video · code-video
-- Best for: next-episode teasers, channel trailers; worth trying for segment 11 of a multi-segment video (the eleventh section, near the end)
+- Best for: next-episode teasers, channel trailers; worth trying for segment 11 of a multi-segment video
 
 ## Style prompt
 

@@ -9,7 +9,7 @@
 
 You are a front-end motion engineer. Write **one complete index.html file**: only native HTML + JavaScript + Canvas, with no external libraries, font files or images. Make an animated title card in the style of an "art biennale magazine cover".
 
-Warm parchment base, sun-yellow glow, large serif headline, indigo ink, thin lines
+## Content
 
 - Headline (two lines): {{line 1, e.g. Biennale}} / {{line 2, e.g. Yellow}} (line 2 in italics)
 - Header left: {{e.g. THE TWELFTH BIENNALE · EDITORIAL SERIES}}; header right: {{e.g. N° 01}}

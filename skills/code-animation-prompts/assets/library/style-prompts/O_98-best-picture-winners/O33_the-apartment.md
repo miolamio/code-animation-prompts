@@ -8,7 +8,7 @@
 
 ## Style prompt
 
-Saul Bass title lines turned into a set. A shot opens on black: thin white lines (about 1/800 of frame width) slide in and grow into a grid; by 2–3 s grey planes fill in and lights switch on row by row. Then hold the finished frame 3 s: mid-to-light grey, flat fills in 4–5 even steps from #140F0D to #F4F1E8, every shape outlined in dark line about 1/600 of frame width. Strict one-point perspective, centred vanishing point; identical elements repeat into depth (desks and people, or posts, lamps, windows). Figures: flat two-tone shapes. The only warm colour is orange-red #E2472A, for the one hero subject and one prop; all light stays white. Camera: a fast push to the hero, a hard cut to top-down, the grid becoming pattern. Avoid: sketchy lines, gradients, colour leaks, skewed perspective, unfilled wireframe.
+Saul Bass title lines turned into a set. A shot opens on black: thin white lines (about 1/800 of frame width) slide in and grow into a grid; by 2–3 s grey planes fill in and lights switch on row by row. Then hold the finished frame 3 s: mid-to-light grey, flat fills in 4–5 even steps from #140F0D to #F4F1E8, every shape outlined in dark line about 1/600 of frame width. Strict one-point perspective, centred vanishing point; identical elements repeat into depth (desks and people, or posts, lamps, windows). Figures: flat two-tone shapes. The only warm colour is orange-red #E2472A, for the one hero subject and one prop; all light stays white. Camera: a fast push to the hero, a hard cut to top-down, the grid becoming pattern. Light grain, soft vignette. Avoid: sketchy lines, gradients, colour leaks, skewed perspective, unfilled wireframe.
 
 ## Notes
 

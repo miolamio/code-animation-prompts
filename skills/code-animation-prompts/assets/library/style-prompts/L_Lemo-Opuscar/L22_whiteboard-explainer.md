@@ -2,7 +2,7 @@
 
 - Category: L Lemo-Opuscar · Hand-drawn and painting
 - Looks like: How does a phone know where you are: GPS, atomic clocks, and the 38 microseconds a day that relativity adds.
-- Best for: Explaining reasoning and steps, exactly the one you sent over
+- Best for: Explaining reasoning and steps
 
 ## Style prompt
 
