@@ -1,7 +1,7 @@
 # X26 Home-shopping infomercial
 
 - Category: X code-video · code-video
-- Best for: satirizing people who sell courses; worth trying for segment 06
+- Best for: satirizing people who sell courses; worth trying for segment 06 of a multi-segment video (the sixth section)
 
 ## Style prompt
 

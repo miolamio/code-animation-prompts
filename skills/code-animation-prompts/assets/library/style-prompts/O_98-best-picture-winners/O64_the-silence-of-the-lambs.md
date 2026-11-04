@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A hand-coloured natural-history copperplate. Every object in engraved warm black-brown line: dense parallel and cross-hatching (spacing about 1/400 of frame width, thicker in darks), stipple for soft tones, hatched shadows beneath; sky bare or sparsely lined. Flat watercolour tints inside the line, medium saturation, clearly coloured: paper #EFE3C4, umber #5A3A22, rust #B4431E, yellow #E6AD24, grey-violet #7D6F8E. Plate: the subject as Fig. 1 in the centre, about 60% of plate height, 3–6 numbered part or object figures around it, each about 1/5 high; spaced small-caps title, numbered legend, bevelled plate mark, light foxing. Even daylight; time of day only shifts the tints' warmth; dark interiors go cold, hard side light. Camera: a still plate where one thing moves (insect, leaf, hand), then a slow push to a key detail. Reference: Moses Harris, *The Aurelian* (1766). Avoid: smooth gradients; garish colour; a tiny vignetted subject.
 
 ## Notes

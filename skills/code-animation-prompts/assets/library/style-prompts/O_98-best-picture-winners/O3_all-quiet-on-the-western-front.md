@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Expressionist woodcut after Käthe Kollwitz, *Krieg* (1921-22). 60-70% solid black; white contour cuts 1/300-1/150 of frame width separate forms; faces are white shapes with a few black features; hands large. Figures fill the frame, cropped by its edges. Each cut tapers in and out with chipped edges, is wider the nearer it sits to the light, in slightly uneven bundles. Ink #17130F on paper #E8DFCA; texture is only wood-grain streaks and under-inked speckle (±5%). One colour block (e.g. #D97757) only on the hero the story centres on, flat on its body or clothes, cuts over it; black stays 60%+. Light enters through one opening (window, cloud gap); lamps get a short ring of cuts. The ground under figures stays uncut black. Quiet motion (breathing, a small gesture); slow pans and push-ins. Avoid: grey fog or midtones, even striped hatching, gore.
 
 ## Notes

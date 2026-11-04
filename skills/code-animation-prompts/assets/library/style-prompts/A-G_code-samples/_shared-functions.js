@@ -1,5 +1,6 @@
 // Small utility functions shared by the A–G reference implementations
-const SANS = '"Noto Sans SC", "PingFang SC", sans-serif';
+const SANS = '"Noto Sans", "Helvetica Neue", Arial, system-ui, sans-serif';  // system-ui also covers CJK and other scripts
+const SERIF = '"Noto Serif", Georgia, "Times New Roman", "Songti SC", "Noto Serif SC", serif';
 const MONO = '"IBM Plex Mono", ui-monospace, monospace';
 const TAU = Math.PI * 2;
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x));

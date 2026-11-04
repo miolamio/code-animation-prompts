@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Type every image: one bold monospaced glyph per keystroke, fixed grid, cells 1/150 of frame width wide, twice as tall. Strike 85-95% of cells; bare paper only for highlights. Grey from a key ladder (light . : -, mid = + o, dark X # M); darks (about 30%) are overstrikes like M#. Shapes read as crisp-edged fields, clear silhouettes. Each material repeats its own keys (e.g. I H verticals, _| courses, ~ water). Signs stay legible. Uneven ribbon: half-inked strikes, a few keys always high or low. Paper #EBE6DA, ink #1D1C21; only the hero the story centres on, at least 1/3 of frame height, is struck in red-orange #D4704F, its shadow black. Hard sidelight casts long, crisp, dense shadows. The picture types itself within the first second, then holds. Reference: Paul Smith's typewriter art. Avoid: sparse frames, shapeless streaks.
 
 ## Notes

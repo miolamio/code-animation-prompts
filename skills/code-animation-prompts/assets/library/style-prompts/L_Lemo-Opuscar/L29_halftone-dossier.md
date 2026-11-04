@@ -42,14 +42,14 @@ Not Risograph (no grainy two-ink riso texture as the whole look, no zine collage
 
 ## 4. Type & subtitles
 
-- **Headlines**: a black-weight serif (e.g. Noto Serif SC 900 for CJK; a black slab for Latin), 100–230 px, left-aligned near the margin, with a **misregistration shadow** (+8/+8 px in the overprint ink, multiplied).
+- **Headlines**: a black-weight serif (e.g. a black slab such as Alfa Slab One for Latin; Noto Serif 900 for CJK or other scripts), 100–230 px, left-aligned near the margin, with a **misregistration shadow** (+8/+8 px in the overprint ink, multiplied).
 - **Display / numerals**: a fat rounded display face (e.g. Bagel Fat One) for names, big numbers, times.
-- **Interjections**: a playful hand face (e.g. ZCOOL KuaiLe), paper fill with a thick ink stroke and an offset shadow.
+- **Interjections**: a playful hand face (e.g. Patrick Hand, or ZCOOL KuaiLe for CJK), paper fill with a thick ink stroke and an offset shadow.
 - **Data / HUD**: a heavy monospace (e.g. JetBrains Mono 800) for case numbers, dates, rulers, file names.
 - **Captions and stamps**: a black-weight sans.
 - **Cards are the subtitles.** A headline per beat, plus a **caption bar**: a dark-ink rounded pill with an overprint-ink offset shadow, paper-coloured text, the **keyword in the highlight ink**. It pops in after the headline and holds ≥ max(1.8 s, speech + 0.6 s). With narration, the caption bar carries the spoken line.
 - **HUD**: case number and a chapter chip top-left, a status (REC dot, date) top-right; colours invert on dark scenes.
-- Latin runs 2–3× longer than CJK: smaller headlines, 1–2-word stamps (GUILTY, CLOSED), a tighter per-character stagger.
+- Alphabetic scripts run 2–3× longer than CJK: smaller headlines, 1–2-word stamps (GUILTY, CLOSED), a tighter per-character stagger.
 
 ## 5. Motion quality
 

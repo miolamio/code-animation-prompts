@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Reportage pen-and-wash field sketch. Pen: warm black, fast confident lines ~1/600 of frame width, flicked ends, overshooting corners; quick hatching and zigzags for shadow, on figures and ground. Bold transparent washes with soft wet edges, blooms and uneven pigment (not flat polygons) cover about 70% of the frame, shifted 2–4 px (at 1920×1080) off the line. Colours: olive #70783E, ochre #CEA054, smoke grey #706C70, one hot accent #F0822E for sky and light sources; skin in diluted ochre; sketchbook paper #F2ECDE. Bare paper only in highlights, a thin edge band and brush gaps; light grain. A scrawled pencil note (place, time, weather) in a corner, 1/40 of frame height, in the user's language. Layer for lateral tracks; hard cuts like turning a page. Reference: US Army Vietnam Combat Artists Program (1966–70). Avoid: polished finish; empty page; muddy washes; heavy noise.
 
 ## Notes

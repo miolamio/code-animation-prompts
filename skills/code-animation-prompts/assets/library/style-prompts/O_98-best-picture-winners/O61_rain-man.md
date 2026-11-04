@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1980s airbrush illustration with a drafting overlay. Every shape: a hard-edged mask filled with a smooth sprayed gradient, 1–2 px overspray rim (at 1920×1080). Bright, high-key: mint #79BDA6 walls or sky, cream, neon pink #F58CB5 and magenta #C9467F accents, black-and-white checker floor or ground; purple and night under 20%; at other times of day keep mint and cream; pink carries any sunset. Figures à la Patrick Nagel (flat pale skin, few crisp lines, dark hair masses, pink and mint rim light), keeping their own age and dress. Metal and glass in Hajime Sorayama chrome: banded sky reflection, hard horizon line, cross-star glints. Overlay: thin cyan callouts #56E6FF, near-white text #D9FBFF (1/40 frame height), dotted leaders, dashed rings, dimension lines; monospace numbers count whatever the story counts, Rain Man style, as each group is circled. Slow push/pull. Avoid: synthwave suns; UI boxes; soft edges.
 
 ## Notes

@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Real-time 3D like 1980s widescreen location photography: true-scale models with fine detail (e.g. struts, wires, rivets); smooth terrain, not low-poly. Default light: late-afternoon sun low behind the hero as seen from camera, pale cream sky, amber haze, distant ridges in 3–4 paler layers, ochre ground with long soft shadows. Pale overall: about 70% of the frame in light mid-tones, shadows warm grey, not deep brown; under a fifth near-white. Grade: filmic curve, low saturation, light grain, soft vignette. Thousands of instanced birds or animals (e.g. pink #F3B3AE with crimson #DF3F55) lift or scatter in staggered waves as the hero passes. Signature shot: over the moving hero's shoulder across open land; then a high chase 10–20 m up and one shot into the sun. Reference: cinematographer David Watkin (*Out of Africa*, 1985). Avoid: cold clean CG daylight; dark sepia; lockstep flocks.
 
 ## Notes

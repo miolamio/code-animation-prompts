@@ -1,7 +1,7 @@
 # X16 Transit map
 
 - Category: X code-video · code-video
-- Best for: telling how you got here along the way; suits segment 04
+- Best for: telling how you got here along the way; suits segment 04 of a multi-segment video (the fourth section)
 
 ## Style prompt
 

@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Ray-marched real-time 3D multiverse montage: the subject jumps through 3–4 universes, each its own look, invented from its world, e.g. a realistic workplace under cold green fluorescents, densely dressed; a surreal cosmic version with a gravitational-lens halo; a silent wide landscape with white subtitles; a candy-pink product shot with pink-and-cyan rims. Each holds 2–4 s with its own grade. One link through all: a googly-eye sticker on the subject, about 1/10 of frame height. Transition, 0.5–0.8 s: push into the eye, smear, split RGB, then a rainbow ring of colour segments (#e5322d, #f7c928, #1fa39a, #2a6fc0, #e0478f) studded with googly eyes and pink beads blooms to ~80% of frame height and bursts to white. Signature frame: the ring around the subject; first jump at ~1 s. Reference: Daniels, *Everything Everywhere All at Once* (2022). Avoid: look-alike universes, a small plain ring.
 
 ## Notes

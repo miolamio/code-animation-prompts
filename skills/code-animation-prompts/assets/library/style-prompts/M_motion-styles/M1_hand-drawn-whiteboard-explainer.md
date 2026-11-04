@@ -28,7 +28,7 @@ You are a front-end motion engineer. Write **one complete index.html file**: pla
 - Base color #FBFAF7; on top, a few very faint gray smudges (40-90px wide, opacity 0.03-0.06).
 - Lines are black marker #1B1B1B, 10px wide, with `lineCap` and `lineJoin` both round. Draw every stroke twice: the first pass at opacity 0.93; the second pass 5.5px wide, opacity 0.55, offset by ±1.5px.
 - Only black and **one** accent color #E5432B (used for the title underline, arrow, subtitles and pen cap). No third color.
-- Typeface: `font-family: KaiTi, STKaiti, "Kaiti SC", "Microsoft YaHei", sans-serif`, bold; title 110px, labels 90px, subtitles 56px. Draw text with `strokeText` plus `fillText`, with a stroke width of about 3.5% of the font size.
+- Typeface: `font-family: "Segoe Print", "Bradley Hand", "Marker Felt", "Comic Sans MS", "Noto Sans", sans-serif` (a casual handwriting face, with a general Noto fallback for the user's script; for a CJK film put a brush or handwriting face such as KaiTi or STKaiti first), bold; title 110px, labels 90px, subtitles 56px. Draw text with `strokeText` plus `fillText`, with a stroke width of about 3.5% of the font size.
 - Hand-drawn feel: add ±2.5px jitter to every point, taking the jitter from seeded randomness indexed by the point's number, not re-randomized every frame.
 - Things to draw:
   - A cloud-shaped "brain": polar coordinates r = R·(1 + 0.11·|sin(3.5θ)|), with a few wavy lines inside;

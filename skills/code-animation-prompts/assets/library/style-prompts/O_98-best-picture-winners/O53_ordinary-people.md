@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Transparent watercolour in layered glazes on cold-press paper. Draw shapes crisply first, then two or three glazes, each smaller and darker, drying to a tide-mark edge; two or three blooms, about 1/10 of frame width, inside large washes, never on figures; light granulation (±4%). Paper is the brightest white; light objects and highlights left as paper. Sky and water wet-in-wet, ripples dry-brush. Roles: autumn gold #ECAA34, scarlet #E46030, rust #B8743C for foliage and accents, against grey-blue mist #C2C6D2 and violet-grey shadows #8A8496; sky pale and cool at any time of day; ground pale green-ochre. Foliage: pale wash, scallop-edged clusters, dark dots, flicked leaves; with few trees, warm colours go to scrub, roofs, clothes. Light from one side. Camera: slow pan, gentle push, leaves drifting past the lens. Reference: Winslow Homer's watercolours. Avoid: opaque gouache, airbrushed blur, vector edges, muddy colour, saturated sunsets.
 
 ## Notes

@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A 2001 newspaper colour halftone on a library microfiche reader. Signature shot: the picture fills the frame, no headline or columns; lines and lettering inside it stay solid. CMYK screens at 15°, 75°, 0°, 45°, dots about 1/250 of frame width, 1 px misregistration. Convert to low-contrast phosphor-green monochrome, dots still clearly visible: film base #1b2320, frame gaps #0c110f, highlights no brighter than #a0dcaf. Only the story's one hero keeps its colour, whole figure (e.g. #D97757), screened and equally low-contrast; every light source turns green. Scan lines every 3 px, a faint scan bar every 4 s, a lamp hot-spot, dust, a hair, a light rounded hood vignette (outer ~5%), a small monospace fiche index. Scene changes slide the fiche sideways past a dark gap (0.5 s); slow push-ins. Avoid: newspaper layout, colour leaking, hard cuts.
 
 ## Notes

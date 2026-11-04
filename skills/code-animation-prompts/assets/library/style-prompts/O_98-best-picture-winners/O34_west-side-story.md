@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Technicolor 3D stage set, like a 1960s studio musical. Simplified geometry, dense detail on every built surface (openings with sills, ledges, railings, ladders, strung lines); textured brick, plaster or rock, never plain. Theatrical light: a low warm sun rakes surfaces with long shadows; cool fill a quarter of the key. Painted sky of red-orange #E0481E, gold-edged cloud bands, violet only at the top edge; warm haze in the distance. The one hero subject in saturated orange #D97757, at least 1/6 of frame height, set against dark brick or given a black rim so it never melts into the sky. Puppet-like mannequin figures. Warm, saturated grade, fine grain (±3%). Signature shot: a low angle against the orange sky; then one continuous descent into the set and a ground-level push. Avoid: photoreal grime, violet-pink skies, plain walls, poses that pop.
 
 ## Notes

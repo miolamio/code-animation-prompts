@@ -6,7 +6,8 @@ You are a front-end motion engineer. Write **one complete index.html file**: use
 
 ## Content
 
-- Title: {{Default: 俯仰观照 (Fuyang Guanzhao)}}
+- Title: {{Default: 俯仰观照}}
+  - Note, not part of the title: the default is the four Chinese characters 俯仰观照 (romanised "Fuyang Guanzhao", roughly "look up and down, contemplate"). Draw only those four characters; never draw the romanisation or the gloss. A title supplied by the user replaces it and is drawn exactly as given, with the same font stack.
 - Subtitle: {{Default: In the river's flow, see the instant; in the trees, see eternity}}
 
 ## Output requirements (mandatory)
@@ -54,7 +55,7 @@ A point with "camera space" coordinates (X, Y, d) (d is its distance from the ca
 
 ## Title target points
 
-Use a 1200×400 offscreen canvas and write the title in white bold text (`bold 280px "Noto Serif SC","Songti SC","SimSun",serif`, horizontally centered, `textBaseline='middle'`, position (600, 205)); sample every 3 pixels, taking the points with alpha>128, and convert their coordinates to ((x−600)·2.093, (y−200)·2.093); after a seeded shuffle, take N of them (if there are not enough, reuse points and add ±3 jitter). Particle i uses point i.
+Use a 1200×400 offscreen canvas and write the title in white bold text (`bold 280px "Noto Serif SC","Songti SC","Noto Serif CJK SC","SimSun","Times New Roman",serif`, horizontally centered, `textBaseline='middle'`, position (600, 205)); sample every 3 pixels, taking the points with alpha>128, and convert their coordinates to ((x−600)·2.093, (y−200)·2.093); after a seeded shuffle, take N of them (if there are not enough, reuse points and add ±3 jitter). Particle i uses point i.
 
 ## Camera-space position of each particle at time t (write it as a function `place(p, t)` that returns X, Y, d)
 

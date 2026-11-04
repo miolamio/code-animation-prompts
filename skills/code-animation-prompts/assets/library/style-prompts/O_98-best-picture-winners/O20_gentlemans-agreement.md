@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Graphite pencil like a 1940s magazine illustration, finished and controlled. The drawing builds in the first 1-1.5 s, then holds: faint perspective rays and head ovals, pressure-tapered contours (about 1/600 of frame width) overshooting at corners, then 1-4 near-parallel hatching passes (more for darker), about 1/300 of frame width apart, following the form, then rubbed tone and eraser lifts. The finished frame is toned nearly edge to edge: setting fully drawn in mid-greys, about 15% dark accents, only the outer tenth fading to loose margins. Paper #F2EEE5 with a light tooth; lead #2C2B2E. Only the hero the story centres on wears coloured pencil (e.g. #D97757) on its clothing; skin stays graphite. Faces carry the drama. Camera: a slow ease out, then cuts to close-ups. References: illustrators Al Parker and Robert Fawcett. Avoid: cross-hatch grids, scribbly sketching, a near-empty page.
 
 ## Notes

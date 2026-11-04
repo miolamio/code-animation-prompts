@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1940s Hollywood studio black-and-white, painted like a retouched glamour still. Forms: smooth airbrushed tone blocks. Faces: short key (light on the face's far side from camera; the near cheek in shadow, holding a Rembrandt triangle of light), two catchlights per eye. Slatted shadows from anything at hand (blinds, railings, branches) fall diagonally across surfaces; light shafts show only in smoke or fog. Values: 30-40% of the frame deep black, whites small and glowing; outdoor skies mid-dark. Grade: diffusion glow, an S-curve, fine grain (±3%), soft vignette, faint flicker; fog stays local. Only the hero the story centres on keeps colour, on its body or costume (e.g. #D97757); skin and lamps stay grey. Camera: a long glide, a push to a face, a pull-back into fog. References: cinematographer Arthur Edeson (*Casablanca*, Michael Curtiz, 1942). Avoid: flat lighting, grey haze, stiff busts.
 
 ## Notes

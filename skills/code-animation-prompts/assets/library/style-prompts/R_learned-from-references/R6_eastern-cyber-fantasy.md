@@ -15,7 +15,7 @@ Paper-colored sky, one huge red sun, a line of cranes flying past; by the water,
 
 ### Related earlier ID
 
-C1、Z1、L19、M30
+C1, Z1, L19, M30
 
 ### Fixed rendering rules
 

@@ -42,7 +42,7 @@ HTML DOM/SVG: multi-layer text-stroke decorative-caption components + spring pop
 - Base layer that feels like footage: CC0/PD cat or dog photos from /assets/images with slow Ken Burns, subtle handheld shake, snap punch-in zooms on 'moments' (you may also build a stylised scene if photos look weak).
 - Decorative-caption moments synced to beats: title "TODAY'S DOSE OF JOY" (fill gradient + thick white stroke + coloured outer stroke + drop shadow, rounded heavy font), "???" bouncing question marks, "SHOCKED!!" inside a radial burst frame with speed lines + radiating-line flash, "(whispers)" small aside, "SLAY!" with sparkles, sweat drops, a "CAT BOSS APPROVED" stamp.
 - Motion: pop 0 → 1.15 → 1.0 in ~8 frames, per-character bounce with 2-frame stagger, slight rotation, gentle wiggle while holding; appear 2–3 frames after the audio/visual moment. High-saturation pink/yellow/cyan with white strokes.
-Sound: bouncy variety-show bed (pizzicato/bass/claps) + boing, pop, ding, slide whistle, record scratch on '？？？'.
+Sound: bouncy variety-show bed (pizzicato/bass/claps) + boing, pop, ding, slide whistle, record scratch on '???'.
 
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
@@ -61,7 +61,7 @@ Long-held decorative captions get a slight wiggle to stay alive
    micro-motion. Map every signature feature above to a moment. Keep one cue sheet (beats and hit times) that both the
    picture and the sound read from.
 2. Key frames before motion. Build the look, render stills at 6–10 key times and actually look at them. Each still should be
-   poster-worthy: composition, hierarchy, negative space, type set properly (kerning, line-height, weight contrast, CJK
+   poster-worthy: composition, hierarchy, negative space, type set properly (kerning, line-height, weight contrast, language-appropriate
    punctuation, ~5 % safe margins). Iterate until nothing looks default, generic, cramped or "AI-template".
 3. Motion. Build the choreography and preview at low resolution. Step through the fastest moves frame by frame: spacing,
    easing, arcs, overlap, anticipation and follow-through, motion blur. No unintended dead spans; the energy follows the music.
@@ -79,7 +79,7 @@ Long-held decorative captions get a slight wiggle to stay alive
   that renders a PNG sequence).
 - Assets: only CC0 / public domain / OFL / Apache / free-for-commercial-use. Record each source and licence in CREDITS.md.
   No real brand trademarks; invent brand names.
-- On-screen text must be correct and natural: idiomatic Chinese, proper CJK punctuation, no typos.
+- On-screen text must be correct and natural: idiomatic in the user's language, with that language's proper punctuation, no typos.
 
 # Craft checklist (what a jury looks for)
 - Style authenticity: an expert names the style in one second; every signature technique is present and executed correctly.

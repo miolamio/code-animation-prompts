@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Photographic 2D neon night. Real tubes: glass tube, glow, bright tube, white-hot core, clips, dark jumper wires; rare flicker (every 5–10 s). Neon pink #ff4fa8, cyan #4fdcff, orange #ff9a2e, green #3dff9a plus warm sodium light over a deep purple-blue night #1e1838. Put neon where the subject's world allows (shopfronts, a harbour bar, its own building). Wet ground fills the lower quarter: signs stretch into long vertical reflections broken by plank gaps, paving joints or ripples; snow falls and drifts at the edges, tinted by the spill. The subject keeps a warm key on the face (a lamp, a window, its own light), narrow neon rims on both sides; the distance melts into bokeh. Bloom, vignette, grain ±3%. Short 2–3 s shots, new angles on one place, each a slow push-in. Reference: Sean Baker, *Anora* (2024). Avoid: flat neon lettering, strobing.
 
 ## Notes

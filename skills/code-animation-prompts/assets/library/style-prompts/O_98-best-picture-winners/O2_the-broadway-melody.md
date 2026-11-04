@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Art Deco revue poster. Black lacquer ground; gold and silver from banded metallic gradients (3-5 hard bands); airbrush glows, sunbursts, ziggurat steps, streamlined curves; a stepped proscenium frame of gold lines and bulbs. Palette: ground #0A0908, gold #D6B560, highlight #F3E2A2, silver #BFC4C9; skin pale silver-cream; one saturated accent (e.g. #D97757) only on the hero the story centres on. Elongated Erté-style figures with real faces; fringe, sequins or feathers where the subject allows. Fine grain, glints, stars. Frontal symmetry, a central spotlight. Motion: chasing bulbs, a row of repeated elements (dancers, waves, columns) rippling toward the centre, rings radiating from the main sound or light source; slow pushes, cut on the music's beat (without music, every 2-3 s). References: A. M. Cassandre's posters, Erté's costumes. Avoid: flat yellow for metal, faceless figures, extra hues.
 
 ## Notes

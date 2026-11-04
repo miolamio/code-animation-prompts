@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A moving 1880s gold-toned albumen photograph. Paint soft-edged flat shapes by brightness: main subjects dark (15-30%), ground 50-60%, sky about 90%; visible hatching and grass tufts (lines ~1/300 of frame width). Then print: grayscale, slight blur (~1/800 of frame width), a faint smear of three horizontal offset copies growing with camera speed, multiply cream #F2DCB4, lift blacks to umber #2E1C0F, blotchy development (±5%), vignette to #785634, per-frame grain (±4%), dust, scratches. Hand-tint only the hero the story centres on (e.g. #D97757) as transparent dye, mask feathered 2-3 px; lamps stay sepia. Wide panorama: the middle band packed with repeated small elements (figures, animals, vehicles; for a lone subject fences, posts, trees), no big plane dominating. Camera: one 4-5 s ease-out pull back from the hero to the panorama. Avoid: hard ink outlines, colour beyond the hero, a flat grey print.
 
 ## Notes

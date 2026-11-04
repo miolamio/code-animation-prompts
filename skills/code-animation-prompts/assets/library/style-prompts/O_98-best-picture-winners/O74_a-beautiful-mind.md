@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Handwriting as the image: translucent white wax-marker strokes (about 1/300 of frame width) appear stroke by stroke on a window of square leaded panes: formulas, figures or notes about the subject, in small blocks on a quarter of the glass. Outside, the subject's world, soft-focus, mid-toned and warm (overcast gold, muted green), never brighter than the writing. A warm interior (shelves, green-shaded lamp, amber light) frames the window. At the key moment, chosen symbols brighten and soft gold lines join them into a star or polygon, lights running along. Variant: chalk on green slate with ghost writing. Palette: slate green #2F3E35, chalk white #F1EFE6, lamp amber #E0A050, soft gold #D9B45A. Camera: slow push-ins, each cut closer to the writing. Reference: cinematographer Roger Deakins (*A Beautiful Mind*, 2001). Avoid: HUD graphics; typed fonts; writing filling the glass; cold blue outside.
 
 ## Notes

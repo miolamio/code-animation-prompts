@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A real 3D scene in late-1940s deep-focus black-and-white. Built forms: bare masonry, block by block, bevelled, staggered (Romanesque arches only where the setting has them); wet surfaces dark and glossy. Soft overcast light, no hard shadows: dark masses against a silver sky. Low fog fills the lower third; the far background ends at 60-70% grey, the midground sharp; a bright patch behind cloud throws faint shafts. Water, if any: layered swells, lace foam, misty spray. Post: ambient occlusion, gentle bloom, high-contrast silver grade (true blacks, unclipped whites), grain (±3%), faint flicker. Only the hero the story centres on keeps its colour (e.g. #D97757); every light source stays grey. Camera: slow drift in, a track along a high edge, a low angle on the hero. Reference: Laurence Olivier, *Hamlet* (1948). Avoid: hard sunlit shadows, white-out fog, tiled textures.
 
 ## Notes

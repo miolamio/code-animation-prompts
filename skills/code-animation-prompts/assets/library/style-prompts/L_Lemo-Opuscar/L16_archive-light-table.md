@@ -46,9 +46,9 @@ Example (our demo): table #F7F9FB, ink #15171A, signal #FF5A1F, caption plates r
 
 ## 4. Type & subtitles
 
-- **Roles**: a monospace for identifiers, dates and readings (e.g. IBM Plex Mono, 17–34 px; readings 74–120 px); a sans for labels in the film's language (e.g. Noto Sans SC or Inter, 21–36 px); a serif only for titles and the one name a photograph carries (60–76 px). OFL, self-hosted, CJK subset when needed.
+- **Roles**: a monospace for identifiers, dates and readings (e.g. IBM Plex Mono, 17–34 px; readings 74–120 px); a sans for labels in the film's language (e.g. Noto Sans or Inter, 21–36 px); a serif only for titles and the one name a photograph carries (60–76 px). OFL, self-hosted, subset to the characters used for CJK or other large scripts.
 - **Labels attach to objects**: an anchor dot and ring, a vertical leader, then the text. A reading sits in a dark caption plate with a small label above and the source (the catalogue number or the original wording) below.
-- **Subtitles** are a caption strip at the bottom centre, on a dark plate with a 3 px signal-coloured edge. If the film is bilingual, the film's language goes on top. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles** are a caption strip at the bottom centre, on a dark plate with a 3 px signal-coloured edge. If the film carries a second language, the film's language goes on top. Hold ≥ max(1.8 s, speech + 0.6 s).
 - **Quote the source when you can**: a crop of the actual line, or the record's wording in quotation marks, beats a paraphrase.
 
 ## 5. Motion quality

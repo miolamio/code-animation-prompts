@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A traveller's scrapbook, crowded edge to edge with 6–10 overlapping items, some running off frame: a taped watercolour (the main image, about 40% of frame), a hand-drawn map, a sepia photo, printed pages, handwritten notes, a pressed flower; each softly shadowed, with yellowed tape. The watercolour: wet-in-wet washes, warm ochre lights, hard-edged violet-rose shadows, pen contours, pooled edges, clear value contrast. Palette: amber paper #E8D6B0, sepia #6B4A2E, ochre #D08A3C, rose-violet #9C6A86, ink #2A1E16. Inside the painting: one warm source (torch, lamp) pooling in a dark foreground, bright sky beyond. Light amber grade on the page only, never muddying the painting; vignette about 20%, faint grain. Signature move: push into the painting until the page edges slide out. Reference: cinematographer John Seale (*The English Patient*, 1996). Avoid: smooth gradients; sparse tidy layouts; panning while a page frames the painting.
 
 ## Notes

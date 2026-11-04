@@ -15,7 +15,7 @@ Looking down on a street packed with signs, a footbridge crossing it, a big "Sle
 
 ### Related earlier ID
 
-M14、L49、L50、X24
+M14, L49, L50, X24
 
 ### Fixed rendering rules
 

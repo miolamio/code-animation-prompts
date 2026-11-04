@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Impasto oil in a 1939 Technicolor palette. Palette-knife slabs: long horizontal sky bands (1/15-1/6 of frame width long, about 1/60 tall), shorter strokes following form on land and figures, calm thin areas between; ridges lit from upper left, paint thickest in highlights, canvas weave where thin. Default sunset sky: wine #3A0912, red #A8241A, orange #F27A22, gold #FFD878; ground red-brown #6E2214; warm near-black silhouettes. The hero the story centres on stays a readable warm mid-tone (e.g. #D97757), never a silhouette. Strong backlight, gold rims; in close shots a warm side light on half the face and hands. Epic-poster composition: big dark silhouettes (trees, buildings, rocks, figures) on a low horizon. Lamps as painted flames. Camera: slow push on the wide, low push-in on the hero, crane up to a vista. Avoid: tiled same-size strokes, muddy browns, smooth gradients.
 
 ## Notes

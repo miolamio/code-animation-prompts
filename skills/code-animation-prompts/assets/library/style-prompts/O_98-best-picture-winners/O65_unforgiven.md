@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Frederic Remington-style Western oil painting. Primary register, for anything before full dark: sunset, a red-gold sky (orange into deep red) in long horizontal strokes, the sun on the horizon, land and figures dark warm silhouettes, thin warm rim sunward. Second register, only after dark: a blue-green nocturne (sky #17333A, moonlit edges #9CC4BC, warm window light #FFCC6A on dark ground #1E1C16, rain). Broad, readable shapes first, then loaded strokes about 1/80 of frame width wide, 3–6 times as long, soft broken ends, each within ±6% brightness of the colour beneath, following the surface. Light canvas texture. Low horizon, sky 50–60% of the frame, figures small to medium. Camera: one slow push from a silhouetted wide to the figure. References: Remington's late nocturnes; cinematographer Jack N. Green (*Unforgiven*, 1992). Avoid: smooth gradients; hard-edged flat bands; shattered shapes; grey figures in warm scenes; wide pans.
 
 ## Notes

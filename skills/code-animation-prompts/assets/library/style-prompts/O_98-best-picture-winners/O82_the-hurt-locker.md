@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Military technical-manual illustration. Warm off-white paper #EFEADB with a faint engineering grid, uniform black ink #1B1A16 (outlines ~1/700 of frame width, hatching thinner), shading only by hatching, ground by stippling, flat tints of olive #6C6D42 and sand #D9C79C on 20–30% of the drawing; lights as ray lines, not glows. Main figure: a one-point-perspective view of the subject's setting filling most of the page; around it exploded views of the subject's key object along a dash-dot axis, circled numbers on leader lines, a parts table, WARNING and CAUTION boxes, typewriter labels (user's language) and FIG numbers, a black chapter card. Animate on twos: parts slide apart, a tool works, a figure walks. Camera: whole page, then cuts to enlarged insets. References: US Army technical manuals; Kathryn Bigelow, *The Hurt Locker* (2008). Avoid: gradient shading; too much colour; decorative fonts; sparse pages.
 
 ## Notes

@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Long-exposure night street photography. Sodium-vapour orange #F2A24A washes structures, signs and wet ground (about half the frame in warm light), against cyan neon #3FD0D8 and the odd red-blue emergency light; blacks cyan-tinged, never grey. Layered composition: foreground pavement with figures, lit shopfronts and signs mid-frame, roads or bridges crossing the upper third (away from cities, a lamp-lit road in the subject's own setting). Headlights become thin continuous ribbons (about 1/150 of frame width) along those roads, white #FFF4E0 and red #E0303A, glowing with hot cores. Snow: three layers of short soft streaks, seen only in light cones. Finish: two-level bloom, blue lens streaks, edge bokeh, vignette, moving grain. The hero stands sharp in a lamp cone mid-frame; only traffic streaks. Camera: one continuous tilt, pan and rack focus. Reference: cinematographer J. Michael Muro (*Crash*, 2004). Avoid: evenly lit snow; empty black frames; dotted trails.
 
 ## Notes

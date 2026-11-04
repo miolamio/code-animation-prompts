@@ -15,7 +15,7 @@ Yellow ground, magenta and cyan lightning splits the picture; halftone dots, spr
 
 ### Related earlier ID
 
-K13、X18
+K13, X18
 
 ### Fixed rendering rules
 

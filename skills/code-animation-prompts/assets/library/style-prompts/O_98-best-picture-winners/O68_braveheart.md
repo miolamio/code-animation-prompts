@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 An illuminated manuscript page (cropped, or an open spread) filling the frame. Vellum #ECDCB4, brown ink outlines #2A1A10, lapis #27469A, vermilion #C43A20, burnished gold leaf on raised gesso, with punched dot rosettes; a slow candle glint sweeps the gold only. Miniature backgrounds are mostly gold (night: lapis with gold stars); gold fills at least a tenth of the frame. Gothic figures in flat colour and ink outline. Celtic interlace, ivy borders, marginal grotesques; the story's text (Latin or the user's language) in broad-nib textura, red-and-blue line fillers, one large gilded initial. Layout: the miniature a window about half the page beside the text column, layered for parallax on pushes; figures may break out. Warm candle from upper left, brown vignette, pigment grain. References: Book of Kells, Morgan Bible, Luttrell Psalter. Avoid: flat yellow for gold; modern typefaces; glints on faces.
 
 ## Notes

@@ -14,7 +14,7 @@
 ## 1. Essence, and what it is not
 
 1. **Sound-off first.** Every beat must be understood from the picture and the captions alone; the voice adds pace, not information.
-2. **The caption is the shot.** One Chinese line, set huge, slammed in two or three chunks, one keyword in a yellow block; one English line under it. The footage is chosen to sit under the line.
+2. **The caption is the shot.** One line in the film's language, set huge, slammed in two or three chunks, one keyword in a yellow block; an optional second-language line (e.g. English) under it. The footage is chosen to sit under the line.
 3. **Evidence on screen.** Each number arrives with its source: a source tag slides in; key figures are first seen highlighted in the original document; per-shot footage credits sit in the corner like a news "Video:" tag.
 4. **A hook on frame 4.** The film's largest number lands in the first 0.15 s and rolls to its value.
 5. **One turn.** The bad-news hook is answered by a fact that changes its meaning; the rest of the film explains that turn, one new fact per shot.
@@ -26,8 +26,8 @@ Not **Data Storytelling** (charts are short inserts between footage, never the w
 | Zone | Position | Content |
 |---|---|---|
 | Footage | full bleed | video, photo, document or data card; never a vertical frame pillar-boxed in the middle |
-| Caption card | left aligned at x 120; Chinese baseline y ≈ 948, English baseline y ≈ 1014 | one line per language, never wrapped |
-| Channel bug | top left, x 96 y 52, 46 px high | yellow block with a fictional channel name + topic in Chinese and English small caps |
+| Caption card | left aligned at x 120; main-language baseline y ≈ 948, second-language baseline y ≈ 1014 | one line per language, never wrapped |
+| Channel bug | top left, x 96 y 52, 46 px high | yellow block with a fictional channel name + topic in the film's language (and the second language, if any) in small caps |
 | Source tag | under the bug, y 108, 36 px | white "Source" + dark label (`USDA NASS · 2026.08.03`, `… · p. 13`); only on data and document shots, slides in 0.2 s |
 | Footage credit | top right, 19 px on a 50 % dark chip | `Video Author · CC BY 3.0`; every CC BY shot carries it |
 | Lower third | x 120, y 742, 96 px high | yellow bar + label + one English line; for a place, date or speaker, never for the main sentence |
@@ -46,11 +46,11 @@ Vertical 9:16 is a different layout, not a crop: put the caption under a 1080×1
 
 ## 4. Caption card (the subtitle *is* the graphic)
 
-- **Chinese line**: Noto Sans SC 900, 88 px (verdict lines 110 px), ivory `#F7F5EF`, 20 px dark soft shadow. Split into 2–3 chunks with `|` in the timeline; each chunk slams 0.12 s after the previous: scale 1.3 → 1 in 0.13 s (back ease, overshoot 1.6), opacity full in 0.04 s.
+- **Main line** (the film's language): Noto Sans 900 (add the Noto family for the film's script as fallback, e.g. Noto Sans CJK for CJK films; subset to the characters used), 88 px (verdict lines 110 px), ivory `#F7F5EF`, 20 px dark soft shadow. Split into 2–3 chunks with `|` in the timeline; each chunk slams 0.12 s after the previous: scale 1.3 → 1 in 0.13 s (back ease, overshoot 1.6), opacity full in 0.04 s.
 - **Keyword**: `{…}` inside a chunk; a honey-yellow block `#FFC21A` wipes left → right in 0.12 s behind it, text turns ink `#0E0E0C`. One keyword per caption, at most.
-- **English line**: Inter Tight 500, 33 px, ivory, fades and rises 10 px in 0.18 s, 0.1 s after the first chunk. It is the spoken line (numbers as digits), not a translation of the Chinese.
-- **One line per language, always.** If either language would wrap, split the sentence into two captions. A caption is on screen ≥ 1.8 s and ideally ≥ the spoken line + 0.6 s; the Chinese is a paraphrase short enough to read in that time (≤ ~14 characters).
-- The `.srt` is generated from the same timeline (`timeline.json` → `tools/cues.py` → `core/render/srt.py`): one Chinese line, one English line per cue.
+- **Second-language line** (optional, e.g. English): Inter Tight 500, 33 px, ivory, fades and rises 10 px in 0.18 s, 0.1 s after the first chunk. It is the spoken line (numbers as digits), not a translation of the main line.
+- **One line per language, always.** If either language would wrap, split the sentence into two captions. A caption is on screen ≥ 1.8 s and ideally ≥ the spoken line + 0.6 s; the main line is a paraphrase short enough to read in that time (≤ ~36 characters; for CJK scripts ≤ ~14).
+- The `.srt` is generated from the same timeline (`timeline.json` → `tools/cues.py` → `core/render/srt.py`): one main-language line and, if the film carries a second language, one line of it per cue.
 - A text-only beat (caption with no voice) is native to the style: use it for the breath after the turn.
 
 ## 5. Graphics
@@ -58,10 +58,10 @@ Vertical 9:16 is a different layout, not a crop: put the caption under a 1080×1
 - **Ledger card** (the data-card ground): `#151512` sheet, faint ruled lines every 54 px (4.5 % white), a thin red double margin at x 78/86 — the "account book" that ties every chart together. It slides in from the right over 0.18 s; inside, a slow push (×1.025–1.03 over the shot).
 - **Colour meaning**: honey `#FFC21A` = the point / gains / the highlight; red `#FF4A3D` = losses, the spike, the bad number; ivory = everything else; grey `#8D8B83` = labels and units; `#5E5C55` = the bars that don't matter.
 - **Numbers**: Inter Tight 800 with fixed-width digit cells (`num()` in `demo/main.js`), so a rolling counter never jitters. Counters roll with ease-out and turn their colour when they arrive. Units (e.g. boxes, 10k boxes) set smaller after the number.
-- **Charts**: titled top left in Chinese (Noto Sans SC 900 64 px, ≤ 6 characters so it can be read in the shot) with one grey English line; lines draw segment by segment (eio); the key point gets a bigger dot, an expanding ring (0.7 s) and a block label; bars grow from the left one after another (first one slower and longer if it is the point).
+- **Charts**: titled top left in the film's language (Noto Sans 900 64 px, ≤ ~16 characters so it can be read in the shot; ≤ 6 for CJK scripts) with an optional grey second-language line; lines draw segment by segment (eio); the key point gets a bigger dot, an expanding ring (0.7 s) and a block label; bars grow from the left one after another (first one slower and longer if it is the point).
 - **Map**: state shapes from Natural Earth, projected (Albers), sequential fill in five steps of one hue, states without data in dark grey with a "not listed separately" legend swatch; the subject state outlined in yellow with a leader and a label; the map pushes in on it.
 - **Documents**: the PDF page rendered at 220 dpi as white paper on a dark desk (±1–2° tilt, soft shadow, vignette), pushed in slowly; highlighter rectangles placed from `pdftotext -bbox` coordinates (1 pt = 3.0556 px), `multiply` blend, swept left → right in 0.3–0.5 s; the number read from it is re-set as a big yellow block beside the page. The printed text is picture; what must be read is re-set in type.
-- **Split screen**: two halves with a 4 px yellow divider that drops first; the "bad" half desaturated, darkened and tinted red, the "good" half in full grade; a label block (Chinese + English word) and a counter in each; a shared stamp centred on the divider.
+- **Split screen**: two halves with a 4 px yellow divider that drops first; the "bad" half desaturated, darkened and tinted red, the "good" half in full grade; a label block (one word in the film's language, plus its second-language word if any) and a counter in each; a shared stamp centred on the divider.
 - **Grid**: three panels (632 px, 12 px gaps) rising staggered; each one lights up (yellow border, label turns yellow) on the word that names it; numbered 1–2–3.
 - **Freeze frame**: the shot stops on a frame, a 0.14 s white flash, punch 1.0 → 1.12, saturation drops to 45 %, yellow corner brackets close in on the subject, a timecode chip with a pause mark appears top right.
 - **Title sting**: a yellow ruled page (the ledger again, in yellow) wipes across the left 45 % over live footage; the title slams, the English title and a dateline chip follow; the page wipes off left and the title becomes the channel bug.
@@ -114,15 +114,15 @@ Master −14 LUFS, true peak −1.2 dB (`core/render/mux.sh`).
 
 Copy `demo/` into the project and replace the content:
 - `main.js` — the page (`window.render(t)` draws synchronously with placeholders first, so `TEXTS(t)` is valid for `readcheck.mjs`, then loads the frames it needs and draws again). Shot functions per format; `SHOTS` table for cuts.
-- `timeline.json` — captions (`zh` with `|` chunks and `{keyword}`, `en`), voice start times, silences and hits; read by the page, `tools/cues.py` (.srt + timing check) and `audio/mix.py`.
+- `timeline.json` — captions (the main language with `|` chunks and `{keyword}`, plus an optional second-language field such as `en`), voice start times, silences and hits; read by the page, `tools/cues.py` (.srt + timing check) and `audio/mix.py`.
 - `tools/prep.sh` — every video shot as a 30 fps JPEG sequence at its display size (crop, lanczos, unsharp, delogo); report pages; photos; the map projection (`tools/map_prep.py`).
 - `audio/mix.py` — sampled score from the timeline, foley from `events.json`, voice, natural sound, ducking.
 - `tools/fonts.sh` (OFL subsets for every character in `main.js`), `tools/final_check.sh` (loudness, black frames, speech-to-text of the final mix).
 
 ## 11. Pitfalls
 
-- **Text that can't be read in its shot.** Chart titles ≤ 6 Chinese characters; ornamental stamps (datelines) must recur readably elsewhere; a label that changes text (a counter) is reported to `TEXTS` with its final value. Run `readcheck.mjs`.
-- **Two-line Chinese captions in 16:9** read as a slide. Split the sentence instead.
+- **Text that can't be read in its shot.** Chart titles ≤ ~16 characters (≤ 6 for CJK scripts); ornamental stamps (datelines) must recur readably elsewhere; a label that changes text (a counter) is reported to `TEXTS` with its final value. Run `readcheck.mjs`.
+- **Two-line captions in 16:9** read as a slide. Split the sentence instead.
 - **The voice running to the cut**: lines that end on the cut feel rushed; speed the TTS (≤ 1.17 — faster, Kokoro starts to mangle names: "varroa" became "Veroa") or shorten the line.
 - **Homophones in ASR**: "requeen the weak" was heard as "week"; "varroa mite" as "might". Rewrite the line ("give old ones a new queen", "varroa mites").
 - **Words stronger than the source**: the report says "stressor", not "killer"; quarterly losses summed are not "annual net loss". Write what the source says.

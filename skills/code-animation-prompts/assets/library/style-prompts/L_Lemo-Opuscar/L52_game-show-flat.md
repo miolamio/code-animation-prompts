@@ -41,9 +41,9 @@ Not a microgame frenzy (no timer or one-verb command per 3 s game, no change of 
 
 ## 4. Type & subtitles
 
-- **Display**: a heavy rounded sans for Latin and numbers (e.g. Fredoka 700); a black-weight sans for CJK (e.g. Noto Sans SC 900); a hand-lettered face only for handwritten props (e.g. ZCOOL KuaiLe).
+- **Display**: a heavy rounded sans for Latin and numbers (e.g. Fredoka 700); a black-weight sans for the film's other script when needed (e.g. Noto Sans 900 or its CJK/Cyrillic/etc. counterpart); a hand-lettered face only for handwritten props (e.g. Patrick Hand, or ZCOOL KuaiLe for CJK).
 - **Telop text**: white or yellow fill with an ink stroke ≈ 14 % of the font size painted *under* the fill (`paint-order: stroke`). Titles are built glyph by glyph so each character can pop in.
-- **The telops are the subtitles.** Round cards, corner banners, labels, prop text and judgement words carry the meaning; keep them short (≤ ~20 CJK characters on a banner line, ≤ ~12 on a plate; Latin runs ~1.6× wider). With narration, subtitles are telop plates at the bottom in the same outlined type, never a thin generic caption.
+- **The telops are the subtitles.** Round cards, corner banners, labels, prop text and judgement words carry the meaning; keep them short (≤ ~32 Latin characters on a banner line, ≤ ~20 on a plate; ~20 and ~12 for CJK). With narration, subtitles are telop plates at the bottom in the same outlined type, never a thin generic caption.
 - Hold every text ≥ max(1.8 s, speech + 0.6 s); a judgement word may be shorter because it is read at a glance.
 
 ## 5. Motion quality

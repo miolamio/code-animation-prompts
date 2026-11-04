@@ -44,16 +44,16 @@ Not a documentary with a "vintage filter" either: no talking heads, no slow Ken 
 | Use | Face (all OFL) | Spec |
 |---|---|---|
 | Ident, item cards, end title | Limelight | 104–118 px, silver gradient, black outline |
-| Chinese display (ident, cards, end title) | Noto Serif SC 900 | 50–76 px, letter-spacing 10–26 px, `#ece7dc` |
-| Place card, labels (English) | Oswald 600 | 26–34 px, letter-spacing 4–6 px, upper case "PLACE · DATE" |
-| Place card, labels (Chinese) | Noto Sans SC 500–600 | 24–30 px |
-| Subtitles | Noto Sans SC 600 40 px over Oswald 400 29 px | bottom of the gate (baselines H−82 / H−38), black stroke 8 / 6 px |
+| Display in the film's language (ident, cards, end title) | Noto Serif 900 (script-matching Noto Serif as fallback, e.g. CJK; subset to the characters used) | 50–76 px, letter-spacing 10–26 px, `#ece7dc` |
+| Place card, labels (second language, e.g. English) | Oswald 600 | 26–34 px, letter-spacing 4–6 px, upper case "PLACE · DATE" |
+| Place card, labels (film's language) | Noto Sans 500–600 | 24–30 px |
+| Subtitles | Noto Sans 600 40 px over Oswald 400 29 px (second line only if the film carries a second language) | bottom of the gate (baselines H−82 / H−38), black stroke 8 / 6 px |
 
-- **Place card** (the newsreel's segment title, instead of full-screen cards for every story): top left of the gate (gate x + 48, y 56), dark box with an inset 2 px cream frame, English "PLACE · DATE" over one Chinese line; it is pulled out left to right in 0.22 s and fades 0.15 s before it leaves. Hold ≥ CJK ÷ 4.5 + Latin ÷ 15 + 1.5 s from the moment it is complete (`readcheck.mjs`), so keep both lines short.
-- **Item title card** (one per film at most, to turn to a new story): black, a double Art Deco frame drawn in 0.35 s with quarter-fan corners, Limelight line + Chinese line, slow push; ≥ 2.5 s.
+- **Place card** (the newsreel's segment title, instead of full-screen cards for every story): top left of the gate (gate x + 48, y 56), dark box with an inset 2 px cream frame, "PLACE · DATE" over one line in the second language (e.g. English) or the film's language; it is pulled out left to right in 0.22 s and fades 0.15 s before it leaves. Hold ≥ characters ÷ 15 + 1.5 s (for CJK scripts use ÷ 4.5) from the moment it is complete (`readcheck.mjs`), so keep both lines short.
+- **Item title card** (one per film at most, to turn to a new story): black, a double Art Deco frame drawn in 0.35 s with quarter-fan corners, Limelight line + a line in the film's language, slow push; ≥ 2.5 s.
 - **Labels inside split screens**: one per panel, top centre, same box style, enter one beat apart.
 - **Subtitle strip**: the subtitles sit on a dark strip across the bottom of the gate (180 px, transparent at the top edge, ≈ 93–96 % `#0a0908` below), on every shot, fading in 0.25 s before the first cue of a run and held through gaps under 1 s, so it never blinks; print and pale footage would otherwise swallow the letters (`subBand()`).
-- **Subtitles**: Chinese line over English line, **one line per language, never wrapped** (`tools/subcheck.mjs` measures every cue in the page); a cue lasts max(1.8 s, spoken + 0.6 s) and ends 50 ms before the next. Print in shot is never re-typed as a caption: the announcer and subtitles carry its meaning, an underline points at it.
+- **Subtitles**: the film's language line over an optional second-language line (e.g. English), **one line per language, never wrapped** (`tools/subcheck.mjs` measures every cue in the page); a cue lasts max(1.8 s, spoken + 0.6 s) and ends 50 ms before the next. Print in shot is never re-typed as a caption: the announcer and subtitles carry its meaning, an underline points at it.
 
 ## 5. Editing grammar
 
@@ -126,7 +126,7 @@ A menu; use the ones the story needs, each once.
 - Per-frame auto-levels make footage pump; use one level set per clip.
 - `destination-in` irises leave transparent corners that later turn grey under `screen` — paint black behind with `destination-over`.
 - Captions that fade before they can be read fail `readcheck`; shorten the words, not the hold.
-- A fast announcer outruns Chinese subtitles: 6–12 English words per line, ≤ 23 Chinese characters.
+- A fast announcer outruns the subtitles: 6–12 words per line, ≤ ~46 characters (≤ 23 for CJK scripts).
 - TTS mispronounces names (Bessie → "Bestie"); rephrase until the speech check passes.
 - Old sources are soft: never exceed ~2.5× upscale; prefer wider framings to crops.
 - Grain belongs to the mux; don't add it in the page as well.

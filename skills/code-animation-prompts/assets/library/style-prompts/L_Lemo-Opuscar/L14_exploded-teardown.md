@@ -45,10 +45,10 @@ Keep a FACTS.md in the project folder (claim, source URL, quoted wording, or the
 
 ## 4. Type & subtitles
 
-- Names: a clean sans at medium weight in the film's script (28–32 px; Noto Sans SC 500 in our demo). Specs and numbers: a monospaced face (15–22 px; JetBrains Mono) so digits line up and read as measurement. A neutral grotesque (Inter) for Latin running text.
+- Names: a clean sans at medium weight in the film's script (28–32 px; Noto Sans 500, with the Noto Sans family of the film's script as fallback). Specs and numbers: a monospaced face (15–22 px; JetBrains Mono) so digits line up and read as measurement. A neutral grotesque (Inter) for Latin running text.
 - Label structure is fixed: a two-digit index in the accent, the name, one spec line. Units always written (mm, MB, ×n for counts). A label carries at most one fact the voice does not say.
 - Dimension text sits on a small dark plate, follows the line's angle and is never upside down.
-- Subtitles: a centred strip at the bottom with a soft shadow and no box; if the film is bilingual, the film's language on top. Hold every cue ≥ max(1.8 s, speech + 0.6 s); every label stays fully in frame for CJK ÷ 4.5 + other ÷ 15 + 1.5 s.
+- Subtitles: a centred strip at the bottom with a soft shadow and no box; if the film carries a second language, the film's language on top. Hold every cue ≥ max(1.8 s, speech + 0.6 s); every label stays fully in frame for characters ÷ 15 + 1.5 s (÷ 4.5 for CJK scripts).
 
 ## 5. Motion quality
 

@@ -43,8 +43,8 @@ Not flat paper-cut animation (here: depth, backlight, cast shadows), not shadow 
 ## 4. Type & subtitles
 
 - **Text in the picture is paper**: titles, letters, poems and captions are cut strips inside the box, revealed by growing from an anchor edge (scale the texture repeat with the mesh so glyphs aren't squashed), with an optional small seal.
-- Chinese: an OFL brush font (e.g. Ma Shan Zheng) for titles, a running script for handwriting, Noto Serif SC for subtitles. Latin: an OFL serif (e.g. Cormorant) at similar weight.
-- **Subtitles** are a quiet burned-in line under the box (serif 500, ~40 px CJK / ~38 px Latin, warm off-white, soft shadow, ~74 px from the bottom), fading in just before the line. Split long lines at the comma nearest the middle (~21 CJK / ~42 Latin characters).
+- Fonts in the film's language: an OFL brush font for titles (e.g. Ma Shan Zheng for CJK films), a running script for handwriting, Noto Serif for subtitles (plus the script's Noto Serif family for CJK or other scripts). Latin: an OFL serif (e.g. Cormorant) at similar weight.
+- **Subtitles** are a quiet burned-in line under the box (serif 500, ~38-40 px, warm off-white, soft shadow, ~74 px from the bottom), fading in just before the line. Split long lines at the comma nearest the middle (~42 Latin characters per line; ~21 for CJK).
 - **Words that appear as paper are not subtitled**: never show the same words twice.
 - Hold ≥ max(1.8 s, speech + 0.6 s).
 
@@ -81,7 +81,7 @@ Framing: the story layer in focus, foreground and far layers soft; box edges ful
 - **Silence**: the lamp switched off — all sound but a room tone drops out, then returns with the light.
 - **Mix character**: voice compressed and forward (RMS ~−18 dB), music underneath with ~5–6 dB of ducking under speech, foley low (−24…−34 dB), peak-limited, final at −14 LUFS.
 - **Options**: a new instrument entering when the film changes place; one foley sound per light cue; a music hand-over solved backwards so a swell lands on the line that matters.
-- **Voice**: warm, a storyteller at a table, not an announcer. Proof every line with whisper; for Chinese polyphonic characters feed TTS a homophone and keep the real text for subtitles.
+- **Voice**: warm, a storyteller at a table, not an announcer. Proof every line with whisper; where TTS misreads a word, feed it a respelling and keep the real text for subtitles.
 
 ## 8. Native moves
 

@@ -26,7 +26,7 @@ Not a montage (time jumps), not a security wall (the layout never moves), not a 
 - **Three kinds of material at once**: video cameras of the same moment (2–8), documents (a fact sheet, a filing, a schedule: shown as paper, never retyped as a slide), and photographs (the people of the day). Our own type explains them; type printed in the material is only picture.
 - **Data drawn by us**: checklists, bars, a flight or process profile, a second countdown to the next milestone. Every number comes from an official source (§10).
 - **Cells**: hard rectangles on near-black `#06080A`, 24 px outer margin, 8–9 px gutters, 1 px border `rgba(222,232,238,.16)`, a light radial vignette (to 36 % black) on video cells. No rounded corners, no drop shadows, no 3D.
-- **Camera chip** top-left of every cell: dark plate 84 %, a square dot (orange = synced video, grey = unsynced or still), code (`CAM 4`, `DOC`, `LIST`), Chinese name, small English name.
+- **Camera chip** top-left of every cell: dark plate 84 %, a square dot (orange = synced video, grey = unsynced or still), code (`CAM 4`, `DOC`, `LIST`), name in the film's language, small second-language name (e.g. English) if any.
 - **Burned-in text in the sources** (broadcast bugs, camera IDs, timers, tracker readouts) is cropped by a per-shot usable region, or blurred out (ffmpeg `delogo`) after it has been used for syncing. Never shown as if it were ours.
 - **One grade for every source** (ffmpeg): `eq=contrast=1.07:saturation=0.9:gamma=0.97:brightness=-0.01,colorbalance=rs=-0.02:bs=0.03:rh=0.03:bh=-0.02`, then film grain 1 at the master (`mux.sh … 1`). Cool shadows, slightly warm highlights: control rooms and launch pads look like one film.
 - **Resolution**: modern footage at most 1.5× its source pixels; for a punch-in, extract that stretch at a higher resolution from the 4K source instead of enlarging a 1080p frame. Documents at ≥ 1 source pixel per screen pixel.
@@ -47,9 +47,9 @@ Orange means "now / synced / done". Grey means "pending / not synced". Nothing e
 ## 4. Type & subtitles
 
 - Clock digits: a condensed sans with fixed-width digit slots (ours: Barlow Condensed SemiBold, drawn digit by digit in equal slots so the clock never jitters); size up to 132 px, the T−/T+ sign at 0.85×, tenths at 0.41× in grey, a ten-segment sub-second bar under it.
-- Chinese: a sturdy sans (ours: Noto Sans SC 500/700, subset). English text: a clean grotesque (Barlow). Labels, codes and English small print: a monospace (IBM Plex Mono). All OFL, in the project's `fonts/`.
-- **The live transcript is the subtitle.** A fixed box (bottom right, or a cell in the grid): a speaking light and the speaker type (commentary / loop / narrator — the narrator, our own voice, is marked in orange so it is never mistaken for the event's audio), the English line appearing word by word at the spoken times (0.08 s fade per word, a block cursor), the Chinese line whole when its cue starts. **One line per language, never wrapped**: a long sentence becomes two cues; each cue ≥ max(1.8 s, speech + 0.6 s). Transcribe only what is said; mark doubtful words in `FACTS.md`.
-- Reading time for everything else: CJK ÷ 4.5 + other ÷ 15 + 1.5 s from the moment it is complete (`readcheck.mjs`). A comparison (two bars, two numbers) stays fully on screen ≥ 2.5 s.
+- The film's language: a sturdy sans (ours: Noto Sans 500/700, with the script-matching Noto family as fallback, subset to the characters used). Second-language text (e.g. English): a clean grotesque (Barlow). Labels, codes and small print: a monospace (IBM Plex Mono). All OFL, in the project's `fonts/`.
+- **The live transcript is the subtitle.** A fixed box (bottom right, or a cell in the grid): a speaking light and the speaker type (commentary / loop / narrator — the narrator, our own voice, is marked in orange so it is never mistaken for the event's audio), the line as spoken (in the event's language) appearing word by word at the spoken times (0.08 s fade per word, a block cursor), the film-language line whole when its cue starts if it differs. **One line per language, never wrapped**: a long sentence becomes two cues; each cue ≥ max(1.8 s, speech + 0.6 s). Transcribe only what is said; mark doubtful words in `FACTS.md`.
+- Reading time for everything else: characters ÷ 15 + 1.5 s (for CJK scripts use ÷ 4.5) from the moment it is complete (`readcheck.mjs`). A comparison (two bars, two numbers) stays fully on screen ≥ 2.5 s.
 
 ## 5. Motion quality
 
@@ -101,7 +101,7 @@ Layers, top to bottom:
 - **Slow-motion sources**: measure the factor from two events with a known gap (e.g. engine start to booster ignition = 6.36 s) and re-time with `setpts=PTS/k`.
 - **Burned-in text**: broadcast bugs, camera numbers, timers, tracker data. Define per-shot usable regions (they change when the source cuts) or `delogo` them; check every source cut with a frame-difference scan.
 - **A static wide shot for ten seconds** reads as flat. Give every 1–2 seconds a new element (a cell, a tick on the list, a flag, a punch-in), not a fake camera move.
-- **Spoilers in the subtitle**: a whole-sentence Chinese line reveals the end of a count early. Split counts into separate cues.
+- **Spoilers in the subtitle**: a whole-sentence line shown before the speech reveals the end of a count early. Split counts into separate cues.
 - **The clock jitters** if digits are proportional: draw them in fixed slots.
 - **Hot peaks** from broadcast audio and the ignition hit miss the true-peak target: pre-limit the mix at about −4 dBFS after normalising to −14 LUFS.
 - **Logos.** No agency insignia as a graphic; cut slates and bugs; the film says it is unofficial.

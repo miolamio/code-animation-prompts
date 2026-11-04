@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A 1950s kinescope playing on a wood-cabinet television. Inside the screen: black-and-white with a cool phosphor tint (#DCE6EA whites), soft (half resolution, scaled up), halation, ghosting, tearing bands, a rolling hum bar, light snow, lifted blacks, flicker, grain; only the story's hero keeps its colour (e.g. #D97757), under the same artefacts. Tube: rounded corners, sides bowing outward, about 330 scanlines, glass reflections. Outside, a warm flat-illustrated living room (ochre wallpaper, wood, a table lamp), lit warm by the lamp; the screen casts a clear cold-blue glow on nearby walls. Signature shot: hold about 2 s with the TV filling 60% of the frame, then push through the glass (4-5 s) until the broadcast fills the frame, scanlines visible, then steady TV-studio mid shots. Reference: director Delbert Mann's live Philco Television Playhouse dramas. Avoid: heavy snow, a dull, evenly lit room.
 
 ## Notes

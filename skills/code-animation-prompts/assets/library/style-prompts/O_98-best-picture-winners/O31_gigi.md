@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Belle Époque colour lithograph after Toulouse-Lautrec. Flat colour plates with wobbly edges; figures and main shapes outlined in a loaded brush (blunt start, swelling middle, split dry tail), about 1/250 of frame width. Crachis only on shadow sides, cast shadows and glows: 1–3 px dots at 1920×1080, sparse, under 15% of the frame, a darker step of the colour beneath. Large surfaces get grouped dry-brush streaks. Palette: yellow #F1C232, orange-red #E0602C, olive #6E7036, black #1D1A16 on cream stone-grained paper #EFE3C3, plus a muted bottle teal and greyed mauve; flesh is orange-red thinned with paper. Caricatured profiles with drawn faces; one large figure cropped by the frame edge in front. Flat, even light; shadows are flat plates. Camera: shallow parallax, a slow pan settling on a medium shot. Avoid: Mucha halos, smooth gradients, regular halftone, all-over speckle.
 
 ## Notes

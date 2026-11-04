@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Two registers. Primary, about 70%: a clean, saturated illustrated frame, dead-on symmetrical, the hero centred before its home or setting; every shape softly modelled in 2–3 tones, dense detail (shrubs, flowers, foliage of many small leaf clusters). Default bright daylight; under other light stay bright (gold at sunset), never dim. Red accents like a door #C3141F, white trim, saturated greens, orange-red autumn trees; warm grade, light vignette and grain. Transition: curled red petals or leaves (about 1/60 of frame width) thicken into a 1-second blizzard across the lens, hiding the cut. Second register, about 30%: the same world as 1990s DV home video: soft, low-res, chroma bleed, macroblocks, interlace, noise, breathing exposure, greenish shadows, REC/battery/date OSD. One register per frame. Slow push-ins. Reference: cinematographer Conrad L. Hall (*American Beauty*, 1999). Avoid: video artefacts in the clean part; real brands' OSD; flat vector shapes.
 
 ## Notes

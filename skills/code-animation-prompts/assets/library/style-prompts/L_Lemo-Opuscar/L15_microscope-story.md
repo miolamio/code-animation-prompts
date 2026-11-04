@@ -41,11 +41,11 @@ Example (our demo): glass #F4F1EC, bench #0B0D0F → #2A3036, ink #181B1F, panel
 
 ## 4. Type & subtitles
 
-- **Roles**: a light condensed grotesk for readings and the scale bar (40–72 px, e.g. Barlow Condensed); a monospace for instruments and pixel counts (20 px, e.g. IBM Plex Mono); a sans in the film's language for labels (20–34 px, e.g. Noto Sans SC); a serif only for the title. OFL, self-hosted, CJK subset.
+- **Roles**: a light condensed grotesk for readings and the scale bar (40–72 px, e.g. Barlow Condensed); a monospace for instruments and pixel counts (20 px, e.g. IBM Plex Mono); a sans in the film's language for labels (20–34 px, e.g. Noto Sans, with the film's script Noto family as fallback); a serif only for the title. OFL, self-hosted, subset to the characters used for CJK or other large scripts.
 - **Instruments** live in one frosted panel in a corner: scale bar with its value, field of view, magnification with a small nosepiece glyph that turns a quarter on every change. The source credit in a small panel in the opposite corner.
 - **Readings** sit in a frosted panel beside what they measure, joined by a leader: a small label above ("collagen share of tissue area"), the number large in the accent, the method or the raw counts below.
-- **Subtitles**: a frosted strip at the bottom; if the film is bilingual, one line per language with the film's language on top, never wrapped. Measure each line with the real font and split long lines into two cues.
-- Nothing below 20 px at 1080p. Hold labels ≥ characters ÷ 4.5 + 1.5 s (CJK); a reading that rolls is reported by its landing value.
+- **Subtitles**: a frosted strip at the bottom; if the film carries a second language, one line per language with the film's language on top, never wrapped. Measure each line with the real font and split long lines into two cues.
+- Nothing below 20 px at 1080p. Hold labels ≥ characters ÷ 15 + 1.5 s (÷ 4.5 for CJK scripts); a reading that rolls is reported by its landing value.
 
 ## 5. Motion quality
 

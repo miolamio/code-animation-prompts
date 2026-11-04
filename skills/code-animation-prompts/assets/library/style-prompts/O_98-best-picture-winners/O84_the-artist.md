@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A modern homage to late-1920s silent film in black and white. Clean tones: glowing highlights, soft mid-greys, deep blacks; a gentle S-curve, grey halation around lights, slight flicker (±3%), fine grain, rare dust, a 1.33 pillarbox inside 16:9. Intertitles on black with an Art Deco border and spaced capitals, in the user's language. Settings: the subject's world staged as grand, ordered interiors or stage sets (e.g. a wrought-iron staircase, a gilt proscenium, a crowd in backlit silhouette); figures in elegant profile. The one hero subject the story centres on is the only coloured thing, wholly in tones of terracotta #D97757; lamps and fire stay grey. Camera: smooth push-ins and pull-backs, title cards flashed in, cuts landing on gestures (a bow, a wave). Reference: cinematographer Guillaume Schiffman (*The Artist*, 2011). Avoid: heavy scratches; sepia tint; colour bleeding into the greys.
 
 ## Notes

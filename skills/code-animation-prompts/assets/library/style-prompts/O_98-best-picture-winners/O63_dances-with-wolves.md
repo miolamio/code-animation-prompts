@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A 19th-century field journal come to life: full-colour watercolour over visible pencil. Pencil under-drawing #3A363A, pressure-varied and broken, lightly hatched in shadow, readable through the washes. Brushed washes with soft wet edges, blooms, pooled rims and granulation (not flat polygons) cover about 80% of the frame in rich warm colour. Default magic hour: dusty-rose sky #C88F76 turning lavender above, streaky rose clouds, low sun, ochre-gold land #DEBE87, violet distance, long shadows, opaque pale-gold lifts on sun-facing edges. Yellowed rag paper #F0E4C8, faint stains and foxing, showing through. Iron-gall ink #34221C for small labels and arrows. Signature move, once at the opening (about 2 s): bare pencil, then colour arrives wash by wash, far to near, during a push-in; after that, full colour. References: Bodmer and Catlin field sketches. Avoid: grey, muddy or pale washes; uniform digital outlines; later pencil-only frames.
 
 ## Notes

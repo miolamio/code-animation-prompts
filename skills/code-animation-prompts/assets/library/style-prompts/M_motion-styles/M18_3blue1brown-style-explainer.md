@@ -16,4 +16,4 @@ Use Manim to make a video explaining [concept], easy to follow, with examples, a
 
 ### Paired skill
 
-S4 Manim skill。
+S4 Manim skill.

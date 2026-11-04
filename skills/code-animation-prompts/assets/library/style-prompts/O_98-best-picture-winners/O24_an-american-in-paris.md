@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Paint in Raoul Dufy's watercolour manner: colour first, line second, never aligned. Transparent washes (wet edges, pooled rims, granulation) cover most of the frame, 10-40% oversized, slid one way by about 1/30 of frame width: cobalt #2258CE for sky and water, lemon #FCE02E for light and ground, rose #EC3A7C for warm planes. Overlaps mix violet or green, never brown; keep the hero's wash off blue. Then draw the whole scene densely in quick, thin blue-black ink (about 1/700 of frame width) with flicked ends: buildings, windows, figures, extras; straight edges overshoot corners; trees and clouds as looped strings. Ink #1E1E3A; bare paper 20-30%, skin included. The hero the story centres on gets its own wash (e.g. #D97757). Figures bounce. Camera: small pushes, cuts on the beat (or every 2 s). Avoid: muddy colour, lines tracing the colour, sparse line.
 
 ## Notes

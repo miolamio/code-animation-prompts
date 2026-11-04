@@ -45,15 +45,15 @@ Not **Data Storytelling** or a keynote: no centred headline with bullets, no sli
 
 | Use | Face | Size (1080p) |
 |---|---|---|
-| Chinese display, slogans | Noto Sans SC 900 (subset) | 110–210 px; stacked vertically 170 px per character |
-| Numbers, English display | Oswald 600–700 | numbers 230–440 px; English lines 30–62 px, letter-spacing 2–10 px, capitals |
-| Source and footage tags | Space Mono Bold (CJK falls back to Noto) | 17–18 px on an ink or red tab, padding 6 |
-| Subtitles | Noto Sans SC 700 40 px over Oswald 500 28 px | bottom left, ink bar at 90 %, a 10 px red tick |
+| Display in the film's language, slogans | Noto Sans 900 (subset; the film's script Noto family as fallback, e.g. Noto Sans SC for CJK) | 110–210 px; stacked vertically 170 px per character |
+| Numbers, second-language display | Oswald 600–700 | numbers 230–440 px; second-language lines 30–62 px, letter-spacing 2–10 px, capitals |
+| Source and footage tags | Space Mono Bold (other scripts fall back to Noto) | 17–18 px on an ink or red tab, padding 6 |
+| Subtitles | Noto Sans 700 40 px over Oswald 500 28 px (second language) | bottom left, ink bar at 90 %, a 10 px red tick |
 
-- **Bilingual pairs**: Chinese block, then one English line in Oswald directly under it (or on the neighbouring band). Each language one line, measured.
+- **Second-language pairs** (if the film carries a second language, e.g. English): the film's language block, then one line in Oswald directly under it (or on the neighbouring band). Each language one line, measured.
 - **Placement**: along the −18° axis on a band, or as an ink / red block; never centred on the frame, never a header. Numbers can be bigger than the words that explain them.
 - **Tags**: every archive window carries its footage tag (`FILM · <TITLE> · <PLACE> <YEAR>`, `PHOTO · <AUTHOR> <YEAR>`), every fact a source tag (`SOURCE · <PUBLISHER> <YEAR>`). If the footage is not of the subject itself, the tag says what it really is.
-- **Subtitles** stay bottom-left in a 960–1056 px strip; key type keeps above y 930 while narration runs. Subtitles hold ≥ max(1.8 s, speech + 0.6 s). On-screen text follows `readcheck.mjs` (CJK ÷ 4.5 + other ÷ 15 + 1.5 s, fully in frame); a comparison holds every item ≥ 2.5 s before its verdict.
+- **Subtitles** stay bottom-left in a 960–1056 px strip; key type keeps above y 930 while narration runs. Subtitles hold ≥ max(1.8 s, speech + 0.6 s). On-screen text follows `readcheck.mjs` (characters ÷ 15 + 1.5 s for Latin script, ÷ 4.5 for CJK; fully in frame); a comparison holds every item ≥ 2.5 s before its verdict.
 
 ## 5. Edit grammar
 
@@ -74,10 +74,10 @@ Not **Data Storytelling** or a keynote: no centred headline with bullets, no sli
 
 | Format | How it looks | How it is built |
 |---|---|---|
-| **Title package** | a red band slams along the axis; a window cut to the band's edge runs footage; digits stamp one per eighth, the CJK unit in red | `S1`: window clipped to the band's top edge (`onBar`), digits measured and slammed individually, `reg()` registers the group for readcheck |
-| **Lower third** | a red bar from the left edge with Chinese, an ink tab with the English | 92 px bar at y ≈ 760–850, slams in 0.14 s, slides off with the next transition |
+| **Title package** | a red band slams along the axis; a window cut to the band's edge runs footage; digits stamp one per eighth, the unit in red | `S1`: window clipped to the band's top edge (`onBar`), digits measured and slammed individually, `reg()` registers the group for readcheck |
+| **Lower third** | a red bar from the left edge in the film's language, an ink tab with the second-language line (if any) | 92 px bar at y ≈ 760–850, slams in 0.14 s, slides off with the next transition |
 | **Map + iris** | a document map pushes in, a red circle is drawn round the place, the circle opens onto the site | `mapXf()` (scale / focus / angle over time), `mapToScreen()` keeps the circle on the map point; aperture = `arc` clip whose radius grows to the frame |
-| **Vertical title** | CJK characters stacked top to bottom beside a tall window, English rotated 90° | per-character slams 1/16 apart |
+| **Vertical title** | characters stacked top to bottom beside a tall window (best with CJK; with Latin script rotate the word 90° instead), second-language line rotated 90° | per-character slams 1/16 apart |
 | **Date on a girder** | the date in paper on a red band crossing the footage | text placed on the band's centre line (point + normal offset), rotated by the axis |
 | **Grid** | 3 × 3 windows light one per sixteenth in a spiral, the centre counts 1…9 and lights last in red | cells `back()`-scale in, each a different clip at 1.4–1.8× speed, ping-pong |
 | **Split strips** | the frame rotated to the axis, three strips of two panels each; one panel changes per beat; strips drift in opposite directions | panels ≤ 1,160 px wide so the film stays ≤ 2.5×; red seam on the middle strip |
@@ -129,7 +129,7 @@ Every number, date and claim on screen or in the voice comes from an official or
 ## 11. Engine
 
 - `demo/index.html`: one Canvas 2D page, stateless `render(t)`; scene functions draw a full frame; wipes draw the old scene, clip, draw the new one, then the band. `txt()` draws and registers rotated text boxes for `readcheck.mjs`; `reg()` registers a group drawn in pieces; `slam()`, `flash()`, `flicker()`, `shake()`, `slant()` (parallelogram windows), `cover()` (focus-point cover fit), `clipImg()` (forward / reverse / ping-pong / speed).
-- `demo/tools/prep.py`: the print grade, clip extraction to 24 fps JPEG sequences (one percentile set per clip), stills, document pages and outline keying, cut-outs. `demo/tools/fonts.py`: fetch the OFL fonts and subset Noto Sans SC to the characters used. `demo/tools/cues.mjs`: subtitle cues from the page's own table, measured one line per language. `demo/audio/mix.py`: score, foley, narration, ambience, master.
+- `demo/tools/prep.py`: the print grade, clip extraction to 24 fps JPEG sequences (one percentile set per clip), stills, document pages and outline keying, cut-outs. `demo/tools/fonts.py`: fetch the OFL fonts and subset Noto Sans (and the film's script family) to the characters used. `demo/tools/cues.mjs`: subtitle cues from the page's own table, measured one line per language. `demo/audio/mix.py`: score, foley, narration, ambience, master.
 - Checks: `readcheck.mjs`, `asr_check.py` per line, `tools/final_asr.py` on the final mix, `tools/rhythm_report.py` (flat windows, cut points, hit-to-onset alignment), `mux.sh` loudness.
 
 ## 12. Pitfalls of the medium

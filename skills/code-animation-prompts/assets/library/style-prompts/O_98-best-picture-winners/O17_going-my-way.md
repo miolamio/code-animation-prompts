@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A backlit Gothic stained-glass window filling 80-90% of frame height and ~60% of width, neighbours glowing at edges. Every shape is cut glass: lightness varied ±8% per piece, streaks, seed bubbles, a brown edge mat, black lead (about 1/250 of frame width). Sky and empty ground: diamond quarries (about 1/30 of frame width); the border is ruby with beads. The main figure is at least half the window's height, in dark-brown grisaille line. Palette by role: background cobalt #1B3F9E, border ruby #B3121F, highlights gold #E3A526, lead #16161A; skin pale amber; scenery deep greens. Only the hero the story centres on is orange glass (e.g. #D97757). Bright glass blooms into the leads; coloured light spills onto floor and sill. Camera: tilt down, pan, settle on the pooled light. References: Chartres Cathedral; Harry Clarke. Avoid: flat fills, random cuts, dark empty wall.
 
 ## Notes

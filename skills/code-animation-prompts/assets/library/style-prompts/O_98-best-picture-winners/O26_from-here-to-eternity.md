@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Early-1950s high-key black-and-white photography, painted in 2D to read as a photo: no outlines or flat fills, only soft gradients plus fine texture (sand, rock pitting, cloth). Values: about 70% of the frame above mid-grey; sky light-mid grey, one step below the bright clouds; deep blacks small. Default: hard midday sun, short crisp shadows; under other light keep the pale sky and bright values. Water, foam and mist blow out at the peaks, keeping lace detail; wet surfaces mirror the sky. Print finish: gentle S-curve, slightly soft lens, halation, fresh fine grain (±4%), light vignette, flicker. Only the hero the story centres on keeps colour, whole figure (e.g. #D97757), shaded photographically. Camera: tilt down from the sky, tight level frame, slow pull-back. Reference: cinematographer Burnett Guffey (*From Here to Eternity*). Avoid: low-key frames, white blanks, cartoon fills.
 
 ## Notes

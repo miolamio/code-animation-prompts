@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Soft pastel on grey-violet toned paper #7d7079, tooth showing everywhere as fine speckle (±8% brightness). Sky blended smooth, a few long thin cloud bands. The land carries the texture: dry-grass ochre (gold dulled toward the paper grey) under fine upright grass strokes (1/400 of frame width wide, 1/40 long, ±15% value), dense in the foreground, thinning toward the horizon. Objects get soft diagonal hatching, broken edges. Palette by role: gold #f6cf7a at the horizon, rose #c9738a in the lower sky, violet #4b3f78 for high sky, clouds and far land, dusk blue #2b2d5c for shadows. A long horizon near mid-frame over open land or water; the subject mid-sized in the lower half. The sky drifts gold to rose to violet; lamps brighten as it darkens. One slow pan with a light push-in. Avoid: oily impasto, sharp edges, bare smooth ground.
 
 ## Notes

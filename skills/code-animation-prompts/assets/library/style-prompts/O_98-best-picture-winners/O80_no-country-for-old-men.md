@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Photoreal-leaning 3D landscape at dusk. Sky fills 60% of the frame, dusty ochre #D8A060 at the horizon up to pale cream, thin streaked clouds lit from below. Sun 1–2° above the horizon, still casting shadows; its light burns along the far ridge. Low saturation: hundreds of grey-green scrub clumps receding to the horizon, stones, dry grass, dark warm earth #2A2622 (default arid; elsewhere keep sparse clumped growth). The hero stands backlit in the mid-ground, about a third of frame height, long shadow toward the lens. Expose for the sky: the sun may clip, its glow within a tenth of the frame. Grade: neutral tone mapping, warm highlights, fine grain, vignette. Signature shot: locked, low, wide (~35 mm). Reference: cinematographer Roger Deakins (*No Country for Old Men*, 2007). Avoid: saturated orange sunsets; blown-out glare; bare ground; busy camera moves.
 
 ## Notes

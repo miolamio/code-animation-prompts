@@ -43,12 +43,12 @@ Not Isometric Infographic (no diorama or icons), not Low-poly Island (no invente
 
 ## 4. Type & subtitles
 
-- **Roles**: a light grotesk for the figure (Inter Tight 200, 120–140 px), a sans for labels in the film's language (Noto Sans SC 300/500, 20–36 px), a monospace for instruments, years and coordinates (IBM Plex Mono, 18–22 px). OFL, self-hosted, CJK subset.
+- **Roles**: a light grotesk for the figure (Inter Tight 200, 120–140 px), a sans for labels in the film's language (Noto Sans 300/500 with the film's script Noto family as fallback, 20–36 px), a monospace for instruments, years and coordinates (IBM Plex Mono, 18–22 px). OFL, self-hosted, large-script fonts (e.g. CJK) subset.
 - **Readout in the left third**, one per layer: index + layer name, one figure, one label, one source line, a legend bar.
 - **Pins**: a hairline from a roof or a ground point up to a tag on a dark plate (title 26 px + one sub line 20 px).
 - **Identity label** top-left, quiet: place, scale, data sources.
-- **Subtitles** centred at the bottom on a soft dark gradient, no box, measured with the real fonts; if the film is bilingual, the film's language on top, each language on a single line, split into two cues rather than wrap.
-- Nothing below 18 px at 1080p. Hold subtitles ≥ max(1.8 s, speech + 0.6 s); labels ≥ characters ÷ 4.5 + 1.5 s (CJK), letters ÷ 15 + 1.5 s (Latin).
+- **Subtitles** centred at the bottom on a soft dark gradient, no box, measured with the real fonts; if the film carries a second language, the film's language on top, each language on a single line, split into two cues rather than wrap.
+- Nothing below 18 px at 1080p. Hold subtitles ≥ max(1.8 s, speech + 0.6 s); labels ≥ characters ÷ 15 + 1.5 s (Latin script; ÷ 4.5 for CJK).
 
 ## 5. Motion quality
 

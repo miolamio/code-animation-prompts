@@ -31,7 +31,7 @@ Warm parchment base, sun-yellow glow, large serif headline, indigo ink, thin lin
 
 ## Typeface
 
-`font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif`. Use serif type only throughout the film. Headline about 214px, `letterSpacing = '-4px'`; header 26px, uppercase, `letterSpacing = '6px'`; footer text 34px. (Canvas `ctx.letterSpacing` works in recent browsers; if unsupported, draw character by character.)
+`font-family: Georgia, "Times New Roman", "Noto Serif", serif` (for a non-Latin script, add a serif face for that script before the generic `serif`). Use serif type only throughout the film. Headline about 214px, `letterSpacing = '-4px'`; header 26px, uppercase, `letterSpacing = '6px'`; footer text 34px. (Canvas `ctx.letterSpacing` works in recent browsers; if unsupported, draw character by character.)
 
 ## Layout (coordinates for 1920×1080)
 

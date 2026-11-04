@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Alphonse Mucha colour lithograph. Brown contours #4B3326, about 1/250 of frame width, doubling on the shadow side (light from upper left), tapered ends; pastel flats, each with a hard-edged darker shadow tone. Palette: cream #F5ECD6 paper/sky, sage #A9B490 foliage/drapery, pale gold #CFA55A halo/ornament, rose #DBA49C skin/flowers; the hero the story centres on in one stronger accent (e.g. #D97757). Wide frame: figure and a big ring-filled halo in the middle third, arched panels either side, behind them a muted-teal (sage plus grey) square-tile mosaic; whiplash vines, local flowers; a bottom band of serif capitals in the user's language, 1/25 of frame height. No plain area over 1/8 of frame. Almond eyes, heavy lids; hair or cloth in three-tone strands. Litho grain, paper mottle, vignette. Slow sway; tilt down to the halo, pull back. Avoid: thin clean lines, saturated colour, empty backgrounds.
 
 ## Notes

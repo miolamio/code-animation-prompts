@@ -8,7 +8,7 @@
 
 # Pictogram Motion — Style Prompt
 
-> A beat-locked flash-card film built from three things only: a **square-grid "core graphic"** of circles, half-discs and tiny patterned cells whose rows slide past each other; **geometric pictograms** made of round-capped bars and a disc head; and **bold bilingual type** that slides up out of masks. Every cut lands on a drum hit.
+> A beat-locked flash-card film built from three things only: a **square-grid "core graphic"** of circles, half-discs and tiny patterned cells whose rows slide past each other; **geometric pictograms** made of round-capped bars and a disc head; and **bold type (optionally with a second language)** that slides up out of masks. Every cut lands on a drum hit.
 > References (grammar only): Otl Aicher's 1972 Munich pictograms (geometric athletes); multi-sport-games "look of the games" identity systems (a modular pattern + a colour set used for everything); Swiss sports-broadcast graphics (mono meta text, tick-bar progress). Learn the grammar; never copy any real event's pictograms, emblem, slogan, pattern artwork or colour names, and never name them in the film.
 
 ## 1. Essence, and what it is not
@@ -45,7 +45,7 @@ Not an isometric infographic (no depth, no 3D), not Swiss motion graphics (the f
 
 - Title: a 900-weight grotesk (e.g. Inter Tight), 150–330 px at 1080p, tight tracking, auto-fitted. Second language: a heavy face under it. Meta: a mono (e.g. DM Mono) ~22 px, wide tracking; tags as mono chips.
 - **HUD** on every card: mono corner text and a **progress bar of N ticks** (current tall, done dimmed, rest faint), N derived from the item list.
-- **Bilingual rule**: one language is always the big title; the second language is chosen per version by a switch, never by hand-editing cards.
+- **Second-language rule** (if the film carries one): the film's language is always the big title; the second language is chosen per version by a switch, never by hand-editing cards.
 - The card type *is* the text layer. With narration, captions are a mono line on a solid band in the chapter hue, bottom, never over the title; hold ≥ max(1.8 s, speech + 0.6 s). A card that must be read (a spec, a number) holds ≥ 1.6 s.
 - Deliver an `.srt` of the title cards, generated from the edit list.
 

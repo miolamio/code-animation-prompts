@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Real 3D stage spectacle in 1930s studio silver: the subject's world built as a revue set on a round tiered platform turning about 3° per second, draped and garlanded; its people become rows of costumed chorus figures with faces and arms. Costumes light satin grey, set mid-grey, pleated curtain backdrop darker, theatre deep black; whites below pure white. Soft front key; brighter rim lights edging satin and feathers near-white. Faint shafts, grain (±3%). All neutral grey except the hero the story centres on (e.g. #D97757); lamps render white. Signature shot: low medium along the tiers, figures 1/4-1/3 of frame height, the hero on the front tier. Then a 3 s curtain rise, a 10 s crane up to a level medium of the hero. Reference: Robert Z. Leonard, *The Great Ziegfeld* (1936). Avoid: flat lighting, faceless cones, fast spinning.
 
 ## Notes

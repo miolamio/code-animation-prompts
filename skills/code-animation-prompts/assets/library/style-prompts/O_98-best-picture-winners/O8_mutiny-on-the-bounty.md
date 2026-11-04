@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A late-18th-century copperplate map, default an Admiralty sea chart (inland: a survey map). Fine burin hatching and cross-hatching (lines ~1/1200 of frame width) give all tone; a minimum line width makes small detail darken, not vanish. Ink #1C1610 on laid paper #EFE3C4, light foxing, folds. Thin hand colour: water #9EBCBC along edges, land #B8C08C; the hero the story centres on (e.g. #D97757) is the one strong colour. Rhumb lines from 32-point roses, a graduated border, hachured hills, cartouche, one ornament (e.g. a sea monster), serif lettering. Put the action in an unboxed engraved vignette fading into the chart, filling 60-75% of frame height at the end of the move. Camera: one 5-6 s glide from the whole sheet into the vignette, chart still around it; a dotted route inks itself in. Avoid: cropping the paper, heavy washes, stiff figures.
 
 ## Notes

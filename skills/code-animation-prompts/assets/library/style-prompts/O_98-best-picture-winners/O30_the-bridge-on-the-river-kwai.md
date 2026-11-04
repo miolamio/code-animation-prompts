@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Cyanotype engineering blueprint. The sheet fills the frame (the walnut drafting table shows only on a pull-back): mottled Prussian-blue paper #143874, uneven exposure, a greenish over-exposed margin, creases, faint water stains. White lines #ECF4FF, sharp but printed: outlines about 1/600 of frame width, hatching and dimensions half that, broken where exposure was weak, a slight cyan bloom. Draw the subject densely in drafting grammar: elevations, sections, detail circles, dimension chains, hidden lines, single-stroke lettering, a title block. Notes and actions in red pencil #D63426, in the user's language. The one hero subject is the only hand-painted element, drawn above scale (at least 1/5 of frame height), opaque gouache in one warm hue (e.g. orange #D97757); nothing else is warm. Camera: layered parallax push-in; cut to detail views. Avoid: neon glow, clean digital blue, sparse sheets.
 
 ## Notes

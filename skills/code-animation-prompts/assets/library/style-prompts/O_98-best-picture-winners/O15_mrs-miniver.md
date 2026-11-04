@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A 1942 British wartime stone-lithograph poster. Simple, strong shapes from three plates, 1-3 px off register: a colour plate with all flat fills; a grey-blue crayon plate darkening every shadow with short slanted stone grain; a green-black key line about 1/500 of frame width around every shape, figures and clouds included. Palette by role: cream #EBDFC2 paper and highlights, grey-blue #8497A6 sky and shadow, brick red #A23F2D and deep green #34503F as accents, at most a quarter of the frame; browns and skin mixed from cream and brick; key #1E2422. Scenes may be full. Airbrushed skies; only the paper grain boils at 12 fps. Pale light bands, angled from the source, cancel the shadow plate. Figures stand frontally. Camera: slow drifts, a tilt up. References: Frank Newbould, Abram Games. Avoid: dot screens, clean vector edges, big saturated fields.
 
 ## Notes

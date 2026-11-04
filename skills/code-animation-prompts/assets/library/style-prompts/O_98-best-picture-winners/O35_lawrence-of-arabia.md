@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1960s hand-painted epic film poster, gouache with oil highlights. Draw forms solidly, then paint: an opaque mid-tone base, directional strokes following each form (1/80–1/50 of frame width on large areas, smaller on faces and hands), soft-blended edges; model every form in three values; dry-brush only on dust, cloth and distant figures; sharp warm-cream highlights last on lit edges. Warm–cool contrast: cobalt sky #1F4D97 to pale blue #A9C3D6, warming to cream near a low sun; ground #EEC27A (any terrain); ochre-red #B56A33 for skin, earth and costume; violet #6C6394 for distant shadows. The hero centred and largest, a diagonal gesture, cloth streaming; smaller, looser figures may recede behind. Light board grain (±3%), warm vignette, haze. Motion: bounce, slow push to a low close-up, a whip pan out. Avoid: scratchy uniform hatching, flat digital fills, cold-only colour.
 
 ## Notes

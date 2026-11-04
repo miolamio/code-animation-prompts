@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1930s Saturday Evening Post cover illustration. Realist figures, correct proportions, expressive faces, built from blocky planes (lit, shadow, warm bounce from below) filled with blended strokes about 1/150 of frame width, varied in length, following the form, never stripes. Dark contour thicker on the shadow side, 1/800–1/300 of frame width. Warm key from upper left. Palette: plaster #E2C492, oak #764626, slate #28322C, brass #E2B046, ink #341E18; oak and ink darks about a third of the frame; sky plaster cooled with slate, water light slate, skin plaster plus brass. Grainy board (±3%), warm vignette. Default one-point perspective, period detail, haze, secondary figures if the story has any. Each figure is drawn once and moves whole (breathing, sway, sliding along a path). Camera: one long, smooth push in. References: J. C. Leyendecker, Norman Rockwell. Avoid: stiff cut-out figures, even outlines, muddy colour.
 
 ## Notes

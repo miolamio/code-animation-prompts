@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 A real pop-up book filmed on a desk. Every element: a flat die-cut card on parallel folds before a 90° backdrop page, printed with transparent watercolour and grainy coloured-pencil hatching; cut edges show a white core and grey board. Default light: bright window daylight from the upper left, soft shadows between layers. Print colours (sky blue, warm sand, greens) and room light stay daylight whatever the story's time of day; that time appears only in the print (e.g. a low sun, a night sky). Walnut desk #6B3E1E; the room a warm blur. Physical depth of field, focus on the hero's layer. Signature shot: a high three-quarter view of the whole spread. One continuous move: dive into a page, pull back, turn the page instead of cutting, push into the next spread. References: Robert Sabuda, Matthew Reinhart. Avoid: solid-looking cards; dark moody rooms; cartoon faces.
 
 ## Notes

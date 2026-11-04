@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Street stencil graffiti on an old red-brick wall. Each piece is 3–5 stencils sprayed as flat colour, photo-derived in look (smallest cut detail about 1/200 of frame width): hard cut edges, soft overspray where a stencil lifted, spray dots, drips, stencil bridges. Palette: black #151312, mid grey #8C8A85, gold #C99A2E, red #C3261F; brick #7A3224, cream painted patches under the main pieces. Brick relief, mortar and rain streaks show through, so paint sinks into the joints. A busy wall: several pieces side by side, short hand-sprayed slogans about the subject (user's language), old tags, a torn halftone paste-up. Light: soft raking daylight, mild contrast, a faint swaying wire shadow; no heavy vignette. Camera: pieces spray on layer by layer, then close-ups and lateral tracks. Reference: Banksy. Avoid: clean vector edges; paint floating on the brick; too many colours; a dark wall.
 
 ## Notes

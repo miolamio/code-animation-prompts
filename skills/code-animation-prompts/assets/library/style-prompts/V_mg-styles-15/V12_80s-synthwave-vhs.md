@@ -38,7 +38,7 @@ HTML WebGL (perspective grid, sun, mountains shader) + canvas chrome text + CSS/
 (You may choose a better route if it clearly raises quality; say why.)
 
 # Creative seed
-「OUTRUN 1986」The quintessential 80s synthwave title sequence.
+"OUTRUN 1986"The quintessential 80s synthwave title sequence.
 - Starry night, striped retro sun (horizontal band cut-outs, magenta→orange→yellow), wireframe mountains, palm silhouettes, neon magenta/cyan perspective grid rushing toward the camera.
 - 0–1s: VHS tracking noise + 'PLAY ▶' OSD; 1–4s: camera flies low over the grid, sun rises; 4–6s: CHROME title (e.g. "NEON DRIVE", multi-stop metallic gradient, bevel highlight, star glint sweeping across) SLAMS in with a lens flare; 6–7.5s: pink neon script word (e.g. "Midnight") writes on like a neon tube with flicker; 7.5–10s: sustained ride, subtle VHS chroma bleed/scanlines, end on the hero frame.
 - Double glow (tight ~4px + wide ~30px), deep purple sky gradient.
@@ -61,7 +61,7 @@ Deliberately unstable frame rate: drop key passages to 15fps or play 2 frames in
    micro-motion. Map every signature feature above to a moment. Keep one cue sheet (beats and hit times) that both the
    picture and the sound read from.
 2. Key frames before motion. Build the look, render stills at 6–10 key times and actually look at them. Each still should be
-   poster-worthy: composition, hierarchy, negative space, type set properly (kerning, line-height, weight contrast, CJK
+   poster-worthy: composition, hierarchy, negative space, type set properly (kerning, line-height, weight contrast, language-appropriate
    punctuation, ~5 % safe margins). Iterate until nothing looks default, generic, cramped or "AI-template".
 3. Motion. Build the choreography and preview at low resolution. Step through the fastest moves frame by frame: spacing,
    easing, arcs, overlap, anticipation and follow-through, motion blur. No unintended dead spans; the energy follows the music.
@@ -79,7 +79,7 @@ Deliberately unstable frame rate: drop key passages to 15fps or play 2 frames in
   that renders a PNG sequence).
 - Assets: only CC0 / public domain / OFL / Apache / free-for-commercial-use. Record each source and licence in CREDITS.md.
   No real brand trademarks; invent brand names.
-- On-screen text must be correct and natural: idiomatic Chinese, proper CJK punctuation, no typos.
+- On-screen text must be correct and natural: idiomatic in the user's language, with that language's proper punctuation, no typos.
 
 # Craft checklist (what a jury looks for)
 - Style authenticity: an expert names the style in one second; every signature technique is present and executed correctly.

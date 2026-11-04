@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Edward Hopper-style American realist painting. Large flat planes of restrained, pale colour: institutional greens #9EB8A0 and #5E7C66, grey-green floor #7E8876, cream #ECE6D2, on visible canvas (±3%), with a few long dragged strokes about 1/80 of frame width, 5–10% off the base. Low side sun throws hard-edged parallelograms of warm light #FCE6AC on walls and ground, crossed by crisp shadows of frames or railings, indoors or out. Sky pale cream-green; skin warmed cream; clothes darkened greens. Figures painted from 3–4 overlapping soft-edged value shapes, no outline, real proportions; several people stand apart. Stillness, then one sudden event under a second: a whip pan, a burst of light. Signature shot: a still one-point interior, light on the floor. References: Edward Hopper, *Office in a Small City* (1953). Avoid: heavy outlines, vector figures, dark saturated walls, fuzzy light patches.
 
 ## Notes

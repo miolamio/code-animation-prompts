@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Bob Fosse-style Broadway stage number. Black stage, but about 40% of the frame glows signal red #D0202A: a row of dark barred cells, each backlit red through haze, bright at centre, falling off to black, plus red curtains; hard-edged spots. Dancers are full-bodied black silhouettes with costume shapes and a 2–3 px red rim. One big neon shape (letter or pictogram) in orange-red #FF5A3C, white-hot core, slight flicker, set against black so it reads; glossy black floor reflects it; marquee bulbs #FFD9A0 at the stage edge. The hero, in a warm-white follow spot #FFF1D6, is the only lit figure in its own colours. Accents: sequins, white gloves. Moves on the jazz beat; cells snap on one by one. Push in to end in the follow spot. Reference: Rob Marshall, *Chicago* (2002). Avoid: flat even fills; extra colours; rimless silhouettes.
 
 ## Notes

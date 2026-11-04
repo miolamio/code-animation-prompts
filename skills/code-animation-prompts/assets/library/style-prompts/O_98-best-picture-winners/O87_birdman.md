@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 Real-time 3D, one unbroken handheld long take, after cinematographer Emmanuel Lubezki (*Birdman*, 2014). A narrow, lived-in passage (default a backstage corridor; an outdoor subject gets its nearest interior, e.g. a stairwell): chipped blood-red enamel dado #6e2a22 on the lower third, stained nicotine plaster #cdb98e above, pipes, cable trays, doors, pinned notices. Light only from practicals every 2–3 m: warm caged tungsten bulbs, one cold flickering fluorescent tube, a red exit sign #ff2a1a; the far door glows. Mid-key: plaster light near lamps, never below mid-grey between them; floor visible. Wide lens (18–24 mm), slow sway (±1°), soft ambient occlusion, light bloom, fine grain (±3%). Over 20–40 s, in any order: lead the subject walking backwards, whip aside to a doorway, let it brush past the lens, turn and follow. Avoid: a locked-off camera, blank walls, repeated textures, a crushed dark frame.
 
 ## Notes

@@ -41,7 +41,7 @@ Not ink wash (colour, not ink tones; no calligraphic brush-as-gesture), not impa
 
 ## 4. Type & subtitles
 
-- An elegant serif (e.g. Cormorant Garamond) for titles and subtitles, a handwriting face (e.g. Caveat) for notes, a small mono (e.g. IBM Plex Mono, wide tracking) for measured labels, Noto Serif SC for Chinese (subset to the characters used).
+- An elegant serif (e.g. Cormorant Garamond) for titles and subtitles, a handwriting face (e.g. Caveat) for notes, a small mono (e.g. IBM Plex Mono, wide tracking) for measured labels, Noto Serif (and the film's script Noto Serif family as fallback; subset CJK or other large-script fonts to the characters used).
 - Hand notes are drawn twice over a paper-coloured halo, revealed left to right like writing, with a pen leader line that grows to its specimen.
 - **Subtitles** sit on the paper, not in a box: centred at the bottom, serif italic ~36 px (2 balanced lines max), a second-language line beneath at ~2/3 size, ink at ~78 % over a paper-coloured halo. Hold ≥ max(1.8 s, speech + 0.6 s).
 - Numbers are spelled out in the TTS text and written as digits on screen.
@@ -100,7 +100,7 @@ A menu: use the ones your story needs.
 - The stroke builder consumes the global RNG: any stroke created in `render(t)` must be wrapped in `withSeed` or parallel workers disagree.
 - Thousands of strokes per frame are too slow → sprite cache.
 - Beat-locked animation must be re-derived when the music edit changes.
-- New CJK subtitle characters fall back to another font until the subset is rebuilt.
+- New subtitle characters outside a subset (e.g. CJK) fall back to another font until the subset is rebuilt.
 
 ## 10. Engine
 

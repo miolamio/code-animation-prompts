@@ -48,12 +48,12 @@ Sources are greyscale; red is the only colour and it only ever points: circles, 
 
 ## 4. Type & subtitles
 
-- Chinese headings and findings: Noto Sans SC 700 (30–124 px). Tags, timecodes and ticks: IBM Plex Mono 400/600. Quotes: Source Serif 4 Italic for the original wording, Noto Serif SC 500 for a translation underneath in the secondary colour (only when the subtitles don't already say it). All OFL, subset to the words on screen.
-- **Few words per frame.** Each frame keeps only what this beat needs: the main readout or heading, the quoted original (the highlighted line), and one short source tag per piece of evidence. No eyebrow labels, no English twin under every Chinese label, no archive numbers, dates or "estimate / schematic / not to scale" footnotes unless the beat is about them, nothing the subtitle is saying at the same moment.
+- Headings and findings in the film's language: Noto Sans 700 (30–124 px; script-matching Noto family as fallback). Tags, timecodes and ticks: IBM Plex Mono 400/600. Quotes: Source Serif 4 Italic for the original wording, Noto Serif 500 for a translation underneath in the secondary colour (only when the subtitles don't already say it). All OFL, subset to the words on screen.
+- **Few words per frame.** Each frame keeps only what this beat needs: the main readout or heading, the quoted original (the highlighted line), and one short source tag per piece of evidence. No eyebrow labels, no second-language twin under every label, no archive numbers, dates or "estimate / schematic / not to scale" footnotes unless the beat is about them, nothing the subtitle is saying at the same moment.
 - **Source tag**: a 6×12 chip + `type · source` in mono, ≤ about 12 characters (`photo · Pasquarella`, `FBI telex · 1937-05-08`), sitting just above its frame. Full credits go on the end card, not on the panels.
 - **Lower third**: a red bar + place name (36 px bold) + one mono line (place code).
-- **Subtitles** (bilingual films): at the bottom of the frame (user's-language baseline y ≈ 984, English y ≈ 1022): user's language 34 px bold over English 23 px, centred, 10 px black shadow; **one line per language**, measured in the page against 1,500 px; a long sentence becomes two cues. Original sound gets subtitles too, marked `[original audio]` / `[1937 newsreel]`.
-- **Reading time**: every key text stays still and whole for CJK ÷ 4.5 + other ÷ 15 + 1.5 s (`readcheck.mjs`); verdict and comparison frames hold ≥ 2.5 s with every item fully in frame. Counters (timecode readouts, the stopwatch) and tick labels are exempt.
+- **Subtitles** (second line only if the film carries a second language): at the bottom of the frame (user's-language baseline y ≈ 984, second-language baseline y ≈ 1022): user's language 34 px bold over the second language (e.g. English) 23 px, centred, 10 px black shadow; **one line per language**, measured in the page against 1,500 px; a long sentence becomes two cues. Original sound gets subtitles too, marked `[original audio]` / `[1937 newsreel]`.
+- **Reading time**: every key text stays still and whole for characters ÷ 15 + 1.5 s (÷ 4.5 for CJK scripts; `readcheck.mjs`); verdict and comparison frames hold ≥ 2.5 s with every item fully in frame. Counters (timecode readouts, the stopwatch) and tick labels are exempt.
 
 ## 5. Motion quality
 

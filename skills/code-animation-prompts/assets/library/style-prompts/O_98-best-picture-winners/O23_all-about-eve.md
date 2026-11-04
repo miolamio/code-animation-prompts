@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 An Al Hirschfeld-style caricature. Lines are elastic, long and continuous, one stroke per contour: about 1/800 of frame width at the ends, swelling to 1/250 on curves. Dark clothing, hair and big objects go solid black; grey only as sparse parallel hatching. The setting is fully drawn in thin line, architecture, furniture and props in detail, white kept between objects: about 60% paper white, never an empty page. Push one trait per figure (a long neck, a big head). Paper #FBFAF6, ink #131012; only the hero the story centres on has its body or main garment filled flat with one colour (e.g. #D97757) instead of black. Lines write on within the first second, then hold; a short hand-lettered line may sit in the white. Camera: ease back, pan across, push in. Avoid: stiff limbs, stick figures, a bare setting.
 
 ## Notes

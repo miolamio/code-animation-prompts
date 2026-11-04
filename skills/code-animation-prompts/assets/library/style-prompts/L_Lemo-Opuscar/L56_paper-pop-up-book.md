@@ -40,11 +40,11 @@ Examples of spread families: green meadow under sky blue; pink-and-lilac market 
 
 ## 4. Type & subtitles
 
-- Rounded OFL faces: a rounded sans for subtitles, bubbles, signs (e.g. Fredoka); a chunky display face for cover, banners, action words (e.g. Lilita One); a storybook serif for taglines (e.g. IM Fell English); a playful Chinese face (e.g. ZCOOL KuaiLe) with the Latin face in its stack.
+- Rounded OFL faces: a rounded sans for subtitles, bubbles, signs (e.g. Fredoka); a chunky display face for cover, banners, action words (e.g. Lilita One); a storybook serif for taglines (e.g. IM Fell English); for CJK films a playful CJK face (e.g. ZCOOL KuaiLe) with the Latin face in its stack.
 - **Narration subtitles**: bottom centre, ~40 px, cream with a thick dark-brown outline and soft shadow, second language smaller below. Hold ≥ max(1.8 s, speech + 0.6 s).
 - **Speech bubbles** live in the paper world: white card, ink outline, tail projected each frame to the speaker; pop in with overshoot, type on with blips.
 - **Titles are paper objects**: a cardboard sign dropping on strings and swinging; the cover itself is the film title. Action words (italic display, gradient, double stroke, rays) sparingly, like a game rating.
-- Subset Chinese fonts to the characters used; re-subset after every text change.
+- Subset CJK or other large-script fonts to the characters used; re-subset after every text change.
 
 ## 5. Motion quality
 
@@ -106,7 +106,7 @@ A menu: use the ones your story needs.
 - ACES shifts paper colours → Neutral.
 - Headless Chrome falls back to software WebGL → GPU ANGLE flags; ES modules need HTTP.
 - Redrawing character canvases each frame → redraw only on pose change.
-- Chinese subsets miss new characters and Latin glyphs → re-subset; Latin face in the stack.
+- CJK subsets miss new characters and Latin glyphs → re-subset; Latin face in the stack.
 
 ## 10. Engine
 

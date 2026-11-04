@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1970s 35mm realism in a detailed 3D world, sunrise by default (sunset the same). Sun 5–10° up, warm orange #F0A060, lighting the hero from the side or three-quarter front so the lit body and long ground shadows read; no full backlight. Cool blue sky #7FA3CF, pink cloud undersides #E6B2AE; haze golden toward the sun, blue-violet away. Grade: fine grain (±3%), cool shadows, warm highlights, nothing clipped; flare and ghosts only with the sun in frame. Camera: a low Steadicam following the hero from behind up an ascent, then at the top one continuous orbit that circles, rises and pulls back over 6–8 s, showing the lit face, until the place spreads out below. References: John G. Avildsen, *Rocky* (1976); Steadicam operator Garrett Brown. Avoid: flat noon light, detail-less silhouettes, a static climax, plastic CG shine.
 
 ## Notes

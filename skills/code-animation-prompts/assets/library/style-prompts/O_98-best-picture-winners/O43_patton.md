@@ -8,11 +8,6 @@
 
 ## Style prompt
 
-
----
-
-English:
-
 1940s US war-bond lithograph poster. Flat inks: red #C2342C, navy #213261, olive #5F5C31, khaki #B7975E, on fibrous, foxed cream #E6D5B3 paper. Three values per form (bare paper, flat ink, ink plus halftone), posterised in hard steps. Brown-black key line about 1/500 of frame width, printed last; shadows as coarse 45° halftone bands (dots about 1/150 of frame width) with crayon grain; colour plates offset about 1/600 of frame width. Default: a symmetrical frontal stage, a small subject before a huge graphic shape filling most of the frame (flag, emblem, sunburst), lights as hard pale shapes or bare paper; outdoors too, light falling as a hard pale pool. Lettering optional, in the user's language. Camera: slow push-ins, one crisp pull-back. Reference: US war-bond posters, 1942–45. Avoid: airbrushed gradients, perfect registration, halftone so fine it reads grey.
 
 ## Notes
