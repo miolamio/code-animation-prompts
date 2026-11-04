@@ -31,6 +31,7 @@ LABEL_RE = re.compile(r"^- ([^:\n]+): (.*)$", re.M)
 FIT_LABELS = ("Best for", "Style")
 ASTERISK_EMPHASIS_RE = re.compile(r"(?<![\w*])(\*{1,3})(?=[^\s*])([^*\n]*?[^\s*])\1(?![\w*])")
 UNDERSCORE_EMPHASIS_RE = re.compile(r"(?<![\w/_])(_{1,3})(?=[^\s_])([^_\n]*?[^\s_])\1(?![\w/_]|\.\w)")
+CODE_SPAN_RE = re.compile(r"(?<!`)(`+)(?!`)([^`\n]+)\1(?!`)")
 PLAIN_TEXT_FIELDS = ("name", "cat", "desc", "fit", "tags", "year")
 MEDIA_NOTES = "docs/translation/media-with-chinese.json"
 
@@ -140,12 +141,13 @@ def apply_translations(data, translations):
 
 
 def strip_emphasis(value):
-    """Remove Markdown emphasis markers from a string or a list of strings."""
+    """Remove Markdown emphasis and code-span markers from a string or a list of strings."""
     if isinstance(value, list):
         return [strip_emphasis(item) for item in value]
     if not isinstance(value, str):
         return value
-    return UNDERSCORE_EMPHASIS_RE.sub(r"\2", ASTERISK_EMPHASIS_RE.sub(r"\2", value))
+    text = UNDERSCORE_EMPHASIS_RE.sub(r"\2", ASTERISK_EMPHASIS_RE.sub(r"\2", value))
+    return CODE_SPAN_RE.sub(r"\2", text)
 
 
 def strip_plain_text(data):

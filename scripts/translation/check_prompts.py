@@ -145,7 +145,7 @@ def main(argv=None) -> int:
             return 2
         files = list(json.loads(sp.read_text(encoding="utf-8")))
     else:
-        files = [str(Path(f).resolve().relative_to(root)) if Path(f).is_absolute() else f
+        files = [Path(f).resolve().relative_to(root).as_posix() if Path(f).is_absolute() else f
                  for f in args.files]
     if not files:
         ap.error("give --batch or at least one file")

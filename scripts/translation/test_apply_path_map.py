@@ -9,7 +9,7 @@ import apply_path_map as apm
 
 
 def git(root, *args):
-    return subprocess.run(["git", "-C", str(root), *args], check=True, capture_output=True, text=True).stdout
+    return subprocess.run(["git", "-c", "core.quotepath=off", "-C", str(root), *args], check=True, capture_output=True, encoding="utf-8").stdout
 
 
 class ApplyPathMapTest(unittest.TestCase):

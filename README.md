@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- HERO -->
+![Gallery of 12 reference stills from the library, from layered paper cut-outs and a blueprint to a 16-bit pixel RPG](docs/images/style-gallery.png)
 
 # Code Animation Prompts
 
@@ -143,7 +143,7 @@ Keep it in the same position relative to `style-prompts/`. GitHub's file page on
 <details>
 <summary>See the search screenshot</summary>
 
-![Screenshot of a search for R1](docs/images/picker-search.png)
+![Screenshot of the style picker filtered by a search for "blueprint"](docs/images/picker-search.png)
 
 </details>
 
@@ -204,7 +204,7 @@ code-animation-prompts/
 |   |-- INSTALL.md                    # Install locations, project installs, updates
 |   |-- STYLES.md                     # 341 clickable entries
 |   |-- images/                       # README images: style gallery, project screenshots, animated preview
-|   |-- translation/                  # Glossary and path map for this translation
+|   |-- translation/                  # Glossary, path map, media notes, Chinese-text allowlist
 |   `-- source-manifest.json          # Fixed SHA-256 baseline for the library
 |-- scripts/                          # Install, index generation, preview generation, validation
 `-- skills/code-animation-prompts/

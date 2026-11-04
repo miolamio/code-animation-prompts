@@ -305,9 +305,17 @@ class Emphasis(Fixture):
     def test_link_text_loses_emphasis_and_url_is_kept(self):
         self.assertEqual(mp.strip_emphasis("[*Demo*](https://example.com/a_b_c)"), "[Demo](https://example.com/a_b_c)")
 
+    def test_plain_text_fields_lose_code_span_backticks(self):
+        self.write("O1_wings.md", "- Looks like: A dogfight.", "- Looks like: A `button` becomes ``a toast``.")
+        self.assertEqual(self.entry(self.migrate()[0], "O1")["desc"], "A button becomes a toast.")
+
+    def test_lone_backtick_is_kept(self):
+        self.assertEqual(mp.strip_emphasis("a ` b"), "a ` b")
+
     def test_prompt_keeps_its_markdown(self):
-        self.write("M1_white.md", "You are a motion engineer.", "You are a *motion* engineer.")
-        self.assertIn("*motion*", self.entry(self.migrate()[0], "M1")["prompt"])
+        self.write("M1_white.md", "You are a motion engineer.", "You are a *motion* `engineer`.")
+        prompt = self.entry(self.migrate()[0], "M1")["prompt"]
+        self.assertIn("*motion* `engineer`", prompt)
 
     def test_rerun_is_identical(self):
         self.write("O1_wings.md", "- Looks like: A dogfight.", "- Looks like: *Wings*.")

@@ -41,7 +41,7 @@
 `validate_repo.py` keeps its role with a new baseline:
 
 - `docs/source-manifest.json` is regenerated from the translated tree and records the upstream commit. The old manifest stays available in git history and is linked by the path map's upstream pin.
-- `library-changes.json` records the three contributed stills and is the ledger for later changes.
+- `library-changes.json` restarts empty, because the three contributed stills are part of the new baseline and credited in `references/attribution.md`. It remains the ledger for later changes.
 - All count and import-prompt checks move to their English phrases.
 - A new check fails on any Chinese character in a tracked text file or path that the allowlist does not cover. CI's `search 水墨` becomes `search ink`.
 

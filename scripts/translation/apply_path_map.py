@@ -79,6 +79,8 @@ def remove_empty_dirs(root: Path, sources: list[str]) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")  # Chinese paths would crash a cp1252 console.
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--root", type=Path, default=ROOT)

@@ -19,7 +19,7 @@ def main():
     for e in raw["entries"]:
         note = notes.pop(e["id"], None)
         if e.get("note") != note:
-            raise ValueError(f'{e["id"]}: picker note differs from {MEDIA_NOTES.name}; run scripts/translation/migrate_picker.py')
+            raise ValueError(f'{e["id"]}: picker note differs from {MEDIA_NOTES.name}; make them match')
         for field in ["file", "img"]:
             if e.get(field):
                 path = (LIBRARY / e[field]).resolve()

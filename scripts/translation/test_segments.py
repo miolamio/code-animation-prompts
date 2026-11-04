@@ -158,7 +158,7 @@ class ExtractTests(unittest.TestCase):
         r = Repo(self)
         r.write(AG + "/A1_a.md", "中文\n```\n码\n```\nok\n")
         code, out, _ = extract(r)
-        s = json.loads((r.root / ".build/translation/segments/_summary.json").read_text())
+        s = json.loads((r.root / ".build/translation/segments/_summary.json").read_text(encoding="utf-8"))
         self.assertEqual(s["ag-z"]["files"], 1)
         self.assertEqual(s["ag-z"]["segments"], 2)
         self.assertEqual(s["ag-z"]["chars"], 3)

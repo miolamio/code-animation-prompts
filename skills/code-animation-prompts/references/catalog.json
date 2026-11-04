@@ -2511,7 +2511,7 @@
       "name": "UI morph",
       "series": "X",
       "category": "code-video",
-      "description": "One interface element that never cuts: a button becomes a loader, a player, a slider, tabs, a chart, a command palette, a toast, and finally the button again, so the video loops. A cursor clicks and drags to cause every change, on the beat. Reference frames are in `docs/styles/uimorph.jpg`.",
+      "description": "One interface element that never cuts: a button becomes a loader, a player, a slider, tabs, a chart, a command palette, a toast, and finally the button again, so the video loops. A cursor clicks and drags to cause every change, on the beat. Reference frames are in docs/styles/uimorph.jpg.",
       "fit": "demoing tools",
       "tags": [],
       "file": "assets/library/style-prompts/X_code-video/X6_ui-morph.md",
