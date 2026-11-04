@@ -9,7 +9,7 @@
 **Tech Stack:** Python 3.10+ standard library, `unittest` for tool tests, Playwright with Chromium for rendering checks.
 
 **Working rules for every task:**
-- Work on branch `english-translation` in `/Users/codegeek/src/code-animation-prompts`.
+- Work on branch `english-translation` in the repo root.
 - Upstream baseline is commit `103ac7e`; read originals with `git -c core.quotepath=off show 103ac7e:<path>`.
 - Only the coordinator commits and pushes. Subagents leave changes in the working tree and report the files they touched.
 - Intermediate data goes in `.build/translation/`, which the validator skips. Task 1 adds it to `.gitignore` if it is not already ignored.

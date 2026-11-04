@@ -25,13 +25,13 @@
 - `attribution`: the curator's name `俯仰观照`, shown with a romanization.
 - `license-quote`: verbatim quotes of the original sharing terms, each with an English translation.
 - `media-source`: B6 example HTML, kept unchanged so it matches its mp4 files.
-- `translation-record`: `docs/translation/` and `docs/superpowers/`, which record the Chinese originals and this migration.
+- `translation-record`: `docs/translation/`, `docs/superpowers/` and `scripts/translation/`, which record the Chinese originals and this migration.
 
 ## Work stages
 
 1. **Glossary and path map.** Translate style names, series labels and recurring terms into `docs/translation/glossary.json`. Build `docs/translation/path-map.json` mapping every Chinese path to its English path.
 2. **Rename.** Apply the path map in a commit with no content edits, so git records renames. Update path references in code, docs and picker data in a following commit.
-3. **Translate prompts by series.** A script extracts only the lines containing Chinese, translators return a translation or a deletion per line, and a script applies them. Every other line stays byte-identical. Each file keeps its structure, using English labels: `# <ID> <name>`, metadata bullets, `## Style prompt`. Series O uses the existing English prompt and drops the Chinese duplicate; its notes are translated.
+3. **Translate prompts by series.** A script extracts only the lines containing Chinese, translators return a translation or a deletion per line, and a script applies them. Every other line stays byte-identical. Each file keeps its structure, using English labels: `# <ID> <name>`, metadata bullets, `## Style prompt`. Series O uses the existing English prompt and drops the Chinese duplicate; its notes are translated. Where review showed upstream's English missed or contradicted its Chinese prompt, the English prompt is corrected to match the Chinese.
 4. **Picker.** A one-off migration script writes translated fields into the data blob of the picker. Fields that exist only in the picker are translated directly, and existing `en`, `desc_en` and `prompt_en` values are reused. The blob stays the source of truth afterwards. The UI strings and `lang` attribute become English. Search must keep working over the English fields.
 5. **Docs and tooling.** Translate README, CONTRIBUTING, INSTALL, SKILL, attribution, the import prompt, the starter template and script output. Point URLs at the fork. Regenerate `catalog.json`, `STYLES.md` and the docs images.
 6. **License.** LICENSE and the pack's notes become English, quoting the original sharing terms verbatim. The notes keep the original count of 193 stills as a historical statement. Third-party MIT license files stay byte-identical. README states this is an unofficial translation, free of charge, with no resale permitted.

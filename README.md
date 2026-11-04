@@ -25,9 +25,7 @@
 
 Particles, neon, ink wash, paper cutting, comics, cinematic looks and more. Hand the look you like to an AI assistant, then bring it to life with code.
 
-![Real reference stills from 12 styles](docs/images/style-gallery.png)
-
-These images come from the reference stills included with the pack, and their IDs match the prompts one to one. **196 have stills, 145 are text references**. Stills show a visual direction; the actual animation depends on your content, implementation and render.
+The gallery images above come from the reference stills included with the pack, and their IDs match the prompts one to one. **196 have stills, 145 are text references**. Stills show a visual direction; the actual animation depends on your content, implementation and render.
 
 | What you want to make | Where to start |
 |---|---|
@@ -214,7 +212,7 @@ code-animation-prompts/
     |-- scripts/                      # Search and video export
     `-- assets/
         |-- starter/index.html        # Added deterministic animation interface example
-        `-- library/                  # Translated source material and registered community additions
+        `-- library/                  # Translated source material and community additions
             |-- style-picker.html
             |-- style-prompts/
             |-- examples/
@@ -230,7 +228,7 @@ Thanks to the original curator, [**俯仰观照 (Fuyang Guanzhao)**](https://spa
 
 Thanks to [**Strange Leo (@strangeyu911-tech)**](https://github.com/strangeyu911-tech), who contributed the K1-K3 reference cards through [PR #1](https://github.com/XiaoyeCodes/code-animation-prompts/pull/1). The current 196 reference images are the 193 from the original pack plus the 3 community additions; the [sources and change notes](skills/code-animation-prompts/references/attribution.md) install with the skill.
 
-Thanks also to **LemoLab (Lemo-Opuscar)**, **Vincentwei1021 (mg-styles-15)** and **Bae-ChangHyun (code-video)**. [XiaoyeCodes](https://github.com/XiaoyeCodes) added the skill packaging, tool scripts and project docs on top of the source material. This fork translates the prompts and docs into English; the third-party license files are unchanged, and changes to the picker, the stats and the added material are recorded separately.
+Thanks also to **LemoLab (Lemo-Opuscar)**, **Vincentwei1021 (mg-styles-15)** and **Bae-ChangHyun (code-video)**. [XiaoyeCodes](https://github.com/XiaoyeCodes) added the skill packaging, tool scripts and project docs on top of the source material. This fork translates the prompts and docs into English; the third-party license files are unchanged, and later library changes are recorded separately.
 
 **Free to use, free to share. Do not package this collection as a paid course, paid skills or anything else sold for money.** Third-party content stays under its own license; see [Sources and licenses](LICENSE.md). This repository does not relabel all material as MIT.
 
