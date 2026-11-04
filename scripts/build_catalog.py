@@ -11,7 +11,7 @@ LIBRARY = SKILL / "assets/library"
 
 
 def main():
-    html = (LIBRARY / "风格挑选.html").read_text(encoding="utf-8")
+    html = (LIBRARY / "style-picker.html").read_text(encoding="utf-8")
     raw = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', html, re.S).group(1))
     entries = []
     for e in raw["entries"]:
@@ -25,7 +25,7 @@ def main():
                             file="assets/library/" + e["file"],
                             image="assets/library/" + e["img"] if e.get("img") else ""))
     counts = dict(Counter(e["series"] for e in entries))
-    stats = json.loads((LIBRARY / "_统计.json").read_text(encoding="utf-8"))
+    stats = json.loads((LIBRARY / "_stats.json").read_text(encoding="utf-8"))
     assert len(entries) == stats["total"] == len({e["id"] for e in entries})
     assert sum(bool(e["image"]) for e in entries) == stats["withStill"]
     assert counts == stats["bySeries"]

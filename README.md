@@ -13,7 +13,7 @@
 [![Skill](https://img.shields.io/badge/Agent_Skill-Claude_Code_%26_Codex-e6ceaa?style=flat-square&labelColor=161d28)](skills/code-animation-prompts/SKILL.md)
 [![Sharing](https://img.shields.io/badge/sharing-free-ecb7cc?style=flat-square&labelColor=161d28)](LICENSE.md)
 
-[浏览全部风格](docs/STYLES.md) · [一键导入](#一键导入claude-code--codex) · [手动安装](docs/INSTALL.md) · [原始示例](skills/code-animation-prompts/assets/library/示例) · [来源与许可](LICENSE.md)
+[浏览全部风格](docs/STYLES.md) · [一键导入](#一键导入claude-code--codex) · [手动安装](docs/INSTALL.md) · [原始示例](skills/code-animation-prompts/assets/library/examples) · [来源与许可](LICENSE.md)
 
 </div>
 
@@ -129,12 +129,12 @@ python scripts/install_skill.py --target both
 下载完整仓库后，双击打开：
 
 ```text
-skills/code-animation-prompts/assets/library/风格挑选.html
+skills/code-animation-prompts/assets/library/style-picker.html
 ```
 
 在 Chrome／Edge 中可离线浏览。搜索关键词或编号 → 勾选风格 → 打开「已选清单」→ 复制给助手，再补充主题、时长、画幅和声音需求。
 
-请保留它与 `风格提示词/` 的相对位置。GitHub 文件页面展示的是 HTML 源码，下载后在浏览器打开才能使用挑选器。
+请保留它与 `style-prompts/` 的相对位置。GitHub 文件页面展示的是 HTML 源码，下载后在浏览器打开才能使用挑选器。
 
 <details>
 <summary>查看搜索状态截图</summary>
@@ -151,8 +151,8 @@ skills/code-animation-prompts/assets/library/风格挑选.html
 
 | 示例 | 文件 |
 |---|---|
-| **B6 光速穿梭 · 爆炸 · 重聚** | [完整提示词](skills/code-animation-prompts/assets/library/示例/B6_光速穿梭·爆炸·重聚_同一份提示词/提示词.md) · [原始 HTML 与 2 个 MP4](skills/code-animation-prompts/assets/library/示例/B6_光速穿梭·爆炸·重聚_同一份提示词) |
-| **X7 英雄漫画** | [一句话提示词](skills/code-animation-prompts/assets/library/示例/X7_英雄漫画_只给一句话/提示词.md) · [原始 HTML 与 MP4](skills/code-animation-prompts/assets/library/示例/X7_英雄漫画_只给一句话) |
+| **B6 光速穿梭 · 爆炸 · 重聚** | [完整提示词](skills/code-animation-prompts/assets/library/examples/B6_warp-explode-reunite_same-prompt/prompt.md) · [原始 HTML 与 2 个 MP4](skills/code-animation-prompts/assets/library/examples/B6_warp-explode-reunite_same-prompt) |
+| **X7 英雄漫画** | [一句话提示词](skills/code-animation-prompts/assets/library/examples/X7_hero-comic_one-line-brief/prompt.md) · [原始 HTML 与 MP4](skills/code-animation-prompts/assets/library/examples/X7_hero-comic_one-line-brief) |
 
 **B6 是独立示例，不计入 341 个风格条目。** 原始 3 个 MP4、3 个示例 HTML 与过程截图均随仓库保留。
 
@@ -210,13 +210,13 @@ code-animation-prompts/
     └── assets/
         ├── starter/index.html       # 新增的确定性动画接口示例
         └── library/                 # 原始素材与登记过的社区补充
-            ├── 风格挑选.html
-            ├── 风格提示词/
-            ├── 示例/
-            ├── 第三方许可/
-            ├── _统计.json
-            ├── 说明.md
-            └── 许可与来源.md
+            ├── style-picker.html
+            ├── style-prompts/
+            ├── examples/
+            ├── third-party-licenses/
+            ├── _stats.json
+            ├── README.md
+            └── licenses-and-sources.md
 ```
 
 ## 致谢与免费分享约定

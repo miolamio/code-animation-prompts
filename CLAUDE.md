@@ -24,11 +24,11 @@ Search and install use only the standard library (Python 3.10+). `build_visuals.
 
 ## How the data fits together
 
-- **Source of truth:** the JSON blob in `<script id="data">` inside `风格挑选.html`, in `skills/code-animation-prompts/assets/library/`. `build_catalog.py` reads it.
+- **Source of truth:** the JSON blob in `<script id="data">` inside `style-picker.html`, in `skills/code-animation-prompts/assets/library/`. `build_catalog.py` reads it.
 - **Generated, so regenerate them:** `references/catalog.json` and `docs/STYLES.md` come from `build_catalog.py`. `docs/images/{hero,style-gallery,style-picker,picker-search}.png` and `b6-preview.gif` come from `build_visuals.py`.
 - **Frozen baseline:** `docs/source-manifest.json` records the upstream pack. When validation fails, fix the change or its ledger entry and leave the manifest as it is.
 - **Change ledger:** `references/library-changes.json` records every library file added or modified since the baseline, with `sha256`, `reason` and `contribution`; modified files also carry `original_sha256`. The validator hashes the library against manifest plus ledger, so an unregistered change fails, including a stray `.DS_Store`.
-- **Counts pinned by the validator:** README headline, badge and count phrases; the still counts in `SKILL.md`; `_统计.json`, including `bySeries`. The total style count is hard-coded in `validate_repo.py`.
+- **Counts pinned by the validator:** README headline, badge and count phrases; the still counts in `SKILL.md`; `_stats.json`, including `bySeries`. The total style count is hard-coded in `validate_repo.py`.
 - **Import prompt:** the prompt in README must appear verbatim in `prompts/one-click-import.md`.
 
 The validator also link-checks every `.md` outside the library, this file included, so relative links must resolve.
@@ -36,10 +36,10 @@ The validator also link-checks every `.md` outside the library, this file includ
 ## Changing the library
 
 - **Adding a still:** follow `CONTRIBUTING.md`. The steps span the picker, stats, ledger, attribution, generated files and counts. Commit `eef26f4` is a worked example of the correct shape.
-- **Upstream records stay as shipped:** `说明.md` keeps its original count of 193 stills on purpose (see `references/attribution.md`), so record changes in the ledger. Commit `b8e5453` edited that file and the manifest, and `eef26f4` reverted both.
+- **Upstream records stay as shipped:** `README.md` keeps its original count of 193 stills on purpose (see `references/attribution.md`), so record changes in the ledger. Commit `b8e5453` edited that file and the manifest, and `eef26f4` reverted both.
 - **Editing a prompt `.md`:** this needs a ledger entry. Picker entries have their own `prompt` field, so check that copy as well.
-- **Adding a style:** there is no documented procedure. At minimum it touches the picker, `_统计.json`, the README series table and the hard-coded total.
-- **B6 is not a style:** it is an example under `示例/` and has no index entry. The `B3` style is unrelated.
+- **Adding a style:** there is no documented procedure. At minimum it touches the picker, `_stats.json`, the README series table and the hard-coded total.
+- **B6 is not a style:** it is an example under `examples/` and has no index entry. The `B3` style is unrelated.
 
 ## Conventions
 

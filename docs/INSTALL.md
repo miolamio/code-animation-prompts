@@ -39,7 +39,7 @@ python scripts/install_skill.py --target claude --scope project --project-dir "�
 
 ```text
 <安装位置>/code-animation-prompts/SKILL.md
-<安装位置>/code-animation-prompts/assets/library/风格挑选.html
+<安装位置>/code-animation-prompts/assets/library/style-picker.html
 <安装位置>/code-animation-prompts/references/catalog.json
 ```
 

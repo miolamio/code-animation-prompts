@@ -66,8 +66,8 @@
         "落下",
         "堆积"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/A1_字雨.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/A1_字雨.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/A1_word-rain.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/A1_word-rain.jpg"
     },
     {
       "id": "A2",
@@ -81,8 +81,8 @@
         "光标",
         "删掉"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/A2_光标打字.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/A2_光标打字.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/A2_cursor-typing.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/A2_cursor-typing.jpg"
     },
     {
       "id": "A3",
@@ -96,8 +96,8 @@
         "砸下来",
         "跟节拍"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/A3_大字冲击.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/A3_大字冲击.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/A3_big-type-impact.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/A3_big-type-impact.jpg"
     },
     {
       "id": "A4",
@@ -111,8 +111,8 @@
         "旋转",
         "往里钻"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/A4_字的隧道.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/A4_字的隧道.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/A4_word-tunnel.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/A4_word-tunnel.jpg"
     },
     {
       "id": "A5",
@@ -126,8 +126,8 @@
         "聚成",
         "变成"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/A5_字散了再聚.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/A5_字散了再聚.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/A5_words-scatter-and-reform.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/A5_words-scatter-and-reform.jpg"
     },
     {
       "id": "B1",
@@ -141,8 +141,8 @@
         "丝线",
         "风"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/B1_流动的丝线.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/B1_流动的丝线.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/B1_flowing-threads.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/B1_flowing-threads.jpg"
     },
     {
       "id": "B2",
@@ -156,8 +156,8 @@
         "光尘",
         "暖"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/B2_萤火光尘.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/B2_萤火光尘.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/B2_firefly-dust.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/B2_firefly-dust.jpg"
     },
     {
       "id": "B3",
@@ -171,8 +171,8 @@
         "形状",
         "散开"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/B3_粒子聚形.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/B3_粒子聚形.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.jpg"
     },
     {
       "id": "B4",
@@ -186,8 +186,8 @@
         "连线",
         "网"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/B4_星空连线.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/B4_星空连线.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/B4_starfield-connections.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/B4_starfield-connections.jpg"
     },
     {
       "id": "B5",
@@ -201,8 +201,8 @@
         "胀缩",
         "慢"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/B5_呼吸的圆.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/B5_呼吸的圆.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/B5_breathing-circle.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/B5_breathing-circle.jpg"
     },
     {
       "id": "C1",
@@ -216,8 +216,8 @@
         "晕开",
         "宣纸"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/C1_水墨晕开.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/C1_水墨晕开.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.jpg"
     },
     {
       "id": "C2",
@@ -231,8 +231,8 @@
         "线描",
         "生长"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/C2_一笔画.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/C2_一笔画.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/C2_single-stroke-drawing.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/C2_single-stroke-drawing.jpg"
     },
     {
       "id": "C3",
@@ -246,8 +246,8 @@
         "地形",
         "起伏"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/C3_心里的等高线.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/C3_心里的等高线.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/C3_inner-contour-lines.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/C3_inner-contour-lines.jpg"
     },
     {
       "id": "C4",
@@ -261,8 +261,8 @@
         "水滴",
         "扩散"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/C4_涟漪.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/C4_涟漪.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/C4_ripples.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/C4_ripples.jpg"
     },
     {
       "id": "D1",
@@ -276,8 +276,8 @@
         "夜",
         "虚化灯光"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/D1_雨窗.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/D1_雨窗.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/D1_rainy-window.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/D1_rainy-window.jpg"
     },
     {
       "id": "D2",
@@ -291,8 +291,8 @@
         "灰尘",
         "光束"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/D2_窗光与尘.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/D2_窗光与尘.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/D2_window-light-and-dust.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/D2_window-light-and-dust.jpg"
     },
     {
       "id": "D3",
@@ -306,8 +306,8 @@
         "火星",
         "往上飘"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/D3_雪与火星.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/D3_雪与火星.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/D3_snow-and-sparks.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/D3_snow-and-sparks.jpg"
     },
     {
       "id": "D4",
@@ -321,8 +321,8 @@
         "渐变",
         "天亮"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/D4_天亮.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/D4_天亮.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/D4_daybreak.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/D4_daybreak.jpg"
     },
     {
       "id": "E1",
@@ -336,8 +336,8 @@
         "扁平",
         "色块"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/E1_极简几何.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/E1_极简几何.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/E1_minimal-geometry.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/E1_minimal-geometry.jpg"
     },
     {
       "id": "E2",
@@ -351,8 +351,8 @@
         "纸片",
         "层叠"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/E2_剪纸层叠.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/E2_剪纸层叠.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/E2_layered-paper-cut-outs.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/E2_layered-paper-cut-outs.jpg"
     },
     {
       "id": "E3",
@@ -366,8 +366,8 @@
         "终端",
         "像素"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/E3_字符画.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/E3_字符画.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/E3_ascii-art.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/E3_ascii-art.jpg"
     },
     {
       "id": "F1",
@@ -381,8 +381,8 @@
         "数字",
         "生长"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/F1_图表生长.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/F1_图表生长.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/F1_growing-charts.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/F1_growing-charts.jpg"
     },
     {
       "id": "F2",
@@ -396,8 +396,8 @@
         "箭头",
         "关系图"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/F2_关系图.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/F2_关系图.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/F2_relationship-diagram.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/F2_relationship-diagram.jpg"
     },
     {
       "id": "F3",
@@ -411,8 +411,8 @@
         "对比",
         "左右"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/F3_分屏对比.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/F3_分屏对比.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/F3_split-screen-comparison.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/F3_split-screen-comparison.jpg"
     },
     {
       "id": "G1",
@@ -426,8 +426,8 @@
         "颗粒",
         "漏光"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/G1_老胶片.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/G1_老胶片.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/G1_old-film.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/G1_old-film.jpg"
     },
     {
       "id": "G2",
@@ -441,8 +441,8 @@
         "错位",
         "干扰"
       ],
-      "file": "assets/library/风格提示词/A-G_代码样片/G2_信号故障.md",
-      "image": "assets/library/风格提示词/A-G_代码样片/G2_信号故障.jpg"
+      "file": "assets/library/style-prompts/A-G_code-samples/G2_signal-glitch.md",
+      "image": "assets/library/style-prompts/A-G_code-samples/G2_signal-glitch.jpg"
     },
     {
       "id": "M1",
@@ -452,8 +452,8 @@
       "description": "白底，一只手（或一支笔）一边讲一边画，线条先画出来再上色。",
       "fit": "讲概念、讲原理的段落。比如\"大语言模型是大脑，Harness 是手脚\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M1_白板手绘讲解.md",
-      "image": "assets/library/风格提示词/M_动态风格/M1_白板手绘讲解.jpg"
+      "file": "assets/library/style-prompts/M_motion-styles/M1_hand-drawn-whiteboard-explainer.md",
+      "image": "assets/library/style-prompts/M_motion-styles/M1_hand-drawn-whiteboard-explainer.jpg"
     },
     {
       "id": "M2",
@@ -463,7 +463,7 @@
       "description": "米白纸面，马克笔批注一笔一笔画出来，手写字，大号粗体标题字，偶尔整个画面\"啪\"一下切到深色。",
       "fit": "列要点、讲方法、\"你可以这样做\"的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M2_纸感手写笔记.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M2_handwritten-paper-notes.md",
       "image": ""
     },
     {
@@ -474,7 +474,7 @@
       "description": "深色背景，公式和图形一点点变形、推导，讲得很清楚。",
       "fit": "感知科普线，讲原理、讲数据。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M18_数学·科学讲解（3Blue1Brown 那种）.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M18_3blue1brown-style-explainer.md",
       "image": ""
     },
     {
@@ -485,7 +485,7 @@
       "description": "不限画风，重点是讲法：从生活里的例子讲起，一步步讲到专业词。",
       "fit": "感知科普线的整期，或者感受线里\"先说清楚 X 是什么\"那一段。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M19_零基础科普.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M19_beginner-friendly-explainer.md",
       "image": ""
     },
     {
@@ -496,7 +496,7 @@
       "description": "一条时间轴往前走，每个节点弹出一件事。",
       "fit": "\"这三个月我是怎么走过来的\"、\"AI 是怎么发展到今天的\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M20_时间线·历史.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M20_timeline-and-history.md",
       "image": ""
     },
     {
@@ -507,7 +507,7 @@
       "description": "把一个东西拆开，一步一步演示里面怎么运转。",
       "fit": "抓公告那个例子（定时、抓取、筛选、总结、提醒），讲\"它到底是怎么做到的\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M21_原理拆解（它是怎么工作的）.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M21_how-it-works-breakdown.md",
       "image": ""
     },
     {
@@ -518,7 +518,7 @@
       "description": "像做鸡尾酒教程，从空杯子开始，每加一样东西就标出名字和分量，最后成品。",
       "fit": "\"你只要这几步就能做出一个小工具\"这种教学段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M22_配方式步骤.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M22_recipe-style-steps.md",
       "image": ""
     },
     {
@@ -529,7 +529,7 @@
       "description": "五个画面讲完一件事。",
       "fit": "一期科普的骨架，或者感受线里讲一个工具的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M23_五幕讲解（万能讲解模板）.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M23_five-act-explainer.md",
       "image": ""
     },
     {
@@ -540,7 +540,7 @@
       "description": "大环境、痛点、解决办法、好处，四段，最后 logo 动画收尾。",
       "fit": "介绍一个新工具、一个 skill 的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M24_四段式发布片.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M24_four-part-launch-film.md",
       "image": ""
     },
     {
@@ -551,7 +551,7 @@
       "description": "白底，一种字体，字幕跟着说话一个词一个词打出来，配真实的图片，镜头慢慢漂。",
       "fit": "全片的主线。有人讲解、口播的片子，字幕必须对上。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M8_口播 + 逐字字幕.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M8_voiceover-with-word-by-word-captions.md",
       "image": ""
     },
     {
@@ -562,7 +562,7 @@
       "description": "全片一条弧线。开头画面乱，中间慢慢理顺，最后干干净净落在一句话上。转场靠同一个形状变过去，不硬切。",
       "fit": "整期的结构。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M9_情绪弧线：混乱、掌控、清晰.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M9_emotional-arc-chaos-control-clarity.md",
       "image": ""
     },
     {
@@ -573,7 +573,7 @@
       "description": "没有具体的人和物，用形状、文字、颜色的变化表现一种感觉。",
       "fit": "讲恐惧、焦虑、不安、\"想太多\"这种情绪的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M10_把一个抽象概念、一种情绪做成画面.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M10_abstract-concept-as-visuals.md",
       "image": ""
     },
     {
@@ -584,7 +584,7 @@
       "description": "同一个人从小到老，最后无缝接回开头。",
       "fit": "\"学无止境\"、\"一直在学\"这种讲长时间的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M11_人生循环.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M11_life-cycle-loop.md",
       "image": ""
     },
     {
@@ -595,7 +595,7 @@
       "description": "纸剪的剪影在光后面演戏，配轻轻的声音。",
       "fit": "讲\"家\"、讲回忆、讲温暖的段落。竖屏很合适。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M12_剪纸皮影.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M12_paper-cut-shadow-puppets.md",
       "image": ""
     },
     {
@@ -606,7 +606,7 @@
       "description": "手绘的、一帧一帧有点抖的定格动画，画面里的东西自己开口说话。",
       "fit": "让一个东西替你说话。比如让\"那个抓公告的小工具\"自己介绍自己。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M13_手绘定格，第一人称.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M13_first-person-hand-drawn-stop-motion.md",
       "image": ""
     },
     {
@@ -617,7 +617,7 @@
       "description": "没有台词，全靠画面和声音讲故事。",
       "fit": "片头、片尾，或者两段之间的过渡小片段。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M27_无对白短片，声音讲一半.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M27_wordless-sound-driven-short.md",
       "image": ""
     },
     {
@@ -628,7 +628,7 @@
       "description": "画面左右对称，粉嫩暖色，像一个精致的小舞台。比如火车窗外四季流过，桌上一杯咖啡。",
       "fit": "讲时间流逝、讲停下来想一想的段落。比如\"停播这段时间\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M28_对称暖色的电影感空镜.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M28_symmetrical-warm-scenic-shots.md",
       "image": ""
     },
     {
@@ -639,7 +639,7 @@
       "description": "3D 场景，日落、紫色的云、海面反光，镜头慢慢飞，画面上写一句短话。",
       "fit": "情绪最高的那一句话，比如\"现在不就是最好的时候吗\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M29_日落天空的 3D 空镜加一句话.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M29_3d-sunset-sky-with-one-line.md",
       "image": ""
     },
     {
@@ -650,7 +650,7 @@
       "description": "古典诗词里的画面，比如月夜、江水、楼阁，可以配可交互的网页。",
       "fit": "讲心境、讲文化的段落，也适合做片头。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M30_东方意境.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M30_eastern-poetic-mood.md",
       "image": ""
     },
     {
@@ -661,7 +661,7 @@
       "description": "粘土小人一帧一帧动，手作感很强。",
       "fit": "轻松、好玩的段落；你自己的歌也可以做成这种 MV。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M31_粘土定格 MV.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M31_claymation-music-video.md",
       "image": ""
     },
     {
@@ -672,7 +672,7 @@
       "description": "只用文字。每个词有一个\"结构上的角色\"：有的是梁，有的是柱子，有的是地板。前面的词搭起来，最后一句话\"站\"在前面搭好的东西上。",
       "fit": "结尾金句\"学习，相信自己\"。全片最值得做的一段。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M3_文字建筑（口播金句专用）.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M3_word-architecture.md",
       "image": ""
     },
     {
@@ -683,7 +683,7 @@
       "description": "歌词跟着人声和节拍一个字一个字跳出来。",
       "fit": "你自己的歌，或者片子里有一段唱的部分。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M25_歌词卡点.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M25_beat-synced-lyrics.md",
       "image": ""
     },
     {
@@ -694,7 +694,7 @@
       "description": "一张海报里的东西冲出了海报的边框。",
       "fit": "\"跳出原来的想法\"、\"不再觉得跟我没关系\"这种转折。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M36_破框.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M36_breaking-the-frame.md",
       "image": ""
     },
     {
@@ -705,7 +705,7 @@
       "description": "一个小东西（一个橙色圆点、一个白球）贯穿所有场景：它先是开关，再变成字母上的点，再变成曲线，再变成一个图形，最后回到结尾。",
       "fit": "混搭风格时的\"线\"。比如可以用一个小圆点代表\"公告\"、代表\"想法\"，从头跟到尾。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M4_一个元素串全片.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M4_one-element-throughline.md",
       "image": ""
     },
     {
@@ -716,7 +716,7 @@
       "description": "从头到尾不切镜头，每个场景都是从上一个场景里\"长\"出来的。",
       "fit": "讲变化的段落，比如\"以前要自己推，现在坐进去它自己走\"，一个画面变到另一个画面。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M5_一镜到底.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M5_single-continuous-take.md",
       "image": ""
     },
     {
@@ -727,7 +727,7 @@
       "description": "黑屏上一个点，慢慢展开成画面，再一直拉远，整个桌面变成太空里的一个点，再推进到另一个画面。",
       "fit": "讲尺度、讲\"从一个小工具到一个系统\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M33_从一个点拉远到宇宙.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M33_dot-to-universe-zoom.md",
       "image": ""
     },
     {
@@ -738,7 +738,7 @@
       "description": "同一个形状不停变：按钮、加载圈、播放器、滑块、开关……每次变都是鼠标真的点了一下。",
       "fit": "一口气列很多例子的段落，比如\"整理表格、写周报、批量改文件、做自媒体\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M38_一个形状变到底.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M38_continuous-shape-morph.md",
       "image": ""
     },
     {
@@ -749,7 +749,7 @@
       "description": "碎片慢慢聚拢，拼成 logo。",
       "fit": "每期的片头或片尾，做一次以后反复用。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M37_Logo 慢慢拼出来（片头片尾）.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M37_logo-assembly-intro-and-outro.md",
       "image": ""
     },
     {
@@ -760,7 +760,7 @@
       "description": "柔和、白、亮蓝、玻璃质感，镜头从不停在静止画面上切。",
       "fit": "展示工具、展示界面的段落。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M6_苹果发布会风.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M6_apple-keynote-style.md",
       "image": ""
     },
     {
@@ -771,7 +771,7 @@
       "description": "一个镜头只讲一件事，大量留白，只用一个强调色，每一刀都在重拍上。",
       "fit": "节奏快的段落，比如\"你每天要整理的表格、你每周要写的周报……\"。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M7_极简卡点.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M7_minimal-beat-cuts.md",
       "image": ""
     },
     {
@@ -782,7 +782,7 @@
       "description": "竖屏，节奏很快、很碎，第一人称视角，动作和音效都很满。",
       "fit": "竖屏版的开头 3 秒，抓住人。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M32_竖屏快节奏 POV.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M32_fast-vertical-pov.md",
       "image": ""
     },
     {
@@ -793,7 +793,7 @@
       "description": "像新闻节目一样，一条一条过，每条点出看点。",
       "fit": "以后做\"这周 AI 圈有什么新东西\"这种盘点。",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M34_新闻快讯盘点.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M34_news-flash-roundup.md",
       "image": ""
     },
     {
@@ -804,7 +804,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M14_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M14_untitled.md",
       "image": ""
     },
     {
@@ -815,7 +815,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M15_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M15_untitled.md",
       "image": ""
     },
     {
@@ -826,7 +826,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M16_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M16_untitled.md",
       "image": ""
     },
     {
@@ -837,7 +837,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M17_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M17_untitled.md",
       "image": ""
     },
     {
@@ -848,7 +848,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M26_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M26_untitled.md",
       "image": ""
     },
     {
@@ -859,7 +859,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M35_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M35_untitled.md",
       "image": ""
     },
     {
@@ -870,7 +870,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M39_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M39_untitled.md",
       "image": ""
     },
     {
@@ -881,7 +881,7 @@
       "description": "",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/M_动态风格/M40_.md",
+      "file": "assets/library/style-prompts/M_motion-styles/M40_untitled.md",
       "image": ""
     },
     {
@@ -892,8 +892,8 @@
       "description": "线条粗细一致，平涂没有阴影，颜色干净明亮",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K1_扁平矢量.md",
-      "image": "assets/library/风格提示词/K_卡通画风/K1_扁平矢量.jpg"
+      "file": "assets/library/style-prompts/K_cartoon-styles/K1_flat-vector-character.md",
+      "image": "assets/library/style-prompts/K_cartoon-styles/K1_flat-vector-character.jpg"
     },
     {
       "id": "K2",
@@ -903,8 +903,8 @@
       "description": "大头小身子，短手短脚，大眼睛，颜色软",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K2_Q 版.md",
-      "image": "assets/library/风格提示词/K_卡通画风/K2_Q 版.jpg"
+      "file": "assets/library/style-prompts/K_cartoon-styles/K2_chibi.md",
+      "image": "assets/library/style-prompts/K_cartoon-styles/K2_chibi.jpg"
     },
     {
       "id": "K3",
@@ -914,8 +914,8 @@
       "description": "圆滚滚，豆豆眼，小嘴巴，粉嫩色",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K3_卡哇伊.md",
-      "image": "assets/library/风格提示词/K_卡通画风/K3_卡哇伊.jpg"
+      "file": "assets/library/style-prompts/K_cartoon-styles/K3_kawaii.md",
+      "image": "assets/library/style-prompts/K_cartoon-styles/K3_kawaii.jpg"
     },
     {
       "id": "K4",
@@ -925,7 +925,7 @@
       "description": "几根线就是一个人，背景空",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K4_极简线条小人.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K4_minimal-stick-figure.md",
       "image": ""
     },
     {
@@ -936,7 +936,7 @@
       "description": "大公司宣传图里那种手脚很长的扁平小人",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K5_孟菲斯扁平人.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K5_corporate-memphis.md",
       "image": ""
     },
     {
@@ -947,7 +947,7 @@
       "description": "线条均匀，平涂，像《丁丁历险记》",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K6_清线漫画.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K6_ligne-claire.md",
       "image": ""
     },
     {
@@ -958,7 +958,7 @@
       "description": "大眼睛，头发有造型，线条干净，镜头感强",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K7_日式动画.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K7_anime.md",
       "image": ""
     },
     {
@@ -969,7 +969,7 @@
       "description": "形状软，有纸的纹理，暖色",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K8_绘本.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K8_picture-book.md",
       "image": ""
     },
     {
@@ -980,7 +980,7 @@
       "description": "线条松、歪，能看见草稿线",
       "fit": "讲\"以前的我\"、自嘲",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K9_涂鸦.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K9_doodle.md",
       "image": ""
     },
     {
@@ -991,7 +991,7 @@
       "description": "黑底彩色粉笔，手绘的温度",
       "fit": "讲道理、科普",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K10_粉笔黑板.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K10_chalkboard.md",
       "image": ""
     },
     {
@@ -1002,7 +1002,7 @@
       "description": "像学生笔记，有勾画、有便利贴",
       "fit": "列方法、列步骤",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K11_手账笔记.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K11_bullet-journal-notes.md",
       "image": ""
     },
     {
@@ -1013,7 +1013,7 @@
       "description": "黑白线条，几格讲一个小笑话",
       "fit": "轻松的小段子",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K12_报纸四格.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K12_four-panel-newspaper-strip.md",
       "image": ""
     },
     {
@@ -1024,7 +1024,7 @@
       "description": "粗线条，网点，速度线，对比强",
       "fit": "讲\"卖课的人\"这种带点讽刺的段落",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K13_美漫网点.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K13_american-comic-halftone.md",
       "image": ""
     },
     {
@@ -1035,7 +1035,7 @@
       "description": "粗线，圆点，对话框，红黄蓝",
       "fit": "抓眼球的转折",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K14_波普.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K14_pop-art.md",
       "image": ""
     },
     {
@@ -1046,7 +1046,7 @@
       "description": "手脚像橡皮管，饼形眼睛，黑白或旧色",
       "fit": "复古、好玩",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K15_橡皮管 1930.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K15_rubber-hose-1930.md",
       "image": ""
     },
     {
@@ -1057,7 +1057,7 @@
       "description": "几何、平、颜色少而大胆，像 50 年代广告",
       "fit": "有设计感的讲解",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K16_中世纪现代.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K16_mid-century-modern.md",
       "image": ""
     },
     {
@@ -1068,7 +1068,7 @@
       "description": "用圆、方、三角拼出来",
       "fit": "讲结构、讲系统",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K17_几何.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K17_geometric.md",
       "image": ""
     },
     {
@@ -1079,7 +1079,7 @@
       "description": "边缘晕开，纸纹，颜色淡",
       "fit": "讲情绪、讲回忆",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K18_水彩.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K18_watercolor.md",
       "image": ""
     },
     {
@@ -1090,7 +1090,7 @@
       "description": "能看见笔触，层次丰富",
       "fit": "情绪高的画面",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K19_厚涂.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K19_impasto.md",
       "image": ""
     },
     {
@@ -1101,7 +1101,7 @@
       "description": "一层层纸片，边缘看得见，有一点阴影",
       "fit": "讲故事",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K20_剪纸.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K20_paper-cut.md",
       "image": ""
     },
     {
@@ -1112,7 +1112,7 @@
       "description": "手作、纸工艺的质感",
       "fit": "温暖的科普",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K21_手工纸艺.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K21_papercraft.md",
       "image": ""
     },
     {
@@ -1123,7 +1123,7 @@
       "description": "折出来的纸",
       "fit": "讲变化、讲\"折叠\"",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K22_折纸.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K22_origami.md",
       "image": ""
     },
     {
@@ -1134,7 +1134,7 @@
       "description": "撕边、照片、混材料",
       "fit": "讲很多东西混在一起的段落",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K23_拼贴.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K23_collage.md",
       "image": ""
     },
     {
@@ -1145,7 +1145,7 @@
       "description": "手指印，手作纹理，圆润",
       "fit": "轻松好玩",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K24_粘土.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K24_clay.md",
       "image": ""
     },
     {
@@ -1156,7 +1156,7 @@
       "description": "比例夸张、大眼睛、圆润、质感好",
       "fit": "角色高光时刻",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K25_皮克斯式 3D.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K25_pixar-style-3d.md",
       "image": ""
     },
     {
@@ -1167,7 +1167,7 @@
       "description": "3D 模型但阴影是硬边，有黑描边",
       "fit": "想要 3D 但要卡通感",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K26_卡通渲染 3D.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K26_toon-shaded-3d.md",
       "image": ""
     },
     {
@@ -1178,7 +1178,7 @@
       "description": "很少的面拼出来的 3D",
       "fit": "科技感",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K27_低多边形.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K27_low-poly.md",
       "image": ""
     },
     {
@@ -1189,7 +1189,7 @@
       "description": "方块像素，颜色少",
       "fit": "游戏感、复古",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K28_像素.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K28_blocky-pixel.md",
       "image": ""
     },
     {
@@ -1200,7 +1200,7 @@
       "description": "技术图纸，等距视角",
       "fit": "讲工具的结构",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K29_蓝图.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K29_technical-blueprint.md",
       "image": ""
     },
     {
@@ -1211,7 +1211,7 @@
       "description": "像宜家说明书，极简线条",
       "fit": "讲步骤",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K30_说明书线稿.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K30_instruction-manual-line-art.md",
       "image": ""
     },
     {
@@ -1222,7 +1222,7 @@
       "description": "东西整整齐齐摆在桌面上，俯拍",
       "fit": "展示\"我的工具箱\"",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K31_平铺整理.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K31_knolling.md",
       "image": ""
     },
     {
@@ -1233,7 +1233,7 @@
       "description": "乐高一样的积木",
       "fit": "讲\"一块块搭起来的系统\"",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K32_积木.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K32_building-blocks.md",
       "image": ""
     },
     {
@@ -1244,7 +1244,7 @@
       "description": "像地铁线路图",
       "fit": "讲流程、讲路线",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K33_地铁图.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K33_subway-map.md",
       "image": ""
     },
     {
@@ -1255,7 +1255,7 @@
       "description": "深色底，霓虹光",
       "fit": "讲未来",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K34_赛博霓虹.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K34_cyber-neon.md",
       "image": ""
     },
     {
@@ -1266,7 +1266,7 @@
       "description": "泛黄、棕褐、老书的感觉",
       "fit": "讲历史",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K35_旧学院风.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K35_vintage-academia.md",
       "image": ""
     },
     {
@@ -1277,7 +1277,7 @@
       "description": "套色、平涂、有点错位",
       "fit": "有设计感的海报画面",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K36_丝网印刷.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K36_screen-print.md",
       "image": ""
     },
     {
@@ -1288,7 +1288,7 @@
       "description": "细长、尖、黑紫暗红",
       "fit": "讲恐惧、讲黑暗面",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K37_哥特.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K37_gothic.md",
       "image": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "description": "像《辛普森一家》，平涂，动作少",
       "fit": "生活小场景",
       "tags": [],
-      "file": "assets/library/风格提示词/K_卡通画风/K38_情景喜剧.md",
+      "file": "assets/library/style-prompts/K_cartoon-styles/K38_sitcom-cartoon.md",
       "image": ""
     },
     {
@@ -1310,7 +1310,7 @@
       "description": "水墨晕染，留白，竹林 / ink wash, negative space",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z1_水墨.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z1_ink-wash.md",
       "image": ""
     },
     {
@@ -1321,7 +1321,7 @@
       "description": "细腻笔触，色彩鲜艳，牡丹 / gongbi, fine brushwork",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z2_工笔.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z2_gongbi.md",
       "image": ""
     },
     {
@@ -1332,7 +1332,7 @@
       "description": "大笔挥洒，意到笔不到 / xieyi, expressive brush",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z3_写意.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z3_xieyi.md",
       "image": ""
     },
     {
@@ -1343,7 +1343,7 @@
       "description": "壮丽山景，流水，古亭 / shan shui, mountains, pavilions",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z4_山水.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z4_shan-shui.md",
       "image": ""
     },
     {
@@ -1354,8 +1354,8 @@
       "description": "红纸镂空，民间纹样 / Chinese paper cutting",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z5_剪纸.md",
-      "image": "assets/library/风格提示词/Z_中国风/Z5_剪纸.jpg"
+      "file": "assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.md",
+      "image": "assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.jpg"
     },
     {
       "id": "Z6",
@@ -1365,7 +1365,7 @@
       "description": "红灯笼，对联，喜庆 / New Year woodblock print",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z6_年画.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z6_chinese-new-year-print.md",
       "image": ""
     },
     {
@@ -1376,7 +1376,7 @@
       "description": "镂空剪影，光后面演，关节能动 / shadow puppetry（动起来见 M12）",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z7_皮影.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z7_shadow-puppets.md",
       "image": ""
     },
     {
@@ -1387,7 +1387,7 @@
       "description": "壁画色，飞天，矿物颜料 / Dunhuang mural",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z8_敦煌.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z8_dunhuang-mural.md",
       "image": ""
     },
     {
@@ -1398,7 +1398,7 @@
       "description": "白底蓝花，瓷器纹样 / blue and white porcelain",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z9_青花.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z9_blue-and-white-porcelain.md",
       "image": ""
     },
     {
@@ -1409,7 +1409,7 @@
       "description": "木刻线条，套色 / woodblock print",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z10_木版画.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z10_woodblock-print.md",
       "image": ""
     },
     {
@@ -1420,7 +1420,7 @@
       "description": "脸谱纹样，浓烈色块 / Peking opera mask",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z11_京剧脸谱.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z11_peking-opera-mask.md",
       "image": ""
     },
     {
@@ -1431,7 +1431,7 @@
       "description": "毛笔字一笔笔写出来 / calligraphy stroke animation",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z12_书法.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z12_calligraphy.md",
       "image": ""
     },
     {
@@ -1442,7 +1442,7 @@
       "description": "毛笔线条加水墨晕染的漫画 / ink-brush comic",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z13_水墨漫画.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z13_ink-brush-comic.md",
       "image": ""
     },
     {
@@ -1453,7 +1453,7 @@
       "description": "彩铅排线，纸张纹理 / colored pencil on textured paper",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z14_彩铅手绘.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z14_colored-pencil.md",
       "image": ""
     },
     {
@@ -1464,7 +1464,7 @@
       "description": "柔和水彩晕染，友好易懂的造型，适合做科普卡片 / warm friendly watercolor educational card",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/Z_中国风/Z15_温暖水彩科普卡.md",
+      "file": "assets/library/style-prompts/Z_chinese-style/Z15_warm-watercolor-explainer-card.md",
       "image": ""
     },
     {
@@ -1475,8 +1475,8 @@
       "description": "暖羊皮纸底，太阳黄光晕，衬线大标题，靛蓝墨色，细线",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H1_Biennale Yellow.md",
-      "image": "assets/library/风格提示词/H_现成版式/H1_Biennale Yellow.jpg"
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H1_biennale-yellow.md",
+      "image": "assets/library/style-prompts/H_ready-made-layouts/H1_biennale-yellow.jpg"
     },
     {
       "id": "H2",
@@ -1486,7 +1486,7 @@
       "description": "新粗野主义，粗黑边框，硬投影，糖果色点缀",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H2_BlockFrame.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H2_blockframe.md",
       "image": ""
     },
     {
@@ -1497,7 +1497,7 @@
       "description": "羊皮纸底，钴蓝主色，Space Grotesk 标题",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H3_Blue Professional.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H3_blue-professional.md",
       "image": ""
     },
     {
@@ -1508,7 +1508,7 @@
       "description": "倾斜的花体大字，奶油底红色强调，杂志封面感",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H4_Bold Poster.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H4_bold-poster.md",
       "image": ""
     },
     {
@@ -1519,7 +1519,7 @@
       "description": "工业报纸海报，奶油色配墨色，火橙色点缀",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H5_Broadside.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H5_broadside.md",
       "image": ""
     },
     {
@@ -1530,7 +1530,7 @@
       "description": "胶囊形状，奶油纸，糖果配色，Bodoni 衬线标题",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H6_Capsule.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H6_capsule.md",
       "image": ""
     },
     {
@@ -1541,7 +1541,7 @@
       "description": "极简留白，暖羊皮纸，墨色标题，灰褐点缀，细线",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H7_Cartesian.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H7_cartesian.md",
       "image": ""
     },
     {
@@ -1552,7 +1552,7 @@
       "description": "羊皮纸加钴蓝网格，Newsreader 标题",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H8_Cobalt Grid.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H8_cobalt-grid.md",
       "image": ""
     },
     {
@@ -1563,7 +1563,7 @@
       "description": "全大写 Bebas Neue 标题，奶油底珊瑚色",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H9_Coral.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H9_coral.md",
       "image": ""
     },
     {
@@ -1574,7 +1574,7 @@
       "description": "奶油底，饱和糖果色，Archivo Black 大字",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H10_Creative Mode.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H10_creative-mode.md",
       "image": ""
     },
     {
@@ -1585,7 +1585,7 @@
       "description": "阳光花园粉彩，3px 炭灰描边，硬投影，圆体字",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H11_Daisy Days.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H11_daisy-days.md",
       "image": ""
     },
     {
@@ -1596,7 +1596,7 @@
       "description": "绿、粉、奶油的杂志配色，衬线标题，细线",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/H_现成版式/H12_Editorial Forest.md",
+      "file": "assets/library/style-prompts/H_ready-made-layouts/H12_editorial-forest.md",
       "image": ""
     },
     {
@@ -1607,8 +1607,8 @@
       "description": "美国一年死掉 130 万箱蜜蜂，总数却涨了 6%：静音也能看懂的新闻。",
       "fit": "不开声音也能看懂，适合竖屏版",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L1_字幕新闻.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L1_字幕新闻.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L1_caption-news.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L1_caption-news.jpg"
     },
     {
       "id": "L2",
@@ -1618,8 +1618,8 @@
       "description": "1926 年报纸说查尔斯顿会跳坏膝盖，福特工人野餐会上的孩子照跳不误。",
       "fit": "讲\"以前\"，怀旧",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L2_1920 年代新闻片.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L2_1920 年代新闻片.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L2_1920s-newsreel.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L2_1920s-newsreel.jpg"
     },
     {
       "id": "L3",
@@ -1629,8 +1629,8 @@
       "description": "阿尔忒弥斯二号发射的最后一分钟，一秒不剪：格子从 1 开到 9，点火合成 1。",
       "fit": "对比、倒计时，比如\"三个月\"",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L3_倒计时分屏.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L3_倒计时分屏.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L3_live-countdown-split-screen.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L3_live-countdown-split-screen.jpg"
     },
     {
       "id": "L4",
@@ -1640,8 +1640,8 @@
       "description": "纽约的一天：延时光河、踩着十六分音符的网格，1899 年和今天并排。",
       "fit": "时间过去、城市节奏",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L4_延时摄影交响.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L4_延时摄影交响.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L4_time-lapse-symphony.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L4_time-lapse-symphony.jpg"
     },
     {
       "id": "L5",
@@ -1651,8 +1651,8 @@
       "description": "新闻片、照片、证词和调查报告排上同一条时间轴，五路来源指向一处。",
       "fit": "几个来源对到一条时间线上，科普里讲来龙去脉",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L5_视觉调查.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L5_视觉调查.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L5_visual-investigation.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L5_visual-investigation.jpg"
     },
     {
       "id": "L6",
@@ -1662,8 +1662,8 @@
       "description": "帝国大厦的小册子写着建造者，工地实拍和老照片给出答案：每天 2,500 人。",
       "fit": "有力量的号召",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L6_构成主义蒙太奇.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L6_构成主义蒙太奇.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L6_constructivist-montage.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L6_constructivist-montage.jpg"
     },
     {
       "id": "L7",
@@ -1673,8 +1673,8 @@
       "description": "半场 0–3，费内巴切 12 分钟连进三球：冻住画面、画线、分屏、射门图。",
       "fit": "定格、画线讲解，拆一个瞬间",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L7_体育战术板.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L7_体育战术板.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L7_sports-telestrator.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L7_sports-telestrator.jpg"
     },
     {
       "id": "L8",
@@ -1684,8 +1684,8 @@
       "description": "一周四条 AI 新闻，一整套电视台包装：串联单、标题条、翻牌价格表、规格卡。",
       "fit": "新闻快讯式的开场",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L8_电视新闻包装.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L8_电视新闻包装.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L8_broadcast-news-package.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L8_broadcast-news-package.jpg"
     },
     {
       "id": "L9",
@@ -1695,8 +1695,8 @@
       "description": "卫星照着地图去找咸海，找到的是沙漠；只有筑了坝的那一块回来了。",
       "fit": "讲地点、范围",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L9_卫星地图简报.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L9_卫星地图简报.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L9_satellite-briefing.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L9_satellite-briefing.jpg"
     },
     {
       "id": "L10",
@@ -1706,8 +1706,8 @@
       "description": "一条河要架桥，四种桥型在一面简报墙上逐个受检，拍板的是桥下要过的船。",
       "fit": "几个方案放在一起比",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L10_工程方案比较墙.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L10_工程方案比较墙.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L10_engineering-comparison-board.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L10_engineering-comparison-board.jpg"
     },
     {
       "id": "L11",
@@ -1717,8 +1717,8 @@
       "description": "激光点云剥掉一片森林的树冠，露出当年农田的石墙：3.4 公里。",
       "fit": "科技感，\"扫一遍\"",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L11_激光点云扫描.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L11_激光点云扫描.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L11_lidar-survey.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L11_lidar-survey.jpg"
     },
     {
       "id": "L12",
@@ -1728,8 +1728,8 @@
       "description": "投影机把数据一层层刷上鹿特丹白模：从 1940 年的空洞到今天的塔楼。",
       "fit": "把数据投到白色模型上",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L12_白模投影.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L12_白模投影.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L12_projection-on-white-model.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L12_projection-on-white-model.jpg"
     },
     {
       "id": "L13",
@@ -1739,8 +1739,8 @@
       "description": "十二年风电和太阳能装机叠成实物，绕表盘升成两条螺旋，2021 年太阳能反超。",
       "fit": "数字变成一堆实物",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L13_数据实体化.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L13_数据实体化.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L13_data-physicalization.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L13_data-physicalization.jpg"
     },
     {
       "id": "L14",
@@ -1750,8 +1750,8 @@
       "description": "开源键盘的一半在一次环绕中逐层拆开，看到主控再合拢，标上真实尺寸。",
       "fit": "拆开看里面，比如 AI 由哪几部分组成",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L14_爆炸图拆解.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L14_爆炸图拆解.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L14_exploded-teardown.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L14_exploded-teardown.jpg"
     },
     {
       "id": "L15",
@@ -1761,8 +1761,8 @@
       "description": "一镜从肝组织玻片推到单个细胞核，两个圆逐像素数出 2.4 倍的蓝。",
       "fit": "一层层放大，讲眼睛、神经这类感知科普很合适",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L15_显微镜故事.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L15_显微镜故事.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L15_microscope-story.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L15_microscope-story.jpg"
     },
     {
       "id": "L16",
@@ -1772,8 +1772,8 @@
       "description": "电报说最长飞了 57 秒；放大镜下，莱特兄弟的底片和档案说是 59 秒。",
       "fit": "翻旧资料、回忆",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L16_档案灯箱.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L16_档案灯箱.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L16_archive-light-table.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L16_archive-light-table.jpg"
     },
     {
       "id": "L17",
@@ -1783,8 +1783,8 @@
       "description": "月亮失眠了，小女孩爬上屋顶给它唱摇篮曲。",
       "fit": "温暖、童年、回忆",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L17_蜡笔儿童绘本.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L17_蜡笔儿童绘本.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L17_crayon-picture-book.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L17_crayon-picture-book.jpg"
     },
     {
       "id": "L18",
@@ -1794,8 +1794,8 @@
       "description": "跟着降雨从澳洲红色腹地一路画到绿色海岸，一镜到底。",
       "fit": "情绪段，温柔",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L18_水彩笔刷.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L18_水彩笔刷.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L18_watercolor-brush.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L18_watercolor-brush.jpg"
     },
     {
       "id": "L19",
@@ -1805,8 +1805,8 @@
       "description": "侠客踏水过江，一剑断流。",
       "fit": "东方意境，和 Z1、M30 一起看",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L19_中国水墨.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L19_中国水墨.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L19_chinese-ink-wash.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L19_chinese-ink-wash.jpg"
     },
     {
       "id": "L20",
@@ -1816,8 +1816,8 @@
       "description": "灰色雨中广场，第一把红伞撑开，圆舞曲把整个广场刷上颜色。",
       "fit": "浓烈的情绪",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L20_油画厚涂.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L20_油画厚涂.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L20_impasto-oil-painting.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L20_impasto-oil-painting.jpg"
     },
     {
       "id": "L21",
@@ -1827,8 +1827,8 @@
       "description": "一根不离纸的线画完一个人的一生，再把笔交给孩子。",
       "fit": "一条线讲到底，和样片库 C2、M4 一起看",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L21_一笔画.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L21_一笔画.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L21_one-line-drawing.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L21_one-line-drawing.jpg"
     },
     {
       "id": "L22",
@@ -1838,8 +1838,8 @@
       "description": "手机怎么知道你在哪：GPS、原子钟，和相对论每天多出的 38 微秒。",
       "fit": "讲道理、讲步骤，就是你发来的那条",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L22_白板讲解.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L22_白板讲解.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L22_whiteboard-explainer.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L22_whiteboard-explainer.jpg"
     },
     {
       "id": "L23",
@@ -1849,8 +1849,8 @@
       "description": "公园只是一张钢笔速写，风把草帽吹到哪里，哪里才有颜色。",
       "fit": "生活记录、城市速写",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L23_钢笔淡彩.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L23_钢笔淡彩.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L23_urban-sketch-pen-and-wash.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L23_urban-sketch-pen-and-wash.jpg"
     },
     {
       "id": "L24",
@@ -1860,8 +1860,8 @@
       "description": "十日炙烤大地，后羿张弓射日。",
       "fit": "讲故事，和 M12 一起看",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L24_皮影戏.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L24_皮影戏.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L24_shadow-puppetry.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L24_shadow-puppetry.jpg"
     },
     {
       "id": "L25",
@@ -1871,8 +1871,8 @@
       "description": "旅人走向远山，每个镜头都是一幅版画；巨浪是高潮，结尾是远山与整幅画轴拉远。",
       "fit": "日式、海浪",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L25_浮世绘.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L25_浮世绘.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L25_ukiyo-e.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L25_ukiyo-e.jpg"
     },
     {
       "id": "L26",
@@ -1882,8 +1882,8 @@
       "description": "除夕年兽进村，小女孩剪出的大窗花照亮全村，把它吓跑。",
       "fit": "年味、中国风",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L26_红色窗花剪纸.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L26_红色窗花剪纸.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L26_red-paper-cut.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L26_red-paper-cut.jpg"
     },
     {
       "id": "L27",
@@ -1893,8 +1893,8 @@
       "description": "一枚月饼讲中秋的团圆与思念，纸雕灯箱层层透光。",
       "fit": "一层层透光，温暖",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L27_纸雕灯影.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L27_纸雕灯影.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L27_paper-cut-lightbox.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L27_paper-cut-lightbox.jpg"
     },
     {
       "id": "L28",
@@ -1904,8 +1904,8 @@
       "description": "周日早晨骑车穿过城市：面包店、公园、河边，每到一处加一版油墨，最后三版套印。",
       "fit": "杂志感、潮",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L28_Risograph 丝网印刷.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L28_Risograph 丝网印刷.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L28_risograph-print.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L28_risograph-print.jpg"
     },
     {
       "id": "L29",
@@ -1915,8 +1915,8 @@
       "description": "橘猫胖橘被立案审查：测试重力、凌晨跑酷，最后无罪释放。",
       "fit": "揭秘、档案",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L29_复古半调案卷.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L29_复古半调案卷.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L29_halftone-dossier.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L29_halftone-dossier.jpg"
     },
     {
       "id": "L30",
@@ -1926,8 +1926,8 @@
       "description": "村子用一整个冬天铸一口钟，钟声第一次响起，雪停了。",
       "fit": "粗犷、有力量",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L30_木刻版画.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L30_木刻版画.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L30_woodcut-print.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L30_woodcut-print.jpg"
     },
     {
       "id": "L31",
@@ -1937,8 +1937,8 @@
       "description": "一张博物志图版自己刻出来：雕刀推开铜版，蜜蜂一线线成形，最后手工水彩上色。",
       "fit": "精细，像老科普书插图",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L31_铜版画.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L31_铜版画.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L31_copperplate-engraving.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L31_copperplate-engraving.jpg"
     },
     {
       "id": "L32",
@@ -1948,8 +1948,8 @@
       "description": "三条步道各一张丝印海报，一色一刮印出来，再沿山脊一镜到底从正午爬到黄昏。",
       "fit": "海报、标题、封面",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L32_丝印旅行海报.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L32_丝印旅行海报.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L32_silkscreen-travel-poster.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L32_silkscreen-travel-poster.jpg"
     },
     {
       "id": "L33",
@@ -1959,8 +1959,8 @@
       "description": "一张音乐会海报按瑞士设计的五条规则自己排版，第五条是只打破一条。",
       "fit": "干净的文字排版",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L33_瑞士动态排版.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L33_瑞士动态排版.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L33_swiss-motion-graphics.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L33_swiss-motion-graphics.jpg"
     },
     {
       "id": "L34",
@@ -1970,8 +1970,8 @@
       "description": "虚构 1964 年间谍片的片头：追一把被偷的钥匙，几何碎片最后拼成片名。",
       "fit": "片头、悬念",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L34_60s 间谍片头.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L34_60s 间谍片头.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L34_60s-spy-title-sequence.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L34_60s-spy-title-sequence.jpg"
     },
     {
       "id": "L35",
@@ -1981,8 +1981,8 @@
       "description": "1930 年的大饭店，门童赶在午夜前把一封信送上顶楼。",
       "fit": "华丽",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L35_装饰艺术.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L35_装饰艺术.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L35_art-deco.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L35_art-deco.jpg"
     },
     {
       "id": "L36",
@@ -1992,8 +1992,8 @@
       "description": "发明家的蓝图自己画出一台接云机器，修订云线变成了真的雨云。",
       "fit": "讲原理、讲结构",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L36_蓝图 · 工程制图.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L36_蓝图 · 工程制图.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L36_blueprint.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L36_blueprint.jpg"
     },
     {
       "id": "L37",
@@ -2003,8 +2003,8 @@
       "description": "阳光从清晨移到黄昏，照到哪一格花窗，哪一格的故事就动起来。",
       "fit": "光、庄重",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L37_彩色玻璃窗.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L37_彩色玻璃窗.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L37_stained-glass.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L37_stained-glass.jpg"
     },
     {
       "id": "L38",
@@ -2014,8 +2014,8 @@
       "description": "2026 亚运会 43 个大项，几何象形人卡着节拍快闪。",
       "fit": "小图标卡点，讲步骤、讲数字",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L38_象形运动图形.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L38_象形运动图形.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L38_pictogram-motion.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L38_pictogram-motion.jpg"
     },
     {
       "id": "L39",
@@ -2025,8 +2025,8 @@
       "description": "月球基地的 AI 沉睡 40 年后被唤醒，用字符画出“家”来回复。",
       "fit": "讲代码、讲 AI，和样片库 E3 字符画一起看",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L39_ASCII · CRT 终端.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L39_ASCII · CRT 终端.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L39_ascii-crt-terminal.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L39_ascii-crt-terminal.jpg"
     },
     {
       "id": "L40",
@@ -2036,8 +2036,8 @@
       "description": "一百年的夏季气温，图表本身就是故事。",
       "fit": "用图表讲故事",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L40_数据叙事.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L40_数据叙事.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L40_data-storytelling.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L40_data-storytelling.jpg"
     },
     {
       "id": "L41",
@@ -2047,8 +2047,8 @@
       "description": "一杯咖啡从种植园到你手里的旅程。",
       "fit": "一个小世界、一套流程",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L41_等距信息图.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L41_等距信息图.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L41_isometric-infographic.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L41_isometric-infographic.jpg"
     },
     {
       "id": "L42",
@@ -2058,8 +2058,8 @@
       "description": "虚构 app Tidy 的发布片：被埋掉的光标一键把几百个窗口归位。",
       "fit": "发布会感",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L42_暗色科技发布.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L42_暗色科技发布.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L42_dark-tech-keynote.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L42_dark-tech-keynote.jpg"
     },
     {
       "id": "L43",
@@ -2069,8 +2069,8 @@
       "description": "像素小人 Clawd 搬进 Claude 应用，一镜到底演示 Plan 模式和自检。",
       "fit": "录屏加一个动画角色，演示\"我\"怎么用 AI 工具",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L43_活体实机录屏.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L43_活体实机录屏.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L43_living-screencast.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L43_living-screencast.jpg"
     },
     {
       "id": "L44",
@@ -2080,8 +2080,8 @@
       "description": "电助力车被扫描成全息线框，目标框依次锁定电池、电机、刹车。",
       "fit": "未来感",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L44_科幻全息界面.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L44_科幻全息界面.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L44_sci-fi-hologram-hud.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L44_sci-fi-hologram-hud.jpg"
     },
     {
       "id": "L45",
@@ -2091,8 +2091,8 @@
       "description": "一只咖啡杯满厨房追一块逃跑的方糖。",
       "fit": "复古卡通、搞笑",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L45_1930s 橡皮管卡通.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L45_1930s 橡皮管卡通.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L45_1930s-rubber-hose-cartoon.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L45_1930s-rubber-hose-cartoon.jpg"
     },
     {
       "id": "L46",
@@ -2102,8 +2102,8 @@
       "description": "快递少女骑车穿过雨后霓虹都市，赶在黎明发射前送到一盘磁带。",
       "fit": "霓虹城市、怀旧",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L46_80 年代赛璐璐动画.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L46_80 年代赛璐璐动画.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L46_80s-cel-anime.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L46_80s-cel-anime.jpg"
     },
     {
       "id": "L47",
@@ -2113,8 +2113,8 @@
       "description": "厌世天才开传送门只想买杯咖啡，却穿过越来越离谱的平行宇宙。",
       "fit": "轻松搞笑",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L47_科幻情景喜剧卡通.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L47_科幻情景喜剧卡通.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L47_sci-fi-sitcom-toon.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L47_sci-fi-sitcom-toon.jpg"
     },
     {
       "id": "L48",
@@ -2124,8 +2124,8 @@
       "description": "用 50 年代教育片的口吻，三步教你装好一台扫地机。",
       "fit": "老科普片的感觉，感知科普很合适",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L48_50s 扁平卡通.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L48_50s 扁平卡通.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L48_mid-century-cartoon.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L48_mid-century-cartoon.jpg"
     },
     {
       "id": "L49",
@@ -2135,8 +2135,8 @@
       "description": "勇士在最终 Boss 门前存档，存档画面闪回一路冒险。",
       "fit": "学习像打怪升级",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L49_16-bit 像素 RPG.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L49_16-bit 像素 RPG.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L49_16-bit-pixel-rpg.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L49_16-bit-pixel-rpg.jpg"
     },
     {
       "id": "L50",
@@ -2146,8 +2146,8 @@
       "description": "灯塔熄灭，孙女提着最后一簇火穿过夜林、爬上风暴悬崖。",
       "fit": "像素加光影，有电影感",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L50_HD-2D.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L50_HD-2D.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L50_hd-2d.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L50_hd-2d.jpg"
     },
     {
       "id": "L51",
@@ -2157,8 +2157,8 @@
       "description": "见习宇航员闯五秒训练营，越来越快，Boss 关亲手降落回地球。",
       "fit": "快节奏，一连串小场景",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L51_微游戏快闪.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L51_微游戏快闪.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L51_microgame-frenzy.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L51_microgame-frenzy.jpg"
     },
     {
       "id": "L52",
@@ -2168,8 +2168,8 @@
       "description": "把 AI 发展史做成一局节奏游戏，模型踩着拍登场，最后发成绩单。",
       "fit": "综艺感",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L52_综艺节奏扁平.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L52_综艺节奏扁平.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L52_game-show-flat.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L52_game-show-flat.jpg"
     },
     {
       "id": "L53",
@@ -2179,8 +2179,8 @@
       "description": "面包店学徒追一个滚走的面包，最后掰成两半分给饿肚子的小女孩。",
       "fit": "字幕卡、怀旧",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L53_1920s 默片.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L53_1920s 默片.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L53_1920s-silent-film.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L53_1920s-silent-film.jpg"
     },
     {
       "id": "L54",
@@ -2190,8 +2190,8 @@
       "description": "新夜班员工拍下入职第一晚：无尽的黄色办公空间，和墙上的员工守则。",
       "fit": "不安、对未知的害怕",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L54_后室 · 新怪谈.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L54_后室 · 新怪谈.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L54_liminal-found-footage.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L54_liminal-found-footage.jpg"
     },
     {
       "id": "L55",
@@ -2201,8 +2201,8 @@
       "description": "积木宇航员用零件拼出火箭，飞向积木月亮。",
       "fit": "一块块搭，\"搭自己的系统\"",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L55_积木玩具.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L55_积木玩具.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L55_brick-toy.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L55_brick-toy.jpg"
     },
     {
       "id": "L56",
@@ -2212,8 +2212,8 @@
       "description": "立体书在书桌上打开，小精灵 Pip 在纸片世界冒险，最后跳出书外。",
       "fit": "翻书讲故事",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L56_纸片立体书.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L56_纸片立体书.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L56_paper-pop-up-book.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L56_paper-pop-up-book.jpg"
     },
     {
       "id": "L57",
@@ -2223,8 +2223,8 @@
       "description": "玩具城的早高峰，一切都像模型。",
       "fit": "小人国，俯看日常生活",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L57_移轴微缩.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L57_移轴微缩.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L57_tilt-shift-miniature.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L57_tilt-shift-miniature.jpg"
     },
     {
       "id": "L58",
@@ -2234,8 +2234,8 @@
       "description": "空海里一格格长出小岛和村庄，每放一块响一个音符，直到星空。",
       "fit": "小岛、小世界",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L58_低多边形等距.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L58_低多边形等距.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L58_low-poly-isometric-island.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L58_low-poly-isometric-island.jpg"
     },
     {
       "id": "L59",
@@ -2245,8 +2245,8 @@
       "description": "虚构玻璃耳机 Aura 的开箱与特写。",
       "fit": "高级的产品感",
       "tags": [],
-      "file": "assets/library/风格提示词/L_Lemo-Opuscar/L59_玻璃质感产品.md",
-      "image": "assets/library/风格提示词/L_Lemo-Opuscar/L59_玻璃质感产品.jpg"
+      "file": "assets/library/style-prompts/L_Lemo-Opuscar/L59_glass-product-render.md",
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L59_glass-product-render.jpg"
     },
     {
       "id": "V1",
@@ -2256,7 +2256,7 @@
       "description": "",
       "fit": "手绘感，温暖",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V1_逐帧手绘 · 抖动线条.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V1_frame-by-frame-line-boil.md",
       "image": ""
     },
     {
@@ -2267,7 +2267,7 @@
       "description": "",
       "fit": "一个小世界慢慢长出来",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V2_等距 2.5D.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V2_isometric-2-5d.md",
       "image": ""
     },
     {
@@ -2278,7 +2278,7 @@
       "description": "",
       "fit": "扁平的\"我\"（K1）",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V3_扁平矢量.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V3_flat-vector.md",
       "image": ""
     },
     {
@@ -2289,7 +2289,7 @@
       "description": "",
       "fit": "一条线画下去",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V4_线条画.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V4_line-art.md",
       "image": ""
     },
     {
@@ -2300,7 +2300,7 @@
       "description": "",
       "fit": "柔和的 3D，要装 Blender",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V5_3D 渲染.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V5_3d-render.md",
       "image": ""
     },
     {
@@ -2311,7 +2311,7 @@
       "description": "",
       "fit": "一个形状接连变成 6–8 个有意义的图标，比如咖啡杯→太阳→海上日落→海鸥→纸飞机→定位针→心，和 M38 一起看",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V6_形变.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V6_shape-morph.md",
       "image": ""
     },
     {
@@ -2322,7 +2322,7 @@
       "description": "",
       "fit": "轻松的讲解",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V7_贴纸讲解.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V7_sticker-explainer.md",
       "image": ""
     },
     {
@@ -2333,7 +2333,7 @@
       "description": "",
       "fit": "科幻界面",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V8_赛博朋克界面.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V8_cyberpunk-hud-fui.md",
       "image": ""
     },
     {
@@ -2344,7 +2344,7 @@
       "description": "",
       "fit": "剪报、回忆",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V9_拼贴 · 剪贴.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V9_collage-cut-out.md",
       "image": ""
     },
     {
@@ -2355,7 +2355,7 @@
       "description": "",
       "fit": "柔和发光，安静的段落",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V10_极光与毛玻璃.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V10_aurora-and-glassmorphism.md",
       "image": ""
     },
     {
@@ -2366,7 +2366,7 @@
       "description": "",
       "fit": "几何、设计感",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V11_包豪斯几何.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V11_geometric-bauhaus.md",
       "image": ""
     },
     {
@@ -2377,7 +2377,7 @@
       "description": "",
       "fit": "复古霓虹、录像带",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V12_80 年代合成波 · VHS.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V12_80s-synthwave-vhs.md",
       "image": ""
     },
     {
@@ -2388,7 +2388,7 @@
       "description": "",
       "fit": "回忆、游戏感",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V13_像素.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V13_pixel-art.md",
       "image": ""
     },
     {
@@ -2399,7 +2399,7 @@
       "description": "",
       "fit": "柔软的转场、情绪流动",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V14_液态流动.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V14_liquid-motion.md",
       "image": ""
     },
     {
@@ -2410,7 +2410,7 @@
       "description": "",
       "fit": "9:16 竖屏的综艺花字，竖屏版字幕可以参考",
       "tags": [],
-      "file": "assets/library/风格提示词/V_mg-styles-15/V15_综艺花字.md",
+      "file": "assets/library/style-prompts/V_mg-styles-15/V15_variety-captions.md",
       "image": ""
     },
     {
@@ -2421,7 +2421,7 @@
       "description": "",
       "fit": "讲解、记录",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X1_手绘.md",
+      "file": "assets/library/style-prompts/X_code-video/X1_hand-drawn.md",
       "image": ""
     },
     {
@@ -2432,7 +2432,7 @@
       "description": "",
       "fit": "频道片头",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X2_品牌动态图形.md",
+      "file": "assets/library/style-prompts/X_code-video/X2_brand-motion-graphics.md",
       "image": ""
     },
     {
@@ -2443,7 +2443,7 @@
       "description": "",
       "fit": "回忆、情绪，感受讲解很合适",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X3_沙画.md",
+      "file": "assets/library/style-prompts/X_code-video/X3_sand-art.md",
       "image": ""
     },
     {
@@ -2454,7 +2454,7 @@
       "description": "",
       "fit": "金句、配乐段",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X4_歌词 MV.md",
+      "file": "assets/library/style-prompts/X_code-video/X4_lyric-music-video.md",
       "image": ""
     },
     {
@@ -2465,7 +2465,7 @@
       "description": "",
       "fit": "快剪",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X5_卡点素材剪辑.md",
+      "file": "assets/library/style-prompts/X_code-video/X5_beat-synced-footage.md",
       "image": ""
     },
     {
@@ -2476,7 +2476,7 @@
       "description": "",
       "fit": "演示工具",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X6_界面形变.md",
+      "file": "assets/library/style-prompts/X_code-video/X6_ui-morph.md",
       "image": ""
     },
     {
@@ -2487,7 +2487,7 @@
       "description": "",
       "fit": "热血、转折",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X7_英雄漫画.md",
+      "file": "assets/library/style-prompts/X_code-video/X7_hero-comic.md",
       "image": ""
     },
     {
@@ -2498,7 +2498,7 @@
       "description": "",
       "fit": "记录这三个月",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X8_手账剪贴本.md",
+      "file": "assets/library/style-prompts/X_code-video/X8_scrapbook.md",
       "image": ""
     },
     {
@@ -2509,7 +2509,7 @@
       "description": "",
       "fit": "回忆、拼凑",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X9_撕纸拼贴.md",
+      "file": "assets/library/style-prompts/X_code-video/X9_torn-paper-collage.md",
       "image": ""
     },
     {
@@ -2520,7 +2520,7 @@
       "description": "",
       "fit": "氛围",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X10_粒子.md",
+      "file": "assets/library/style-prompts/X_code-video/X10_particles.md",
       "image": ""
     },
     {
@@ -2531,7 +2531,7 @@
       "description": "",
       "fit": "机场那种翻牌，适合标题和数字",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X11_翻牌显示板.md",
+      "file": "assets/library/style-prompts/X_code-video/X11_split-flap-board.md",
       "image": ""
     },
     {
@@ -2542,7 +2542,7 @@
       "description": "",
       "fit": "金句",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X12_霓虹灯牌.md",
+      "file": "assets/library/style-prompts/X_code-video/X12_neon-sign.md",
       "image": ""
     },
     {
@@ -2553,7 +2553,7 @@
       "description": "",
       "fit": "游戏感",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X13_16-bit 街机.md",
+      "file": "assets/library/style-prompts/X_code-video/X13_16-bit-arcade.md",
       "image": ""
     },
     {
@@ -2564,7 +2564,7 @@
       "description": "",
       "fit": "讲代码、讲 AI",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X14_CRT 终端.md",
+      "file": "assets/library/style-prompts/X_code-video/X14_crt-terminal.md",
       "image": ""
     },
     {
@@ -2575,7 +2575,7 @@
       "description": "",
       "fit": "清单、\"算一笔账\"",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X15_热敏小票.md",
+      "file": "assets/library/style-prompts/X_code-video/X15_thermal-receipt.md",
       "image": ""
     },
     {
@@ -2586,7 +2586,7 @@
       "description": "",
       "fit": "讲一路怎么走过来的，适合 04 段",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X16_地铁线路图.md",
+      "file": "assets/library/style-prompts/X_code-video/X16_transit-map.md",
       "image": ""
     },
     {
@@ -2597,7 +2597,7 @@
       "description": "",
       "fit": "讲结构",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X17_蓝图.md",
+      "file": "assets/library/style-prompts/X_code-video/X17_blueprint.md",
       "image": ""
     },
     {
@@ -2608,7 +2608,7 @@
       "description": "",
       "fit": "分格讲故事",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X18_漫画书.md",
+      "file": "assets/library/style-prompts/X_code-video/X18_comic-book-issue.md",
       "image": ""
     },
     {
@@ -2619,7 +2619,7 @@
       "description": "",
       "fit": "认真讲一件事",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X19_纪录片.md",
+      "file": "assets/library/style-prompts/X_code-video/X19_documentary.md",
       "image": ""
     },
     {
@@ -2630,7 +2630,7 @@
       "description": "",
       "fit": "把东西一件件摆出来讲",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X20_博物馆展览.md",
+      "file": "assets/library/style-prompts/X_code-video/X20_museum-exhibit.md",
       "image": ""
     },
     {
@@ -2641,7 +2641,7 @@
       "description": "",
       "fit": "快讯开场",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X21_突发新闻.md",
+      "file": "assets/library/style-prompts/X_code-video/X21_breaking-news.md",
       "image": ""
     },
     {
@@ -2652,7 +2652,7 @@
       "description": "",
       "fit": "把线索连起来，科普推理",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X22_侦探线索板.md",
+      "file": "assets/library/style-prompts/X_code-video/X22_detective-board.md",
       "image": ""
     },
     {
@@ -2663,7 +2663,7 @@
       "description": "",
       "fit": "温暖地讲故事",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X23_绘本.md",
+      "file": "assets/library/style-prompts/X_code-video/X23_picture-storybook.md",
       "image": ""
     },
     {
@@ -2674,7 +2674,7 @@
       "description": "",
       "fit": "学习像做任务",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X24_RPG 任务.md",
+      "file": "assets/library/style-prompts/X_code-video/X24_rpg-quest.md",
       "image": ""
     },
     {
@@ -2685,7 +2685,7 @@
       "description": "",
       "fit": "用天气讲情绪，感受讲解很合适",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X25_天气预报.md",
+      "file": "assets/library/style-prompts/X_code-video/X25_weather-forecast.md",
       "image": ""
     },
     {
@@ -2696,7 +2696,7 @@
       "description": "",
       "fit": "讽刺卖课的，06 段可以试",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X26_电视购物.md",
+      "file": "assets/library/style-prompts/X_code-video/X26_home-shopping-infomercial.md",
       "image": ""
     },
     {
@@ -2707,7 +2707,7 @@
       "description": "",
       "fit": "解说感",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X27_体育直播.md",
+      "file": "assets/library/style-prompts/X_code-video/X27_sports-broadcast.md",
       "image": ""
     },
     {
@@ -2718,7 +2718,7 @@
       "description": "",
       "fit": "讲步骤，宜家说明书那种",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X28_组装说明书.md",
+      "file": "assets/library/style-prompts/X_code-video/X28_assembly-manual.md",
       "image": ""
     },
     {
@@ -2729,7 +2729,7 @@
       "description": "",
       "fit": "讲道理",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X29_白板讲课.md",
+      "file": "assets/library/style-prompts/X_code-video/X29_whiteboard-lecture.md",
       "image": ""
     },
     {
@@ -2740,7 +2740,7 @@
       "description": "",
       "fit": "下期预告、频道预告，11 段可以试",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X30_电影预告片.md",
+      "file": "assets/library/style-prompts/X_code-video/X30_movie-trailer.md",
       "image": ""
     },
     {
@@ -2751,7 +2751,7 @@
       "description": "",
       "fit": "一步步推出结论",
       "tags": [],
-      "file": "assets/library/风格提示词/X_code-video/X31_数学证明讲课.md",
+      "file": "assets/library/style-prompts/X_code-video/X31_math-proof-lecture.md",
       "image": ""
     },
     {
@@ -2762,8 +2762,8 @@
       "description": "一点透视的雨夜窄街，两边挂满竖招牌，青色的雾越远越浓，街尽头一团暖光；湿地面上的倒影占了半个画面。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R1_霓虹雨夜 · 电影感.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R1_霓虹雨夜 · 电影感.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R1_cinematic-neon-rain.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R1_cinematic-neon-rain.jpg"
     },
     {
       "id": "R2",
@@ -2773,8 +2773,8 @@
       "description": "赛璐珞画的人和车在夜里的高架上飞驰，仰着看的高楼，尾灯拖出两条光带，整片像老录像带放出来的。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R2_80–90 年代复古日漫.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R2_80–90 年代复古日漫.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R2_80s-90s-retro-anime.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R2_80s-90s-retro-anime.jpg"
     },
     {
       "id": "R3",
@@ -2784,8 +2784,8 @@
       "description": "黄底，品红和青的闪电劈开画面，网点、喷漆、往外炸的速度线；粗黑描边的人一拳打出画面，旁边一个大拟声字。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R3_美式漫画 · 潮流涂鸦.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R3_美式漫画 · 潮流涂鸦.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R3_american-comic-street-graffiti.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R3_american-comic-street-graffiti.jpg"
     },
     {
       "id": "R4",
@@ -2795,8 +2795,8 @@
       "description": "几乎只有绿；巨大的机械结构一层层叠进雾里，远处一个大圆环，顶上漏下光柱；走道上一个穿红衣、背着包的小人背对镜头。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R4_末日工业 · 暗黑科幻.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R4_末日工业 · 暗黑科幻.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R4_apocalyptic-industrial-sci-fi.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R4_apocalyptic-industrial-sci-fi.jpg"
     },
     {
       "id": "R5",
@@ -2806,8 +2806,8 @@
       "description": "俯看一条满是招牌的街，天桥横过去，街尽头一块\"不夜城\"大屏，打伞的人、小车、飞车，下着像素雨。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R5_像素赛博 · 复古游戏.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R5_像素赛博 · 复古游戏.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R5_pixel-cyber-retro-game.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R5_pixel-cyber-retro-game.jpg"
     },
     {
       "id": "R6",
@@ -2817,8 +2817,8 @@
       "description": "纸色的天，一轮大红日头，一行鹤飞过；水边一座五层飞檐楼阁，身上挂着\"不夜城\"\"酒家\"霓虹竖招牌和一块屏，塔尖套着青色的全息光环；后面是淡墨的未来塔楼和山，电缆上挂着一串串小红灯笼；水上一叶小船、一个戴斗笠的人，倒影像水墨一样化开。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R6_东方赛博 · 国风幻想.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R6_东方赛博 · 国风幻想.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.jpg"
     },
     {
       "id": "R7",
@@ -2828,8 +2828,8 @@
       "description": "黄昏的大渐变天，三层平涂的城市剪影，屋顶上一块\"夜城\"大霓虹字，一个人和一只猫坐在楼边，后面一列轻轨开过。",
       "fit": "",
       "tags": [],
-      "file": "assets/library/风格提示词/R_照参考学来的/R7_扁平插画 · 黄昏屋顶.md",
-      "image": "assets/library/风格提示词/R_照参考学来的/R7_扁平插画 · 黄昏屋顶.jpg"
+      "file": "assets/library/style-prompts/R_learned-from-references/R7_flat-illustration-dusk-rooftop.md",
+      "image": "assets/library/style-prompts/R_learned-from-references/R7_flat-illustration-dusk-rooftop.jpg"
     },
     {
       "id": "O1",
@@ -2841,8 +2841,8 @@
       "tags": [
         "3D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O1_翼.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O1_翼.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O1_wings.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O1_wings.jpg"
     },
     {
       "id": "O2",
@@ -2854,8 +2854,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O2_百老汇旋律.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O2_百老汇旋律.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O2_the-broadway-melody.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O2_the-broadway-melody.jpg"
     },
     {
       "id": "O3",
@@ -2867,8 +2867,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O3_西线无战事.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O3_西线无战事.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O3_all-quiet-on-the-western-front.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O3_all-quiet-on-the-western-front.jpg"
     },
     {
       "id": "O4",
@@ -2880,8 +2880,8 @@
       "tags": [
         "2D·Sepia"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O4_壮志千秋.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O4_壮志千秋.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O4_cimarron.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O4_cimarron.jpg"
     },
     {
       "id": "O5",
@@ -2893,8 +2893,8 @@
       "tags": [
         "3D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O5_大饭店.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O5_大饭店.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O5_grand-hotel.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O5_grand-hotel.jpg"
     },
     {
       "id": "O6",
@@ -2906,8 +2906,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O6_乱世春秋.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O6_乱世春秋.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O6_cavalcade.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O6_cavalcade.jpg"
     },
     {
       "id": "O7",
@@ -2919,8 +2919,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O7_一夜风流.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O7_一夜风流.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O7_it-happened-one-night.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O7_it-happened-one-night.jpg"
     },
     {
       "id": "O8",
@@ -2932,8 +2932,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O8_叛舰喋血记.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O8_叛舰喋血记.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O8_mutiny-on-the-bounty.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O8_mutiny-on-the-bounty.jpg"
     },
     {
       "id": "O9",
@@ -2945,8 +2945,8 @@
       "tags": [
         "3D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O9_歌舞大王齐格飞.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O9_歌舞大王齐格飞.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O9_the-great-ziegfeld.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O9_the-great-ziegfeld.jpg"
     },
     {
       "id": "O10",
@@ -2958,8 +2958,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O10_左拉传.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O10_左拉传.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O10_the-life-of-emile-zola.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O10_the-life-of-emile-zola.jpg"
     },
     {
       "id": "O11",
@@ -2971,8 +2971,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O11_浮生若梦.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O11_浮生若梦.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O11_you-cant-take-it-with-you.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O11_you-cant-take-it-with-you.jpg"
     },
     {
       "id": "O12",
@@ -2984,8 +2984,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O12_乱世佳人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O12_乱世佳人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O12_gone-with-the-wind.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O12_gone-with-the-wind.jpg"
     },
     {
       "id": "O13",
@@ -2997,8 +2997,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O13_蝴蝶梦.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O13_蝴蝶梦.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O13_rebecca.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O13_rebecca.jpg"
     },
     {
       "id": "O14",
@@ -3010,8 +3010,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O14_青山翠谷.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O14_青山翠谷.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O14_how-green-was-my-valley.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O14_how-green-was-my-valley.jpg"
     },
     {
       "id": "O15",
@@ -3023,8 +3023,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O15_忠勇之家.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O15_忠勇之家.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O15_mrs-miniver.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O15_mrs-miniver.jpg"
     },
     {
       "id": "O16",
@@ -3036,8 +3036,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O16_卡萨布兰卡.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O16_卡萨布兰卡.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O16_casablanca.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O16_casablanca.jpg"
     },
     {
       "id": "O17",
@@ -3049,8 +3049,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O17_与我同行.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O17_与我同行.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O17_going-my-way.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O17_going-my-way.jpg"
     },
     {
       "id": "O18",
@@ -3062,8 +3062,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O18_失去的周末.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O18_失去的周末.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O18_the-lost-weekend.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O18_the-lost-weekend.jpg"
     },
     {
       "id": "O19",
@@ -3075,8 +3075,8 @@
       "tags": [
         "2.5D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O19_黄金时代.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O19_黄金时代.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O19_the-best-years-of-our-lives.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O19_the-best-years-of-our-lives.jpg"
     },
     {
       "id": "O20",
@@ -3088,8 +3088,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O20_君子协定.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O20_君子协定.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O20_gentlemans-agreement.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O20_gentlemans-agreement.jpg"
     },
     {
       "id": "O21",
@@ -3101,8 +3101,8 @@
       "tags": [
         "3D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O21_王子复仇记.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O21_王子复仇记.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O21_hamlet.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O21_hamlet.jpg"
     },
     {
       "id": "O22",
@@ -3114,8 +3114,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O22_国王班底.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O22_国王班底.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O22_all-the-kings-men.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O22_all-the-kings-men.jpg"
     },
     {
       "id": "O23",
@@ -3127,8 +3127,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O23_彗星美人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O23_彗星美人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O23_all-about-eve.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O23_all-about-eve.jpg"
     },
     {
       "id": "O24",
@@ -3140,8 +3140,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O24_一个美国人在巴黎.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O24_一个美国人在巴黎.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O24_an-american-in-paris.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O24_an-american-in-paris.jpg"
     },
     {
       "id": "O25",
@@ -3153,8 +3153,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O25_戏王之王.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O25_戏王之王.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O25_the-greatest-show-on-earth.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O25_the-greatest-show-on-earth.jpg"
     },
     {
       "id": "O26",
@@ -3166,8 +3166,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O26_乱世忠魂.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O26_乱世忠魂.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O26_from-here-to-eternity.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O26_from-here-to-eternity.jpg"
     },
     {
       "id": "O27",
@@ -3179,8 +3179,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O27_码头风云.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O27_码头风云.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O27_on-the-waterfront.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O27_on-the-waterfront.jpg"
     },
     {
       "id": "O28",
@@ -3192,8 +3192,8 @@
       "tags": [
         "2D (B&W screen)"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O28_君子好逑.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O28_君子好逑.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O28_marty.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O28_marty.jpg"
     },
     {
       "id": "O29",
@@ -3205,8 +3205,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O29_环游地球八十天.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O29_环游地球八十天.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O29_around-the-world-in-80-days.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O29_around-the-world-in-80-days.jpg"
     },
     {
       "id": "O30",
@@ -3218,8 +3218,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O30_桂河大桥.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O30_桂河大桥.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O30_the-bridge-on-the-river-kwai.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O30_the-bridge-on-the-river-kwai.jpg"
     },
     {
       "id": "O31",
@@ -3231,8 +3231,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O31_金粉世界.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O31_金粉世界.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O31_gigi.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O31_gigi.jpg"
     },
     {
       "id": "O32",
@@ -3244,8 +3244,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O32_宾虚.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O32_宾虚.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O32_ben-hur.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O32_ben-hur.jpg"
     },
     {
       "id": "O33",
@@ -3257,8 +3257,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O33_桃色公寓.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O33_桃色公寓.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O33_the-apartment.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O33_the-apartment.jpg"
     },
     {
       "id": "O34",
@@ -3270,8 +3270,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O34_西区故事.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O34_西区故事.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O34_west-side-story.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O34_west-side-story.jpg"
     },
     {
       "id": "O35",
@@ -3283,8 +3283,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O35_阿拉伯的劳伦斯.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O35_阿拉伯的劳伦斯.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O35_lawrence-of-arabia.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O35_lawrence-of-arabia.jpg"
     },
     {
       "id": "O36",
@@ -3296,8 +3296,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O36_汤姆·琼斯.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O36_汤姆·琼斯.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O36_tom-jones.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O36_tom-jones.jpg"
     },
     {
       "id": "O37",
@@ -3309,8 +3309,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O37_窈窕淑女.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O37_窈窕淑女.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O37_my-fair-lady.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O37_my-fair-lady.jpg"
     },
     {
       "id": "O38",
@@ -3322,8 +3322,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O38_音乐之声.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O38_音乐之声.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O38_the-sound-of-music.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O38_the-sound-of-music.jpg"
     },
     {
       "id": "O39",
@@ -3335,8 +3335,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O39_日月精忠.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O39_日月精忠.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O39_a-man-for-all-seasons.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O39_a-man-for-all-seasons.jpg"
     },
     {
       "id": "O40",
@@ -3348,8 +3348,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O40_炎热的夜晚.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O40_炎热的夜晚.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O40_in-the-heat-of-the-night.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O40_in-the-heat-of-the-night.jpg"
     },
     {
       "id": "O41",
@@ -3361,8 +3361,8 @@
       "tags": [
         "2.5D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O41_雾都孤儿.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O41_雾都孤儿.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O41_oliver.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O41_oliver.jpg"
     },
     {
       "id": "O42",
@@ -3374,8 +3374,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O42_午夜牛郎.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O42_午夜牛郎.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O42_midnight-cowboy.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O42_midnight-cowboy.jpg"
     },
     {
       "id": "O43",
@@ -3387,8 +3387,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O43_巴顿将军.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O43_巴顿将军.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O43_patton.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O43_patton.jpg"
     },
     {
       "id": "O44",
@@ -3400,8 +3400,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O44_法国贩毒网.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O44_法国贩毒网.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O44_the-french-connection.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O44_the-french-connection.jpg"
     },
     {
       "id": "O45",
@@ -3413,8 +3413,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O45_教父.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O45_教父.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O45_the-godfather.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O45_the-godfather.jpg"
     },
     {
       "id": "O46",
@@ -3426,8 +3426,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O46_骗中骗.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O46_骗中骗.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O46_the-sting.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O46_the-sting.jpg"
     },
     {
       "id": "O47",
@@ -3439,8 +3439,8 @@
       "tags": [
         "2.5D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O47_教父2.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O47_教父2.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O47_the-godfather-part-ii.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O47_the-godfather-part-ii.jpg"
     },
     {
       "id": "O48",
@@ -3452,8 +3452,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O48_飞越疯人院.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O48_飞越疯人院.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O48_one-flew-over-the-cuckoos-nest.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O48_one-flew-over-the-cuckoos-nest.jpg"
     },
     {
       "id": "O49",
@@ -3465,8 +3465,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O49_洛奇.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O49_洛奇.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O49_rocky.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O49_rocky.jpg"
     },
     {
       "id": "O50",
@@ -3478,8 +3478,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O50_安妮·霍尔.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O50_安妮·霍尔.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O50_annie-hall.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O50_annie-hall.jpg"
     },
     {
       "id": "O51",
@@ -3491,8 +3491,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O51_猎鹿人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O51_猎鹿人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O51_the-deer-hunter.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O51_the-deer-hunter.jpg"
     },
     {
       "id": "O52",
@@ -3504,8 +3504,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O52_克莱默夫妇.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O52_克莱默夫妇.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O52_kramer-vs-kramer.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O52_kramer-vs-kramer.jpg"
     },
     {
       "id": "O53",
@@ -3517,8 +3517,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O53_普通人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O53_普通人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O53_ordinary-people.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O53_ordinary-people.jpg"
     },
     {
       "id": "O54",
@@ -3530,8 +3530,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O54_烈火战车.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O54_烈火战车.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O54_chariots-of-fire.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O54_chariots-of-fire.jpg"
     },
     {
       "id": "O55",
@@ -3543,8 +3543,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O55_甘地传.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O55_甘地传.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O55_gandhi.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O55_gandhi.jpg"
     },
     {
       "id": "O56",
@@ -3556,8 +3556,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O56_母女情深.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O56_母女情深.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O56_terms-of-endearment.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O56_terms-of-endearment.jpg"
     },
     {
       "id": "O57",
@@ -3569,8 +3569,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O57_莫扎特传.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O57_莫扎特传.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O57_amadeus.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O57_amadeus.jpg"
     },
     {
       "id": "O58",
@@ -3582,8 +3582,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O58_走出非洲.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O58_走出非洲.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O58_out-of-africa.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O58_out-of-africa.jpg"
     },
     {
       "id": "O59",
@@ -3595,8 +3595,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O59_野战排.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O59_野战排.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O59_platoon.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O59_platoon.jpg"
     },
     {
       "id": "O60",
@@ -3608,8 +3608,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O60_末代皇帝.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O60_末代皇帝.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O60_the-last-emperor.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O60_the-last-emperor.jpg"
     },
     {
       "id": "O61",
@@ -3621,8 +3621,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O61_雨人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O61_雨人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O61_rain-man.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O61_rain-man.jpg"
     },
     {
       "id": "O62",
@@ -3634,8 +3634,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O62_为黛西小姐开车.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O62_为黛西小姐开车.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O62_driving-miss-daisy.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O62_driving-miss-daisy.jpg"
     },
     {
       "id": "O63",
@@ -3647,8 +3647,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O63_与狼共舞.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O63_与狼共舞.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O63_dances-with-wolves.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O63_dances-with-wolves.jpg"
     },
     {
       "id": "O64",
@@ -3660,8 +3660,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O64_沉默的羔羊.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O64_沉默的羔羊.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O64_the-silence-of-the-lambs.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O64_the-silence-of-the-lambs.jpg"
     },
     {
       "id": "O65",
@@ -3673,8 +3673,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O65_不可饶恕.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O65_不可饶恕.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O65_unforgiven.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O65_unforgiven.jpg"
     },
     {
       "id": "O66",
@@ -3686,8 +3686,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O66_辛德勒的名单.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O66_辛德勒的名单.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O66_schindlers-list.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O66_schindlers-list.jpg"
     },
     {
       "id": "O67",
@@ -3699,8 +3699,8 @@
       "tags": [
         "2.5D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O67_阿甘正传.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O67_阿甘正传.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O67_forrest-gump.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O67_forrest-gump.jpg"
     },
     {
       "id": "O68",
@@ -3712,8 +3712,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O68_勇敢的心.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O68_勇敢的心.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O68_braveheart.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O68_braveheart.jpg"
     },
     {
       "id": "O69",
@@ -3725,8 +3725,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O69_英国病人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O69_英国病人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O69_the-english-patient.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O69_the-english-patient.jpg"
     },
     {
       "id": "O70",
@@ -3738,8 +3738,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O70_泰坦尼克号.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O70_泰坦尼克号.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O70_titanic.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O70_titanic.jpg"
     },
     {
       "id": "O71",
@@ -3751,8 +3751,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O71_莎翁情史.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O71_莎翁情史.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O71_shakespeare-in-love.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O71_shakespeare-in-love.jpg"
     },
     {
       "id": "O72",
@@ -3764,8 +3764,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O72_美国丽人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O72_美国丽人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O72_american-beauty.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O72_american-beauty.jpg"
     },
     {
       "id": "O73",
@@ -3777,8 +3777,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O73_角斗士.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O73_角斗士.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O73_gladiator.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O73_gladiator.jpg"
     },
     {
       "id": "O74",
@@ -3790,8 +3790,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O74_美丽心灵.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O74_美丽心灵.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O74_a-beautiful-mind.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O74_a-beautiful-mind.jpg"
     },
     {
       "id": "O75",
@@ -3803,8 +3803,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O75_芝加哥.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O75_芝加哥.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O75_chicago.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O75_chicago.jpg"
     },
     {
       "id": "O76",
@@ -3816,8 +3816,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O76_指环王：王者无敌.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O76_指环王：王者无敌.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O76_the-lord-of-the-rings-the-return-of-the-king.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O76_the-lord-of-the-rings-the-return-of-the-king.jpg"
     },
     {
       "id": "O77",
@@ -3829,8 +3829,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O77_百万美元宝贝.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O77_百万美元宝贝.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O77_million-dollar-baby.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O77_million-dollar-baby.jpg"
     },
     {
       "id": "O78",
@@ -3842,8 +3842,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O78_撞车.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O78_撞车.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O78_crash.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O78_crash.jpg"
     },
     {
       "id": "O79",
@@ -3855,8 +3855,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O79_无间行者.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O79_无间行者.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O79_the-departed.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O79_the-departed.jpg"
     },
     {
       "id": "O80",
@@ -3868,8 +3868,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O80_老无所依.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O80_老无所依.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O80_no-country-for-old-men.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O80_no-country-for-old-men.jpg"
     },
     {
       "id": "O81",
@@ -3881,8 +3881,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O81_贫民窟的百万富翁.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O81_贫民窟的百万富翁.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O81_slumdog-millionaire.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O81_slumdog-millionaire.jpg"
     },
     {
       "id": "O82",
@@ -3894,8 +3894,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O82_拆弹部队.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O82_拆弹部队.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O82_the-hurt-locker.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O82_the-hurt-locker.jpg"
     },
     {
       "id": "O83",
@@ -3907,8 +3907,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O83_国王的演讲.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O83_国王的演讲.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O83_the-kings-speech.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O83_the-kings-speech.jpg"
     },
     {
       "id": "O84",
@@ -3920,8 +3920,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O84_艺术家.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O84_艺术家.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O84_the-artist.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O84_the-artist.jpg"
     },
     {
       "id": "O85",
@@ -3933,8 +3933,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O85_逃离德黑兰.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O85_逃离德黑兰.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O85_argo.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O85_argo.jpg"
     },
     {
       "id": "O86",
@@ -3946,8 +3946,8 @@
       "tags": [
         "2D·B&W"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O86_为奴十二年.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O86_为奴十二年.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O86_12-years-a-slave.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O86_12-years-a-slave.jpg"
     },
     {
       "id": "O87",
@@ -3959,8 +3959,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O87_鸟人.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O87_鸟人.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O87_birdman.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O87_birdman.jpg"
     },
     {
       "id": "O88",
@@ -3972,8 +3972,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O88_聚焦.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O88_聚焦.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O88_spotlight.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O88_spotlight.jpg"
     },
     {
       "id": "O89",
@@ -3985,8 +3985,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O89_月光男孩.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O89_月光男孩.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O89_moonlight.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O89_moonlight.jpg"
     },
     {
       "id": "O90",
@@ -3998,8 +3998,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O90_水形物语.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O90_水形物语.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O90_the-shape-of-water.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O90_the-shape-of-water.jpg"
     },
     {
       "id": "O91",
@@ -4011,8 +4011,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O91_绿皮书.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O91_绿皮书.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O91_green-book.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O91_green-book.jpg"
     },
     {
       "id": "O92",
@@ -4024,8 +4024,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O92_寄生虫.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O92_寄生虫.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O92_parasite.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O92_parasite.jpg"
     },
     {
       "id": "O93",
@@ -4037,8 +4037,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O93_无依之地.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O93_无依之地.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O93_nomadland.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O93_nomadland.jpg"
     },
     {
       "id": "O94",
@@ -4050,8 +4050,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O94_健听女孩.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O94_健听女孩.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O94_coda.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O94_coda.jpg"
     },
     {
       "id": "O95",
@@ -4063,8 +4063,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O95_瞬息全宇宙.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O95_瞬息全宇宙.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O95_everything-everywhere-all-at-once.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O95_everything-everywhere-all-at-once.jpg"
     },
     {
       "id": "O96",
@@ -4076,8 +4076,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O96_奥本海默.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O96_奥本海默.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O96_oppenheimer.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O96_oppenheimer.jpg"
     },
     {
       "id": "O97",
@@ -4089,8 +4089,8 @@
       "tags": [
         "2D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O97_阿诺拉.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O97_阿诺拉.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O97_anora.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O97_anora.jpg"
     },
     {
       "id": "O98",
@@ -4102,8 +4102,8 @@
       "tags": [
         "3D"
       ],
-      "file": "assets/library/风格提示词/O_奥斯卡98部/O98_一战再战.md",
-      "image": "assets/library/风格提示词/O_奥斯卡98部/O98_一战再战.jpg"
+      "file": "assets/library/style-prompts/O_98-best-picture-winners/O98_one-battle-after-another.md",
+      "image": "assets/library/style-prompts/O_98-best-picture-winners/O98_one-battle-after-another.jpg"
     }
   ]
 }

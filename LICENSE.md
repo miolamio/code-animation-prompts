@@ -4,7 +4,7 @@
 
 ## 原素材的分享约定
 
-原始 [`说明.md`](skills/code-animation-prompts/assets/library/说明.md) 写明：
+原始 [`README.md`](skills/code-animation-prompts/assets/library/README.md) 写明：
 
 > 全部免费，不用私信，不用买课。
 >
@@ -18,11 +18,11 @@
 
 | 来源 | 原包中的许可 | 署名 |
 |---|---|---|
-| Lemo-Opuscar | [MIT 全文](skills/code-animation-prompts/assets/library/第三方许可/Lemo-Opuscar_LICENSE.txt) | Copyright (c) 2026 LemoLab |
-| mg-styles-15 | [MIT 全文](skills/code-animation-prompts/assets/library/第三方许可/mg-styles-15_LICENSE.txt) | Copyright (c) 2026 Vincentwei1021 |
-| code-video | [MIT 全文](skills/code-animation-prompts/assets/library/第三方许可/code-video_LICENSE.txt) | Copyright (c) 2026 Bae-ChangHyun |
+| Lemo-Opuscar | [MIT 全文](skills/code-animation-prompts/assets/library/third-party-licenses/Lemo-Opuscar_LICENSE.txt) | Copyright (c) 2026 LemoLab |
+| mg-styles-15 | [MIT 全文](skills/code-animation-prompts/assets/library/third-party-licenses/mg-styles-15_LICENSE.txt) | Copyright (c) 2026 Vincentwei1021 |
+| code-video | [MIT 全文](skills/code-animation-prompts/assets/library/third-party-licenses/code-video_LICENSE.txt) | Copyright (c) 2026 Bae-ChangHyun |
 
-这些第三方文件保留原许可，本说明不变更第三方许可授予的权利。整个混合来源合集不统一标注为 MIT。各条目的具体来源以原始文件与 [`许可与来源.md`](skills/code-animation-prompts/assets/library/许可与来源.md) 为准。
+这些第三方文件保留原许可，本说明不变更第三方许可授予的权利。整个混合来源合集不统一标注为 MIT。各条目的具体来源以原始文件与 [`licenses-and-sources.md`](skills/code-animation-prompts/assets/library/licenses-and-sources.md) 为准。
 
 ## 仓库维护与署名
 

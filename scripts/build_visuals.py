@@ -51,7 +51,7 @@ def main():
             page.evaluate("document.fonts.ready")
             page.locator("img").evaluate_all("imgs => Promise.all(imgs.map(i => i.decode()))")
             page.locator("body").screenshot(path=str(OUT / f"{name}.png"))
-        page.goto((SKILL / "assets/library/风格挑选.html").as_uri())
+        page.goto((SKILL / "assets/library/style-picker.html").as_uri())
         page.evaluate("document.fonts.ready")
         page.wait_for_timeout(800)
         page.screenshot(path=str(OUT / "style-picker.png"))
@@ -64,7 +64,7 @@ def main():
         return
     subprocess.run([
         "ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-ss", "3", "-t", "4",
-        "-i", str(SKILL / "assets/library/示例/B6_光速穿梭·爆炸·重聚_同一份提示词/Opus5.5_High.mp4"),
+        "-i", str(SKILL / "assets/library/examples/B6_warp-explode-reunite_same-prompt/Opus5.5_High.mp4"),
         "-filter_complex", "fps=10,scale=640:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96[p];[b][p]paletteuse=dither=none",
         "-loop", "0", str(OUT / "b6-preview.gif")
     ], check=True)
