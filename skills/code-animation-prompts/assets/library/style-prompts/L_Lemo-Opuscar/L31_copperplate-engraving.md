@@ -1,10 +1,10 @@
-# L31 铜版画（Copperplate Engraving）
+# L31 Copperplate Engraving
 
-- 分类：L Lemo-Opuscar · 印刷与版画
-- 长什么样：一张博物志图版自己刻出来：雕刀推开铜版，蜜蜂一线线成形，最后手工水彩上色。
-- 适合：精细，像老科普书插图
+- Category: L Lemo-Opuscar · Printing and printmaking
+- Looks like: A natural-history plate engraves itself: the burin pushes through the copperplate, a bee takes shape line by line, and it is finally colored by hand in watercolor.
+- Best for: Fine detail, like illustrations in old science books
 
-## 风格提示词
+## Style prompt
 
 # Copperplate Engraving — Style Prompt
 
@@ -128,8 +128,8 @@ Swapping `demo/content.json` and rebuilding is a technical check that the engine
 
 How our demo was made (story, shots, score, end card, build, content fields): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Honeybee, Plate VII

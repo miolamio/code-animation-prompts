@@ -1,9 +1,9 @@
-# X15 热敏小票（Thermal receipt）
+# X15 Thermal receipt
 
-- 分类：X code-video · code-video
-- 适合：清单、"算一笔账"
+- Category: X code-video · code-video
+- Best for: lists, "doing the math"
 
-## 风格提示词
+## Style prompt
 
 # Style: thermal receipt
 

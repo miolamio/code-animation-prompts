@@ -1,9 +1,9 @@
-# X3 沙画（Sand art）
+# X3 Sand art
 
-- 分类：X code-video · code-video
-- 适合：回忆、情绪，感受讲解很合适
+- Category: X code-video · code-video
+- Best for: memories, emotions; great for feelings explainers
 
-## 风格提示词
+## Style prompt
 
 # Style: sand art chronicle
 

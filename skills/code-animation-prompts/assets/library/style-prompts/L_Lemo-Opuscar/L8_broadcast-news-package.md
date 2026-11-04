@@ -1,10 +1,10 @@
-# L8 电视新闻包装（Broadcast News Package）
+# L8 Broadcast News Package
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：一周四条 AI 新闻，一整套电视台包装：串联单、标题条、翻牌价格表、规格卡。
-- 适合：新闻快讯式的开场
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: Four AI news stories a week in a full TV-station package: rundown, title strips, flip-card price table, spec cards.
+- Best for: News-flash style openings
 
-## 风格提示词
+## Style prompt
 
 # Broadcast News Package — Style Prompt
 
@@ -29,7 +29,7 @@ Not **Caption News** (that is captions-first social video: huge slammed captions
 | Lower-third strap | tab x 96 y 856, 48 high; strap x 96 y 904, 1250×104, + 120 px ink end block | category tab (accent, ink text, Chinese + English), headline in Chinese 50 px + one English line 27 px |
 | Source line | right-aligned at x 1836, y 950 / 978 | `SOURCE: …` mono 13 px + Chinese 16 px, 75 % opacity; English ≤ 36 characters or it slides under the strap's end block |
 | Channel bug | top right, plate centre (1739, 86), 0.327 of the sting plate | the plate plus `AI NEWS` |
-| Corner tag | top left x 96 y 56, 330×64 | `ILLUSTRATION / 示意 · AI 生成画面` on generated plates, `SCHEMATIC / 示意图` on schematic charts; flips in and out 0.2 s |
+| Corner tag | top left x 96 y 56, 330×64 | `ILLUSTRATION · AI-generated plate` on generated plates, `SCHEMATIC` on schematic charts; flips in and out 0.2 s |
 
 Content layers sit lower than a subtitled layout would put them (a 60–110 px downward shift) so the bottom strap does not leave an empty band above it. When you remove subtitles and the crawl, re-lay the page; never leave the space they used.
 
@@ -40,7 +40,7 @@ Content layers sit lower than a subtitled layout would put them (a 60–110 px d
 | Sting | 0–1.5 s | two accent slashes (0.04, 0.10 s) → the plate slams in with an overshoot, an impact ring and shake (0.16–0.42) → letters drop in one by one → wordmark and dateline open from the centre → a glint → the plate flies to the top right and **becomes the bug** while a vertical band wipes into the first shot. A hit within 0.4 s |
 | Brand plate | parallelogram 520×180, accent gradient, ink and gold bars at the left, name in condensed 800 | the same object is the sting, the bug, the desk front and the end card |
 | Rundown | left: date block (big numerals, month, week); right: three rows, 1024×140, number block in accent | rows flip in vertically on the beat (back ease) with a glint; at the close the same object returns and each row is ticked |
-| Lower-third strap | see §2 | enters with the first story, flips (new words up from below, old up and out, 0.32 s; the tab flashes white when the category changes), leaves with a slide when the recap starts. A **profile** version (tab `人物 PROFILE`) names a speaker |
+| Lower-third strap | see §2 | enters with the first story, flips (new words up from below, old up and out, 0.32 s; the tab flashes white when the category changes), leaves with a slide when the recap starts. A **profile** version (tab `PROFILE`) names a speaker |
 | Split-flap board | tiles 220×130, top and bottom halves clipped separately | old value and new value on the same board, so the change reads in one look; ×2 / +x % called out to the right |
 | Threshold chart | line from the peak, the threshold as a dashed gold line | the line head advances one trading day per step; the last step crosses the threshold in accent with a shake and a ring; the readout panel slides in after; axes show only what the data supports |
 | Bars | grow from a zero line downward for losses, values roll | a reference line at the shared threshold plus a badge |
@@ -102,7 +102,7 @@ Master −14 LUFS, true peak −1.2 dB (`core/render/mux.sh`). Samples: VSCO 2 C
 ## 9. Native moves
 
 1. **Sting becomes the bug** — the brand plate slams in, then flies to the corner and stays there for the whole bulletin; opening and programme are one object.
-2. **Strap tab = category** — the strap's tab changes category (模型 MODELS, 市场 MARKETS, 监管 POLICY …) with a white flash when a new story starts; no separate item cards between stories.
+2. **Strap tab = category** — the strap's tab changes category (MODELS, MARKETS, POLICY …) with a white flash when a new story starts; no separate item cards between stories.
 3. **Rundown, then ticked off** — the same list opens and closes the bulletin; at the end each row gets its tick.
 4. **Spec card** — a launch reduced to its proportions: the whole and the part on one scale, then what it runs on, joined by a bracket to the total.
 5. **Strap that never leaves** — one strap group from the first story to the recap; words flip, the strap itself never exits mid-programme.
@@ -116,13 +116,13 @@ Where each move lives in the demo's code: [DEMO.md](DEMO.md) (build notes).
 
 ## 10. Material
 
-1. **Facts first.** Every on-screen number and every sentence of the voice comes from an official source (the company's own page, the exchange's data, the institution's press release or speech), recorded in `demo/FACTS.md` with claim, URL, quoted wording and any arithmetic. When a fact exists only in a news report, attribute it on screen and in the voice ("据…报道 / … reports") and keep to the plain claim; never put a single report's allegations about a real company or person on screen.
+1. **Facts first.** Every on-screen number and every sentence of the voice comes from an official source (the company's own page, the exchange's data, the institution's press release or speech), recorded in `demo/FACTS.md` with claim, URL, quoted wording and any arithmetic. When a fact exists only in a news report, attribute it on screen and in the voice ("… reports") and keep to the plain claim; never put a single report's allegations about a real company or person on screen.
 2. **Data.** Draw charts from real series only; when you have just a few reported numbers, draw a *schematic* line, tag it `SCHEMATIC`, and label only what you know. Exchange closes: the exchange itself, the central bank's statistics portal, or a market-data file whose source you log.
 3. **Pictures: ask in this order.**
    a. **The user's own images** — photos, b-roll stills, their logo and colours (the package is rebuilt around their brand). Use these first.
    b. **Generated illustrative plates**, if the user wants them. Before generating, tell the user how many images and what each shows (one line per plate). With the Codex CLI installed and able to generate images, `demo/tools/gen_image.py` (driven by `demo/tools/gen_plates.sh`) makes them and saves JPEGs to `demo/assets/plates/`. With any other image tool (an API or a web app), give the user the prompts and the target file names; they generate the images and drop them into `demo/assets/plates/`. Prompts ask for no text, letters, logos, flags or people.
    c. **No generated images**: public-domain, CC0 or CC BY photographs (licences below), or abstract backgrounds drawn in code (gradients, grids, light fins — the package already carries the frame).
-   Whatever the source: every word on screen is typeset in code, never baked into an image; a generated plate is only ever an illustration behind a graphic, tagged `ILLUSTRATION / 示意` for as long as it is visible, and never stands in for the event, a place in the news, or a person. No generated anchor.
+   Whatever the source: every word on screen is typeset in code, never baked into an image; a generated plate is only ever an illustration behind a graphic, tagged `ILLUSTRATION` for as long as it is visible, and never stands in for the event, a place in the news, or a person. No generated anchor.
 4. **Photo and footage licences** (judge each file on its own page, not the search result):
    - **Wikimedia Commons**: CC0, public domain or CC BY (credit author, title, licence on the end card and in `CREDITS`). Not used: CC BY-SA, "no known restrictions", unclear licences, YouTube re-uploads, colourised or "restored" versions.
    - **U.S. federal agencies** (NASA, NOAA, NARA, USGS…): public domain; check the page does not credit a contractor or third party.
@@ -142,7 +142,7 @@ Where each move lives in the demo's code: [DEMO.md](DEMO.md) (build notes).
 - **Masked type peeking in.** A push-in title clipped by a mask shows its top edge before it moves if the travel distance doesn't clear the mask; start it fully below and don't draw at progress 0.
 - **Words stronger than the source.** "Request for information" is not "investigation" or "penalty"; write "no fine, no case opened" or "for the first time" only if a source says so — and check the institution's own pages, which can contradict a report ("first requests" may have gone out months earlier).
 - **Thresholds depend on the reference.** "Bear market" = −20 % from *which* high? Name the reference on the axis; from a different peak the claim can be false.
-- **Attribute what only a report says.** When the official source does not name the companies, the graphic carries "据… 报道 / reported by …" and so does the voice.
+- **Attribute what only a report says.** When the official source does not name the companies, the graphic carries "reported by …" and so does the voice.
 - **A schematic posing as data.** Rolling counters on a close price flash values that never existed; set the close with a mask push instead. Don't label axes the data doesn't support.
 - **Source lines under the strap.** Right-aligned mono 13 px: ≤ 36 characters.
 - **Stamps over key words.** A stamp hit can mask the voice ("fines"); take the brass off the stamp and low-pass its clack.
@@ -163,8 +163,8 @@ Decide per film: the channel's name, plate and accent colour; how many items (on
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Week in AI

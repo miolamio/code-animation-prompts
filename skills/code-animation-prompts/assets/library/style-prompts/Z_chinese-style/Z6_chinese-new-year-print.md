@@ -1,8 +1,8 @@
-# Z6 年画
+# Z6 Chinese New Year Print
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：红灯笼，对联，喜庆 / New Year woodblock print
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Red lanterns, couplets, festive / New Year woodblock print
 
-## 风格提示词
+## Style prompt
 
-红灯笼，对联，喜庆 / New Year woodblock print
+Red lanterns, couplets, festive / New Year woodblock print

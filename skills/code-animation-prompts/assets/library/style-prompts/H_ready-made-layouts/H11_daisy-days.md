@@ -1,8 +1,8 @@
 # H11 Daisy Days
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：阳光花园粉彩，3px 炭灰描边，硬投影，圆体字
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Sunny garden pastels, 3px charcoal outlines, hard drop shadows, rounded typeface
 
-## 风格提示词
+## Style prompt
 
-阳光花园粉彩，3px 炭灰描边，硬投影，圆体字
+Sunny garden pastels, 3px charcoal outlines, hard drop shadows, rounded typeface

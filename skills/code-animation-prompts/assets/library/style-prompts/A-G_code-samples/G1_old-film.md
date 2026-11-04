@@ -1,17 +1,17 @@
-# G1 老胶片
+# G1 Old Film
 
-- 分类：A–G 代码样片 · G 质感
-- 长什么样：颗粒、闪烁、划痕、边上的漏光。
-- 适合：回忆、旧时光、整片的统一质感
-- 关键词：胶片、颗粒、漏光
+- Category: A–G Code Samples · G Material Feel
+- Looks like: Grain, flicker, scratches, light leaks at the edges.
+- Best for: memories, the old days, a unified material feel across the whole film
+- Keywords: film stock, grain, light leaks
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"老胶片"的动画：颗粒、闪烁、划痕、边上的漏光。
-适合讲：回忆、旧时光、整片的统一质感
-关键词：胶片、颗粒、漏光
+Use code (Canvas 2D) to draw an animation of "Old Film": Grain, flicker, scratches, light leaks at the edges.
+Good for telling: memories, the old days, a unified material feel across the whole film
+Keywords: film stock, grain, light leaks
 
-下面是我们自己写的参考实现：一个绘制函数 S.G1(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.G1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.G1 = (c, w, h, t, s, dpr) => {

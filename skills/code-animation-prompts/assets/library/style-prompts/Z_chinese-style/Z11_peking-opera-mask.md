@@ -1,8 +1,8 @@
-# Z11 京剧脸谱
+# Z11 Peking Opera Mask
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：脸谱纹样，浓烈色块 / Peking opera mask
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Opera mask patterns, intense color blocks / Peking opera mask
 
-## 风格提示词
+## Style prompt
 
-脸谱纹样，浓烈色块 / Peking opera mask
+Opera mask patterns, intense color blocks / Peking opera mask

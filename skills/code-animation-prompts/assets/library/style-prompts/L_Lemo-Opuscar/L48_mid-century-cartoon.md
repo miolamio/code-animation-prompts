@@ -1,10 +1,10 @@
-# L48 50s 扁平卡通（Mid-century Cartoon）
+# L48 Mid-century Cartoon
 
-- 分类：L Lemo-Opuscar · 卡通与动画
-- 长什么样：用 50 年代教育片的口吻，三步教你装好一台扫地机。
-- 适合：老科普片的感觉，感知科普很合适
+- Category: L Lemo-Opuscar · Cartoon and animation
+- Looks like: In the tone of a 1950s educational film, a three-step guide to setting up a robot vacuum.
+- Best for: The feel of old science films; well suited to science explainers on perception
 
-## 风格提示词
+## Style prompt
 
 # Mid-century Cartoon — Style Prompt
 
@@ -129,8 +129,8 @@ Swapping `demo/content.json` and rebuilding is a technical check that the engine
 
 How our demo was made (story, shots, score, end card, build, content fields): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Meet Pip

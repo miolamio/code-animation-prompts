@@ -1,9 +1,9 @@
-# X26 电视购物（Home-shopping infomercial）
+# X26 Home-shopping infomercial
 
-- 分类：X code-video · code-video
-- 适合：讽刺卖课的，06 段可以试
+- Category: X code-video · code-video
+- Best for: satirizing people who sell courses; worth trying for segment 06
 
-## 风格提示词
+## Style prompt
 
 # Style: home-shopping infomercial
 

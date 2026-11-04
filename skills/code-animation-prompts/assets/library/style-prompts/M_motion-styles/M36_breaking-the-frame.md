@@ -1,15 +1,15 @@
-# M36 破框
+# M36 Breaking the Frame
 
-- 分类：M 动态风格 · 文字和金句类
-- 长什么样：一张海报里的东西冲出了海报的边框。
-- 适合："跳出原来的想法"、"不再觉得跟我没关系"这种转折。
+- Category: M Motion Styles · Text and Key Lines
+- Looks like: Something inside a poster bursts out of the poster's border.
+- Best for: Turning points like "breaking out of the old idea" or "no longer feeling it has nothing to do with me".
 
-## 风格提示词
+## Style prompt
 
-做一段动态设计：一张海报里的 [东西] 冲出海报自己的边框。
+Make a motion design in which [thing] inside a poster bursts out of the poster's own border.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[海报破框](https://prompt-motion.com/pankajkumar-dev-0bee87)
+[Poster breaks its frame](https://prompt-motion.com/pankajkumar-dev-0bee87)

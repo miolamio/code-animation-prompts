@@ -1,9 +1,9 @@
-# X8 手账剪贴本（Scrapbook）
+# X8 Scrapbook
 
-- 分类：X code-video · code-video
-- 适合：记录这三个月
+- Category: X code-video · code-video
+- Best for: documenting these three months
 
-## 风格提示词
+## Style prompt
 
 # Style: scrapbook
 

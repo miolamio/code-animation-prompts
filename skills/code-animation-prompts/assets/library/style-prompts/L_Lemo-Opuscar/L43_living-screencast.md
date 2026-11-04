@@ -1,10 +1,10 @@
-# L43 活体实机录屏（Living Screencast）
+# L43 Living Screencast
 
-- 分类：L Lemo-Opuscar · 信息与发布
-- 长什么样：像素小人 Clawd 搬进 Claude 应用，一镜到底演示 Plan 模式和自检。
-- 适合：录屏加一个动画角色，演示"我"怎么用 AI 工具
+- Category: L Lemo-Opuscar · Information and launch
+- Looks like: The pixel character Clawd moves into the Claude app and demonstrates Plan mode and self-checking in a single continuous take.
+- Best for: Screen recording plus an animated character, demonstrating how "I" use AI tools
 
-## 风格提示词
+## Style prompt
 
 # Living Screencast — Style Prompt
 
@@ -129,8 +129,8 @@ You decide the features and their order, the mascot (the product's own, or an or
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Clawd Moves In

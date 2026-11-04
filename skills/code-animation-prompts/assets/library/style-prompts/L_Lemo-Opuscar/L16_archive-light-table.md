@@ -1,10 +1,10 @@
-# L16 档案灯箱（Archive Light Table）
+# L16 Archive Light Table
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：电报说最长飞了 57 秒；放大镜下，莱特兄弟的底片和档案说是 59 秒。
-- 适合：翻旧资料、回忆
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: The telegram says the longest flight lasted 57 seconds; under the magnifier, the Wright brothers' negative and the archive say 59 seconds.
+- Best for: Going through old records, remembering the past
 
-## 风格提示词
+## Style prompt
 
 # Archive Light Table — Style Prompt
 
@@ -114,8 +114,8 @@ The agent decides the objects, their order, the story, which native moves to spe
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Two Seconds Short

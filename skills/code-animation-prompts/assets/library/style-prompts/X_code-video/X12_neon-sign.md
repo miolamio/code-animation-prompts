@@ -1,9 +1,9 @@
-# X12 霓虹灯牌（Neon sign）
+# X12 Neon sign
 
-- 分类：X code-video · code-video
-- 适合：金句
+- Category: X code-video · code-video
+- Best for: key lines
 
-## 风格提示词
+## Style prompt
 
 # Style: neon sign
 

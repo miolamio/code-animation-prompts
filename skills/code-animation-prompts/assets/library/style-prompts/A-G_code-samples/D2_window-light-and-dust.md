@@ -1,17 +1,17 @@
-# D2 窗光与尘
+# D2 Window Light and Dust
 
-- 分类：A–G 代码样片 · D 光与天气
-- 长什么样：一束光从窗照进来，灰尘在光里飘。
-- 适合：安静、时间、老房子
-- 关键词：窗光、灰尘、光束
+- Category: A–G Code Samples · D Light and Weather
+- Looks like: A beam of light comes through a window, with dust drifting in the light.
+- Best for: quiet, time, old houses
+- Keywords: window light, dust, light beam
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"窗光与尘"的动画：一束光从窗照进来，灰尘在光里飘。
-适合讲：安静、时间、老房子
-关键词：窗光、灰尘、光束
+Use code (Canvas 2D) to draw an animation of "Window Light and Dust": A beam of light comes through a window, with dust drifting in the light.
+Good for telling: quiet, time, old houses
+Keywords: window light, dust, light beam
 
-下面是我们自己写的参考实现：一个绘制函数 S.D2(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.D2(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.D2 = (c, w, h, t, s) => {

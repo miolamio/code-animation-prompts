@@ -1,17 +1,17 @@
-# D1 雨窗
+# D1 Rainy Window
 
-- 分类：A–G 代码样片 · D 光与天气
-- 长什么样：玻璃上的雨滴，后面是虚化的夜灯。
-- 适合：等待、夜里、想念
-- 关键词：雨窗、夜、虚化灯光
+- Category: A–G Code Samples · D Light and Weather
+- Looks like: Raindrops on glass, with blurred night lights behind.
+- Best for: waiting, nighttime, longing
+- Keywords: rainy window, night, blurred lights
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"雨窗"的动画：玻璃上的雨滴，后面是虚化的夜灯。
-适合讲：等待、夜里、想念
-关键词：雨窗、夜、虚化灯光
+Use code (Canvas 2D) to draw an animation of "Rainy Window": Raindrops on glass, with blurred night lights behind.
+Good for telling: waiting, nighttime, longing
+Keywords: rainy window, night, blurred lights
 
-下面是我们自己写的参考实现：一个绘制函数 S.D1(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.D1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.D1 = (c, w, h, t, s, dpr) => {

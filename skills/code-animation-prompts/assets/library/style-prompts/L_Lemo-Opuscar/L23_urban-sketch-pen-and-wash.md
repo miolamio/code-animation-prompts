@@ -1,10 +1,10 @@
-# L23 钢笔淡彩（Urban Sketch · Pen & Wash）
+# L23 Urban Sketch · Pen & Wash
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：公园只是一张钢笔速写，风把草帽吹到哪里，哪里才有颜色。
-- 适合：生活记录、城市速写
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: The park is just a pen sketch; color appears only where the wind blows the straw hat.
+- Best for: Life records, urban sketching
 
-## 风格提示词
+## Style prompt
 
 # Urban Sketch · Pen & Wash — Style Prompt
 
@@ -131,8 +131,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Where the Wind Went

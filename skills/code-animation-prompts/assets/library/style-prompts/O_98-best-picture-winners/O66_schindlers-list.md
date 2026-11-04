@@ -1,14 +1,13 @@
-# O66 辛德勒的名单（Schindler's List）
+# O66 Schindler's List
 
-- 分类：O 奥斯卡 98 部 · 世纪末 1990–1999
-- 长什么样：冷灰、高反差的黑白，粗颗粒，高光晕开；只有小女孩的红大衣和 Clawd 的橙色有颜色。这正是斯皮尔伯格的手法：红大衣和安息日烛火是全片仅有的彩色。
-- 风格：黑白胶片 · 唯一的红大衣
-- 关键词：2D·B&W
-- 年份：1993
+- Category: O 98 Best Picture Winners · Turn of the Century 1990–1999
+- Looks like: Cold grey, high-contrast black and white, coarse grain, blooming highlights; only the little girl's red coat and Clawd's orange carry color. This is exactly Spielberg's device: the red coat and the Sabbath candle flames are the only color in the whole film.
+- Style: black-and-white film · the single red coat
+- Keywords: 2D·B&W
+- Year: 1993
 
-## 风格提示词
+## Style prompt
 
-黑白电影质感：冷中性灰，强 S 曲线（黑接近 #111，白接近 #EEE），高光在雾里泛光晕，略软的老镜头，逐帧变化的银盐颗粒（±6%），轻微闪烁，偶有灰尘，暗角。全画面是灰的，只有故事围绕的那个主角是饱和色，以衣服为主（如陶土橙 #D97757）；可再有一个红色故事道具（#A3241F–#C9463C）。灯和火保持灰色，除非“火苗先灰后转暖”是剧情节点。长焦压缩空间，前景虚焦树枝；有人群时，体型、衣色和步态人人不同。默认阴天中间调，暗部不死黑。招牌镜头：长焦俯看许多走动的小人，带色的那个在其中；没有人群就让主角很小地落在大片灰里。对标摄影师 Janusz Kamiński（《辛德勒的名单》，1993）。避免：棕褐或偏蓝调色；无颗粒的干净灰；超过两样有颜色的东西。
 
 ---
 
@@ -16,23 +15,23 @@ English:
 
 Black-and-white film look: cold neutral greys, a strong S-curve (blacks near #111, whites near #EEE), highlights haloing in haze, a soft old lens, silver grain re-rolled every frame (±6%), slight flicker, rare dust, vignette. Everything is grey except the one hero the story centres on, saturated, mainly clothing (e.g. terracotta #D97757); optionally one red story object (#A3241F–#C9463C). Lamps and fires stay grey, unless a flame turning from grey to warm is the story beat. Long-lens compression, soft foreground branches; in a crowd, no two people alike in build, tone or gait. Default: overcast mid-key, shadows open. Signature shot: high long-lens view of many small walking figures, the coloured one among them; without a crowd, the hero tiny in wide grey space. Reference: cinematographer Janusz Kamiński (*Schindler's List*, 1993). Avoid: sepia or blue toning; grain-free greys; more than two coloured things.
 
-## 补充
+## Notes
 
-### 技法关键词
+### Technique keywords
 
-高反差黑白胶片,粗颗粒银盐,局部留色,Janusz Kamiński
+High-contrast black-and-white film, coarse silver halide grain, selective color, Janusz Kaminski
 
-### 导演说明
+### Director's notes
 
-Clawd 扮辛德勒：灰色软呢帽、手握缰绳，坐在马上往下看。四个硬切跟着他的目光走：山坡、长焦主观镜头、街面，最后收在蜡烛上，每个镜头约一拍半。全程克制：人只是在走，不出现任何暴力。
+Clawd plays Schindler: a grey felt hat, holding the reins, looking down from horseback. Four hard cuts follow his gaze: the hillside, a telephoto point-of-view shot, the street, and finally the candles, each shot about a beat and a half. Restraint throughout: people are simply walking, with no violence shown.
 
-### 成片里的分镜
+### Storyboard in the final film
 
-1. 山坡上骑着深色马的 Clawd（辛德勒），坡下的街道挤满被驱赶的人群，人群里有一个红点；镜头轻推。（0.7s）
-2. 硬切到辛德勒的长焦主观镜头，跟住独自走在人群空当里的红大衣小女孩。（0.6s）
-3. 硬切到街面：横移镜头和小女孩同速，三排人从店铺前往左走，一件虚焦的大衣从镜头前掠过。（0.6s）
-4. 硬切到黑暗里的两支安息日蜡烛：火苗先亮成灰白，再变成彩色；缓慢推进。Clawd 不在画面里。（0.6s）
+1. Clawd (Schindler) on a dark horse on the hillside, the street below packed with a crowd being driven along, a single red dot among them; gentle push-in. (0.7s)
+2. Hard cut to Schindler's telephoto point-of-view shot, following the little girl in the red coat walking alone through gaps in the crowd. (0.6s)
+3. Hard cut to the street: a lateral move at the same speed as the little girl, three rows of people walking left past the shop fronts, an out-of-focus coat sweeping past the lens. (0.6s)
+4. Hard cut to two Sabbath candles in the dark: the flames first light up grey-white, then turn to color; slow push-in. Clawd is not in the frame. (0.6s)
 
-### 参考出处
+### Reference source
 
 Steven Spielberg, Schindler's List (1993),Janusz Kamiński (cinematography),Schindler's List (1993) poster

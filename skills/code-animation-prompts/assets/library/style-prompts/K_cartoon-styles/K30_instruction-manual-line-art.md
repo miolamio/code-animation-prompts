@@ -1,9 +1,9 @@
-# K30 说明书线稿
+# K30 Instruction Manual Line Art
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：像宜家说明书，极简线条
-- 适合：讲步骤
+- Category: K Cartoon Styles · Art style
+- Looks like: Like an IKEA instruction manual, minimal lines
+- Best for: Explaining steps
 
-## 风格提示词
+## Style prompt
 
-像宜家说明书，极简线条
+Like an IKEA instruction manual, minimal lines

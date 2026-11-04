@@ -1,33 +1,33 @@
-# V13 像素（Pixel Art）
+# V13 Pixel Art
 
-- 分类：V mg-styles-15 · mg-styles-15
-- 适合：回忆、游戏感
+- Category: V mg-styles-15 · mg-styles-15
+- Best for: memories, a game feel
 
-## 风格提示词
+## Style prompt
 
-# 像素风 Pixel Art / 8-bit
+# Pixel Art / 8-bit
 
-**原片**：PIXEL QUEST 像素冒险 · 1920×1080 · 30 fps · 10 秒 · AI 评审终评 8.07 / 10
+**Original video**: PIXEL QUEST · 1920×1080 · 30 fps · 10 s · final AI review score 8.07 / 10
 
-**源码**：[demos/20-pixel/](../demos/20-pixel/)
+**Source code**: [demos/20-pixel/](../demos/20-pixel/)
 
-## 怎么用
+## How to use
 
-1. 新建一个空文件夹，在里面打开一个能写代码、能执行命令的 AI 助手（例如 Claude Code）。本机需要能跑网页渲染（Node + Chrome）和 ffmpeg。
-2. 把下面「提示词」整段复制进去发送。
-3. 想换成自己的内容：改 `Creative seed` 里的故事、品牌名、文案和配色，或者改 `Output` 里的尺寸（比如竖屏 1080×1920）。不要删 `Signature features` 那一段，它是这种风格被一眼认出来的依据。
-4. 想再提高：成片出来后，另开一个 AI 用 [rubric.md](../rubric.md) 评审，把评审意见贴回给制作的 AI 再改一轮。原片就是这样改了两轮。
+1. Create a new empty folder and open an AI assistant in it that can write code and run commands (for example Claude Code). Your machine needs to be able to render web pages (Node + Chrome) and run ffmpeg.
+2. Copy the entire "Prompt" below into it and send.
+3. To use your own content: change the story, brand name, copy and color palette in `Creative seed`, or the dimensions in `Output` (for example vertical format 1080×1920). Do not delete the `Signature features` section; it is what makes this style instantly recognizable.
+4. To improve further: once the final video is out, open a separate AI to review it with [rubric.md](../rubric.md), then paste the review back to the AI that made it for another round. The original video went through two such rounds.
 
-## 提示词
+## Prompt
 
 ```text
 You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
-motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
+motion, Pentagram motion identities, top Behance/Motionographer features, top Douyin/Bilibili designer accounts.
 
 # Style
-像素风 Pixel Art / 8-bit
+Pixel Art / 8-bit
 
 # Output (fixed)
 - 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
@@ -38,23 +38,23 @@ HTML Canvas at 320×180 internal resolution, integer-scaled ×6 with nearest-nei
 (You may choose a better route if it clearly raises quality; say why.)
 
 # Creative seed
-「像素冒险 PIXEL QUEST」A retro side-scroller title/attract sequence.
+"PIXEL QUEST": A retro side-scroller title/attract sequence.
 - Internal 320×180, ×6 nearest-neighbour; limited palette (PICO-8-like 16–32 colours) with dithered sky gradient; 3–4 parallax layers (sky, far mountains, mid forest/city, near ground tiles) moving by whole pixels.
 - Hero sprite (hand-authored 16×16–24×24, 6–8 frame run cycle at ~10–12 fps) runs, jumps, collects coins (sparkle), bops a slime; the palette shifts day → sunset; a treasure chest opens with a light burst.
-- Dialogue box with pixel CJK font typing 「欢迎来到像素世界！」; chunky pixel logo "PIXEL QUEST" drops in with shine sweep; optional CRT pass (scanlines, slight barrel, phosphor glow) that doesn't blur pixels into mush.
+- Dialogue box with a pixel font in the user's language typing "Welcome to the Pixel World!"; chunky pixel logo "PIXEL QUEST" drops in with shine sweep; optional CRT pass (scanlines, slight barrel, phosphor glow) that doesn't blur pixels into mush.
 - Strictly: nearest-neighbour, integer pixel positions, stepped timing (no smooth easing on sprites).
 Sound: chiptune (pulse lead, triangle bass, noise drums) + jump/coin/chest SFX.
 
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
 # Signature features and key techniques (the result is judged against these)
-低分辨率大颗粒像素 + 有限色板 + 低帧率精灵动画的复古游戏美学，在 B 站游戏区（MC、泰拉瑞亚、独立游戏）、8-bit 音乐 MV 和品牌怀旧营销中常见；Aseprite 教程在 B 站有 10 万+ 播放的稳定学习生态。
-视觉特征 大颗粒像素与硬边缘, 有限色板(8~32色), 8~12fps 精灵帧动画, 抖动渐变 dithering, CRT 扫描线滤镜
-关键技法 Aseprite 绘制精灵表（sprite sheet）+ 序列帧循环（走路 6~8 帧、呼吸 2~4 帧）
-缩放必须最近邻插值（CSS image-rendering: pixelated），杜绝抗锯齿糊边
-动画用 steps() 阶梯时序而非平滑缓动，保持逐帧感
-视差卷轴背景：远中近三层不同速度整像素平移
-可选 CRT 后处理：扫描线+桶形畸变+磷光辉光
+Retro game aesthetic of low-resolution chunky pixels + limited palette + low-frame-rate sprite animation, common in Bilibili's gaming section (Minecraft, Terraria, indie games), 8-bit music videos and nostalgic brand marketing; Aseprite tutorials on Bilibili form a steady learning ecosystem with 100,000+ views.
+Visual features: chunky pixels and hard edges, limited palette (8~32 colors), 8~12fps sprite frame animation, dithered gradients, CRT scanline filter
+Key techniques: draw sprite sheets in Aseprite + image-sequence loops (walk 6~8 frames, breathe 2~4 frames)
+Scaling must use nearest-neighbor interpolation (CSS image-rendering: pixelated); eliminate anti-aliased blurry edges
+Animate with steps() stepped timing rather than smooth easing, keeping the frame-by-frame feel
+Parallax scrolling background: far, middle and near layers pan by whole pixels at different speeds
+Optional CRT post-processing: scanlines + barrel distortion + phosphor glow
 
 # How to work
 1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an

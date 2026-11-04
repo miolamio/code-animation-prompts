@@ -1,8 +1,8 @@
 # H4 Bold Poster
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：倾斜的花体大字，奶油底红色强调，杂志封面感
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Large slanted script type, cream base with red accent, magazine-cover feel
 
-## 风格提示词
+## Style prompt
 
-倾斜的花体大字，奶油底红色强调，杂志封面感
+Large slanted script type, cream base with red accent, magazine-cover feel

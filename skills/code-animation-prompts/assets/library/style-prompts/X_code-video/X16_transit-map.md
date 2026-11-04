@@ -1,9 +1,9 @@
-# X16 地铁线路图（Transit map）
+# X16 Transit map
 
-- 分类：X code-video · code-video
-- 适合：讲一路怎么走过来的，适合 04 段
+- Category: X code-video · code-video
+- Best for: telling how you got here along the way; suits segment 04
 
-## 风格提示词
+## Style prompt
 
 # Style: transit map
 

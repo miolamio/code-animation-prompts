@@ -1,8 +1,8 @@
-# Z1 水墨
+# Z1 Ink Wash
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：水墨晕染，留白，竹林 / ink wash, negative space
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Ink wash bleed, negative space, bamboo forest / ink wash, negative space
 
-## 风格提示词
+## Style prompt
 
-水墨晕染，留白，竹林 / ink wash, negative space
+Ink wash bleed, negative space, bamboo forest / ink wash, negative space

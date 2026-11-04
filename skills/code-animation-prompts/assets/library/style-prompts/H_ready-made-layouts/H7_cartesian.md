@@ -1,8 +1,8 @@
 # H7 Cartesian
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：极简留白，暖羊皮纸，墨色标题，灰褐点缀，细线
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Minimal negative space, warm parchment, ink headlines, gray-brown accents, thin lines
 
-## 风格提示词
+## Style prompt
 
-极简留白，暖羊皮纸，墨色标题，灰褐点缀，细线
+Minimal negative space, warm parchment, ink headlines, gray-brown accents, thin lines

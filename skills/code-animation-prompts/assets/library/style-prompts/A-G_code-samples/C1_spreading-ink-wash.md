@@ -1,17 +1,17 @@
-# C1 水墨晕开
+# C1 Spreading Ink Wash
 
-- 分类：A–G 代码样片 · C 线与墨
-- 长什么样：墨在宣纸上一团一团晕开。
-- 适合：中国感、回忆、哀伤
-- 关键词：水墨、晕开、宣纸
+- Category: A–G Code Samples · C Line and Ink
+- Looks like: Ink bleeds outward across rice paper, bloom after bloom.
+- Best for: a Chinese feeling, memories, grief
+- Keywords: ink wash, bleed outward, rice paper
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"水墨晕开"的动画：墨在宣纸上一团一团晕开。
-适合讲：中国感、回忆、哀伤
-关键词：水墨、晕开、宣纸
+Use code (Canvas 2D) to draw an animation of "Spreading Ink Wash": Ink bleeds outward across rice paper, bloom after bloom.
+Good for telling: a Chinese feeling, memories, grief
+Keywords: ink wash, bleed outward, rice paper
 
-下面是我们自己写的参考实现：一个绘制函数 S.C1(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.C1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.C1 = (c, w, h, t, s, dpr) => {
@@ -27,7 +27,7 @@ S.C1 = (c, w, h, t, s, dpr) => {
   }
   c.globalCompositeOperation = 'source-over';
   const sz = m * .085, sx = w * .06, sy = h - sz - h * .07; c.fillStyle = '#b3352a'; c.fillRect(sx, sy, sz, sz);
-  c.fillStyle = '#f3e6d6'; c.font = `700 ${sz * .38}px ${SERIF}`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText('俯仰', sx + sz / 2, sy + sz / 2);
+  c.fillStyle = '#f3e6d6'; c.font = `700 ${sz * .38}px ${SERIF}`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText('俯仰', sx + sz / 2, sy + sz / 2); // seal characters 俯仰 ("looking up and down")
   const f = ss(8.6, 10, tm); if (f > 0) { c.globalAlpha = f; c.drawImage(s.paper, 0, 0, w, h); c.globalAlpha = 1; }
 };
 ```

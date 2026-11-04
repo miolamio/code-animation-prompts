@@ -1,8 +1,8 @@
-# K7 日式动画
+# K7 Anime
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：大眼睛，头发有造型，线条干净，镜头感强
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: Big eyes, styled hair, clean lines, strong camera feel
 
-## 风格提示词
+## Style prompt
 
-日式动画赛璐璐，大眼睛，干净线条 / anime cel
+anime cel

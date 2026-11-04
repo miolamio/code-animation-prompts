@@ -1,10 +1,10 @@
-# L4 延时摄影交响（Time-lapse Symphony）
+# L4 Time-lapse Symphony
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：纽约的一天：延时光河、踩着十六分音符的网格，1899 年和今天并排。
-- 适合：时间过去、城市节奏
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: A day in New York: rivers of time-lapse light, a grid stepping on sixteenth notes, and 1899 side by side with today.
+- Best for: The passing of time, the rhythm of the city
 
-## 风格提示词
+## Style prompt
 
 # Time-lapse Symphony — Style Prompt
 
@@ -41,7 +41,7 @@ Grade (`tools/render.py → make_luts / grade`): per-shot partial grey-world whi
 
 - Latin: **Michroma** (OFL), capitals, tracking 0.06–0.32 em. Chinese: **Noto Sans SC** variable, weight 300–350, tracking 0.08–0.14 em. Credits: Noto Sans SC 17 px.
 - **Left-aligned**, left margin 168–196 px, never centred, never on a box. Legibility comes from a very soft elliptical darkening behind the block (α ≤ 0.6), not a panel.
-- **Number card**: the number in Michroma 84 px (44 px when three numbers stack); a 2 px sodium rule grows under it; one Chinese line (28 px) and one English line (14–16 px) say what it counts and the source year. A census-type number locks digit by digit on sixteenths (one glockenspiel note per digit); a flow number counts up from 0 in 0.6 s (ease-out). "About" numbers carry `≈` and "约".
+- **Number card**: the number in Michroma 84 px (44 px when three numbers stack); a 2 px sodium rule grows under it; one line in the user's language (28 px) and one English line (14–16 px) say what it counts and the source year. A census-type number locks digit by digit on sixteenths (one glockenspiel note per digit); a flow number counts up from 0 in 0.6 s (ease-out). "About" numbers carry `≈` and "approx.".
 - **Archive date**: just the year, Michroma 22 px, bottom-left of the archive panel.
 - **Closing quote**: on the page shot the whole sentence is lit; on the card, a short fragment over the last moving shot — Chinese 60 px, English original in capitals 20 px, source line 14 px sodium, fading in within 0.25 s and held just past the reading time.
 - One line per language, never wrapped; every text block stays fully in frame at least CJK ÷ 4.5 + other ÷ 15 + 1.5 s (`readcheck.mjs`). Text may stay up across cuts underneath it, but only while the shots under it belong to what it counts.
@@ -147,8 +147,8 @@ Recipe for another place: one single-camera time-lapse of ≥ 12 hours (the cloc
 
 See [`DEMO.md`](DEMO.md) for the example film.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 One Day in New York

@@ -1,9 +1,9 @@
-# K33 地铁图
+# K33 Subway Map
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：像地铁线路图
-- 适合：讲流程、讲路线
+- Category: K Cartoon Styles · Art style
+- Looks like: Like a subway line map
+- Best for: Explaining processes and routes
 
-## 风格提示词
+## Style prompt
 
-像地铁线路图
+Like a subway line map

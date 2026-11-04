@@ -1,10 +1,10 @@
-# L19 中国水墨（Chinese Ink Wash）
+# L19 Chinese Ink Wash
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：侠客踏水过江，一剑断流。
-- 适合：东方意境，和 Z1、M30 一起看
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: A wandering swordsman crosses the river on the water's surface, and one sword stroke cuts the current.
+- Best for: Eastern mood; view together with Z1 and M30
 
-## 风格提示词
+## Style prompt
 
 # Chinese Ink Wash — Style Prompt
 
@@ -13,33 +13,33 @@
 
 ## 1. Essence, and what it is not
 
-An ink painting (水墨) painted and unrolled before you: black ink on warm rice paper in five tones, plus **one** red, the vermilion seal. No Western outlines: forms are made by **loaded brushstrokes** whose dark edge *is* the contour (没骨, "boneless" painting), by **wet washes** that bleed into the paper, and by **dry, fast strokes** where the paper shows through the bristle tracks (飞白, "flying white").
+An ink painting painted and unrolled before you: black ink on warm rice paper in five tones, plus **one** red, the vermilion seal. No Western outlines: forms are made by **loaded brushstrokes** whose dark edge *is* the contour (mogu, "boneless" painting), by **wet washes** that bleed into the paper, and by **dry, fast strokes** where the paper shows through the bristle tracks (feibai, "flying white").
 
-Most of the frame is **empty paper** (留白): water, sky, mist, silence. Things are *painted into existence*, not cut to.
+Most of the frame is **empty paper**: water, sky, mist, silence. Things are *painted into existence*, not cut to.
 
 Not watercolour (no colour washes), not vector art with a brush texture (no flat fills or closed outlines), not a calligraphy title sequence.
 
 ## 2. Materials & rendering
 
 - **Paper** is procedural, in the compositor, never a texture file: warm rice paper (around `#F2ECDE`), cloud mottling, long fibres, pulp flecks, grain that fades when zoomed out (or it shimmers), a light vignette; anchored to the world.
-- **Ink** is stroke opacity multiplied onto paper (never an overlay), in five tones (墨分五色):
+- **Ink** is stroke opacity multiplied onto paper (never an overlay), in five tones (the "five tones of ink"):
 
 | Tone | Opacity | Use |
 |---|---|---|
-| 焦 jiao (burnt) | ~.96 | calligraphy, the sharpest lines, moss dots |
-| 浓 nong (thick) | ~.82 | contours, dark edge of loaded strokes |
-| 重 zhong (heavy) | ~.60 | secondary lines, folds |
-| 淡 dan (light) | ~.34 | mountain bodies, robe and body washes |
-| 清 qing (clear) | ~.16 | far mountains, faces, mist |
+| jiao (burnt) | ~.96 | calligraphy, the sharpest lines, moss dots |
+| nong (thick) | ~.82 | contours, dark edge of loaded strokes |
+| zhong (heavy) | ~.60 | secondary lines, folds |
+| dan (light) | ~.34 | mountain bodies, robe and body washes |
+| qing (clear) | ~.16 | far mountains, faces, mist |
 
 - **Brushstroke model**: centreline × pressure profile × width noise, plus 4–60 **bristles** whose ink load drops along the stroke and breaks on long-scale noise. `dry` runs from a solid wet stroke to flying white (dry strokes are bristle tracks only).
 - **Loaded stroke**: bristles darker on one side, so the stroke carries its own contour: this makes bodies, rocks and waves read as ink, not vectors.
 - **Two layers**: the wet one bleeds in the compositor (noisy blur, **edge pigment accumulation**, granulation); the dry one only gets fibre jitter and paper tooth.
 - **Masses**: soft polygons, jittered edges, a gradient; never flat fills.
-- **Landscape**: mountains dissolve downward into mist bands, with 披麻皴 texture and 苔点 moss dots on near ranges only; rocks are outline → axe-cut texture → shadow wash → dots.
+- **Landscape**: mountains dissolve downward into mist bands, with pima cun (hemp-fiber) texture and moss dots on near ranges only; rocks are outline → axe-cut texture → shadow wash → dots.
 - **Water is blank paper**, moved by faint dry streaks and open ink rings. Solid water: Song-dynasty **parallel wave lines** (dense near the edge) or a pale body with a few huge loaded strokes along its face.
 - **Figures are xieyi**: one pale body mass plus two loaded strokes, burnt-ink lines for limbs; features, if ever shown, in 3–5 strokes.
-- **Calligraphy**: an OFL brush font is only a **skeleton**: trace centrelines in stroke order, pressure from glyph thickness, hidden-tip entry (藏锋), tapered exits.
+- **Calligraphy**: an OFL brush font is only a **skeleton**: trace centrelines in stroke order, pressure from glyph thickness, hidden-tip entry (cangfeng), tapered exits.
 
 ## 3. Colour logic
 
@@ -49,8 +49,8 @@ Not watercolour (no colour washes), not vector art with a brush texture (no flat
 
 ## 4. Type & subtitles
 
-- Subtitles are **inscriptions (题跋)**: a classical italic serif (Cormorant Garamond italic), ink-coloured, no box, ≤ 2 lines, placed in each shot's empty paper. A small vermilion square marks the start of each line. They appear wet and dry in a fraction of a second. Hold ≥ max(1.8 s, speech + 0.6 s).
-- Titles are written on the painting itself, in vertical columns in its empty space, with a vermilion 白文 seal drawn by code (lines knocked out of a slightly irregular red square, with ink-paste speckles). They move with the world.
+- Subtitles are **inscriptions (tiba)**: a classical italic serif (Cormorant Garamond italic), ink-coloured, no box, ≤ 2 lines, placed in each shot's empty paper. A small vermilion square marks the start of each line. They appear wet and dry in a fraction of a second. Hold ≥ max(1.8 s, speech + 0.6 s).
+- Titles are written on the painting itself, in vertical columns in its empty space, with a vermilion intaglio (baiwen) seal drawn by code (lines knocked out of a slightly irregular red square, with ink-paste speckles). They move with the world.
 - Screen-space overlays reset the camera transform.
 
 ## 5. Motion quality
@@ -95,7 +95,7 @@ A menu: use the ones your story needs.
 - **One stroke is everything.** *Fits content like:* a product born from one line; a city growing from a single street; a day beginning with one bird.
 - **Emptiness is matter.** Removing ink reveals paper white. *Fits content like:* a door opening in a wall; a crowd parting; an absence in a family portrait.
 - **Brush = gesture = action.** Stroke order becomes choreography. *Fits content like:* a dancer's phrase that spells a word; a signature; a chef's knife work.
-- **Flying white (飞白).** One fast dry stroke across the frame, strongest out of a silence. *Fits content like:* a sprint finish; a decision; a comet.
+- **Flying white (feibai).** One fast dry stroke across the frame, strongest out of a silence. *Fits content like:* a sprint finish; a decision; a comet.
 - **Ink bloom transition.** The next scene grows inside a spreading drop with a dark tide-line (noisy radial mask; world-anchored for elements, in the compositor for scenes). *Fits content like:* memories; seasons; one era giving way to the next.
 - **The handscroll.** One long painting panned right to left, seen whole at last. *Fits content like:* a history; a supply chain from field to hand; a day in a street.
 - **Splitting a mass.** Halves clipped either side of the cut; one rises and fades, one slumps; splatter stays. *Fits content like:* breaking a record; a barrier falling; an idea splitting in two.
@@ -125,8 +125,8 @@ You decide the structure, the characters (or none), the landscape, the opening, 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Swordsman and the River

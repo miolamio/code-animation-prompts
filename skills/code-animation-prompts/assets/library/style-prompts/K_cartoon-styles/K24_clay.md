@@ -1,9 +1,9 @@
-# K24 粘土
+# K24 Clay
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：手指印，手作纹理，圆润
-- 适合：轻松好玩
+- Category: K Cartoon Styles · Art style
+- Looks like: Fingerprints, handmade texture, rounded
+- Best for: Light and playful
 
-## 风格提示词
+## Style prompt
 
-手指印，手作纹理，圆润
+Fingerprints, handmade texture, rounded

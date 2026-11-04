@@ -1,8 +1,8 @@
-# K2 Q 版
+# K2 Chibi
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：大头小身子，短手短脚，大眼睛，颜色软
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: Big head, small body, short arms and legs, big eyes, soft colors
 
-## 风格提示词
+## Style prompt
 
-Q 版，大头小身，短四肢，大眼睛，柔和配色 / chibi, big head small body, pastel
+chibi, big head small body, pastel

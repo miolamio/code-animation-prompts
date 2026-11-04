@@ -1,10 +1,10 @@
-# L49 16-bit 像素 RPG（16-bit Pixel RPG）
+# L49 16-bit Pixel RPG
 
-- 分类：L Lemo-Opuscar · 游戏
-- 长什么样：勇士在最终 Boss 门前存档，存档画面闪回一路冒险。
-- 适合：学习像打怪升级
+- Category: L Lemo-Opuscar · Games
+- Looks like: The warrior saves the game before the final boss door, and the save screen flashes back through the whole adventure.
+- Best for: Learning that feels like leveling up
 
-## 风格提示词
+## Style prompt
 
 # 16-bit Pixel RPG — Style Prompt
 
@@ -122,8 +122,8 @@ You decide which game system the topic hides, the characters, the eras, the pale
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Last Save Point

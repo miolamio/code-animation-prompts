@@ -1,10 +1,10 @@
-# L36 蓝图 / 工程制图（Blueprint）
+# L36 Blueprint
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：发明家的蓝图自己画出一台接云机器，修订云线变成了真的雨云。
-- 适合：讲原理、讲结构
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: The inventor's blueprint draws a cloud-catching machine by itself, and the revision cloud turns into a real rain cloud.
+- Best for: Explaining principles and structure
 
-## 风格提示词
+## Style prompt
 
 # Blueprint — Style Prompt
 
@@ -125,8 +125,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Patent Pending: The Cloud Catcher

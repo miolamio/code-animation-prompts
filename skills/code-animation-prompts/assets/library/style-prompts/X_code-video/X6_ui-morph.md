@@ -1,9 +1,9 @@
-# X6 界面形变（UI morph）
+# X6 UI morph
 
-- 分类：X code-video · code-video
-- 适合：演示工具
+- Category: X code-video · code-video
+- Best for: demoing tools
 
-## 风格提示词
+## Style prompt
 
 # Style: UI morph
 

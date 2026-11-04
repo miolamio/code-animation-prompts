@@ -1,10 +1,10 @@
-# L7 体育战术板（Sports Telestrator）
+# L7 Sports Telestrator
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：半场 0–3，费内巴切 12 分钟连进三球：冻住画面、画线、分屏、射门图。
-- 适合：定格、画线讲解，拆一个瞬间
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: First half, 0-3: Fenerbahce score three goals in 12 minutes: freeze the frame, draw lines, split the screen, a shot map.
+- Best for: Freeze-frames and line drawing to explain, breaking down a single moment
 
-## 风格提示词
+## Style prompt
 
 # Sports Telestrator — Style Prompt
 
@@ -142,8 +142,8 @@ The agent decides per film: the sport (football, basketball pick-and-roll with s
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Freeze Frame

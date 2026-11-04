@@ -1,14 +1,13 @@
-# O96 奥本海默（Oppenheimer）
+# O96 Oppenheimer
 
-- 分类：O 奥斯卡 98 部 · 此时此刻 2020–2025
-- 长什么样：用实时 3D 重建黎明前的三位一体试验场：约 72 万粒子的火球、轨道和波组成的量子幻象，深蓝夜色对橙金火光，加 IMAX 式颗粒。《奥本海默》就围着这一道光展开。
-- 风格：3D 粒子火球 · IMAX 颗粒
-- 关键词：3D
-- 年份：2023
+- Category: O 98 Best Picture Winners · Here and Now 2020–2025
+- Looks like: A real-time 3D reconstruction of the Trinity test site before dawn: a fireball of about 720,000 particles, a quantum vision made of orbits and waves, deep blue night against orange-gold firelight, with IMAX-style grain. Oppenheimer is built around this single flash of light.
+- Style: 3D particle fireball · IMAX grain
+- Keywords: 3D
+- Year: 2023
 
-## 风格提示词
+## Style prompt
 
-实时 3D 夜景，主角光是一场巨大的粒子事件：几十万粒子的火球（或照明弹、火山喷发、山火），形状随时间走：白闪（0.5 秒），1 秒成翻滚的斑驳穹顶，再卷成环，尘墙外扫。在主体正后方像光环，约占画面四成：核心白金，大部分是有纹理的亮橙金火团 #ff9a50，黑烟只做细暗纹和顶边，不超一成半。火光照亮全场：暖色 #ffd8a0 铺满地面和云底，主体有热轮廓光，脸上仍有半强度暖光；长影子朝镜头拖来，火星飘飞。其余是黎明前的深蓝 #2a3654 和暗土 #16120e。只让核心过曝。IMAX 拷贝调色：细颗粒（±3%）、暖色光晕溢出、暗角、轻微片门晃动。低机位广角，主体居中，慢推。参照克里斯托弗·诺兰《奥本海默》（2023）。避免：光滑的 CG 光球、被黑烟裹住的火。
 
 ---
 
@@ -16,24 +15,24 @@ English:
 
 Real-time 3D night lit by one huge particle event: a ~500k-particle fireball (or flare, eruption, wildfire) whose shape follows time: white flash (0.5 s), billowing dome by 1 s, a rolling toroid, a dust wall sweeping out. Right behind the subject like a halo, ~40% of the frame: white-gold core, bright orange-gold billows #ff9a50 with visible texture, black smoke only as thin veins and the top edge (under 15%). Its glow fills everything: warm #ffd8a0 on ground and cloud undersides, a hot rim on the subject, faces lit warm at half strength; long shadows toward camera. The rest is pre-dawn blue #2a3654 and dark earth #16120e. Clip only the core. IMAX grade: grain ±3%, warm halation, vignette, slight gate weave. Low wide angle, subject centred, slow push-ins. Reference: Christopher Nolan, *Oppenheimer* (2023). Avoid: a smooth CG ball, smoke-shrouded fire.
 
-## 补充
+## Notes
 
-### 技法关键词
+### Technique keywords
 
-实时 3D（three.js）,GPU 粒子模拟,IMAX 65mm 印片调色,三位一体试验高速照片
+Real-time 3D (three.js), GPU particle simulation, IMAX 65mm print grade, high-speed photographs of the Trinity test
 
-### 导演说明
+### Director's notes
 
-Clawd 扮奥本海默：一顶浅驼色平顶软呢帽，手里一只冒烟的石楠烟斗。五个镜头硬切，垒出倒计时：铁塔、装置、幻象，白闪正好落在切进观察者的那一刀上；音乐不停，最后一秒火球在 Clawd 身后膨胀。
+Clawd plays Oppenheimer: a light camel-colored porkpie hat and a smoking briar pipe in hand. Five hard-cut shots build the countdown: tower, device, vision, with the white flash landing exactly on the cut to the observers; the music never stops, and in the last second the fireball swells behind Clawd.
 
-### 成片里的分镜
+### Storyboard in the final film
 
-1. 黎明前低机位仰拍被探照灯照亮的钢塔，倒计时的信号灯在闪，镜头慢推。（0.6s）
-2. 切到波纹铁皮小屋里的炸弹：缠满电缆的螺栓球体，暖色工作灯；固定机位。（0.4s）
-3. 切到黑底上的量子幻象：围绕核心的发光轨道、下方的干涉波、一颗坍缩的恒星。（0.4s）
-4. 一道白闪，接反打：戴帽子的观察者举着焊接玻璃，脸被火光照亮，Clawd 戴平顶软呢帽、拿着烟斗站在中间；固定机位。（0.8s）
-5. 低机位全景：Clawd 站在路中间，身后的火球像光环一样升起，火星在空中飘；镜头慢推。（1s）
+1. Low-angle shot before dawn looking up at the steel tower lit by searchlights, the countdown signal lights flashing; slow push-in. (0.6s)
+2. Cut to the bomb in the corrugated-iron shed: a spherical device wrapped in cables and bolts, warm work lights; locked-off camera. (0.4s)
+3. Cut to the quantum vision on black: glowing orbits around a core, interference waves below, a collapsing star. (0.4s)
+4. A white flash, then a reverse shot: an observer in a hat raising welding glass, his face lit by firelight, with Clawd in a porkpie hat holding a pipe standing in the middle; locked-off camera. (0.8s)
+5. Low-angle wide shot: Clawd stands in the middle of the road, the fireball rising behind him like a halo, sparks drifting through the air; slow push-in. (1s)
 
-### 参考出处
+### Reference source
 
 Christopher Nolan, Oppenheimer (2023),Hoyte van Hoytema (IMAX cinematography),Berlyn Brixner, Trinity test photographs (1945),Oppenheimer (2023) poster

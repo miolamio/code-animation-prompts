@@ -1,10 +1,10 @@
-# L24 皮影戏（Shadow Puppetry）
+# L24 Shadow Puppetry
 
-- 分类：L Lemo-Opuscar · 东方传统
-- 长什么样：十日炙烤大地，后羿张弓射日。
-- 适合：讲故事，和 M12 一起看
+- Category: L Lemo-Opuscar · Eastern tradition
+- Looks like: Ten suns scorch the earth, and Hou Yi draws his bow to shoot down the suns.
+- Best for: Storytelling; view together with M12
 
-## 风格提示词
+## Style prompt
 
 # Shadow Puppetry — Style Prompt
 
@@ -81,11 +81,11 @@ Puppets in profile; most of the cloth stays empty. When zoomed in, clamp the cam
 
 ## 7. Sound palette
 
-- **Percussion first, not piano and strings** (gong-and-drum pattern thinking, 锣鼓经): low barrel drum, hard high clapper drum (woodblock), cymbals, small gong with rising pitch ("tai"), big gong with falling pitch ("kuang"); also a bamboo clapper board, pellet drum, sanxian pluck, a bamboo flute for quiet.
+- **Percussion first, not piano and strings** (gong-and-drum pattern thinking, luogu jing): low barrel drum, hard high clapper drum (woodblock), cymbals, small gong with rising pitch ("tai"), big gong with falling pitch ("kuang"); also a bamboo clapper board, pellet drum, sanxian pluck, a bamboo flute for quiet.
 - **Bowed and reed voices**: a bright nasal fiddle (erhu-like: pitched up, nasal formant, pitch-curve resampling for slides and vibrato), plain pentatonic (**huan-yin**) or sorrowful microtonal (**ku-yin**: raised 4th, lowered 7th); a shrill suona-like reed (oboe + 1.2–3 kHz formant + saturation) at most once.
 - **Techniques, as options**: a single tap inside a silence; one big gong per decisive hit; a heartbeat drum under dread; accelerating rolls into an entrance; one hit per visual step; a gong scrape to change space; a hard stop (≤ 30 ms, tails included).
 - **Silence**: hard-cut the whole bed; at most one sound inside (a breath, a tap, a sizzle).
-- **Foley follows the materials**: wooden clapper (醒木), match strike, lamp "fwoomp" and "pfft" + sizzle, rod taps on cloth, dry leather flaps on lift-off, leather steps, creaks of hide and wood props, leather thwacks, cloth rustle, backstage room tone.
+- **Foley follows the materials**: wooden clapper (xingmu), match strike, lamp "fwoomp" and "pfft" + sizzle, rod taps on cloth, dry leather flaps on lift-off, leather steps, creaks of hide and wood props, leather thwacks, cloth rustle, backstage room tone.
 - **Voice**: a storyteller, few short lines, small-theatre reverb; music ducked ~12 dB, foley ~4 dB, voice ≥ 12 dB above the bed; −14 LUFS; check each line with whisper alone and on the final mix.
 
 ## 8. Native moves
@@ -129,8 +129,8 @@ You decide the story, the figures (or none), what the lamp means, what leaves th
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Hou Yi Shoots the Suns

@@ -1,10 +1,10 @@
-# L5 视觉调查（Visual Investigation）
+# L5 Visual Investigation
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：新闻片、照片、证词和调查报告排上同一条时间轴，五路来源指向一处。
-- 适合：几个来源对到一条时间线上，科普里讲来龙去脉
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: News footage, photos, testimony and investigation reports line up on one timeline, with five sources pointing to one place.
+- Best for: Matching several sources onto one timeline; in science explainers, telling how things came about
 
-## 风格提示词
+## Style prompt
 
 # Visual Investigation — Style Prompt
 
@@ -50,9 +50,9 @@ Sources are greyscale; red is the only colour and it only ever points: circles, 
 
 - Chinese headings and findings: Noto Sans SC 700 (30–124 px). Tags, timecodes and ticks: IBM Plex Mono 400/600. Quotes: Source Serif 4 Italic for the original wording, Noto Serif SC 500 for a translation underneath in the secondary colour (only when the subtitles don't already say it). All OFL, subset to the words on screen.
 - **Few words per frame.** Each frame keeps only what this beat needs: the main readout or heading, the quoted original (the highlighted line), and one short source tag per piece of evidence. No eyebrow labels, no English twin under every Chinese label, no archive numbers, dates or "estimate / schematic / not to scale" footnotes unless the beat is about them, nothing the subtitle is saying at the same moment.
-- **Source tag**: a 6×12 chip + `type · source` in mono, ≤ about 12 characters (`照片 · Pasquarella`, `FBI 电传 · 1937-05-08`), sitting just above its frame. Full credits go on the end card, not on the panels.
+- **Source tag**: a 6×12 chip + `type · source` in mono, ≤ about 12 characters (`photo · Pasquarella`, `FBI telex · 1937-05-08`), sitting just above its frame. Full credits go on the end card, not on the panels.
 - **Lower third**: a red bar + place name (36 px bold) + one mono line (place code).
-- **Subtitles** (bilingual films): at the bottom of the frame (Chinese baseline y ≈ 984, English y ≈ 1022): Chinese 34 px bold over English 23 px, centred, 10 px black shadow; **one line per language**, measured in the page against 1,500 px; a long sentence becomes two cues. Original sound gets subtitles too, marked `【原声】` / `[1937 newsreel]`.
+- **Subtitles** (bilingual films): at the bottom of the frame (user's-language baseline y ≈ 984, English y ≈ 1022): user's language 34 px bold over English 23 px, centred, 10 px black shadow; **one line per language**, measured in the page against 1,500 px; a long sentence becomes two cues. Original sound gets subtitles too, marked `[original audio]` / `[1937 newsreel]`.
 - **Reading time**: every key text stays still and whole for CJK ÷ 4.5 + other ÷ 15 + 1.5 s (`readcheck.mjs`); verdict and comparison frames hold ≥ 2.5 s with every item fully in frame. Counters (timecode readouts, the stopwatch) and tick labels are exempt.
 
 ## 5. Motion quality
@@ -109,7 +109,7 @@ Sources are greyscale; red is the only colour and it only ever points: circles, 
 - **A strip reserved at the bottom** (timeline band, caption rail) leaves an empty band when it has nothing to show. Content runs to y ≈ 900; nothing lives in the subtitle area (y ≈ 950–1030).
 - **Catastrophe as spectacle.** No slow motion of fire or impact, no full-screen flames, no sound effects on deaths.
 
-## 10. Footage (素材)
+## 10. Footage
 
 1. **Ask the user first.** Before searching: does the user have their own footage, photos, documents, recordings or data (dashcam files, a report PDF, a spreadsheet of readings)? Their own material always comes first.
 2. **Where to look, and how to judge the licence.** Use `demo/tools/footage.py` (copy it into the project): `search archive|commons|nasa`, `files`, `fetch` (records licence, author and page into `SOURCES.jsonl`), `used`, `md` (writes `SOURCES.md`).
@@ -145,8 +145,8 @@ The agent decides per film: the event, the sources, the sync point, which time s
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Hindenburg: Four Minutes, 32 Seconds

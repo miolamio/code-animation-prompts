@@ -1,8 +1,8 @@
 # H9 Coral
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：全大写 Bebas Neue 标题，奶油底珊瑚色
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: All-caps Bebas Neue headlines, coral on a cream base
 
-## 风格提示词
+## Style prompt
 
-全大写 Bebas Neue 标题，奶油底珊瑚色
+All-caps Bebas Neue headlines, coral on a cream base

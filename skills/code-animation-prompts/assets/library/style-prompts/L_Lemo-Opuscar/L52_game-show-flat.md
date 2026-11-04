@@ -1,10 +1,10 @@
-# L52 综艺节奏扁平（Game Show Flat）
+# L52 Game Show Flat
 
-- 分类：L Lemo-Opuscar · 游戏
-- 长什么样：把 AI 发展史做成一局节奏游戏，模型踩着拍登场，最后发成绩单。
-- 适合：综艺感
+- Category: L Lemo-Opuscar · Games
+- Looks like: The history of AI turned into a rhythm game: models enter on the beat, and a report card is handed out at the end.
+- Best for: Variety-show feel
 
-## 风格提示词
+## Style prompt
 
 # Game Show Flat — Style Prompt
 
@@ -123,8 +123,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Rhythm of AI, 1997 → 2026

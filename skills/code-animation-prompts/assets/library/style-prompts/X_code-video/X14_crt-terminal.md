@@ -1,9 +1,9 @@
-# X14 CRT 终端（CRT terminal）
+# X14 CRT terminal
 
-- 分类：X code-video · code-video
-- 适合：讲代码、讲 AI
+- Category: X code-video · code-video
+- Best for: explaining code, explaining AI
 
-## 风格提示词
+## Style prompt
 
 # Style: CRT terminal
 

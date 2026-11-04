@@ -1,9 +1,9 @@
-# K29 蓝图
+# K29 Technical Blueprint
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：技术图纸，等距视角
-- 适合：讲工具的结构
+- Category: K Cartoon Styles · Art style
+- Looks like: Technical drawing, isometric view
+- Best for: Explaining the structure of a tool
 
-## 风格提示词
+## Style prompt
 
-技术图纸，等距视角
+Technical drawing, isometric view

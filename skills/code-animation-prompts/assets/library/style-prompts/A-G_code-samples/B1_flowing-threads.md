@@ -1,17 +1,17 @@
-# B1 流动的丝线
+# B1 Flowing Threads
 
-- 分类：A–G 代码样片 · B 粒子
-- 长什么样：无数细线跟着看不见的风流动。
-- 适合：思绪、情绪在流、平静下来
-- 关键词：流动、丝线、风
+- Category: A–G Code Samples · B Particles
+- Looks like: Countless fine threads flow with an invisible wind.
+- Best for: thoughts, flowing emotion, calming down
+- Keywords: flow, threads, wind
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"流动的丝线"的动画：无数细线跟着看不见的风流动。
-适合讲：思绪、情绪在流、平静下来
-关键词：流动、丝线、风
+Use code (Canvas 2D) to draw an animation of "Flowing Threads": Countless fine threads flow with an invisible wind.
+Good for telling: thoughts, flowing emotion, calming down
+Keywords: flow, threads, wind
 
-下面是我们自己写的参考实现：一个绘制函数 S.B1(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.B1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.B1 = (c, w, h, t, s, dpr) => {

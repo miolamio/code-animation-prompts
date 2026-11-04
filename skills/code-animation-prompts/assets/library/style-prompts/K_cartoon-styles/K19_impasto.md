@@ -1,9 +1,9 @@
-# K19 厚涂
+# K19 Impasto
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：能看见笔触，层次丰富
-- 适合：情绪高的画面
+- Category: K Cartoon Styles · Art style
+- Looks like: Visible brushstrokes, rich layering
+- Best for: High-emotion pictures
 
-## 风格提示词
+## Style prompt
 
-能看见笔触，层次丰富
+Visible brushstrokes, rich layering

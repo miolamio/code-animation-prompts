@@ -1,9 +1,9 @@
-# X19 纪录片（Documentary）
+# X19 Documentary
 
-- 分类：X code-video · code-video
-- 适合：认真讲一件事
+- Category: X code-video · code-video
+- Best for: explaining one thing seriously
 
-## 风格提示词
+## Style prompt
 
 # Style: documentary case file
 

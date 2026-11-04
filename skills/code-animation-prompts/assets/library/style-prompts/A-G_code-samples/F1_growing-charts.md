@@ -1,24 +1,24 @@
-# F1 图表生长
+# F1 Growing Charts
 
-- 分类：A–G 代码样片 · F 讲解
-- 长什么样：柱子一根根长出来，数字跳动，再连成线。
-- 适合：讲数据、研究结论
-- 关键词：图表、数字、生长
+- Category: A–G Code Samples · F Explainer
+- Looks like: Bars grow one by one, numbers tick up, then they connect into a line.
+- Best for: data, research findings
+- Keywords: charts, numbers, growth
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"图表生长"的动画：柱子一根根长出来，数字跳动，再连成线。
-适合讲：讲数据、研究结论
-关键词：图表、数字、生长
+Use code (Canvas 2D) to draw an animation of "Growing Charts": Bars grow one by one, numbers tick up, then they connect into a line.
+Good for telling: data, research findings
+Keywords: charts, numbers, growth
 
-下面是我们自己写的参考实现：一个绘制函数 S.F1(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.F1(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.F1 = (c, w, h, t, s) => {
-  const tm = t % 8.5, V = [12, 19, 27, 33, 41, 58], N = ['小学', '初中', '高中', '大学', '工作', '现在'], fade = 1 - ss(7.6, 8.5, tm);
+  const tm = t % 8.5, V = [12, 19, 27, 33, 41, 58], N = ['Primary', 'Middle', 'High', 'College', 'Work', 'Now'], fade = 1 - ss(7.6, 8.5, tm);
   c.fillStyle = '#0f1418'; c.fillRect(0, 0, w, h); c.globalAlpha = fade;
   const l = w * .1, r = w * .94, top = h * .2, bot = h * .8, fs = Math.max(9, Math.min(w, h) / 24);
-  c.fillStyle = '#8f9aa5'; c.font = `500 ${fs}px ${SANS}`; c.textBaseline = 'alphabetic'; c.textAlign = 'left'; c.fillText('示例数据：心里那句话想说出口的次数', l, h * .11);
+  c.fillStyle = '#8f9aa5'; c.font = `500 ${fs}px ${SANS}`; c.textBaseline = 'alphabetic'; c.textAlign = 'left'; c.fillText('Sample data: times I almost said it', l, h * .11);
   c.strokeStyle = '#2c3640'; c.lineWidth = 1; for (let k = 0; k <= 3; k++) { const y = lerp(bot, top, k / 3); c.beginPath(); c.moveTo(l, y); c.lineTo(r, y); c.stroke(); }
   const bw = (r - l) / V.length, pts = [];
   V.forEach((v, i) => {

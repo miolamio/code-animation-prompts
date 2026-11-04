@@ -1,9 +1,9 @@
-# K18 水彩
+# K18 Watercolor
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：边缘晕开，纸纹，颜色淡
-- 适合：讲情绪、讲回忆
+- Category: K Cartoon Styles · Art style
+- Looks like: Bleeding edges, paper texture, pale colors
+- Best for: Mood and memories
 
-## 风格提示词
+## Style prompt
 
-边缘晕开，纸纹，颜色淡
+Bleeding edges, paper texture, pale colors

@@ -1,9 +1,9 @@
-# K32 积木
+# K32 Building Blocks
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：乐高一样的积木
-- 适合：讲"一块块搭起来的系统"
+- Category: K Cartoon Styles · Art style
+- Looks like: LEGO-like building blocks
+- Best for: Explaining "a system built up block by block"
 
-## 风格提示词
+## Style prompt
 
-乐高一样的积木
+LEGO-like building blocks

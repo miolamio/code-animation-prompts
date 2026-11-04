@@ -1,9 +1,9 @@
-# K36 丝网印刷
+# K36 Screen Print
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：套色、平涂、有点错位
-- 适合：有设计感的海报画面
+- Category: K Cartoon Styles · Art style
+- Looks like: Multi-color registration, flat fill, slightly misregistered
+- Best for: Poster-like pictures with a design feel
 
-## 风格提示词
+## Style prompt
 
-套色、平涂、有点错位
+Multi-color registration, flat fill, slightly misregistered

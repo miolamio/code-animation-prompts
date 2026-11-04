@@ -1,15 +1,15 @@
-# M23 五幕讲解（万能讲解模板）
+# M23 Five-Act Explainer (All-Purpose Explainer Template)
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：五个画面讲完一件事。
-- 适合：一期科普的骨架，或者感受线里讲一个工具的段落。
+- Category: M Motion Styles · Explainers
+- Looks like: Five scenes tell one story.
+- Best for: The skeleton of a science-explainer episode, or a passage about a tool in the Feeling track.
 
-## 风格提示词
+## Style prompt
 
-你是一个资深动态设计师。用一个 HTML 页面做一段 [30] 秒的讲解动画，分 5 幕：1）观众遇到的问题；2）[东西] 是什么；3）怎么用，3 步；4）一个真实的例子；5）结尾卡片写 [频道名]。字要大要粗，转场要顺，用我们的配色。
+You are a senior motion designer. Use one HTML page to make a [30]-second explainer animation in 5 acts: 1) the problem the audience runs into; 2) what [thing] is; 3) how to use it, in 3 steps; 4) a real example; 5) a closing card with [channel name]. Make the text big and bold, keep transitions smooth, and use our color palette.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[商业讲解动画](https://prompt-motion.com/alex-prompter-1ea044)
+[Business explainer animation](https://prompt-motion.com/alex-prompter-1ea044)

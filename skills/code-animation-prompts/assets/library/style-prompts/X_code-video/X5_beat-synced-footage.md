@@ -1,9 +1,9 @@
-# X5 卡点素材剪辑（Beat-synced footage）
+# X5 Beat-synced footage
 
-- 分类：X code-video · code-video
-- 适合：快剪
+- Category: X code-video · code-video
+- Best for: fast cuts
 
-## 风格提示词
+## Style prompt
 
 # Style: beat-synced footage
 

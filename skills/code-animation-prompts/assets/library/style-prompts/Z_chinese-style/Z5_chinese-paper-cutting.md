@@ -1,49 +1,49 @@
-# Z5 剪纸
+# Z5 Chinese Paper Cutting
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：红纸镂空，民间纹样 / Chinese paper cutting
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Red paper cut into openwork, folk patterns / Chinese paper cutting
 
-## 风格提示词
+## Style prompt
 
-> 这一条的提示词是重新写过的详细版：画面规则、颜色、时间轴都写死了，DeepSeek 和 Opus 5.5 都能直接用。{{ }} 里是要你自己填的内容。
+> This prompt is a rewritten, detailed version: the picture rules, colors, and timeline are all fixed, so DeepSeek and Opus 5.5 can both use it directly. What goes inside {{ }} is for you to fill in.
 
-你是一位前端动效工程师。请写**一个完整的 index.html 文件**：只用原生 HTML + JavaScript + Canvas，不要任何外部库、字体文件或图片。做一段"中国剪纸"风格的动画：红纸对折剪出来的圆形镂空窗花，一层层叠在窗户纸上，有投影。
+You are a front-end motion engineer. Write **one complete index.html file**: use only native HTML + JavaScript + Canvas, with no external libraries, font files, or images. Make an animation in the "Chinese Paper Cutting" style: circular openwork window paper-cuts, cut from folded red paper, stacked layer by layer on window paper, with drop shadows.
 
-## 内容
+## Content
 
-- 主题：{{主题，例：新人的片头}}
-- 总时长：{{秒，默认 12}}
-- 中心要镂出的字：{{默认"囍"}}
+- Topic: {{topic, e.g.: opening titles for newlyweds}}
+- Total duration: {{seconds, default 12}}
+- Character to cut out at the center: {{default "囍" (double happiness)}}
 
-## 输出要求（必须照做）
+## Output requirements (mandatory)
 
-1. 只输出一个 html 代码块，不要解释。代码必须完整可运行：不要用省略号，不要写"其余同上""此处略"。
-2. canvas 固定 1920×1080，用 CSS 等比缩放居中，多出来的部分是黑边。
-3. 所有画面由函数 `draw(t)` 决定（`t` 是秒）。不要用 `Math.random`；需要随机就用带种子的 mulberry32(seed)，同一个 `t` 每次画出来都一样。
-4. 默认循环播放；空格暂停/继续；网址带 `?t=5` 时只显示第 5 秒那一帧。
+1. Output only one html code block, with no explanation. The code must be complete and runnable: no ellipses, and do not write "the rest same as above" or "omitted here".
+2. Canvas fixed at 1920×1080, scaled proportionally and centered with CSS, with any extra area as black bars.
+3. Everything in the picture is determined by the function `draw(t)` (`t` is in seconds). Do not use `Math.random`; if randomness is needed, use seeded mulberry32(seed), so the same `t` draws the same picture every time.
+4. Loop by default; Space pauses/resumes; when the URL has `?t=5`, show only the frame at second 5.
 
-## 颜色
+## Color
 
-窗户纸 #F1E8D4；主红 #C8102E；深红 #8F0B22。除这三色外不要别的颜色，不要金色、渐变、高光。
+Window paper #F1E8D4; main red #C8102E; deep red #8F0B22. No colors other than these three: no gold, gradients, or highlights.
 
-## 怎么画（照这个步骤）
+## How to draw (follow these steps)
 
-1. **窗户纸**：用 #F1E8D4 铺满，再用带种子的随机画 2000 条长 8–34px 的细短线（一半 #B9A98A、一半 #FFFAF0，透明度 0.05–0.11）当纸纤维。这一层只画一次，放进离屏 canvas 缓存。
-2. **造两张红纸**（各用一个离屏 canvas，大小 1920×1080，坐标原点移到画面中心）：
-   - `layerBase`：深红 #8F0B22 的圆盘，半径 452；用 `destination-out` 挖外缘 48 个半径 10 的小孔（放在半径 428 处），再挖掉半径 400 以内的整个圆（只留一圈深红边）。
-   - `layerTop`：亮红 #C8102E 的圆盘，半径 404；用 `destination-out` 挖下面这些，**每一圈都是"画 1/N，旋转复制 N 份"**：
-     - 外缘 48 个小孔：半径 9，放在 r=378；
-     - 24 个小水滴：从 r=342 到 r=274，宽 22；
-     - 12 片大花瓣：从 r=244 到 r=74，宽 50；
-     - 12 个小菱形：每个先转 π/12，中心在 r=226，宽 32 高 48；
-     - 12 个小圆点：每个先转 π/12，半径 12，放在 r=170；
-     - 12 片内圈花瓣：从 r=78 到 r=148，宽 26；
-     - 再挖掉半径 66 的中心圆；然后用亮红在中心补一个半径 46 的小盘；最后用 `destination-out` 在小盘上写中心的字（粗体 66px，居中）。
-   - 花瓣之间必须留红色的"桥"，不要把红纸挖断。
-3. **四个角花**：用另一个离屏 canvas 画一块"四分之一圆"（半径 250，圆心在画面角上）的亮红，挖：9 个沿弧边的小孔（半径 7）、4 片水滴、一个半径 58 的圆窗。复制到四个角（翻转）。
-4. **合成**：先画窗户纸；再把 `layerBase`、`layerTop`、四个角花依次画上去，每一层画之前设置投影：`shadowColor='rgba(70,12,12,0.38)'`，`shadowBlur=16`，`shadowOffsetX=5`，`shadowOffsetY=9`。
+1. **Window paper**: Fill with #F1E8D4, then use seeded randomness to draw 2000 thin short lines 8–34px long (half #B9A98A, half #FFFAF0, opacity 0.05–0.11) as paper fibers. Draw this layer only once and cache it in an offscreen canvas.
+2. **Make two sheets of red paper** (each on its own offscreen canvas, size 1920×1080, with the origin moved to the center of the picture):
+   - `layerBase`: a deep red #8F0B22 disc, radius 452; use `destination-out` to cut 48 small holes of radius 10 around the outer edge (placed at radius 428), then cut away the whole circle within radius 400 (leaving only a ring of deep red edge).
+   - `layerTop`: a bright red #C8102E disc, radius 404; use `destination-out` to cut the following, and **every ring is "draw 1/N, rotate-copy N times"**:
+     - 48 small holes at the outer edge: radius 9, placed at r=378;
+     - 24 small teardrops: from r=342 to r=274, width 22;
+     - 12 large petals: from r=244 to r=74, width 50;
+     - 12 small diamonds: each first rotated by π/12, centered at r=226, width 32, height 48;
+     - 12 small dots: each first rotated by π/12, radius 12, placed at r=170;
+     - 12 inner petals: from r=78 to r=148, width 26;
+     - then cut away the center circle of radius 66; then fill in a small disc of radius 46 at the center with bright red; finally use `destination-out` to write the center character on the small disc (bold 66px, centered).
+   - Red "bridges" must remain between the petals; do not cut the red paper apart.
+3. **Four corner pieces**: On another offscreen canvas, draw a bright red "quarter circle" (radius 250, its center at the corner of the picture), and cut: 9 small holes along the arc edge (radius 7), 4 teardrops, and a round window of radius 58. Copy it to the four corners (flipped).
+4. **Composite**: Draw the window paper first; then draw `layerBase`, `layerTop`, and the four corner pieces in order, setting the drop shadow before each layer: `shadowColor='rgba(70,12,12,0.38)'`, `shadowBlur=16`, `shadowOffsetX=5`, `shadowOffsetY=9`.
 
-水滴形的路径可以直接用这个函数（原点在窗花中心，y 轴向上为负）：
+The teardrop path can use this function directly (origin at the center of the window paper-cut, negative y is upward):
 
 ```js
 function drop(g, y0, y1, w) {
@@ -56,21 +56,21 @@ function drop(g, y0, y1, w) {
 function ring(g, n, fn) { for (let i = 0; i < n; i++) { g.save(); g.rotate(i * Math.PI * 2 / n); fn(g, i); g.restore(); } }
 ```
 
-## 动起来
+## Motion
 
-- 0–0.8 秒：深红底盘从半径 0 展开到满（ease-out）；0.25 秒后亮红主盘同样展开。
-- 1.2–4 秒：镂空由外向内一圈圈"打开"（每个孔的半径从 0 长到目标值，每圈晚 0.18 秒，每个孔 0.35 秒）；因为孔是挖出来的，所以实现时把"孔的半径 × 进度"传给上面的挖孔步骤，每帧重新生成 `layerTop`（可以缓存已经完成的圈）。
-- 4–4.4 秒：中心的字"盖章"：缩放 1.15 → 1.0。
-- 之后整张窗花以 ±0.6° 缓慢摆动（周期 6 秒），影子偏移跟着变 ±2px。
-- 最后一秒保持静止，然后循环。
+- 0–0.8 seconds: the deep red base disc unfolds from radius 0 to full (ease-out); 0.25 seconds later, the bright red main disc unfolds the same way.
+- 1.2–4 seconds: the openwork "opens" ring by ring from the outside in (each hole's radius grows from 0 to its target, each ring 0.18 seconds later, each hole 0.35 seconds); because the holes are cut out, implement this by passing "hole radius × progress" to the hole-cutting steps above and regenerating `layerTop` every frame (finished rings can be cached).
+- 4–4.4 seconds: the center character "stamps" in: scale 1.15 → 1.0.
+- After that, the whole window paper-cut sways slowly by ±0.6° (period 6 seconds), and the shadow offset shifts with it by ±2px.
+- Hold still for the last second, then loop.
 
-## 不要
+## Do not
 
-金色、渐变、塑料高光、3D、粒子、发光、过重的阴影、把字写在纸上（必须是镂出来的）。
+Gold, gradients, plastic highlights, 3D, particles, glow, overly heavy shadows, writing the character on the paper (it must be cut out).
 
-## 写完后自己过一遍（不要输出）
+## Self-check after writing (do not output)
 
-- 镂空是 `destination-out` 挖的，不是用底色盖的吗？
-- 12 份是否完全对称？
-- 所有影子是否都向右下？
-- 同一个 `t` 刷新两次，画面是否一模一样？
+- Are the cut-outs cut with `destination-out`, not covered with the base color?
+- Are the 12 copies perfectly symmetrical?
+- Do all shadows fall toward the lower right?
+- Refresh the same `t` twice: is the picture exactly identical?

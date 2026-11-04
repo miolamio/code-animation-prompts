@@ -1,9 +1,9 @@
-# X1 手绘（Hand-drawn）
+# X1 Hand-drawn
 
-- 分类：X code-video · code-video
-- 适合：讲解、记录
+- Category: X code-video · code-video
+- Best for: explainers, documenting
 
-## 风格提示词
+## Style prompt
 
 # Style: hand-drawn + 8-bit minis (default)
 

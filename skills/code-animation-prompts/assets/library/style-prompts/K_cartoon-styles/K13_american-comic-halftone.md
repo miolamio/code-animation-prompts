@@ -1,9 +1,9 @@
-# K13 美漫网点
+# K13 American Comic Halftone
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：粗线条，网点，速度线，对比强
-- 适合：讲"卖课的人"这种带点讽刺的段落
+- Category: K Cartoon Styles · Art style
+- Looks like: Bold lines, halftone dots, speed lines, strong contrast
+- Best for: Segments with a bit of satire, such as the "course seller"
 
-## 风格提示词
+## Style prompt
 
-粗线条，网点，速度线，对比强
+Bold lines, halftone dots, speed lines, strong contrast

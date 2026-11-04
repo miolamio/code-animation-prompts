@@ -1,15 +1,15 @@
-# M7 极简卡点
+# M7 Minimal Beat Cuts
 
-- 分类：M 动态风格 · 节奏和快剪类
-- 长什么样：一个镜头只讲一件事，大量留白，只用一个强调色，每一刀都在重拍上。
-- 适合：节奏快的段落，比如"你每天要整理的表格、你每周要写的周报……"。
+- Category: M Motion Styles · Rhythm and Fast Cuts
+- Looks like: One shot says one thing, lots of negative space, only one accent color, and every cut lands on a downbeat.
+- Best for: Fast-paced passages, such as "the spreadsheets you organize every day, the weekly reports you write every week...".
 
-## 风格提示词
+## Style prompt
 
-高级极简。一个镜头只讲一件事，大量留白，只用一个强调色，字距收紧的无衬线字体，文字用遮罩显出来，镜头稳。每一刀都切在重拍上，每个界面动作踩在拍子上。屏幕上的字不要句号。不要冲击波、粒子、RGB 分离、抖动、光晕、霓虹、闪烁、弹来弹去的缓动。只用可以商用的音乐和音效。
+Premium minimal. One shot says one thing, lots of negative space, only one accent color, a sans-serif typeface with tight letter-spacing, text revealed with masks, and a steady camera. Every cut lands on a downbeat and every interface action lands on the beat. No periods on on-screen text. No shockwaves, particles, RGB split, jitter, glow, neon, flicker or bouncy easing. Use only commercially licensed music and sound effects.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[UGC 广告生成器](https://prompt-motion.com/twoclipping-6dd14e)（这条提示词会先反问你要哪些素材，很值得学）
+[UGC ad generator](https://prompt-motion.com/twoclipping-6dd14e) (this prompt first asks you back which assets you want, which is well worth learning from)

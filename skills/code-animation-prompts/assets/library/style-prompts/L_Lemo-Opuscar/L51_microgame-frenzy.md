@@ -1,10 +1,10 @@
-# L51 微游戏快闪（Microgame Frenzy）
+# L51 Microgame Frenzy
 
-- 分类：L Lemo-Opuscar · 游戏
-- 长什么样：见习宇航员闯五秒训练营，越来越快，Boss 关亲手降落回地球。
-- 适合：快节奏，一连串小场景
+- Category: L Lemo-Opuscar · Games
+- Looks like: A trainee astronaut runs a five-second boot camp, faster and faster, and in the boss stage lands back on Earth by hand.
+- Best for: Fast pace, a string of small scenes
 
-## 风格提示词
+## Style prompt
 
 # Microgame Frenzy — Style Prompt
 
@@ -127,8 +127,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Five-Second Astronaut

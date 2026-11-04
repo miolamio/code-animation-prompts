@@ -1,9 +1,9 @@
-# X30 电影预告片（Movie trailer）
+# X30 Movie trailer
 
-- 分类：X code-video · code-video
-- 适合：下期预告、频道预告，11 段可以试
+- Category: X code-video · code-video
+- Best for: next-episode teasers, channel trailers; worth trying for segment 11
 
-## 风格提示词
+## Style prompt
 
 # Style: movie trailer
 

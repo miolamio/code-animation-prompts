@@ -1,15 +1,15 @@
-# M5 一镜到底
+# M5 Single Continuous Take
 
-- 分类：M 动态风格 · 结构和镜头类（用来把不同风格串起来）
-- 长什么样：从头到尾不切镜头，每个场景都是从上一个场景里"长"出来的。
-- 适合：讲变化的段落，比如"以前要自己推，现在坐进去它自己走"，一个画面变到另一个画面。
+- Category: M Motion Styles · Structure and Camera (for linking different styles together)
+- Looks like: No camera cuts from start to finish; every scene "grows" out of the previous one.
+- Best for: Passages about change, such as "before you had to push it yourself, now you sit in and it goes by itself", one picture turning into another.
 
-## 风格提示词
+## Style prompt
 
-一镜到底。每个场景都从上一个场景里变出来：文字从一条线里升起来，按钮展开成页面，用一种颜色铺满画面切到下一段。不要淡入淡出、不要模糊、不要硬切。每个场景镜头只做一次缓动。
+A single continuous take. Every scene transforms out of the previous scene: text rises from a line, a button expands into a page, a flood of one color fills the frame to cut to the next section. No fade-in/fade-out, no blur, no hard cuts. The camera does only one easing move per scene.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[照片打印 App 发布片](https://prompt-motion.com/twoclipping-221cab)、[网页 3D 飞越](https://prompt-motion.com/twoclipping-d89be5)、[外卖 App 发布片](https://prompt-motion.com/ultimaxbt-2ddf1e)
+[Photo printing app launch film](https://prompt-motion.com/twoclipping-221cab), [Web 3D fly-through](https://prompt-motion.com/twoclipping-d89be5), [Food delivery app launch film](https://prompt-motion.com/ultimaxbt-2ddf1e)

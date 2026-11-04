@@ -1,33 +1,33 @@
-# V11 包豪斯几何（Geometric Bauhaus）
+# V11 Geometric Bauhaus
 
-- 分类：V mg-styles-15 · mg-styles-15
-- 适合：几何、设计感
+- Category: V mg-styles-15 · mg-styles-15
+- Best for: geometry, a designed feel
 
-## 风格提示词
+## Style prompt
 
-# 几何构成 / 包豪斯 Geometric / Bauhaus Motion
+# Geometric / Bauhaus Motion
 
-**原片**：KONSTRUKTION · 20 SCHLÄGE「二十拍构成」 · 1920×1080 · 30 fps · 10 秒 · AI 评审终评 7.71 / 10
+**Original video**: KONSTRUKTION · 20 SCHLÄGE "Composition in Twenty Beats" · 1920×1080 · 30 fps · 10 s · final AI review score 7.71 / 10
 
-**源码**：[demos/09-bauhaus/](../demos/09-bauhaus/)
+**Source code**: [demos/09-bauhaus/](../demos/09-bauhaus/)
 
-## 怎么用
+## How to use
 
-1. 新建一个空文件夹，在里面打开一个能写代码、能执行命令的 AI 助手（例如 Claude Code）。本机需要能跑网页渲染（Node + Chrome）和 ffmpeg。
-2. 把下面「提示词」整段复制进去发送。
-3. 想换成自己的内容：改 `Creative seed` 里的故事、品牌名、文案和配色，或者改 `Output` 里的尺寸（比如竖屏 1080×1920）。不要删 `Signature features` 那一段，它是这种风格被一眼认出来的依据。
-4. 想再提高：成片出来后，另开一个 AI 用 [rubric.md](../rubric.md) 评审，把评审意见贴回给制作的 AI 再改一轮。原片就是这样改了两轮。
+1. Create a new empty folder and open an AI assistant in it that can write code and run commands (for example Claude Code). Your machine needs to be able to render web pages (Node + Chrome) and run ffmpeg.
+2. Copy the entire "Prompt" below into it and send.
+3. To use your own content: change the story, brand name, copy and color palette in `Creative seed`, or the dimensions in `Output` (for example vertical format 1080×1920). Do not delete the `Signature features` section; it is what makes this style instantly recognizable.
+4. To improve further: once the final video is out, open a separate AI to review it with [rubric.md](../rubric.md), then paste the review back to the AI that made it for another round. The original video went through two such rounds.
 
-## 提示词
+## Prompt
 
 ```text
 You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
-motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
+motion, Pentagram motion identities, top Behance/Motionographer features, top Douyin/Bilibili designer accounts.
 
 # Style
-几何构成 / 包豪斯 Geometric / Bauhaus Motion
+Geometric / Bauhaus Motion
 
 # Output (fixed)
 - 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
@@ -38,7 +38,7 @@ HTML: SVG/Canvas + GSAP on a strict modular grid, beat grid at 120 BPM
 (You may choose a better route if it clearly raises quality; say why.)
 
 # Creative seed
-「包豪斯动态海报」Bauhaus 1919 kinetic poster — mechanical, rational, musical.
+"Bauhaus Kinetic Poster": Bauhaus 1919 kinetic poster — mechanical, rational, musical.
 - Cream paper (#F1E9DA), primaries red #E03C31, yellow #F2B705, blue #1E4FA3, black #111; strict modular grid (e.g. 240px modules); every move is an integer number of modules; every landing on a grid line.
 - 120 BPM (0.5 s/beat): each beat a module acts — quarter circles rotate 90° about a corner pivot, semicircles slide one module, triangles flip, squares split; rotation pivots alternate (own centre / corner / frame centre).
 - 0–2s grid lines draw & the first red circle lands; 2–6s the composition assembles into a Kandinsky/Bauhaus poster; 6–8s phase-shifted cascade wave across the grid on the drop; 8–10s freeze into a perfect poster with Swiss typography: "BAUHAUS" set vertically in heavy geometric sans + small caps "FORM · FARBE · FUNKTION".
@@ -48,13 +48,13 @@ Sound: minimal techno/click — each flip = a pitched click/blip, kick on quarte
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
 # Signature features and key techniques (the result is judged against these)
-圆、三角、矩形在严格网格上做精确的平移、旋转、缩放，三原色+黑白的限定色板，机械理性的秩序美。源自包豪斯与瑞士国际主义平面传统（Adobe 曾与 Bauhaus 档案馆合作 Hidden Treasures 项目），也是动态海报（kinetic poster）的主流语言，与音乐节拍天然合拍。
-视觉特征 基础几何形, 红黄蓝黑限定色, 严格网格对齐, 旋转以几何中心为轴, 节拍驱动的模块化运动
-关键技法 一切运动锚定网格：位移距离=网格模数整数倍，落点必在网格线上
-缓动克制：easeInOutQuad 或干脆匀速，禁用 overshoot——机械感是特征不是缺陷
-节拍驱动：每个几何元素在节拍点瞬时出现/翻转，一拍一个动作，类似我们已做的卡点逻辑
-旋转轴心玩法：绕自身中心、绕边缘顶点、绕画面中心三种交替制造韵律
-生成式变体：Processing/p5.js 用三角函数相位差批量驱动几何阵列（国内动态海报圈主流做法）
+Circles, triangles and rectangles make precise translations, rotations and scales on a strict grid, in a limited palette of the three primaries plus black and white; the ordered beauty of mechanical rationality. It comes from the Bauhaus and Swiss International graphic tradition (Adobe once worked with the Bauhaus archive on the Hidden Treasures project), and it is also the mainstream language of kinetic posters, a natural fit for musical beats.
+Visual features: basic geometric shapes, limited red/yellow/blue/black palette, strict grid alignment, rotation around the geometric center, beat-driven modular motion
+Key techniques: all motion is anchored to the grid: travel distance = an integer multiple of the grid module, and landing points must fall on grid lines
+Restrained easing: easeInOutQuad or simply constant speed, overshoot forbidden—the mechanical feel is a feature, not a flaw
+Beat-driven: each geometric element appears/flips instantly on a beat point, one action per beat, similar to the beat-synced logic we have already built
+Rotation pivot play: alternate among three pivots, around its own center, around an edge vertex and around the center of the picture, to create rhythm
+Generative variant: Processing/p5.js drives geometric arrays in bulk with trigonometric phase offsets (the mainstream approach in China's kinetic poster scene)
 
 # How to work
 1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an

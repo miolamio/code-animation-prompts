@@ -1,9 +1,9 @@
-# X13 16-bit 街机（16-bit arcade）
+# X13 16-bit arcade
 
-- 分类：X code-video · code-video
-- 适合：游戏感
+- Category: X code-video · code-video
+- Best for: a game feel
 
-## 风格提示词
+## Style prompt
 
 # Style: 16-bit arcade
 

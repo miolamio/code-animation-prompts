@@ -1,15 +1,15 @@
-# M20 时间线/历史
+# M20 Timeline and History
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：一条时间轴往前走，每个节点弹出一件事。
-- 适合："这三个月我是怎么走过来的"、"AI 是怎么发展到今天的"。
+- Category: M Motion Styles · Explainers
+- Looks like: A timeline moves forward, and each node pops up an event.
+- Best for: "How I got through these three months", "How AI got to where it is today".
 
-## 风格提示词
+## Style prompt
 
-做一段时间线动画，讲 [从什么时候到什么时候] 的几个关键节点：[节点1、节点2、节点3]。时间轴从左往右推进，每到一个节点，画面放大讲这一件事，再缩回来继续走。
+Make a timeline animation covering a few key points from [start time to end time]: [point 1, point 2, point 3]. The timeline advances from left to right; at each node, zoom in to tell that one thing, then zoom back out and keep moving.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[AI 发展史](https://prompt-motion.com/kloss-xyz-fe0c31)、[像素风的大模型历史](https://prompt-motion.com/pluginplay-3d4006)、[摩洛哥政治史](https://prompt-motion.com/triglyceee-bd5b08)
+[History of AI](https://prompt-motion.com/kloss-xyz-fe0c31), [Pixel-art history of large models](https://prompt-motion.com/pluginplay-3d4006), [History of Moroccan politics](https://prompt-motion.com/triglyceee-bd5b08)

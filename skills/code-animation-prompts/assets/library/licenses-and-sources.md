@@ -1,9 +1,9 @@
-# 许可与来源
+# Licenses and Sources
 
-## 我整理和制作的部分
+## The parts I organized and made
 
-A–G 代码样片（含参考实现代码和静帧）、R 照参考学来的（含静帧）、M / K / Z / H 的中文整理和改写、几条重写过的详细提示词（M1、Z5、H1、B3、B6）、`style-picker.html` 挑选网页、`examples/` 里的 Opus 5.5 版 B6。
+A–G Code Samples (including reference implementation code and stills), R Learned from References (including stills), the Chinese-language organization and rewriting of M / K / Z / H, several rewritten detailed prompts (M1, Z5, H1, B3, B6), the `style-picker.html` picker page, and the Opus 5.5 version of B6 in `examples/`.
 
-约定：免费使用，转发也请免费分享；
+Terms: free to use; when passing it on, please also share it for free;
 
 

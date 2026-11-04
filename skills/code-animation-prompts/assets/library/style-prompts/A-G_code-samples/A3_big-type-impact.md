@@ -1,21 +1,21 @@
-# A3 大字冲击
+# A3 Big Type Impact
 
-- 分类：A–G 代码样片 · A 字
-- 长什么样：一个词一个词砸进画面，跟着节拍。
-- 适合：情绪爆发、金句、MV 副歌
-- 关键词：大字、砸下来、跟节拍
+- Category: A–G Code Samples · A Words
+- Looks like: Word after word slams into the picture, on the beat.
+- Best for: emotional outbursts, key lines, music video choruses
+- Keywords: big type, slamming down, on the beat
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"大字冲击"的动画：一个词一个词砸进画面，跟着节拍。
-适合讲：情绪爆发、金句、MV 副歌
-关键词：大字、砸下来、跟节拍
+Use code (Canvas 2D) to draw an animation of "Big Type Impact": Word after word slams into the picture, on the beat.
+Good for telling: emotional outbursts, key lines, music video choruses
+Keywords: big type, slamming down, on the beat
 
-下面是我们自己写的参考实现：一个绘制函数 S.A3(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.A3(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.A3 = (c, w, h, t, s) => {
-  const L = [["你", .17, .33, .30, 0], ["懂", .40, .30, .22, 0], ["什么", .70, .33, .17, 0], ["我", .19, .64, .20, 0], ["都是", .43, .62, .14, 0], ["为你好", .63, .84, .16, 1], ["听话", .80, .60, .13, 0], ["！", .90, .84, .22, 1]];
+  const L = [["You", .17, .33, .30, 0], ["know", .40, .30, .22, 0], ["nothing", .70, .33, .17, 0], ["It's", .19, .64, .20, 0], ["all", .43, .62, .14, 0], ["for your good", .63, .84, .16, 1], ["Obey", .80, .60, .13, 0], ["!", .90, .84, .22, 1]];
   const beat = .4, len = L.length * beat + 1.4, tm = t % len, k = Math.floor(tm / beat), age = tm - k * beat;
   const m = Math.min(w, h), hit = k < L.length ? Math.exp(-age * 9) : 0;
   c.fillStyle = mixHex('#08080a', '#2a2a2e', hit * .5); c.fillRect(0, 0, w, h);

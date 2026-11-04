@@ -1,8 +1,8 @@
-# Z3 写意
+# Z3 Xieyi
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：大笔挥洒，意到笔不到 / xieyi, expressive brush
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Bold, sweeping brushwork; the idea arrives where the brush does not / xieyi, expressive brush
 
-## 风格提示词
+## Style prompt
 
-大笔挥洒，意到笔不到 / xieyi, expressive brush
+Bold, sweeping brushwork; the idea arrives where the brush does not / xieyi, expressive brush

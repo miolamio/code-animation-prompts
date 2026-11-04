@@ -1,9 +1,9 @@
-# K15 橡皮管 1930
+# K15 Rubber Hose 1930
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：手脚像橡皮管，饼形眼睛，黑白或旧色
-- 适合：复古、好玩
+- Category: K Cartoon Styles · Art style
+- Looks like: Limbs like rubber hoses, pie-cut eyes, black-and-white or aged colors
+- Best for: Retro, playful
 
-## 风格提示词
+## Style prompt
 
-手脚像橡皮管，饼形眼睛，黑白或旧色
+Limbs like rubber hoses, pie-cut eyes, black-and-white or aged colors

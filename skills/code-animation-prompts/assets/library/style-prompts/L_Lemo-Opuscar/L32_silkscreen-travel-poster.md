@@ -1,10 +1,10 @@
-# L32 丝印旅行海报（Silkscreen Travel Poster）
+# L32 Silkscreen Travel Poster
 
-- 分类：L Lemo-Opuscar · 印刷与版画
-- 长什么样：三条步道各一张丝印海报，一色一刮印出来，再沿山脊一镜到底从正午爬到黄昏。
-- 适合：海报、标题、封面
+- Category: L Lemo-Opuscar · Printing and printmaking
+- Looks like: Three trails get one silkscreen poster each, printed one color pass at a time, then a single continuous take climbs along the ridge from noon to dusk.
+- Best for: Posters, titles, covers
 
-## 风格提示词
+## Style prompt
 
 # Silkscreen Travel Poster — Style Prompt
 
@@ -145,8 +145,8 @@ Swapping `demo/content.json` and rebuilding is a technical check that the engine
 
 How our demo was made (story, shots, score, end card, build, content fields): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Three Trails

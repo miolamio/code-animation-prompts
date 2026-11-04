@@ -1,8 +1,8 @@
-# Z9 青花
+# Z9 Blue and White Porcelain
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：白底蓝花，瓷器纹样 / blue and white porcelain
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Blue patterns on a white ground, porcelain motifs / blue and white porcelain
 
-## 风格提示词
+## Style prompt
 
-白底蓝花，瓷器纹样 / blue and white porcelain
+Blue patterns on a white ground, porcelain motifs / blue and white porcelain

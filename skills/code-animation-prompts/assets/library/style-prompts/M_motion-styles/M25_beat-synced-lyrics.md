@@ -1,15 +1,15 @@
-# M25 歌词卡点
+# M25 Beat-Synced Lyrics
 
-- 分类：M 动态风格 · 文字和金句类
-- 长什么样：歌词跟着人声和节拍一个字一个字跳出来。
-- 适合：你自己的歌，或者片子里有一段唱的部分。
+- Category: M Motion Styles · Text and Key Lines
+- Looks like: Lyrics jump out word by word, following the vocals and the beat.
+- Best for: Your own song, or a film with a sung section.
 
-## 风格提示词
+## Style prompt
 
-根据附上的歌做一个歌词动态视频，歌词和动画要和人声、节拍完全对上。
+Make a lyric motion video from the attached song; the lyrics and animation must line up exactly with the vocals and the beat.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[歌词卡点](https://prompt-motion.com/samaote-5e2fc2)
+[Beat-synced lyrics](https://prompt-motion.com/samaote-5e2fc2)

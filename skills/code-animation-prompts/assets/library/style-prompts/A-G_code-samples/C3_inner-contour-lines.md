@@ -1,17 +1,17 @@
-# C3 心里的等高线
+# C3 Inner Contour Lines
 
-- 分类：A–G 代码样片 · C 线与墨
-- 长什么样：像地图上的等高线，一直在起伏。
-- 适合：情绪起伏、心里的地形
-- 关键词：等高线、地形、起伏
+- Category: A–G Code Samples · C Line and Ink
+- Looks like: Like contour lines on a map, constantly rising and falling.
+- Best for: emotional ups and downs, the terrain of the heart
+- Keywords: contour lines, terrain, rise and fall
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"心里的等高线"的动画：像地图上的等高线，一直在起伏。
-适合讲：情绪起伏、心里的地形
-关键词：等高线、地形、起伏
+Use code (Canvas 2D) to draw an animation of "Inner Contour Lines": Like contour lines on a map, constantly rising and falling.
+Good for telling: emotional ups and downs, the terrain of the heart
+Keywords: contour lines, terrain, rise and fall
 
-下面是我们自己写的参考实现：一个绘制函数 S.C3(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.C3(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.C3 = (c, w, h, t, s) => {

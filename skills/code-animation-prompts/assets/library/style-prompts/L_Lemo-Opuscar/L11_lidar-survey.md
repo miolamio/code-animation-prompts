@@ -1,10 +1,10 @@
-# L11 激光点云扫描（LiDAR Survey）
+# L11 LiDAR Survey
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：激光点云剥掉一片森林的树冠，露出当年农田的石墙：3.4 公里。
-- 适合：科技感，"扫一遍"
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: Laser point clouds strip the canopy off a forest to reveal the stone walls of old farm fields: 3.4 km of them.
+- Best for: A high-tech feel, "scan it all"
 
-## 风格提示词
+## Style prompt
 
 # LiDAR Survey — Style Prompt
 
@@ -123,8 +123,8 @@ The agent decides the place and dataset, which classes to peel or keep, the fron
 
 How our demo was made (story, shots, score, title card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Fields Under the Forest

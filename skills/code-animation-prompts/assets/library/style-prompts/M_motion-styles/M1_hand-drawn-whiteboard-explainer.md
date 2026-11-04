@@ -1,54 +1,54 @@
-# M1 白板手绘讲解
+# M1 Hand-Drawn Whiteboard Explainer
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：白底，一只手（或一支笔）一边讲一边画，线条先画出来再上色。
-- 适合：讲概念、讲原理的段落。比如"大语言模型是大脑，Harness 是手脚"。
+- Category: M Motion Styles · Explainers
+- Looks like: White background; a hand (or a pen) draws as it explains, with lines drawn first and then colored.
+- Best for: Passages explaining concepts and principles. For example, "the large language model is the brain, the Harness is the hands and feet".
 
-## 风格提示词
+## Style prompt
 
-> 这一条的提示词是重新写过的详细版：画面规则、颜色、时间轴都写死了，DeepSeek 和 Opus 5.5 都能直接用。{{ }} 里是要你自己填的内容。
+> This prompt is a rewritten, detailed version: the rendering rules, colors and timeline are all fixed, so both DeepSeek and Opus 5.5 can use it directly. Content inside {{ }} is for you to fill in.
 
-你是一位前端动效工程师。请写**一个完整的 index.html 文件**：只用原生 HTML + JavaScript + Canvas，不要任何外部库、字体文件或图片。做一段白板手绘讲解动画。
+You are a front-end motion engineer. Write **one complete index.html file**: plain HTML + JavaScript + Canvas only, with no external libraries, font files or images. Make a hand-drawn whiteboard explainer animation.
 
-## 讲什么
+## What to explain
 
-- 主题：{{主题，例：大语言模型是大脑，Harness 是手脚}}
-- 总时长：{{秒，默认 20}}
-- 画面里的字：{{3–6 个短词。例：标题"AI 是怎么干活的"；左边"大语言模型"，副标"会想、会说"；右边"Harness"，副标"手和脚：真去做事"；箭头上"指令"}}
+- Topic: {{topic, e.g. the large language model is the brain, the Harness is the hands and feet}}
+- Total duration: {{seconds, default 20}}
+- Text on screen: {{3-6 short phrases. E.g. title "How AI Gets Work Done"; left "Large Language Model", subtitle "thinks, speaks"; right "Harness", subtitle "hands and feet: really does things"; on the arrow "Command"}}
 
-## 输出要求（必须照做）
+## Output requirements (mandatory)
 
-1. 只输出一个 html 代码块，不要解释。代码必须完整可运行：不要用省略号，不要写"其余同上""此处略"。
-2. canvas 固定 1920×1080；用 CSS 让它在窗口里等比缩放并居中，窗口多出来的部分是黑边。
-3. 所有画面由函数 `draw(t)` 决定，`t` 是秒。不要用 `Math.random`；需要随机就用带种子的 mulberry32(seed)，这样同一个 `t` 每次画出来都一模一样。
-4. 默认循环播放；按空格暂停/继续；网址带 `?t=8.5` 时只显示第 8.5 秒那一帧（静止），方便截图。
+1. Output only one html code block, with no explanation. The code must be complete and runnable: no ellipses, and do not write "rest same as above" or "omitted here".
+2. The canvas is fixed at 1920×1080; use CSS to scale it proportionally and center it in the window, with black bars for the extra window space.
+3. Everything on screen is determined by the function `draw(t)`, where `t` is in seconds. Do not use `Math.random`; if you need randomness, use a seeded mulberry32(seed), so the same `t` draws exactly the same picture every time.
+4. Loop by default; Space pauses/resumes; when the URL has `?t=8.5`, show only the frame at second 8.5 (still), for easy screenshots.
 
-## 画面怎么画
+## How to draw
 
-- 底色 #FBFAF7；再叠几条很淡的灰色擦痕（宽 40–90px，透明度 0.03–0.06）。
-- 线条是黑色马克笔 #1B1B1B，宽 10px，`lineCap` 和 `lineJoin` 都用 round。每一笔画两遍：第一遍透明度 0.93；第二遍宽 5.5px、透明度 0.55、位置偏移 ±1.5px。
-- 只有黑和**一个**强调色 #E5432B（用在标题下划线、箭头、副标题和笔帽）。不要第三种颜色。
-- 字体：`font-family: KaiTi, STKaiti, "Kaiti SC", "Microsoft YaHei", sans-serif`，粗体；标题 110px，标签 90px，副标题 56px。字用 `strokeText` 加 `fillText`，描边宽约字号的 3.5%。
-- 手绘感：每个点加 ±2.5px 的抖动，抖动用带种子的随机按"点的序号"取，不要每帧重新随机。
-- 要画的东西：
-  - 云朵形的"脑"：极坐标 r = R·(1 + 0.11·|sin(3.5θ)|)，里面画几条波浪线；
-  - 一个火柴人：圆头、一根线的身体、两条手臂（末端画一个圆当手）、两条腿；
-  - 一条弯曲的强调色箭头，箭头头部要顺着线尾的方向；
-  - 一支马克笔：黑杆、红帽，长约 330px，斜 55°，笔尖始终停在"当前正在画的那一笔"的末端；全部画完后滑出画面。
+- Base color #FBFAF7; on top, a few very faint gray smudges (40-90px wide, opacity 0.03-0.06).
+- Lines are black marker #1B1B1B, 10px wide, with `lineCap` and `lineJoin` both round. Draw every stroke twice: the first pass at opacity 0.93; the second pass 5.5px wide, opacity 0.55, offset by ±1.5px.
+- Only black and **one** accent color #E5432B (used for the title underline, arrow, subtitles and pen cap). No third color.
+- Typeface: `font-family: KaiTi, STKaiti, "Kaiti SC", "Microsoft YaHei", sans-serif`, bold; title 110px, labels 90px, subtitles 56px. Draw text with `strokeText` plus `fillText`, with a stroke width of about 3.5% of the font size.
+- Hand-drawn feel: add ±2.5px jitter to every point, taking the jitter from seeded randomness indexed by the point's number, not re-randomized every frame.
+- Things to draw:
+  - A cloud-shaped "brain": polar coordinates r = R·(1 + 0.11·|sin(3.5θ)|), with a few wavy lines inside;
+  - A stick figure: round head, a single-line body, two arms (each ending in a circle as the hand), two legs;
+  - A curved accent-color arrow, with the arrowhead following the direction of the line's tail;
+  - A marker: black barrel, red cap, about 330px long, tilted 55 degrees, with the tip always resting at the end of "the stroke currently being drawn"; after everything is drawn, it slides out of the frame.
 
-## 动起来的规则
+## Motion rules
 
-- 每一笔是一个点列表。用 progress（0→1）决定画到第几个点，progress 用 ease-in-out；一笔 0.4–1.2 秒。
-- 顺序：标题 → 标题下划线（红）→ 左边的脑 → 右边的小人 → 红色箭头 → "指令"两个字 → 两处标签文字。同一时间只画一笔。
-- 全部画完后静止 1.5 秒，再循环。
+- Each stroke is a list of points. Use progress (0→1) to decide how many points have been drawn, with progress eased in-out; one stroke takes 0.4-1.2 seconds.
+- Order: title → title underline (red) → left brain → right figure → red arrow → the word "Command" → the two label texts. Only one stroke is drawn at a time.
+- After everything is drawn, hold still for 1.5 seconds, then loop.
 
-## 不要
+## Do not
 
-渐变、阴影、发光、3D、粒子、复杂配色、满屏文字、镜头晃动。
+Gradients, shadows, glow, 3D, particles, complex color schemes, screens full of text, camera shake.
 
-## 写完后自己过一遍（不要输出）
+## Self-check after writing (do not output)
 
-- `t=0` 时是不是几乎空白的白板？
-- `t=总时长−0.1` 时所有元素都在吗？
-- 文字有没有被线或笔压住？
-- 同一个 `t` 刷新两次，画面是不是一模一样？
+- At `t=0`, is it an almost blank whiteboard?
+- At `t=total duration-0.1`, are all elements present?
+- Is any text covered by a line or the pen?
+- Refreshing twice at the same `t`, is the picture exactly identical?

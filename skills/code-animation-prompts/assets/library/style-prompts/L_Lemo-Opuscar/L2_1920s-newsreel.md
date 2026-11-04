@@ -1,10 +1,10 @@
-# L2 1920 年代新闻片（1920s Newsreel）
+# L2 1920s Newsreel
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：1926 年报纸说查尔斯顿会跳坏膝盖，福特工人野餐会上的孩子照跳不误。
-- 适合：讲"以前"，怀旧
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: In 1926 the newspapers said the Charleston would wreck your knees, but the children at a Ford workers' picnic danced it anyway.
+- Best for: Telling about "the past", nostalgia
 
-## 风格提示词
+## Style prompt
 
 # 1920s Newsreel — Style Prompt
 
@@ -141,8 +141,8 @@ A menu; use the ones the story needs, each once.
 
 Our demo, its story and build: [`DEMO.md`](DEMO.md).
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Knock-Knee Alert

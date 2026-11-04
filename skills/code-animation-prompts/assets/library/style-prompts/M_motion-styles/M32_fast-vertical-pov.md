@@ -1,15 +1,15 @@
-# M32 竖屏快节奏 POV
+# M32 Fast Vertical POV
 
-- 分类：M 动态风格 · 节奏和快剪类
-- 长什么样：竖屏，节奏很快、很碎，第一人称视角，动作和音效都很满。
-- 适合：竖屏版的开头 3 秒，抓住人。
+- Category: M Motion Styles · Rhythm and Fast Cuts
+- Looks like: Vertical format, very fast and fragmented, first-person view, full of action and sound effects.
+- Best for: The first 3 seconds of a vertical version, to grab people.
 
-## 风格提示词
+## Style prompt
 
-竖屏 9:16，快节奏碎剪，第一人称视角，讲 [主题]，动作和音效都要做得很好，加一点你自己的性格。
+Vertical 9:16, fast choppy cuts, first-person POV, about [topic]; make the action and sound effects excellent, and add a bit of your own personality.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[AI 视角的快剪](https://prompt-motion.com/kloss-xyz-15182a)
+[AI-perspective fast cuts](https://prompt-motion.com/kloss-xyz-15182a)

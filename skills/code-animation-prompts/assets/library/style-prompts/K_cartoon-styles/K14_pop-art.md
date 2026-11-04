@@ -1,9 +1,9 @@
-# K14 波普
+# K14 Pop Art
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：粗线，圆点，对话框，红黄蓝
-- 适合：抓眼球的转折
+- Category: K Cartoon Styles · Art style
+- Looks like: Bold lines, dots, speech bubbles, red, yellow and blue
+- Best for: Eye-catching turning points
 
-## 风格提示词
+## Style prompt
 
-粗线，圆点，对话框，红黄蓝
+Bold lines, dots, speech bubbles, red, yellow and blue

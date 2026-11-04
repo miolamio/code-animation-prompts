@@ -1,9 +1,9 @@
-# X17 蓝图（Blueprint）
+# X17 Blueprint
 
-- 分类：X code-video · code-video
-- 适合：讲结构
+- Category: X code-video · code-video
+- Best for: explaining structure
 
-## 风格提示词
+## Style prompt
 
 # Style: blueprint
 

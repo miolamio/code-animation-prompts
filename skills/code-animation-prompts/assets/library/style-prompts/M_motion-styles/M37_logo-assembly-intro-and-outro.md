@@ -1,15 +1,15 @@
-# M37 Logo 慢慢拼出来（片头片尾）
+# M37 Logo Assembly Intro and Outro
 
-- 分类：M 动态风格 · 结构和镜头类（用来把不同风格串起来）
-- 长什么样：碎片慢慢聚拢，拼成 logo。
-- 适合：每期的片头或片尾，做一次以后反复用。
+- Category: M Motion Styles · Structure and Camera (for linking different styles together)
+- Looks like: Fragments slowly gather and assemble into the logo.
+- Best for: The opening or closing titles of every episode; make it once and reuse it.
 
-## 风格提示词
+## Style prompt
 
-做一段慢慢揭示的转场：碎片一点点聚拢，最后拼出你的 logo。
+Make a slow-reveal transition: fragments gradually gather and finally assemble your logo.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[Logo 揭示](https://prompt-motion.com/tdinh-me-815acb)
+[Logo reveal](https://prompt-motion.com/tdinh-me-815acb)

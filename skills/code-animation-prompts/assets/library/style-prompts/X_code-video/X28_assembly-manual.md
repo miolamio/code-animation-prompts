@@ -1,9 +1,9 @@
-# X28 组装说明书（Assembly manual）
+# X28 Assembly manual
 
-- 分类：X code-video · code-video
-- 适合：讲步骤，宜家说明书那种
+- Category: X code-video · code-video
+- Best for: explaining steps, IKEA-manual style
 
-## 风格提示词
+## Style prompt
 
 # Style: assembly manual
 

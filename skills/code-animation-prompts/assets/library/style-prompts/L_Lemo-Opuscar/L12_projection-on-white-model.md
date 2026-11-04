@@ -1,10 +1,10 @@
-# L12 白模投影（Projection on White Model）
+# L12 Projection on White Model
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：投影机把数据一层层刷上鹿特丹白模：从 1940 年的空洞到今天的塔楼。
-- 适合：把数据投到白色模型上
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: A projector paints data layer by layer onto a white model of Rotterdam: from the gaps of 1940 to today's towers.
+- Best for: Projecting data onto a white model
 
-## 风格提示词
+## Style prompt
 
 # Projection on White Model — Style Prompt
 
@@ -120,8 +120,8 @@ Decide per film: place and scale, which layers in what order, their colours, the
 
 How our demo was made (story, shots, score, title card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 How a Flattened City Grew Back

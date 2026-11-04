@@ -1,17 +1,17 @@
-# D3 雪与火星
+# D3 Snow and Sparks
 
-- 分类：A–G 代码样片 · D 光与天气
-- 长什么样：雪往下落，几点火星往上飘。
-- 适合：告别、结束、冷里的一点热
-- 关键词：雪、火星、往上飘
+- Category: A–G Code Samples · D Light and Weather
+- Looks like: Snow falls, and a few sparks drift upward.
+- Best for: farewell, endings, a little warmth in the cold
+- Keywords: snow, sparks, drifting upward
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"雪与火星"的动画：雪往下落，几点火星往上飘。
-适合讲：告别、结束、冷里的一点热
-关键词：雪、火星、往上飘
+Use code (Canvas 2D) to draw an animation of "Snow and Sparks": Snow falls, and a few sparks drift upward.
+Good for telling: farewell, endings, a little warmth in the cold
+Keywords: snow, sparks, drifting upward
 
-下面是我们自己写的参考实现：一个绘制函数 S.D3(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.D3(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.D3 = (c, w, h, t, s) => {

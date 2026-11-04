@@ -1,10 +1,10 @@
 # L50 HD-2D
 
-- 分类：L Lemo-Opuscar · 游戏
-- 长什么样：灯塔熄灭，孙女提着最后一簇火穿过夜林、爬上风暴悬崖。
-- 适合：像素加光影，有电影感
+- Category: L Lemo-Opuscar · Games
+- Looks like: The lighthouse goes dark, and the granddaughter carries the last cluster of fire through the night forest and up the storm cliff.
+- Best for: Pixels plus lighting, cinematic
 
-## 风格提示词
+## Style prompt
 
 # HD-2D — Style Prompt
 
@@ -116,8 +116,8 @@ You decide the places, the characters, the light the story turns on, the chapter
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Lampbearer

@@ -1,9 +1,9 @@
-# K35 旧学院风
+# K35 Vintage Academia
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：泛黄、棕褐、老书的感觉
-- 适合：讲历史
+- Category: K Cartoon Styles · Art style
+- Looks like: Yellowed, sepia, the feel of old books
+- Best for: Talking about history
 
-## 风格提示词
+## Style prompt
 
-泛黄、棕褐、老书的感觉
+Yellowed, sepia, the feel of old books

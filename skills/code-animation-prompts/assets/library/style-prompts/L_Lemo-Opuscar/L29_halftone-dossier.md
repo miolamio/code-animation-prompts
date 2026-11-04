@@ -1,10 +1,10 @@
-# L29 复古半调案卷（Halftone Dossier）
+# L29 Halftone Dossier
 
-- 分类：L Lemo-Opuscar · 印刷与版画
-- 长什么样：橘猫胖橘被立案审查：测试重力、凌晨跑酷，最后无罪释放。
-- 适合：揭秘、档案
+- Category: L Lemo-Opuscar · Printing and printmaking
+- Looks like: The ginger cat Fatty is put on trial: gravity tests, parkour at dawn, and finally acquitted.
+- Best for: Exposes and revelations, dossiers
 
-## 风格提示词
+## Style prompt
 
 # Halftone Dossier — Style Prompt
 
@@ -127,8 +127,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Case File: Chubby

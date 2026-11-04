@@ -1,10 +1,10 @@
-# L10 工程方案比较墙（Engineering Briefing Board）
+# L10 Engineering Comparison Board
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：一条河要架桥，四种桥型在一面简报墙上逐个受检，拍板的是桥下要过的船。
-- 适合：几个方案放在一起比
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: A river needs a bridge, and four bridge types are tested one by one on a briefing wall; the deciding factor is the ships that must pass under it.
+- Best for: Comparing several options side by side
 
-## 风格提示词
+## Style prompt
 
 # Engineering Briefing Board — Style Prompt
 
@@ -109,10 +109,10 @@ A minimal world (`node demo/kit/batch.mjs park.json`; `fetch_fonts.py park.json`
 ```json
 { "dur": 6, "t": 5.5, "board": { "w": 4000, "h": 2400 }, "hand": 0, "cam": { "x": 1500, "y": 1000, "z": 0.8, "moves": [] },
   "elements": [
-    { "type": "tag", "text": "地下车库", "xy": [560, 800], "size": 60, "arrive": { "t": 0.2, "kind": "swing" } },
+    { "type": "tag", "text": "Underground garage", "xy": [560, 800], "size": 60, "arrive": { "t": 0.2, "kind": "swing" } },
     { "type": "ink", "kind": "dim", "from": [700, 900], "to": [1300, 900], "color": "blue", "t": 0.6, "d": 0.6 },
-    { "type": "ink", "kind": "write", "text": "120 米", "xy": [1360, 940], "size": 100, "color": "blue", "t": 1.2 },
-    { "type": "stamp", "text": "首选", "xy": [1500, 700], "size": 110, "rot": -8, "t": 4.2 } ] }
+    { "type": "ink", "kind": "write", "text": "120 m", "xy": [1360, 940], "size": 100, "color": "blue", "t": 1.2 },
+    { "type": "stamp", "text": "Preferred", "xy": [1500, 700], "size": 110, "rot": -8, "t": 4.2 } ] }
 ```
 
 ## 11. Variation space
@@ -127,8 +127,8 @@ The agent decides per film: structure, which objects are photographed, plan vs e
 
 How our demo was made (story, shots, score, title card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Ship Decides

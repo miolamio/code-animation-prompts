@@ -1,15 +1,15 @@
-# M28 对称暖色的电影感空镜
+# M28 Symmetrical Warm Scenic Shots
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：画面左右对称，粉嫩暖色，像一个精致的小舞台。比如火车窗外四季流过，桌上一杯咖啡。
-- 适合：讲时间流逝、讲停下来想一想的段落。比如"停播这段时间"。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: Left-right symmetrical frame in soft warm pinks, like an exquisite little stage. For example, the four seasons flowing past a train window, a cup of coffee on the table.
+- Best for: Passages about time passing or pausing to think, for example "the time the channel was off air".
 
-## 风格提示词
+## Style prompt
 
-火车窗外四季流过，车厢很温暖，桌上放着一杯咖啡。画面左右对称，粉嫩暖色，像精致的舞台布景，镜头很稳。
+The four seasons flow past a train window; the carriage is warm, with a cup of coffee on the table. The frame is left-right symmetrical, in soft warm pinks, like an exquisite stage set, with a very steady camera.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[窗外四季](https://prompt-motion.com/itsolelehmann-e47532)（原提示词点名了一部电影的风格，我改成了直接描述长相）
+[Four seasons outside the window](https://prompt-motion.com/itsolelehmann-e47532) (the original prompt named a specific film's style; I changed it to describe the look directly)

@@ -1,9 +1,9 @@
-# X25 天气预报（Weather forecast）
+# X25 Weather forecast
 
-- 分类：X code-video · code-video
-- 适合：用天气讲情绪，感受讲解很合适
+- Category: X code-video · code-video
+- Best for: using weather to talk about emotions; great for feelings explainers
 
-## 风格提示词
+## Style prompt
 
 # Style: TV weather forecast
 

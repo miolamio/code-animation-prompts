@@ -1,22 +1,22 @@
-# R1 霓虹雨夜 · 电影感
+# R1 Cinematic Neon Rain
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：一点透视的雨夜窄街，两边挂满竖招牌，青色的雾越远越浓，街尽头一团暖光；湿地面上的倒影占了半个画面。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: One-point perspective of a narrow street on a rainy night, both sides hung with vertical signs, cyan fog thickening with distance, a mass of warm light at the far end of the street; reflections on the wet ground take up half the picture.
 
-## 风格提示词
+## Style prompt
 
-一点透视的雨夜窄街，两边挂满竖招牌，青色的雾越远越浓，街尽头一团暖光；湿地面上的倒影占了半个画面。
+One-point perspective of a narrow street on a rainy night, both sides hung with vertical signs, cyan fog thickening with distance, a mass of warm light at the far end of the street; reflections on the wet ground take up half the picture.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-01 霓虹雨夜 · 电影概念
+01 Neon Rainy Night · Cinematic Concept
 
-### 相近的旧编号
+### Related earlier ID
 
-D1 雨窗
+D1 Rainy Window
 
-### 定死的画法
+### Fixed rendering rules
 
-不描边；冷青做底，红粉招牌和尽头的橙光做主光；越远越被雾吃掉；倒影竖着拉长、被雨打出波纹；最近的几家拉着卷帘门，把前景压暗。招牌的字从洗过的词表里发，不重复。
+No outlines; cold cyan as the base, red-pink signs and the orange light at the far end as the key lights; the farther away, the more the fog swallows everything; reflections stretch vertically and ripple under the rain; the nearest few shopfronts have their roller shutters down, darkening the foreground. Sign lettering is drawn from a cleaned word list, with no repeats.

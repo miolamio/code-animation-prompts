@@ -1,15 +1,15 @@
-# M10 把一个抽象概念、一种情绪做成画面
+# M10 Abstract Concept as Visuals
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：没有具体的人和物，用形状、文字、颜色的变化表现一种感觉。
-- 适合：讲恐惧、焦虑、不安、"想太多"这种情绪的段落。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: No specific people or objects; shapes, text and color changes express a feeling.
+- Best for: Passages about fear, anxiety, unease, or the feeling of "overthinking".
 
-## 风格提示词
+## Style prompt
 
-做一段 [15] 秒的动态图形，表现"[情绪/概念]"这个感觉，比如"焦虑"、"对未知的恐惧"。不要具体的人和物，用形状、文字和颜色的变化来表现。从 [一种状态] 慢慢变到 [另一种状态]。
+Make a [15]-second motion graphic that expresses the feeling of "[emotion/concept]", for example "anxiety" or "fear of the unknown". No specific people or objects; use changes in shapes, text and color to express it. Slowly move from [one state] to [another state].
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[主题是"想太多"](https://prompt-motion.com/gizakdag-cf4ae6)
+[Topic: "overthinking"](https://prompt-motion.com/gizakdag-cf4ae6)

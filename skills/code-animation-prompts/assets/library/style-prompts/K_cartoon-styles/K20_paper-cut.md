@@ -1,9 +1,9 @@
-# K20 剪纸
+# K20 Paper Cut
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：一层层纸片，边缘看得见，有一点阴影
-- 适合：讲故事
+- Category: K Cartoon Styles · Art style
+- Looks like: Layers of paper pieces, visible edges, a little shadow
+- Best for: Storytelling
 
-## 风格提示词
+## Style prompt
 
-一层层纸片，边缘看得见，有一点阴影
+Layers of paper pieces, visible edges, a little shadow

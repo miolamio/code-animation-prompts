@@ -1,15 +1,15 @@
-# L27 纸雕灯影（Paper-cut Lightbox）
+# L27 Paper-cut Lightbox
 
-- 分类：L Lemo-Opuscar · 东方传统
-- 长什么样：一枚月饼讲中秋的团圆与思念，纸雕灯箱层层透光。
-- 适合：一层层透光，温暖
+- Category: L Lemo-Opuscar · Eastern tradition
+- Looks like: A single mooncake tells of Mid-Autumn reunion and longing, as a paper-cut lightbox glows through layer after layer.
+- Best for: Light passing through layers, warm
 
-## 风格提示词
+## Style prompt
 
 # Paper-cut Lightbox — Style Prompt
 
-> A layered paper-cut shadow box (纸雕灯) lit from behind: 6–9 sheets of cut card stacked in a shallow box, a warm light glowing through the paper, windows and moons burning through holes, soft shadows falling from each layer onto the next. The frame is the box; the camera is a macro lens inside a lamp.
-> References (grammar only): commercial paper-cut shadow-box lamps (纸雕灯 / "shadow box lightbox") for the layer stack and backlight; Lotte Reiniger's silhouette films for the cut-out, jointed figure language; Chinese 剪纸 motifs (auspicious clouds, eaves, mountains) as one possible vocabulary. Do not copy any specific lamp design, film frame or character.
+> A layered paper-cut shadow box lit from behind: 6–9 sheets of cut card stacked in a shallow box, a warm light glowing through the paper, windows and moons burning through holes, soft shadows falling from each layer onto the next. The frame is the box; the camera is a macro lens inside a lamp.
+> References (grammar only): commercial paper-cut shadow-box lamps ("shadow box lightbox") for the layer stack and backlight; Lotte Reiniger's silhouette films for the cut-out, jointed figure language; Chinese paper-cut (jianzhi) motifs (auspicious clouds, eaves, mountains) as one possible vocabulary. Do not copy any specific lamp design, film frame or character.
 
 ## 1. Essence, and what it is not
 
@@ -121,8 +121,8 @@ You decide the places, the figures (or none), the ladders, the light source, whe
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 A Mooncake's Longing

@@ -1,8 +1,8 @@
-# K3 卡哇伊
+# K3 Kawaii
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：圆滚滚，豆豆眼，小嘴巴，粉嫩色
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: Round and plump, bean eyes, tiny mouth, pink pastel colors
 
-## 风格提示词
+## Style prompt
 
-圆润造型，豆豆眼，小嘴，粉彩 / kawaii, rounded, dot eyes, pastel
+kawaii, rounded, dot eyes, pastel

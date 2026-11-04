@@ -1,9 +1,9 @@
-# K26 卡通渲染 3D
+# K26 Toon-Shaded 3D
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：3D 模型但阴影是硬边，有黑描边
-- 适合：想要 3D 但要卡通感
+- Category: K Cartoon Styles · Art style
+- Looks like: 3D model with hard-edged shadows and black outlines
+- Best for: Wanting 3D with a cartoon feel
 
-## 风格提示词
+## Style prompt
 
-3D 模型但阴影是硬边，有黑描边
+3D model with hard-edged shadows and black outlines

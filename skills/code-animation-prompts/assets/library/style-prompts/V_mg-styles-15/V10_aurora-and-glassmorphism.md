@@ -1,33 +1,33 @@
-# V10 极光与毛玻璃（Aurora & Glassmorphism）
+# V10 Aurora & Glassmorphism
 
-- 分类：V mg-styles-15 · mg-styles-15
-- 适合：柔和发光，安静的段落
+- Category: V mg-styles-15 · mg-styles-15
+- Best for: soft glow, quiet passages
 
-## 风格提示词
+## Style prompt
 
-# 弥散渐变 / 玻璃拟态 Gradient Blur (Aurora) & Glassmorphism
+# Gradient Blur (Aurora) & Glassmorphism
 
-**原片**：Aurora — think in light「思考，自有光」 · 1920×1080 · 30 fps · 10 秒 · AI 评审终评 8.07 / 10
+**Original video**: Aurora — think in light "In thought, there is light" · 1920×1080 · 30 fps · 10 s · final AI review score 8.07 / 10
 
-**源码**：[demos/12-aurora-glass/](../demos/12-aurora-glass/)
+**Source code**: [demos/12-aurora-glass/](../demos/12-aurora-glass/)
 
-## 怎么用
+## How to use
 
-1. 新建一个空文件夹，在里面打开一个能写代码、能执行命令的 AI 助手（例如 Claude Code）。本机需要能跑网页渲染（Node + Chrome）和 ffmpeg。
-2. 把下面「提示词」整段复制进去发送。
-3. 想换成自己的内容：改 `Creative seed` 里的故事、品牌名、文案和配色，或者改 `Output` 里的尺寸（比如竖屏 1080×1920）。不要删 `Signature features` 那一段，它是这种风格被一眼认出来的依据。
-4. 想再提高：成片出来后，另开一个 AI 用 [rubric.md](../rubric.md) 评审，把评审意见贴回给制作的 AI 再改一轮。原片就是这样改了两轮。
+1. Create a new empty folder and open an AI assistant in it that can write code and run commands (for example Claude Code). Your machine needs to be able to render web pages (Node + Chrome) and run ffmpeg.
+2. Copy the entire "Prompt" below into it and send.
+3. To use your own content: change the story, brand name, copy and color palette in `Creative seed`, or the dimensions in `Output` (for example vertical format 1080×1920). Do not delete the `Signature features` section; it is what makes this style instantly recognizable.
+4. To improve further: once the final video is out, open a separate AI to review it with [rubric.md](../rubric.md), then paste the review back to the AI that made it for another round. The original video went through two such rounds.
 
-## 提示词
+## Prompt
 
 ```text
 You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
-motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
+motion, Pentagram motion identities, top Behance/Motionographer features, top Douyin/Bilibili designer accounts.
 
 # Style
-弥散渐变 / 玻璃拟态 Gradient Blur (Aurora) & Glassmorphism
+Gradient Blur (Aurora) & Glassmorphism
 
 # Output (fixed)
 - 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
@@ -48,13 +48,13 @@ Sound: ambient cinematic pad, soft shimmer, very subtle UI ticks.
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
 # Signature features and key techniques (the result is judged against these)
-大面积高斯模糊的彩色光斑（aurora/mesh gradient）缓慢漂移作底，磨砂半透明玻璃卡片浮在其上。苹果 iOS 26 Liquid Glass 与各家 AI 产品发布把这一风格推成 2024-2026 科技品牌片的默认视觉，气质是'慢、透、高级'。
-视觉特征 大色斑高斯模糊漂移, 磨砂玻璃卡片, 1px高光描边, 邻近色低对比配色, 缓慢呼吸感节奏
-关键技法 底层 aurora：3~5 个纯色大圆 blur 80~150px，各自沿贝塞尔路径 20~40 秒漂移循环，彼此 blend 出 mesh gradient 感
-玻璃卡片配方：backdrop-filter blur(20~40px) + 白色 5~10% 填充 + 1px 白色 30% 内描边 + 大半径圆角
-配色用邻近色 2~3 色（紫蓝青/橙粉红），撞色会脏；暗底亮斑比亮底更出效果
-全局叠 3~5% 噪点防 banding（与颗粒质感技法交叉）
-缓动接近 linear 或 sine 呼吸曲线，一切都慢——快动作会立刻破坏气质；文字入场也只用 opacity+8px 位移
+Large Gaussian-blurred colored light blobs (aurora/mesh gradient) drift slowly as the base, with frosted translucent glass cards floating above. Apple iOS 26 Liquid Glass and AI product launches across the industry made this style the default visual for 2024-2026 tech brand films; its temperament is 'slow, translucent, premium'.
+Visual features: large color blobs drifting under Gaussian blur, frosted glass cards, 1px highlight outline, low-contrast analogous palette, slow breathing rhythm
+Key techniques: base aurora layer: 3~5 large solid-color circles with blur 80~150px, each drifting along a Bezier path on a 20~40 second loop, blending into one another for a mesh gradient feel
+Glass card recipe: backdrop-filter blur(20~40px) + 5~10% white fill + 1px 30% white inner outline + large-radius rounded corners
+Palette uses 2~3 analogous colors (purple/blue/cyan or orange/pink/red); clashing colors look dirty; bright blobs on a dark ground work better than on a light ground
+Overlay 3~5% noise globally to prevent banding (overlaps with the grain material-feel technique)
+Easing close to linear or a sine breathing curve; everything is slow—a fast move instantly breaks the mood; text entrances also use only opacity+8px offset
 
 # How to work
 1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an

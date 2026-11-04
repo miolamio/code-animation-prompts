@@ -1,8 +1,8 @@
-# Z4 山水
+# Z4 Shan Shui
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：壮丽山景，流水，古亭 / shan shui, mountains, pavilions
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Majestic mountain scenery, flowing water, ancient pavilions / shan shui, mountains, pavilions
 
-## 风格提示词
+## Style prompt
 
-壮丽山景，流水，古亭 / shan shui, mountains, pavilions
+Majestic mountain scenery, flowing water, ancient pavilions / shan shui, mountains, pavilions

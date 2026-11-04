@@ -1,9 +1,9 @@
-# X21 突发新闻（Breaking news）
+# X21 Breaking news
 
-- 分类：X code-video · code-video
-- 适合：快讯开场
+- Category: X code-video · code-video
+- Best for: news-flash openers
 
-## 风格提示词
+## Style prompt
 
 # Style: breaking-news broadcast
 

@@ -1,10 +1,10 @@
-# L37 彩色玻璃窗（Stained Glass）
+# L37 Stained Glass
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：阳光从清晨移到黄昏，照到哪一格花窗，哪一格的故事就动起来。
-- 适合：光、庄重
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: Sunlight moves from morning to dusk; whichever pane of the rose window it touches, that pane's story begins to move.
+- Best for: Light, solemnity
 
-## 风格提示词
+## Style prompt
 
 # Stained Glass — Style Prompt
 
@@ -128,8 +128,8 @@ You decide the window (lancets, a rose, a medallion, a clerestory), the subjects
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Dragon of the East Window

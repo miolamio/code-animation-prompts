@@ -1,14 +1,13 @@
-# O84 艺术家（The Artist）
+# O84 The Artist
 
-- 分类：O 奥斯卡 98 部 · 独立年代 2010–2019
-- 长什么样：干净发亮的黑白：高光明亮、灰阶柔和，装饰艺术边框的字幕卡，轻微闪烁和颗粒；Clawd 是唯一的颜色。《艺术家》是 2011 年写给默片好莱坞的情书，所以比第 1 部更精致。
-- 风格：2011 精致默片黑白
-- 关键词：2D·B&W
-- 年份：2011
+- Category: O 98 Best Picture Winners · Indie Era 2010–2019
+- Looks like: Clean, luminous black and white: bright highlights, soft grey scale, Art Deco bordered title cards, slight flicker and grain; Clawd is the only color. The Artist is a 2011 love letter to silent-era Hollywood, so it is more polished than O1 (Wings).
+- Style: 2011 polished silent-film black and white
+- Keywords: 2D·B&W
+- Year: 2011
 
-## 风格提示词
+## Style prompt
 
-致敬 20 年代末默片的现代黑白片。影调干净：发光的高光、柔和的中灰、深黑；温和的 S 曲线，灯周围有灰色光晕，轻微闪烁（±3%），细颗粒，偶有灰尘，16:9 里加 1.33 的左右黑边。字幕卡是黑底、装饰艺术风边框、字距拉开的大字，用观众的语言。场景：把题材的世界布置成宏大规整的室内或舞台布景（比如带铁艺栏杆的楼梯、金色台口、逆光剪影的人群），人物多取优雅侧面。故事围绕的那个主角是画面里唯一有颜色的东西，整个都用陶土橙 #D97757 的深浅来画；灯和火都保持灰色。镜头：平滑的推拉，字幕卡闪入，剪辑落在动作上（鞠躬、挥手）。对标摄影师 Guillaume Schiffman（《艺术家》，2011）。避免：重划痕；棕褐色调；颜色渗到灰色里。
 
 ---
 
@@ -16,24 +15,24 @@ English:
 
 A modern homage to late-1920s silent film in black and white. Clean tones: glowing highlights, soft mid-greys, deep blacks; a gentle S-curve, grey halation around lights, slight flicker (±3%), fine grain, rare dust, a 1.33 pillarbox inside 16:9. Intertitles on black with an Art Deco border and spaced capitals, in the user's language. Settings: the subject's world staged as grand, ordered interiors or stage sets (e.g. a wrought-iron staircase, a gilt proscenium, a crowd in backlit silhouette); figures in elegant profile. The one hero subject the story centres on is the only coloured thing, wholly in tones of terracotta #D97757; lamps and fire stay grey. Camera: smooth push-ins and pull-backs, title cards flashed in, cuts landing on gestures (a bow, a wave). Reference: cinematographer Guillaume Schiffman (*The Artist*, 2011). Avoid: heavy scratches; sepia tint; colour bleeding into the greys.
 
-## 补充
+## Notes
 
-### 技法关键词
+### Technique keywords
 
-20 年代末默片黑白,装饰艺术边框字幕卡,好莱坞片厂的魅力布光
+Late-1920s silent-film black and white, Art Deco bordered title cards, glamour lighting of the Hollywood studios
 
-### 导演说明
+### Director's notes
 
-Clawd 扮乔治·瓦伦丁：白色翼领、黑领结、丝质高礼帽、手杖，还有杰克罗素梗 Uggie。五个快切，接近真实速度：楼梯上举帽，BANG! 字幕卡一闪，小狗倒地，最后观众起立时鞠躬。Clawd 是唯一的颜色。
+Clawd plays George Valentin: a white wing collar, a black bow tie, a silk top hat, a cane, plus the Jack Russell terrier Uggie. Five quick cuts at close to real speed: tipping the hat on the staircase, a BANG! title card flashing, the little dog dropping dead, and finally a bow as the audience rises. Clawd is the only color.
 
-### 成片里的分镜
+### Storyboard in the final film
 
-1. 楼梯全景往里推：Clawd 扮乔治站在平台上，向上楼的佩皮举起高礼帽致意，群演上下交错，Uggie 在它身边。（1s）
-2. 近景：Clawd 举起的手摘下帽子，Uggie 仰头看它；镜头略推。（0.5s）
-3. 全屏字幕卡：装饰艺术边框里写着 BANG!。（0.3s）
-4. 舞台上，Clawd 用手指比枪，Uggie 往后一倒装死；镜头慢推。（0.5s）
-5. 首映礼全景：银幕上是 THE END，右边 Constance 在鼓掌，观众剪影站起来，Clawd 举帽拄杖鞠躬，Uggie 在脚边；镜头略拉，大幕开始合上。（0.9s）
+1. Wide shot of the staircase, pushing in: Clawd as George stands on the landing tipping his top hat to Peppy coming up the stairs, extras crossing up and down, Uggie at his side. (1s)
+2. Close shot: Clawd's raised hand lifts the hat off, Uggie looking up at him; slight push-in. (0.5s)
+3. Full-screen title card: BANG! inside an Art Deco border. (0.3s)
+4. On the stage, Clawd makes a gun with his fingers and Uggie falls over backward playing dead; slow push-in. (0.5s)
+5. Wide shot of the premiere: THE END on the screen, Constance applauding at right, the audience silhouettes rising, Clawd bowing with hat raised and cane planted, Uggie at his feet; slight pull-back as the curtain begins to close. (0.9s)
 
-### 参考出处
+### Reference source
 
 Michel Hazanavicius, 2011,Guillaume Schiffman (cinematography),The Artist 2011 poster,Bradbury Building, Los Angeles

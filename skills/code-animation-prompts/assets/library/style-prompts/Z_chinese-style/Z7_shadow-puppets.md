@@ -1,8 +1,8 @@
-# Z7 皮影
+# Z7 Shadow Puppets
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：镂空剪影，光后面演，关节能动 / shadow puppetry（动起来见 M12）
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Openwork silhouettes, performed behind the light, with movable joints / shadow puppetry (for motion see M12)
 
-## 风格提示词
+## Style prompt
 
-镂空剪影，光后面演，关节能动 / shadow puppetry（动起来见 M12）
+Openwork silhouettes, performed behind the light, with movable joints / shadow puppetry (for motion see M12)

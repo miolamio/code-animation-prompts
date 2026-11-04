@@ -1,14 +1,13 @@
-# O34 西区故事（West Side Story）
+# O34 West Side Story
 
-- 分类：O 奥斯卡 98 部 · 摇摆年代 1960–1969
-- 长什么样：红橙特艺七彩晚霞下的上西区 3D 街区，饱和、舞台化：红砖、之字形消防梯、屋顶水塔、能摆姿势的舞者人偶。重演电影的俯拍开场、Jets 打响指和海报上那一跃。
-- 风格：特艺七彩 3D 舞台
-- 关键词：3D
-- 年份：1961
+- Category: O 98 Best Picture Winners · The Swinging Sixties 1960–1969
+- Looks like: a 3D Upper West Side block under a red-orange Technicolor sunset, saturated and theatrical: red brick, zigzag fire escapes, rooftop water towers, dancer figures that can strike poses. It restages the film's overhead opening, the Jets snapping their fingers and the leap on the poster.
+- Style: Technicolor 3D stage
+- Keywords: 3D
+- Year: 1961
 
-## 风格提示词
+## Style prompt
 
-Technicolor 3D 舞台布景，像 60 年代棚拍歌舞片。几何简化，每个面都细节密集（窗洞窗台、檐口、栏杆、梯子、绳线）；表面是有质感的砖、灰泥或岩石，不能素面。剧场布光：低角度暖阳斜扫表面拉出长影；冷补光约为主光四分之一。手绘天空以橙红 #E0481E 为主，云带镶金边，只在最上沿带一点紫；远处融进暖雾。唯一的主角用饱和橙 #D97757，至少占画面高六分之一，背后衬深色砖墙或加一圈黑边，不能化进天空。人物是木偶式假人。暖而饱和的调色，细颗粒（±3%）。招牌镜头：衬着橙色天空的低角度仰拍；其次一个连续镜头从高处降进布景、再贴地推进。避免：写实脏旧、紫粉天空、素面墙、动作跳变。
 
 ---
 
@@ -16,23 +15,23 @@ English:
 
 Technicolor 3D stage set, like a 1960s studio musical. Simplified geometry, dense detail on every built surface (openings with sills, ledges, railings, ladders, strung lines); textured brick, plaster or rock, never plain. Theatrical light: a low warm sun rakes surfaces with long shadows; cool fill a quarter of the key. Painted sky of red-orange #E0481E, gold-edged cloud bands, violet only at the top edge; warm haze in the distance. The one hero subject in saturated orange #D97757, at least 1/6 of frame height, set against dark brick or given a black rim so it never melts into the sky. Puppet-like mannequin figures. Warm, saturated grade, fine grain (±3%). Signature shot: a low angle against the orange sky; then one continuous descent into the set and a ground-level push. Avoid: photoreal grime, violet-pink skies, plain walls, poses that pop.
 
-## 补充
+## Notes
 
-### 技法关键词
+### Technique keywords
 
-程序生成 3D（three.js）,特艺七彩晚霞调色,Boris Leven 布景,1961 海报：红天、黑消防梯
+procedural 3D (three.js), Technicolor sunset grading, Boris Leven sets, 1961 poster: red sky, black fire escapes
 
-### 导演说明
+### Director's notes
 
-Clawd 混进 Jets 帮，没有戏服，靠场景认片。响指卡在鼓点上；腾跃是一条干净的抛物线，从下蹲到落地缓冲一气呵成。开场俯拍呼应上一部的桌阵网格；结尾划亮的火柴在画面正中，正是下一部日出的位置，做匹配剪辑。
+Clawd joins the Jets with no costume; the film is recognized by the setting. The finger snaps land on the drum beats; the leap is a clean parabola, from the crouch to the landing absorbed in one flowing motion. The overhead opening echoes the desk grid of the previous part; the match struck at the end sits dead center in the frame, exactly where the sunrise of the next part will be, for a match cut.
 
-### 成片里的分镜
+### Storyboard in the final film
 
-1. 正上方俯拍西区街区网格（屋顶、水塔、操场球场），一路下降、抬头落进街道。（1.3s）
-2. 球场边低机位，Jets 帮在涂鸦墙前排成楔形打响指，Clawd 在前；一条连续的推镜绕过去推到 Clawd 近景，它的响指卡在鼓点上。（1.7s）
-3. 消防梯下仰拍：Clawd 下蹲、起跳，一条抛物线压在红天上，旁边是舞者的大跳；镜头随弧线抬起。（1.2s）
-4. 消防梯平台近景：Clawd 划亮火柴，镜头推近直到火苗停在画面正中，随后被吹灭。（0.8s）
+1. Straight-down overhead of the West Side block grid (rooftops, water towers, a playground court), descending all the way and tilting up into the street. (1.3s)
+2. Low camera position at the edge of the court: the Jets line up in a wedge in front of a graffiti wall snapping their fingers, Clawd in front; one continuous push curves around to a close shot of Clawd, its finger snap landing on the drum beat. (1.7s)
+3. Low-angle shot up from beneath the fire escape: Clawd crouches and springs, one parabola pressed against the red sky, a dancer's grand leap beside it; the camera lifts along the arc. (1.2s)
+4. Close shot on the fire-escape landing: Clawd strikes a match, the camera pushing in until the flame sits dead center in the frame, and then it is blown out. (0.8s)
 
-### 参考出处
+### Reference source
 
 Robert Wise & Jerome Robbins, 1961,Boris Leven (production design),Saul Bass (end titles),1961 original poster

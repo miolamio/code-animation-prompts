@@ -1,10 +1,10 @@
-# L54 后室 / 新怪谈（Liminal Found Footage）
+# L54 Liminal Found Footage
 
-- 分类：L Lemo-Opuscar · 电影与时代
-- 长什么样：新夜班员工拍下入职第一晚：无尽的黄色办公空间，和墙上的员工守则。
-- 适合：不安、对未知的害怕
+- Category: L Lemo-Opuscar · Film and eras
+- Looks like: A new night-shift employee films their first night: an endless yellow office space and the employee rules on the wall.
+- Best for: Unease, fear of the unknown
 
-## 风格提示词
+## Style prompt
 
 # Liminal Found Footage — Style Prompt
 
@@ -130,8 +130,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Night Shift Orientation

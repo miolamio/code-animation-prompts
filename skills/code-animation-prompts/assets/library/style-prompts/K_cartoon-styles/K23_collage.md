@@ -1,9 +1,9 @@
-# K23 拼贴
+# K23 Collage
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：撕边、照片、混材料
-- 适合：讲很多东西混在一起的段落
+- Category: K Cartoon Styles · Art style
+- Looks like: Torn edges, photos, mixed materials
+- Best for: Segments where many things are mixed together
 
-## 风格提示词
+## Style prompt
 
-撕边、照片、混材料
+Torn edges, photos, mixed materials

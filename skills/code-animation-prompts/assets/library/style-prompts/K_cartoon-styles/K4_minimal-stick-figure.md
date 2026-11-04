@@ -1,8 +1,8 @@
-# K4 极简线条小人
+# K4 Minimal Stick Figure
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：几根线就是一个人，背景空
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: A few lines make a person, empty background
 
-## 风格提示词
+## Style prompt
 
-极简线条，单色，留白 / minimalist line, monochrome
+minimalist line, monochrome

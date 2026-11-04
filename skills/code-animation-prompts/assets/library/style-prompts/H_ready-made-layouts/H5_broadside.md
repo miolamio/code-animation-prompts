@@ -1,8 +1,8 @@
 # H5 Broadside
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：工业报纸海报，奶油色配墨色，火橙色点缀
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Industrial newspaper poster, cream with ink color, fire-orange accents
 
-## 风格提示词
+## Style prompt
 
-工业报纸海报，奶油色配墨色，火橙色点缀
+Industrial newspaper poster, cream with ink color, fire-orange accents

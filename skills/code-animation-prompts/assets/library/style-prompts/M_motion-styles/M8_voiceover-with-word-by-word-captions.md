@@ -1,15 +1,15 @@
-# M8 口播 + 逐字字幕
+# M8 Voiceover with Word-by-Word Captions
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：白底，一种字体，字幕跟着说话一个词一个词打出来，配真实的图片，镜头慢慢漂。
-- 适合：全片的主线。有人讲解、口播的片子，字幕必须对上。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: White background, one typeface; captions type out word by word as the speaker talks, with real images and a slowly drifting camera.
+- Best for: The main thread of the whole film. For a film with someone explaining or doing voiceover, the captions must line up.
 
-## 风格提示词
+## Style prompt
 
-以口播录音为主线。字幕跟着说话逐词出现，时间用 Whisper 从录音里对出来，不按文案逐字对。白底，只用一种字体，黑字。镜头每段只做一次慢慢的漂移。图片在音乐的 16 分音符上换。屏幕上的字不要句号。不要给字加选中框一样的底色。音乐在关键那句话上起来，人声出来的时候音乐自动压低。响度统一到 -14 LUFS。
+Build around the voiceover recording. Captions appear word by word following the speech, with timing aligned from the recording using Whisper, not matched word for word to the script. White background, only one typeface, black text. The camera does a single slow drift per section. Images change on the music's 16th notes. No periods on on-screen text. Do not put a selection-box-style background behind the text. The music rises on the key line and automatically ducks when the voice comes in. Normalize loudness to -14 LUFS.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[AI 图像模型发布片](https://prompt-motion.com/rossaxbt-3085b7)（ElevenLabs 配音 + Whisper 对字幕时间）、[把口播素材剪成有字幕有图形有音乐的片子](https://prompt-motion.com/sab8a-364a5a)
+[AI image model launch film](https://prompt-motion.com/rossaxbt-3085b7) (ElevenLabs voiceover + Whisper caption timing), [Cutting voiceover footage into a film with captions, graphics and music](https://prompt-motion.com/sab8a-364a5a)

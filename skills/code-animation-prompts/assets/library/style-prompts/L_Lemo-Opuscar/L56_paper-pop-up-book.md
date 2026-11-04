@@ -1,10 +1,10 @@
-# L56 纸片立体书（Paper Pop-up Book）
+# L56 Paper Pop-up Book
 
-- 分类：L Lemo-Opuscar · 材质与 3D
-- 长什么样：立体书在书桌上打开，小精灵 Pip 在纸片世界冒险，最后跳出书外。
-- 适合：翻书讲故事
+- Category: L Lemo-Opuscar · Materials and 3D
+- Looks like: A pop-up book opens on a desk, and the little sprite Pip adventures through the paper world and finally jumps out of the book.
+- Best for: Telling a story by turning pages
 
-## 风格提示词
+## Style prompt
 
 # Paper Pop-up Book — Style Prompt
 
@@ -124,8 +124,8 @@ You decide the book, the room, the characters (or none), the spreads and mechani
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Pip's Paper Adventure

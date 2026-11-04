@@ -1,9 +1,9 @@
-# K12 报纸四格
+# K12 Four-Panel Newspaper Strip
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：黑白线条，几格讲一个小笑话
-- 适合：轻松的小段子
+- Category: K Cartoon Styles · Art style
+- Looks like: Black-and-white line work, a few panels telling one small joke
+- Best for: Light, funny little bits
 
-## 风格提示词
+## Style prompt
 
-黑白线条，几格讲一个小笑话
+Black-and-white line work, a few panels telling one small joke

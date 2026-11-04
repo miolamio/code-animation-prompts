@@ -1,9 +1,9 @@
-# X29 白板讲课（Whiteboard lecture）
+# X29 Whiteboard lecture
 
-- 分类：X code-video · code-video
-- 适合：讲道理
+- Category: X code-video · code-video
+- Best for: reasoning something through
 
-## 风格提示词
+## Style prompt
 
 # Style: whiteboard lecture
 

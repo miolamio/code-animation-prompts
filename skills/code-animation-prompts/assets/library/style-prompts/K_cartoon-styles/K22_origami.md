@@ -1,9 +1,9 @@
-# K22 折纸
+# K22 Origami
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：折出来的纸
-- 适合：讲变化、讲"折叠"
+- Category: K Cartoon Styles · Art style
+- Looks like: Paper that has been folded
+- Best for: Explaining change and "folding"
 
-## 风格提示词
+## Style prompt
 
-折出来的纸
+Paper that has been folded

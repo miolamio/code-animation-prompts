@@ -1,10 +1,10 @@
-# L55 积木玩具（Brick Toy）
+# L55 Brick Toy
 
-- 分类：L Lemo-Opuscar · 材质与 3D
-- 长什么样：积木宇航员用零件拼出火箭，飞向积木月亮。
-- 适合：一块块搭，"搭自己的系统"
+- Category: L Lemo-Opuscar · Materials and 3D
+- Looks like: A brick astronaut builds a rocket out of parts and flies to a brick moon.
+- Best for: Building piece by piece, "build your own system"
 
-## 风格提示词
+## Style prompt
 
 # Brick Toy — Style Prompt
 
@@ -119,8 +119,8 @@ You decide the structure, the characters (or none), the surface and its props, t
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Rocket from Spare Parts

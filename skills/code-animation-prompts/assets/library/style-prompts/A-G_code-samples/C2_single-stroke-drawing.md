@@ -1,17 +1,17 @@
-# C2 一笔画
+# C2 Single-Stroke Drawing
 
-- 分类：A–G 代码样片 · C 线与墨
-- 长什么样：一根线慢慢画出山、太阳和一个小人。
-- 适合：讲一个人、一件事的轮廓
-- 关键词：一笔画、线描、生长
+- Category: A–G Code Samples · C Line and Ink
+- Looks like: A single line slowly draws mountains, a sun, and a small figure.
+- Best for: the outline of a person or an event
+- Keywords: single stroke, line drawing, growth
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"一笔画"的动画：一根线慢慢画出山、太阳和一个小人。
-适合讲：讲一个人、一件事的轮廓
-关键词：一笔画、线描、生长
+Use code (Canvas 2D) to draw an animation of "Single-Stroke Drawing": A single line slowly draws mountains, a sun, and a small figure.
+Good for telling: the outline of a person or an event
+Keywords: single stroke, line drawing, growth
 
-下面是我们自己写的参考实现：一个绘制函数 S.C2(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.C2(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.C2 = (c, w, h, t, s) => {

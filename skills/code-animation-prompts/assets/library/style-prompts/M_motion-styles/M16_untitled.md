@@ -1,7 +1,7 @@
 # M16 
 
-- 分类：M 动态风格 · 其他特别的风格
+- Category: M Motion Styles · Other Special Styles
 
-## 风格提示词
+## Style prompt
 
 

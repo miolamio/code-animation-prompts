@@ -1,15 +1,15 @@
-# M22 配方式步骤
+# M22 Recipe-Style Steps
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：像做鸡尾酒教程，从空杯子开始，每加一样东西就标出名字和分量，最后成品。
-- 适合："你只要这几步就能做出一个小工具"这种教学段落。
+- Category: M Motion Styles · Explainers
+- Looks like: Like a cocktail tutorial: start from an empty glass, label the name and amount of each ingredient as it goes in, and end with the finished drink.
+- Best for: Teaching passages like "you only need these few steps to make a small tool".
 
-## 风格提示词
+## Style prompt
 
-用讲解视频的风格，从 [起点] 一步步做到 [成品]。每加入一样东西，画面上同时标出它叫什么、加了多少。[N] 秒。
+In the style of an explainer video, go step by step from [starting point] to [finished result]. Each time something is added, label on screen what it is called and how much was added. [N] seconds.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[Negroni 鸡尾酒](https://prompt-motion.com/ror-fly-9950f1)、[White Russian](https://prompt-motion.com/sarut0bisasuke-cefa43)
+[Negroni cocktail](https://prompt-motion.com/ror-fly-9950f1), [White Russian](https://prompt-motion.com/sarut0bisasuke-cefa43)

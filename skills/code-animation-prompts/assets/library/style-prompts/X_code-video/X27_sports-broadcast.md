@@ -1,9 +1,9 @@
-# X27 体育直播（Sports broadcast）
+# X27 Sports broadcast
 
-- 分类：X code-video · code-video
-- 适合：解说感
+- Category: X code-video · code-video
+- Best for: a play-by-play commentary feel
 
-## 风格提示词
+## Style prompt
 
 # Style: sports broadcast
 

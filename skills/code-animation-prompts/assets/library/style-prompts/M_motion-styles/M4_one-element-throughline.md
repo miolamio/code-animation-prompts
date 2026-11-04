@@ -1,15 +1,15 @@
-# M4 一个元素串全片
+# M4 One-Element Throughline
 
-- 分类：M 动态风格 · 结构和镜头类（用来把不同风格串起来）
-- 长什么样：一个小东西（一个橙色圆点、一个白球）贯穿所有场景：它先是开关，再变成字母上的点，再变成曲线，再变成一个图形，最后回到结尾。
-- 适合：混搭风格时的"线"。比如可以用一个小圆点代表"公告"、代表"想法"，从头跟到尾。
+- Category: M Motion Styles · Structure and Camera (for linking different styles together)
+- Looks like: One small thing (an orange dot, a white ball) runs through every scene: first it is a switch, then the dot on a letter, then a curve, then a shape, and finally returns for the ending.
+- Best for: The "thread" when mixing styles. For example, a small dot can stand for "announcement" or "idea" and be followed from start to finish.
 
-## 风格提示词
+## Style prompt
 
-一个 [颜色] 小圆点串起每一个场景：[场景1里它是什么]，然后变成 [场景2里的什么]……最后回到结尾卡片。圆点不能瞬移，只能连续地动过去。动作干脆利落，弹簧回弹很小，没有空档。不用素材视频、渐变、发光、粒子爆炸、随机转场。最后一帧和第一帧一样，可以循环。
+A small [color] dot links every scene: [what it is in scene 1], then it becomes [what in scene 2]... and finally returns to the closing card. The dot must never teleport, only move continuously. Motion is crisp and clean, spring overshoot is small, and there are no dead gaps. No stock footage, gradients, glow, particle explosions or random transitions. The last frame matches the first frame, so it can loop.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[橙色圆点](https://prompt-motion.com/ultimaxbt-bbebf5)、[白色小球](https://prompt-motion.com/rossaxbt-94583b)
+[Orange dot](https://prompt-motion.com/ultimaxbt-bbebf5), [White ball](https://prompt-motion.com/rossaxbt-94583b)

@@ -1,9 +1,9 @@
-# X2 品牌动态图形（Brand motion graphics）
+# X2 Brand motion graphics
 
-- 分类：X code-video · code-video
-- 适合：频道片头
+- Category: X code-video · code-video
+- Best for: channel opening titles
 
-## 风格提示词
+## Style prompt
 
 # Style: brand motion graphics
 

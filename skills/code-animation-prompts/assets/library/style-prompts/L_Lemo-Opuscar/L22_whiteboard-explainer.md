@@ -1,10 +1,10 @@
-# L22 白板讲解（Whiteboard Explainer）
+# L22 Whiteboard Explainer
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：手机怎么知道你在哪：GPS、原子钟，和相对论每天多出的 38 微秒。
-- 适合：讲道理、讲步骤，就是你发来的那条
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: How does a phone know where you are: GPS, atomic clocks, and the 38 microseconds a day that relativity adds.
+- Best for: Explaining reasoning and steps, exactly the one you sent over
 
-## 风格提示词
+## Style prompt
 
 # Whiteboard Explainer — Style Prompt
 
@@ -123,8 +123,8 @@ All far from our demo:
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Einstein in Your Pocket

@@ -1,9 +1,9 @@
-# X7 英雄漫画（Hero comic）
+# X7 Hero comic
 
-- 分类：X code-video · code-video
-- 适合：热血、转折
+- Category: X code-video · code-video
+- Best for: fired-up passion, turning points
 
-## 风格提示词
+## Style prompt
 
 # Style: hero comic
 

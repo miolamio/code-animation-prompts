@@ -1,15 +1,15 @@
-# M34 新闻快讯盘点
+# M34 News Flash Roundup
 
-- 分类：M 动态风格 · 节奏和快剪类
-- 长什么样：像新闻节目一样，一条一条过，每条点出看点。
-- 适合：以后做"这周 AI 圈有什么新东西"这种盘点。
+- Category: M Motion Styles · Rhythm and Fast Cuts
+- Looks like: Like a news program, going through items one by one, pointing out the highlight of each.
+- Best for: Future roundups like "what's new in AI this week".
 
-## 风格提示词
+## Style prompt
 
-做一个约 60 秒、好看好懂的动态图形，像新闻快讯那样介绍 [时间段] 里 [领域] 的新东西，从普通用户的角度说清楚每一条有意思在哪。
+Make a good-looking, easy-to-follow motion graphic of about 60 seconds, introducing the new things in [field] during [time period] like a news flash, explaining from an ordinary user's point of view what is interesting about each item.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[Steam 新游盘点](https://prompt-motion.com/gigabit-million-16b3a0)（日文原提示词）
+[Roundup of new Steam games](https://prompt-motion.com/gigabit-million-16b3a0) (original prompt in Japanese)

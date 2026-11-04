@@ -1,9 +1,9 @@
-# K37 哥特
+# K37 Gothic
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：细长、尖、黑紫暗红
-- 适合：讲恐惧、讲黑暗面
+- Category: K Cartoon Styles · Art style
+- Looks like: Tall and thin, pointed, black, purple and dark red
+- Best for: Talking about fear and the dark side
 
-## 风格提示词
+## Style prompt
 
-细长、尖、黑紫暗红
+Tall and thin, pointed, black, purple and dark red

@@ -1,10 +1,10 @@
-# L9 卫星地图简报（Satellite Briefing）
+# L9 Satellite Briefing
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：卫星照着地图去找咸海，找到的是沙漠；只有筑了坝的那一块回来了。
-- 适合：讲地点、范围
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: A satellite goes looking for the Aral Sea on the map and finds a desert; only the part behind the dam has come back.
+- Best for: Talking about places and extents
 
-## 风格提示词
+## Style prompt
 
 # Satellite Briefing — Style Prompt
 
@@ -121,8 +121,8 @@ The agent decides the place or places, whether there is a claim layer, which dat
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Map Still Says Sea

@@ -1,15 +1,15 @@
-# M27 无对白短片，声音讲一半
+# M27 Wordless Sound-Driven Short
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：没有台词，全靠画面和声音讲故事。
-- 适合：片头、片尾，或者两段之间的过渡小片段。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: No dialogue; the story is told entirely by picture and sound.
+- Best for: Opening or closing titles, or a short bridge between two sections.
 
-## 风格提示词
+## Style prompt
 
-做一个 [45] 秒的无对白短片，声音要讲出一半的故事。故事你来编，主题是 [主题]。
+Make a [45]-second short film with no dialogue, where the sound tells half of the story. You invent the story; the topic is [topic].
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[守灯塔的人](https://prompt-motion.com/kamstudiolabs-0b0824)
+[The lighthouse keeper](https://prompt-motion.com/kamstudiolabs-0b0824)

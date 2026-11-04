@@ -1,9 +1,9 @@
-# K28 像素
+# K28 Blocky Pixel
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：方块像素，颜色少
-- 适合：游戏感、复古
+- Category: K Cartoon Styles · Art style
+- Looks like: Blocky pixels, few colors
+- Best for: A game feel, retro
 
-## 风格提示词
+## Style prompt
 
-方块像素，颜色少
+Blocky pixels, few colors

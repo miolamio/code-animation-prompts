@@ -1,10 +1,10 @@
-# L35 装饰艺术（Art Deco）
+# L35 Art Deco
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：1930 年的大饭店，门童赶在午夜前把一封信送上顶楼。
-- 适合：华丽
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: A grand hotel in 1930; the bellboy races to deliver a letter to the top floor before midnight.
+- Best for: Opulent
 
-## 风格提示词
+## Style prompt
 
 # Art Deco — Style Prompt
 
@@ -117,8 +117,8 @@ You decide the structure, the characters (or none), the settings, the opening, t
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Midnight at the Starlight Hotel

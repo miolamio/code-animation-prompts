@@ -1,10 +1,10 @@
-# L59 玻璃质感产品（Glass Product Render）
+# L59 Glass Product Render
 
-- 分类：L Lemo-Opuscar · 材质与 3D
-- 长什么样：虚构玻璃耳机 Aura 的开箱与特写。
-- 适合：高级的产品感
+- Category: L Lemo-Opuscar · Materials and 3D
+- Looks like: Unboxing and close-ups of the fictional glass headphones Aura.
+- Best for: Premium product feel
 
-## 风格提示词
+## Style prompt
 
 # Glass Product Render — Style Prompt
 
@@ -115,8 +115,8 @@ You decide the object (always fictional), internals, accent, structure, opening,
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Aura — Hear the Light

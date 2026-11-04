@@ -1,33 +1,33 @@
-# V12 80 年代合成波 / VHS（80s Synthwave / VHS）
+# V12 80s Synthwave / VHS
 
-- 分类：V mg-styles-15 · mg-styles-15
-- 适合：复古霓虹、录像带
+- Category: V mg-styles-15 · mg-styles-15
+- Best for: retro neon, videotape
 
-## 风格提示词
+## Style prompt
 
-# 复古系（80s Synthwave / Y2K 千禧） Retro: 80s Synthwave / VHS / Y2K
+# Retro: 80s Synthwave / VHS / Y2K
 
-**原片**：NEON DRIVE · Midnight「霓虹夜驰 1986」 · 1920×1080 · 30 fps · 10 秒 · AI 评审终评 8.21 / 10
+**Original video**: NEON DRIVE · Midnight "Neon Night Ride 1986" · 1920×1080 · 30 fps · 10 s · final AI review score 8.21 / 10
 
-**源码**：[demos/10-synthwave/](../demos/10-synthwave/)
+**Source code**: [demos/10-synthwave/](../demos/10-synthwave/)
 
-## 怎么用
+## How to use
 
-1. 新建一个空文件夹，在里面打开一个能写代码、能执行命令的 AI 助手（例如 Claude Code）。本机需要能跑网页渲染（Node + Chrome）和 ffmpeg。
-2. 把下面「提示词」整段复制进去发送。
-3. 想换成自己的内容：改 `Creative seed` 里的故事、品牌名、文案和配色，或者改 `Output` 里的尺寸（比如竖屏 1080×1920）。不要删 `Signature features` 那一段，它是这种风格被一眼认出来的依据。
-4. 想再提高：成片出来后，另开一个 AI 用 [rubric.md](../rubric.md) 评审，把评审意见贴回给制作的 AI 再改一轮。原片就是这样改了两轮。
+1. Create a new empty folder and open an AI assistant in it that can write code and run commands (for example Claude Code). Your machine needs to be able to render web pages (Node + Chrome) and run ffmpeg.
+2. Copy the entire "Prompt" below into it and send.
+3. To use your own content: change the story, brand name, copy and color palette in `Creative seed`, or the dimensions in `Output` (for example vertical format 1080×1920). Do not delete the `Signature features` section; it is what makes this style instantly recognizable.
+4. To improve further: once the final video is out, open a separate AI to review it with [rubric.md](../rubric.md), then paste the review back to the AI that made it for another round. The original video went through two such rounds.
 
-## 提示词
+## Prompt
 
 ```text
 You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
-motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
+motion, Pentagram motion identities, top Behance/Motionographer features, top Douyin/Bilibili designer accounts.
 
 # Style
-复古系（80s Synthwave / Y2K 千禧） Retro: 80s Synthwave / VHS / Y2K
+Retro: 80s Synthwave / VHS / Y2K
 
 # Output (fixed)
 - 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
@@ -47,13 +47,13 @@ Sound: synthwave — gated-reverb snare, arpeggiated saw bass, lush pads, big ch
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
 # Signature features and key techniques (the result is judged against these)
-对特定年代媒介美学的整体引用：80s synthwave 是霓虹网格+日落渐变+镀铬字；VHS 是扫描线+色偏+磁带噪声；Y2K 千禧风是液态镀铬金属、酸性绿紫、拟物系统窗口和低保真 3D。近两年 Y2K 在音乐视频与潮流品牌片中强势回潮，B站模板市场大量供应'酸性镀铬'素材。
-视觉特征 霓虹辉光, 透视网格地平线, 扫描线与RGB色偏, 镀铬金属字, 酸性配色, 拟物窗口UI
-关键技法 synthwave 三件套：透视网格滚动（一点透视 grid + 纵向位移循环）、日落多层渐变球、双层辉光（内层紧 4px 高亮+外层散 30px 低透明）
-VHS 做旧链：RGB split（红蓝通道各偏 1~2px）→ 扫描线（2px 间隔 10% 黑条）→ 波浪扭曲抖动（每秒 1~2 次随机 glitch 抽帧）→ 4:3 圆角遮罩
-Y2K 镀铬字：极高对比的多段金属渐变 + bevel 高光 + 环境映射感反光，配 lens flare
-Y2K 运动语言：弹窗式 pop 出现、光标点击、窗口拖拽，界面拟物即动画叙事
-帧率故意不稳：关键段落抽帧到 15fps 或倒放 2 帧制造磁带卡顿
+A wholesale citation of the media aesthetics of a specific era: 80s synthwave is neon grid + sunset gradient + chrome lettering; VHS is scanlines + color shift + tape noise; Y2K millennium style is liquid chrome metal, acid green and purple, skeuomorphic system windows and low-fi 3D. In the past two years Y2K has surged back in music videos and streetwear brand films, and the Bilibili template market supplies plenty of 'acid chrome' assets.
+Visual features: neon bloom, perspective grid horizon, scanlines and RGB color shift, chrome metal lettering, acid color palette, skeuomorphic window UI
+Key techniques: the synthwave trio: scrolling perspective grid (one-point perspective grid + looping vertical offset), a multi-layer gradient sunset sphere, double-layer bloom (tight 4px bright inner layer + loose 30px low-opacity outer layer)
+VHS aging chain: RGB split (red and blue channels each offset 1~2px) → scanlines (10% black bars at 2px intervals) → wavy distortion jitter (random glitch frame drops 1~2 times per second) → 4:3 rounded-corner mask
+Y2K chrome lettering: very high-contrast multi-stop metallic gradient + bevel highlight + environment-mapped reflections, paired with lens flare
+Y2K motion language: pop-up-style entrances, cursor clicks, window dragging; the skeuomorphic interface itself is the animated narrative
+Deliberately unstable frame rate: drop key passages to 15fps or play 2 frames in reverse to create tape stutter
 
 # How to work
 1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an

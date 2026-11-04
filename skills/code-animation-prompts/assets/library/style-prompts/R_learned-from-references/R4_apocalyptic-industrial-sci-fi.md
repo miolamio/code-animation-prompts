@@ -1,22 +1,22 @@
-# R4 末日工业 · 暗黑科幻
+# R4 Apocalyptic Industrial Sci-Fi
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：几乎只有绿；巨大的机械结构一层层叠进雾里，远处一个大圆环，顶上漏下光柱；走道上一个穿红衣、背着包的小人背对镜头。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: Almost nothing but green; huge mechanical structures stack layer upon layer into the fog, a giant ring in the distance, shafts of light leaking from above; on a walkway, a tiny figure in red wearing a backpack stands with their back to the camera.
 
-## 风格提示词
+## Style prompt
 
-几乎只有绿；巨大的机械结构一层层叠进雾里，远处一个大圆环，顶上漏下光柱；走道上一个穿红衣、背着包的小人背对镜头。
+Almost nothing but green; huge mechanical structures stack layer upon layer into the fog, a giant ring in the distance, shafts of light leaking from above; on a walkway, a tiny figure in red wearing a backpack stands with their back to the camera.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-05 末日工业 · 暗黑科幻
+05 Apocalyptic Industrial · Dark Sci-Fi
 
-### 相近的旧编号
+### Related earlier ID
 
 —
 
-### 定死的画法
+### Fixed rendering rules
 
-一个颜色分七层远近，越远越淡；唯一的暖色是小人和几盏小灯；最前面垂下来的铁链几乎全黑，再推远一层。
+One color divided into seven depth layers, fainter with distance; the only warm colors are the tiny figure and a few small lamps; the iron chains hanging down at the very front are almost entirely black, pushing everything back one more layer.

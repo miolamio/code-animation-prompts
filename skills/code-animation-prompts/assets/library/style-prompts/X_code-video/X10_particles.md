@@ -1,9 +1,9 @@
-# X10 粒子（Particles）
+# X10 Particles
 
-- 分类：X code-video · code-video
-- 适合：氛围
+- Category: X code-video · code-video
+- Best for: atmosphere
 
-## 风格提示词
+## Style prompt
 
 # Style: particles
 

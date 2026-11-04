@@ -1,15 +1,15 @@
-# M33 从一个点拉远到宇宙
+# M33 Dot-to-Universe Zoom
 
-- 分类：M 动态风格 · 结构和镜头类（用来把不同风格串起来）
-- 长什么样：黑屏上一个点，慢慢展开成画面，再一直拉远，整个桌面变成太空里的一个点，再推进到另一个画面。
-- 适合：讲尺度、讲"从一个小工具到一个系统"。
+- Category: M Motion Styles · Structure and Camera (for linking different styles together)
+- Looks like: A dot on a black screen slowly expands into a picture, then keeps pulling back until the whole desktop becomes a dot in space, then pushes into another picture.
+- Best for: Passages about scale, about going "from a small tool to a system".
 
-## 风格提示词
+## Style prompt
 
-从黑屏上的一个点开始，展开成 [画面]，镜头在好几个尺度上推拉，一直拉远到整个画面像太空里的一个点，再推进到 [另一个画面]，最后落到 [一句话]。
+Start from a dot on a black screen and expand it into [picture]; the camera pushes and pulls across several scales, pulling back until the whole picture looks like a dot in space, then pushes into [another picture], and finally lands on [one line].
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[交易终端](https://prompt-motion.com/dale-vaz-cc612a)
+[Trading terminal](https://prompt-motion.com/dale-vaz-cc612a)

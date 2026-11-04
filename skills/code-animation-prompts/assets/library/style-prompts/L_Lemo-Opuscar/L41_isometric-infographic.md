@@ -1,10 +1,10 @@
-# L41 等距信息图（Isometric Infographic）
+# L41 Isometric Infographic
 
-- 分类：L Lemo-Opuscar · 信息与发布
-- 长什么样：一杯咖啡从种植园到你手里的旅程。
-- 适合：一个小世界、一套流程
+- Category: L Lemo-Opuscar · Information and launch
+- Looks like: A cup of coffee's journey from plantation to your hand.
+- Best for: A small world, a whole process
 
-## 风格提示词
+## Style prompt
 
 # Isometric Infographic — Style Prompt
 
@@ -122,8 +122,8 @@ You decide the system, the board (or several), whether there is a tracked subjec
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 From Bean to Cup

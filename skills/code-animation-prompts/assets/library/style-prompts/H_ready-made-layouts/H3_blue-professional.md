@@ -1,8 +1,8 @@
 # H3 Blue Professional
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：羊皮纸底，钴蓝主色，Space Grotesk 标题
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Parchment base, cobalt blue primary, Space Grotesk headlines
 
-## 风格提示词
+## Style prompt
 
-羊皮纸底，钴蓝主色，Space Grotesk 标题
+Parchment base, cobalt blue primary, Space Grotesk headlines

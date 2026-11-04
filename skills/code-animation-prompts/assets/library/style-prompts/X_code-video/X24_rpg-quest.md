@@ -1,9 +1,9 @@
-# X24 RPG 任务（RPG quest）
+# X24 RPG quest
 
-- 分类：X code-video · code-video
-- 适合：学习像做任务
+- Category: X code-video · code-video
+- Best for: making learning feel like doing quests
 
-## 风格提示词
+## Style prompt
 
 # Style: 16-bit RPG quest
 

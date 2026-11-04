@@ -1,10 +1,10 @@
-# L42 暗色科技发布（Dark Tech Keynote）
+# L42 Dark Tech Keynote
 
-- 分类：L Lemo-Opuscar · 信息与发布
-- 长什么样：虚构 app Tidy 的发布片：被埋掉的光标一键把几百个窗口归位。
-- 适合：发布会感
+- Category: L Lemo-Opuscar · Information and launch
+- Looks like: Launch film for the fictional app Tidy: a buried cursor snaps hundreds of windows back into place with one click.
+- Best for: A product launch event feel
 
-## 风格提示词
+## Style prompt
 
 # Dark Tech Keynote — Style Prompt
 
@@ -122,8 +122,8 @@ You decide the product's verb, the protagonist element (or none), the problem im
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Room to Think

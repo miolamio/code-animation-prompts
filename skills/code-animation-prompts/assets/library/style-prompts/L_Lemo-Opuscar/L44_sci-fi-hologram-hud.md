@@ -1,10 +1,10 @@
-# L44 科幻全息界面（Sci-fi Hologram HUD）
+# L44 Sci-fi Hologram HUD
 
-- 分类：L Lemo-Opuscar · 信息与发布
-- 长什么样：电助力车被扫描成全息线框，目标框依次锁定电池、电机、刹车。
-- 适合：未来感
+- Category: L Lemo-Opuscar · Information and launch
+- Looks like: An electric-assist bike is scanned into a holographic wireframe, and target boxes lock onto the battery, motor and brake in turn.
+- Best for: Futuristic feel
 
-## 风格提示词
+## Style prompt
 
 # Sci-fi Hologram HUD — Style Prompt
 
@@ -134,8 +134,8 @@ Swapping `demo/content.json` and rebuilding is a technical check that the engine
 
 How our demo was made (story, shots, score, end card, build, content fields): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Volt · Spec Scan

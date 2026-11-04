@@ -1,15 +1,15 @@
-# M6 苹果发布会风
+# M6 Apple Keynote Style
 
-- 分类：M 动态风格 · 节奏和快剪类
-- 长什么样：柔和、白、亮蓝、玻璃质感，镜头从不停在静止画面上切。
-- 适合：展示工具、展示界面的段落。
+- Category: M Motion Styles · Rhythm and Fast Cuts
+- Looks like: Soft, white, bright blue, glass material; the camera never cuts on a still picture.
+- Best for: Passages showing a tool or an interface.
 
-## 风格提示词
+## Style prompt
 
-苹果发布会的感觉：柔和、白、亮蓝、玻璃质感。镜头从不在静止画面上切，每个镜头进来时已经在动，离开时加速或者带运动模糊。字体用 Inter。不要出现紫色、品红和橙色。
+The feel of an Apple keynote: soft, white, bright blue, glass material. Never cut on a still frame; every shot enters already in motion and leaves by accelerating or with motion blur. Use the Inter typeface. No purple, magenta or orange.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[发布片对比](https://prompt-motion.com/notdwd-c2037d)、[Apple 风 30 秒](https://prompt-motion.com/gautam-mer1-2ae354)
+[Launch film comparison](https://prompt-motion.com/notdwd-c2037d), [Apple-style 30 seconds](https://prompt-motion.com/gautam-mer1-2ae354)

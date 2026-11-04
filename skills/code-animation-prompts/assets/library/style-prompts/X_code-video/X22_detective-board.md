@@ -1,9 +1,9 @@
-# X22 侦探线索板（Detective board）
+# X22 Detective board
 
-- 分类：X code-video · code-video
-- 适合：把线索连起来，科普推理
+- Category: X code-video · code-video
+- Best for: connecting clues, deduction-style science explainers
 
-## 风格提示词
+## Style prompt
 
 # Style: detective evidence board
 

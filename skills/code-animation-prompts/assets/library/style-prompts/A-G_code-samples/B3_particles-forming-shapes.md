@@ -1,33 +1,33 @@
-# B3 粒子聚形
+# B3 Particles Forming Shapes
 
-- 分类：A–G 代码样片 · B 粒子
-- 长什么样：粒子聚成心、房子、人，再散开。
-- 适合：讲具体的东西：家、关系、一个人
-- 关键词：聚成、形状、散开
+- Category: A–G Code Samples · B Particles
+- Looks like: Particles gather into a heart, a house, a person, then scatter.
+- Best for: concrete things: home, relationships, a person
+- Keywords: gathering into, shapes, scattering
 
-## 风格提示词
+## Style prompt
 
-> 这一条的提示词是重新写过的详细版：画面规则、颜色、时间轴都写死了，DeepSeek 和 Opus 5.5 都能直接用。{{ }} 里是要你自己填的内容。
+> This prompt is a rewritten, detailed version: the picture rules, colors, and timeline are all fixed, so DeepSeek and Opus 5.5 can both use it directly. What goes inside {{ }} is for you to fill in.
 
-你是一位前端动效工程师。请写**一个完整的 index.html 文件**：只用原生 HTML + JavaScript + Canvas 2D，不要任何外部库、字体文件或图片。做一段"粒子聚形"动画：几千颗发光的小粒子聚成一个形状，停住，散开，沿弧线流向下一个形状再聚拢，循环。
+You are a front-end motion engineer. Write **one complete index.html file**: use only native HTML + JavaScript + Canvas 2D, with no external libraries, font files, or images. Make a "Particles Forming Shapes" animation: thousands of tiny glowing particles gather into a shape, hold, scatter, flow along arcs to the next shape and gather again, in a loop.
 
-## 内容
+## Content
 
-- 四个形状依次是：心 → 房子 → 人 → 一个汉字（{{默认：家}}）。
-- 每个形状停住时，画面下方出现一行字幕，四句依次是：{{四句，用｜分开。默认：先有一颗心｜再有一个房子｜里面住进一个人｜合起来叫家}}。
+- The four shapes, in order: heart → house → person → a Chinese character ({{default: 家 (home)}}).
+- When each shape holds, one line of captions appears at the bottom of the picture. The four lines, in order: {{four lines, separated by |. Default: First, a heart|Then, a house|Inside it lives a person|Together they are called home}}.
 
-## 输出要求（必须照做）
+## Output requirements (mandatory)
 
-1. 只输出一个 html 代码块，不要解释。代码必须完整可运行：不要用省略号，不要写"其余同上""此处略"。
-2. canvas 固定 1920×1080；用 CSS 让它在窗口里等比缩放并居中，多出来的部分是黑边。
-3. 画面是时间 t（秒）的纯函数 `draw(t)`。不要用 `Math.random`；所有随机都用带种子的 mulberry32(2026)，并且只在启动时生成一次。不要在 draw 里累积状态（不要用"上一帧的残影"）。这样同一个 t 每次画出来都一模一样。
-4. 默认循环播放（requestAnimationFrame，t = 已播放的秒数）；按空格暂停/继续；网址带 `?t=3.3` 时只显示第 3.3 秒那一帧（静止）。
+1. Output only one html code block, with no explanation. The code must be complete and runnable: no ellipses, and do not write "the rest same as above" or "omitted here".
+2. Canvas fixed at 1920×1080; use CSS to scale it proportionally and center it in the window, with any extra area as black bars.
+3. The picture is a pure function of time t (seconds), `draw(t)`. Do not use `Math.random`; all randomness uses seeded mulberry32(2026), generated only once at startup. Do not accumulate state in draw (no "ghost image from the previous frame"). This way the same t draws exactly the same picture every time.
+4. Loop by default (requestAnimationFrame, t = seconds played); Space pauses/resumes; when the URL has `?t=3.3`, show only the frame at second 3.3 (static).
 
-## 常量
+## Constants
 
-N = 5000 颗粒子；每个形状一个周期 PER = 4.8 秒，共 4 个形状，总循环 19.2 秒；形状的缩放 SC = 1080 × 0.36；形状中心在 (960, 520)。
+N = 5000 particles; each shape has one cycle PER = 4.8 seconds, 4 shapes in total, full loop 19.2 seconds; shape scale SC = 1080 × 0.36; shape center at (960, 520).
 
-## 形状（坐标在 [-1,1] 的方块里，y 向下）
+## Shapes (coordinates in the [-1,1] square, y pointing down)
 
 ```js
 const heart  = (x,y)=>{ y=-y*1.15+.1; x*=1.15; return Math.pow(x*x+y*y-1,3)-x*x*y*y*y<=0; };
@@ -35,39 +35,39 @@ const house  = (x,y)=>(Math.abs(x)<=.6&&y>=-.1&&y<=.75&&!(Math.abs(x)<.14&&y>.38
 const person = (x,y)=>(x*x+(y+.55)*(y+.55)<=.05)||(y>=-.28&&y<=.85&&Math.abs(x)<=.25+(y+.28)*.2);
 ```
 
-- 心、房子、人：在 [-1,1]² 里用带种子的随机点做"拒绝采样"，落在形状里的留下，凑够 N 个。
-- 汉字：用一个 400×400 的离屏 canvas 画白色粗体字（`bold 340px "Noto Serif SC","Songti SC","SimSun",serif`，水平居中，`textBaseline='middle'`，y=210）；`getImageData` 之后每隔 2 个像素取一个 alpha>128 的点，换算到 [-1,1]；用带种子的洗牌后取 N 个（不够就重复取，并加 ±0.004 的抖动）。
-- 四组目标点各自洗牌一次。第 i 颗粒子在四个形状里分别去各自的第 i 个目标点——所以看起来是"同一批粒子在换形状"。
+- Heart, house, person: in [-1,1]², do "rejection sampling" with seeded random points, keeping those that land inside the shape until you have N.
+- Chinese character: on a 400×400 offscreen canvas, draw the glyph in white bold (`bold 340px "Noto Serif SC","Songti SC","SimSun",serif`, horizontally centered, `textBaseline='middle'`, y=210); after `getImageData`, take one point with alpha>128 every 2 pixels and convert it to [-1,1]; after a seeded shuffle, take N (if there are too few, take repeatedly and add ±0.004 jitter).
+- Shuffle each of the four target sets once. Particle i goes to the i-th target point in each of the four shapes, so it looks like "the same batch of particles changing shape".
 
-## 每颗粒子的固定参数（启动时生成一次）
+## Fixed parameters per particle (generated once at startup)
 
-角度 `a`（0–2π）、幅度 `m`（0–1）、相位 `ph`（0–2π）、闪烁频率 `f`（0.6–1.6）、大小 `s`（0–1）、是否带光晕 `glow`（20% 为 true）。
+Angle `a` (0–2π), amplitude `m` (0–1), phase `ph` (0–2π), flicker frequency `f` (0.6–1.6), size `s` (0–1), whether it has a glow `glow` (true for 20%).
 
-## 位置（核心，照这个算）
+## Position (the core, compute it exactly like this)
 
-设 k = floor(t / PER) % 4（当前形状），n = (k+1) % 4（下一个形状），q = t % PER（形状内的时间）；A = 第 k 个形状里第 i 个目标点，B = 第 n 个形状里的第 i 个目标点。
+Let k = floor(t / PER) % 4 (current shape), n = (k+1) % 4 (next shape), q = t % PER (time within the shape); A = the i-th target point in shape k, B = the i-th target point in shape n.
 
-- 进度 e = smoothstep(2.4, 4.2, q)。q 在 0–2.4 秒时 e=0（停住）；2.4–4.2 秒在变形；4.2–4.8 秒 e=1（落定）。
-- 控制点 C = (A+B)/2 + (cos a, sin a) × (0.35 + 0.9·m)。
-- 位置 P = (1−e)²·A + 2(1−e)e·C + e²·B（二次贝塞尔，所以粒子走弧线，先炸开再汇聚）。
-- 微动：P 再加 (cos(ph + 1.3t), sin(1.7·ph + 1.1t)) × 0.012 × (1 − sin(π·e))。
-- 屏幕坐标 = (960 + P.x × SC, 520 + P.y × SC)；整体再以画面中心 (960, 540) 为基准乘 zoom = 1 + 0.015·sin(0.33t)。
+- Progress e = smoothstep(2.4, 4.2, q). For q in 0–2.4 seconds, e=0 (hold); 2.4–4.2 seconds, morphing; 4.2–4.8 seconds, e=1 (settled).
+- Control point C = (A+B)/2 + (cos a, sin a) × (0.35 + 0.9·m).
+- Position P = (1−e)²·A + 2(1−e)e·C + e²·B (quadratic Bézier, so particles travel along arcs, bursting apart first and then converging).
+- Micro-motion: add (cos(ph + 1.3t), sin(1.7·ph + 1.1t)) × 0.012 × (1 − sin(π·e)) to P.
+- Screen coordinates = (960 + P.x × SC, 520 + P.y × SC); then scale everything about the picture center (960, 540) by zoom = 1 + 0.015·sin(0.33t).
 
-## 怎么画
+## How to draw
 
-1. **背景**：#07080C 铺满；中心一个径向渐变（半径 800）从 `rgba(40,46,66,0.30)` 到 `rgba(7,8,12,0)`；再画 220 颗固定位置的暗星点（启动时随机一次，透明度 0.15–0.4，随 t 轻微闪烁）。
-2. **粒子**：用 `globalCompositeOperation = 'lighter'` 叠加发光。颜色：心 #F08A8A，房子 #F1C070，人 #A9C6FF，汉字 #F6EBD0；变形时按 e 在"当前形状的颜色"和"下一个形状的颜色"之间线性混合。
-3. 每颗粒子的亮度 L = 0.75 + 0.25·sin(f·t + ph)；半径 r = 1.1 + 1.6·s（像素）；基础透明度 0.55·L。
-4. **拖尾**：每颗粒子画 3 次，分别在时间 t、t−0.045、t−0.09（用同一个位置函数重新算，不要保存历史）；透明度依次 ×1、×0.5、×0.25，半径依次 ×1、×0.8、×0.6。
-5. **光晕**：glow=true 的粒子再多画一个半径 ×3、透明度 0.05 的大圆。
-6. **字幕**：每个形状停住时（q 从 0.3 到 1.0 淡入，q 从 2.1 到 2.5 淡出），在 (960, 960) 居中显示该形状对应的那一句，衬线体 46px，颜色 #EDE6D6，最大透明度 0.85。
+1. **Background**: Fill with #07080C; at the center, a radial gradient (radius 800) from `rgba(40,46,66,0.30)` to `rgba(7,8,12,0)`; then draw 220 dim star points at fixed positions (randomized once at startup, opacity 0.15–0.4, flickering slightly with t).
+2. **Particles**: Use `globalCompositeOperation = 'lighter'` for additive glow. Colors: heart #F08A8A, house #F1C070, person #A9C6FF, Chinese character #F6EBD0; while morphing, blend linearly by e between "the current shape's color" and "the next shape's color".
+3. Each particle's brightness L = 0.75 + 0.25·sin(f·t + ph); radius r = 1.1 + 1.6·s (pixels); base opacity 0.55·L.
+4. **Trail**: Draw each particle 3 times, at times t, t−0.045, and t−0.09 (recompute with the same position function, do not store history); opacity ×1, ×0.5, ×0.25 in turn, radius ×1, ×0.8, ×0.6 in turn.
+5. **Glow**: Particles with glow=true also draw one more large circle with radius ×3 and opacity 0.05.
+6. **Captions**: When each shape holds (fade in for q from 0.3 to 1.0, fade out for q from 2.1 to 2.5), center that shape's line at (960, 960), serif 46px, color #EDE6D6, maximum opacity 0.85.
 
-## 不要
+## Do not
 
-爆炸的闪光、镜头光晕、彩虹色、第二种背景、实时计时器驱动的随机、在 `draw` 里保存上一帧的状态。
+Explosion flashes, lens flares, rainbow colors, a second background, randomness driven by a real-time timer, saving previous-frame state in `draw`.
 
-## 写完后自己过一遍（不要输出）
+## Self-check after writing (do not output)
 
-- 同一个 t 刷新两次，画面是否一模一样？
-- t=1.8 时看到的是不是一颗由粒子拼成的心？t=3.3 时是不是正在炸开、向房子流去？
-- 一帧画 5000×3 次粒子，会不会卡？卡的话可以把光晕只给 glow 粒子画。
+- Refresh the same t twice: is the picture exactly identical?
+- At t=1.8, do you see a heart made of particles? At t=3.3, is it bursting apart and flowing toward the house?
+- Drawing particles 5000×3 times per frame: will it lag? If it lags, you can draw the glow only for glow particles.

@@ -1,8 +1,8 @@
-# Z2 工笔
+# Z2 Gongbi
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：细腻笔触，色彩鲜艳，牡丹 / gongbi, fine brushwork
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Fine brushstrokes, vivid colors, peonies / gongbi, fine brushwork
 
-## 风格提示词
+## Style prompt
 
-细腻笔触，色彩鲜艳，牡丹 / gongbi, fine brushwork
+Fine brushstrokes, vivid colors, peonies / gongbi, fine brushwork

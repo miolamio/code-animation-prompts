@@ -1,9 +1,9 @@
-# K11 手账笔记
+# K11 Bullet Journal Notes
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：像学生笔记，有勾画、有便利贴
-- 适合：列方法、列步骤
+- Category: K Cartoon Styles · Art style
+- Looks like: Like student notes, with underlines, highlights and sticky notes
+- Best for: Listing methods and steps
 
-## 风格提示词
+## Style prompt
 
-像学生笔记，有勾画、有便利贴
+Like student notes, with underlines, highlights and sticky notes

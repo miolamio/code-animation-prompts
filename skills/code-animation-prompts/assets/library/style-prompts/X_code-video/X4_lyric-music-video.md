@@ -1,9 +1,9 @@
-# X4 歌词 MV（Lyric music video）
+# X4 Lyric music video
 
-- 分类：X code-video · code-video
-- 适合：金句、配乐段
+- Category: X code-video · code-video
+- Best for: key lines, music-backed segments
 
-## 风格提示词
+## Style prompt
 
 # Style: lyric music video
 

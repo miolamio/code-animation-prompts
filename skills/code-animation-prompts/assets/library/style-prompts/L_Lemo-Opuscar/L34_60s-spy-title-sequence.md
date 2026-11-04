@@ -1,10 +1,10 @@
-# L34 60s 间谍片头（60s Spy Title Sequence）
+# L34 60s Spy Title Sequence
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：虚构 1964 年间谍片的片头：追一把被偷的钥匙，几何碎片最后拼成片名。
-- 适合：片头、悬念
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: The opening titles of a fictional 1964 spy film: following a stolen key until geometric fragments assemble into the film title.
+- Best for: Opening titles, suspense
 
-## 风格提示词
+## Style prompt
 
 # 60s Spy Title Sequence — Style Prompt
 
@@ -121,8 +121,8 @@ You decide what is pursued, by whom, the locations (as credits), the inks, the o
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Velvet Cipher

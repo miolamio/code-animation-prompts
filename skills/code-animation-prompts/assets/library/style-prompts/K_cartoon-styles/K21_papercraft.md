@@ -1,9 +1,9 @@
-# K21 手工纸艺
+# K21 Papercraft
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：手作、纸工艺的质感
-- 适合：温暖的科普
+- Category: K Cartoon Styles · Art style
+- Looks like: Handmade, papercraft material feel
+- Best for: Warm science explainers
 
-## 风格提示词
+## Style prompt
 
-手作、纸工艺的质感
+Handmade, papercraft material feel

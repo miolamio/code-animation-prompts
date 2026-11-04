@@ -1,8 +1,8 @@
-# K5 孟菲斯扁平人
+# K5 Corporate Memphis
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：大公司宣传图里那种手脚很长的扁平小人
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: The flat figures with very long limbs seen in big-company promotional images
 
-## 风格提示词
+## Style prompt
 
 corporate memphis, flat vector people

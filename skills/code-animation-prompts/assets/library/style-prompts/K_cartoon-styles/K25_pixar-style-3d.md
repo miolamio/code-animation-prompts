@@ -1,9 +1,9 @@
-# K25 皮克斯式 3D
+# K25 Pixar-Style 3D
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：比例夸张、大眼睛、圆润、质感好
-- 适合：角色高光时刻
+- Category: K Cartoon Styles · Art style
+- Looks like: Exaggerated proportions, big eyes, rounded, great material feel
+- Best for: Character highlight moments
 
-## 风格提示词
+## Style prompt
 
-比例夸张、大眼睛、圆润、质感好
+Exaggerated proportions, big eyes, rounded, great material feel

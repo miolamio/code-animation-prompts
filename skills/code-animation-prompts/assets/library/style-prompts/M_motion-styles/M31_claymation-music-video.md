@@ -1,15 +1,15 @@
-# M31 粘土定格 MV
+# M31 Claymation Music Video
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：粘土小人一帧一帧动，手作感很强。
-- 适合：轻松、好玩的段落；你自己的歌也可以做成这种 MV。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: Clay figures move frame by frame, with a strong handmade feel.
+- Best for: Light, fun passages; your own song can also be made into this kind of music video.
 
-## 风格提示词
+## Style prompt
 
-做一个 [60] 秒的粘土定格动画风格的音乐视频，粘土小人有手指印和手作质感，动作一顿一顿的。顺便写一首适合这个画面的原创歌。
+Make a [60]-second music video in claymation stop-motion style, with clay figures that show fingerprints and a handmade feel, moving in stuttering steps. Also write an original song that fits the visuals.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[粘土风 MV](https://prompt-motion.com/davidshulmanfl-371638)
+[Claymation MV](https://prompt-motion.com/davidshulmanfl-371638)

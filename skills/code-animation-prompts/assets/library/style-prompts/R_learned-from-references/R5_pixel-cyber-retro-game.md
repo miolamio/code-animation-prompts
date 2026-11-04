@@ -1,22 +1,22 @@
-# R5 像素赛博 · 复古游戏
+# R5 Pixel Cyber Retro Game
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：俯看一条满是招牌的街，天桥横过去，街尽头一块"不夜城"大屏，打伞的人、小车、飞车，下着像素雨。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: Looking down on a street packed with signs, a footbridge crossing it, a big "Sleepless City" screen at the far end of the street, people with umbrellas, small cars, flying cars, and pixel rain falling.
 
-## 风格提示词
+## Style prompt
 
-俯看一条满是招牌的街，天桥横过去，街尽头一块"不夜城"大屏，打伞的人、小车、飞车，下着像素雨。
+Looking down on a street packed with signs, a footbridge crossing it, a big "Sleepless City" screen at the far end of the street, people with umbrellas, small cars, flying cars, and pixel rain falling.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-07 像素赛博 · 复古游戏
+07 Pixel Cyber · Retro Game
 
-### 相近的旧编号
+### Related earlier ID
 
 M14、L49、L50、X24
 
-### 定死的画法
+### Fixed rendering rules
 
-先画在 480×270 的小画布上，整张压进 28 色调色板（拜耳抖动处理渐变和光晕），再放大 4 倍、不做平滑。动起来时不用一格一格跳的像素动画，每帧从连续的骨骼重画，动作一定要流畅。
+First draw on a small 480×270 canvas, crush the whole image into a 28-color palette (Bayer dithering for gradients and glow), then upscale 4x with no smoothing. For motion, do not use pixel animation that jumps frame by frame; redraw each frame from a continuous skeleton, and the movement must be fluid.

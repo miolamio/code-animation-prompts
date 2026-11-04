@@ -1,22 +1,22 @@
-# R2 80–90 年代复古日漫
+# R2 80s-90s Retro Anime
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：赛璐珞画的人和车在夜里的高架上飞驰，仰着看的高楼，尾灯拖出两条光带，整片像老录像带放出来的。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: Cel-painted people and cars speed along an elevated highway at night, tall buildings seen from below, taillights trailing two bands of light; the whole film looks like it is playing from an old videotape.
 
-## 风格提示词
+## Style prompt
 
-赛璐珞画的人和车在夜里的高架上飞驰，仰着看的高楼，尾灯拖出两条光带，整片像老录像带放出来的。
+Cel-painted people and cars speed along an elevated highway at night, tall buildings seen from below, taillights trailing two bands of light; the whole film looks like it is playing from an old videotape.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-02 复古日漫
+02 Retro Anime
 
-### 相近的旧编号
+### Related earlier ID
 
 L46
 
-### 定死的画法
+### Fixed rendering rules
 
-人和车是平涂 + 一块硬边阴影 + 一条硬边高光 + 有颜色的描边；背景是喷枪画、横向拉丝表示速度（招牌在拉丝之后画，字才看得清）；画面微微歪；最后过一遍录像带的色渗和扫描线。
+People and cars are flat fill + one hard-edged shadow block + one hard-edged highlight + colored outlines; backgrounds are airbrushed, with horizontal streaking to show speed (signs are drawn after the streaking so the lettering stays legible); the picture is tilted slightly; finish with a pass of videotape color bleed and scanlines.

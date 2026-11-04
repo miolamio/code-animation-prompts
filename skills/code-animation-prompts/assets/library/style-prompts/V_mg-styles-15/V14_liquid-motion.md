@@ -1,33 +1,33 @@
-# V14 液态流动（Liquid Motion）
+# V14 Liquid Motion
 
-- 分类：V mg-styles-15 · mg-styles-15
-- 适合：柔软的转场、情绪流动
+- Category: V mg-styles-15 · mg-styles-15
+- Best for: soft transitions, flowing emotion
 
-## 风格提示词
+## Style prompt
 
-# 液态流动 Liquid Motion
+# Liquid Motion
 
-**原片**：drop.「万物始于一滴」 · 1920×1080 · 30 fps · 10 秒 · AI 评审终评 7.57 / 10
+**Original video**: drop. "Everything begins with a drop" · 1920×1080 · 30 fps · 10 s · final AI review score 7.57 / 10
 
-**源码**：[demos/07-liquid/](../demos/07-liquid/)
+**Source code**: [demos/07-liquid/](../demos/07-liquid/)
 
-## 怎么用
+## How to use
 
-1. 新建一个空文件夹，在里面打开一个能写代码、能执行命令的 AI 助手（例如 Claude Code）。本机需要能跑网页渲染（Node + Chrome）和 ffmpeg。
-2. 把下面「提示词」整段复制进去发送。
-3. 想换成自己的内容：改 `Creative seed` 里的故事、品牌名、文案和配色，或者改 `Output` 里的尺寸（比如竖屏 1080×1920）。不要删 `Signature features` 那一段，它是这种风格被一眼认出来的依据。
-4. 想再提高：成片出来后，另开一个 AI 用 [rubric.md](../rubric.md) 评审，把评审意见贴回给制作的 AI 再改一轮。原片就是这样改了两轮。
+1. Create a new empty folder and open an AI assistant in it that can write code and run commands (for example Claude Code). Your machine needs to be able to render web pages (Node + Chrome) and run ffmpeg.
+2. Copy the entire "Prompt" below into it and send.
+3. To use your own content: change the story, brand name, copy and color palette in `Creative seed`, or the dimensions in `Output` (for example vertical format 1080×1920). Do not delete the `Signature features` section; it is what makes this style instantly recognizable.
+4. To improve further: once the final video is out, open a separate AI to review it with [rubric.md](../rubric.md), then paste the review back to the AI that made it for another round. The original video went through two such rounds.
 
-## 提示词
+## Prompt
 
 ```text
 You are the director, motion designer, engineer and sound designer of ONE 10-second motion-design film.
 The goal is the most classic, yet most stunning form of this style — award-shortlist / high-end commercial quality. A clean,
 template-looking result is a fail. Benchmarks: Buck, ManvsMachine, Ordinary Folk, Giant Ant, Territory Studio, Apple keynote
-motion, Pentagram motion identities, top Behance/Motionographer features, top 抖音/B站 designer accounts.
+motion, Pentagram motion identities, top Behance/Motionographer features, top Douyin/Bilibili designer accounts.
 
 # Style
-液态流动 Liquid Motion
+Liquid Motion
 
 # Output (fixed)
 - 1920×1080, 30 fps, exactly 10.000 s (300 frames), H.264 MP4 with stereo AAC audio (48 kHz), mastered to −14 LUFS
@@ -38,7 +38,7 @@ HTML WebGL2 fragment shader: 2D SDF metaballs (smooth-min) + fake 3D lighting fr
 (You may choose a better route if it clearly raises quality; say why.)
 
 # Creative seed
-「液态创世」Liquid logo genesis — glossy, organic, high energy.
+"Liquid Genesis": Liquid logo genesis — glossy, organic, high energy.
 - Deep plum ground; glossy candy liquid (hot orange → pink → violet) with specular highlights and fresnel rim so it reads like thick 3D liquid, not flat blobs.
 - 0–2s: droplets fall and splash with squash on landing; 2–4s: blobs merge via metaball fusion — stretched necks, snap, 2–3 frame rebound; secondary droplets follow 2–3 frames late;
 - 4–6s: a big liquid wave floods across the frame as a transition (wavy front with 3–5 phase-offset bulges);
@@ -50,13 +50,13 @@ Sound: bubbly gloops, pour, splash, drip, deep bass swell under a glossy synth b
 You are the director: you may change the concept, copy, story beats and brand names if you find a stronger idea, but the result must remain the CANONICAL, instantly-recognisable form of this style and must hit its signature features below.
 
 # Signature features and key techniques (the result is judged against these)
-图形像液体一样流动、拉丝、滴落、融合：转场是一泼颜料漫过屏幕，logo 从一滴液体聚合成形。有机、解压、高能量，广泛用于音乐视频、食品饮料广告和转场包装。
-视觉特征 波浪边缘转场, 拉丝与滴落, metaball融合, 次级液滴跟随, 有机曲线永不直线
-关键技法 液态转场：遮罩路径手 K 波浪形前沿扫过画面，前沿加 3~5 个错相位的凸起
-metaball 融合的通用伪造法：高斯模糊(20px+) → 提高对比度阈值（AE 用 Levels 收紧、Web 用 feColorMatrix alpha 阈值），两球靠近即自动'粘连'
-拉丝-断裂-回弹：主形离开时留一条细颈，断裂瞬间两端各回弹 2~3 帧
-缓动前快后慢 cubic-bezier(0.22,1,0.36,1)，液体只会被'甩'出去不会匀速
-次级液滴延迟主体 2~3 帧跟随（follow-through），落地做扁平化 squash
+Graphics flow, string out, drip and merge like liquid: a transition is a splash of paint washing over the screen, a logo coalesces from one drop of liquid. Organic, satisfying, high-energy, widely used in music videos, food and beverage ads and transition packaging.
+Visual features: wavy-edge transitions, stringing and dripping, metaball merging, secondary droplets following, organic curves, never straight lines
+Key techniques: liquid transition: a hand-keyframed mask path sweeps a wavy front across the picture, with 3~5 out-of-phase bulges added to the front
+General way to fake metaball merging: Gaussian blur (20px+) → raise the contrast threshold (Levels tightening in AE, feColorMatrix alpha threshold on the web); two blobs automatically 'stick together' when close
+Stretch-snap-rebound: the main shape leaves a thin neck as it departs, and at the moment of snapping each end rebounds for 2~3 frames
+Easing fast then slow, cubic-bezier(0.22,1,0.36,1); liquid only gets 'flung', it never moves at constant speed
+Secondary droplets follow the main body with a 2~3 frame delay (follow-through), and flatten with a squash on landing
 
 # How to work
 1. Treatment. Write down one clear idea: a hook in the first 0.5 s (never open on more than 0.3 s of empty or black), an

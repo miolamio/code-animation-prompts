@@ -1,10 +1,10 @@
-# L57 移轴微缩（Tilt-Shift Miniature）
+# L57 Tilt-Shift Miniature
 
-- 分类：L Lemo-Opuscar · 材质与 3D
-- 长什么样：玩具城的早高峰，一切都像模型。
-- 适合：小人国，俯看日常生活
+- Category: L Lemo-Opuscar · Materials and 3D
+- Looks like: Rush hour in a toy town, where everything looks like a scale model.
+- Best for: Lilliput, looking down on daily life
 
-## 风格提示词
+## Style prompt
 
 # Tilt-Shift Miniature — Style Prompt
 
@@ -112,8 +112,8 @@ You decide the place, the system, the tiny actor, the structure, the opening, th
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Toy Town Rush Hour

@@ -1,9 +1,9 @@
-# K9 涂鸦
+# K9 Doodle
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：线条松、歪，能看见草稿线
-- 适合：讲"以前的我"、自嘲
+- Category: K Cartoon Styles · Art style
+- Looks like: Loose, crooked lines, sketch lines visible
+- Best for: Talking about "the old me", self-deprecation
 
-## 风格提示词
+## Style prompt
 
-线条松、歪，能看见草稿线
+Loose, crooked lines, sketch lines visible

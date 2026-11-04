@@ -1,17 +1,17 @@
-# D4 天亮
+# D4 Daybreak
 
-- 分类：A–G 代码样片 · D 光与天气
-- 长什么样：天从深蓝慢慢变暖，太阳升起来。
-- 适合：结尾、希望、重新开始
-- 关键词：日出、渐变、天亮
+- Category: A–G Code Samples · D Light and Weather
+- Looks like: The sky slowly warms from deep blue, and the sun rises.
+- Best for: endings, hope, starting over
+- Keywords: sunrise, gradient, daybreak
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"天亮"的动画：天从深蓝慢慢变暖，太阳升起来。
-适合讲：结尾、希望、重新开始
-关键词：日出、渐变、天亮
+Use code (Canvas 2D) to draw an animation of "Daybreak": The sky slowly warms from deep blue, and the sun rises.
+Good for telling: endings, hope, starting over
+Keywords: sunrise, gradient, daybreak
 
-下面是我们自己写的参考实现：一个绘制函数 S.D4(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.D4(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.D4 = (c, w, h, t, s) => {

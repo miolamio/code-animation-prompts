@@ -1,9 +1,9 @@
-# K10 粉笔黑板
+# K10 Chalkboard
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：黑底彩色粉笔，手绘的温度
-- 适合：讲道理、科普
+- Category: K Cartoon Styles · Art style
+- Looks like: Black background, colored chalk, the warmth of hand drawing
+- Best for: Explaining ideas, science explainers
 
-## 风格提示词
+## Style prompt
 
-黑底彩色粉笔，手绘的温度
+Black background, colored chalk, the warmth of hand drawing

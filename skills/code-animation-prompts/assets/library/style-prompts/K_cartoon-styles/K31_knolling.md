@@ -1,9 +1,9 @@
-# K31 平铺整理
+# K31 Knolling
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：东西整整齐齐摆在桌面上，俯拍
-- 适合：展示"我的工具箱"
+- Category: K Cartoon Styles · Art style
+- Looks like: Items laid out neatly on a tabletop, high-angle shot
+- Best for: Showing "my toolbox"
 
-## 风格提示词
+## Style prompt
 
-东西整整齐齐摆在桌面上，俯拍
+Items laid out neatly on a tabletop, high-angle shot

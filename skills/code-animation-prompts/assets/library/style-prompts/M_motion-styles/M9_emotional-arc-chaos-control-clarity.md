@@ -1,15 +1,15 @@
-# M9 情绪弧线：混乱、掌控、清晰
+# M9 Emotional Arc: Chaos, Control, Clarity
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：全片一条弧线。开头画面乱，中间慢慢理顺，最后干干净净落在一句话上。转场靠同一个形状变过去，不硬切。
-- 适合：整期的结构。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: One arc across the whole film. The picture is messy at the start, gradually gets put in order, and ends cleanly on one line. Transitions morph the same shape; no hard cuts.
+- Best for: The structure of a whole episode.
 
-## 风格提示词
+## Style prompt
 
-全片是一条连续的弧线：从混乱，到掌控，到清晰，最后落到 [结尾那句话]。场景之间用同一个物体、同一个形状变过去，不要硬切，除非有特别的理由。动作要有高级的缓动和错开的层次，有一点景深和光感。不要满屏模糊、不要弹来弹去的界面、不要粒子。每一个重要的画面单独截出来都能当海报用。
+The whole film is one continuous arc: from chaos, to control, to clarity, finally landing on [closing line]. Between scenes, transform the same object or the same shape instead of hard cutting, unless there is a special reason. Motion should have premium easing and staggered layers, with a touch of depth of field and light. No full-screen blur, no bouncy interfaces, no particles. Every important frame, captured on its own, should work as a poster.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[记账软件广告片](https://prompt-motion.com/daniel-haida-8691d4)（提示词里写着"不是普通的软件讲解"）
+[Bookkeeping app ad](https://prompt-motion.com/daniel-haida-8691d4) (the prompt says "not an ordinary software explainer")

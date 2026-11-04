@@ -1,19 +1,19 @@
-# M18 数学/科学讲解（3Blue1Brown 那种）
+# M18 3Blue1Brown-Style Explainer
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：深色背景，公式和图形一点点变形、推导，讲得很清楚。
-- 适合：感知科普线，讲原理、讲数据。
+- Category: M Motion Styles · Explainers
+- Looks like: Dark background; formulas and shapes morph and derive step by step, explained very clearly.
+- Best for: Science-explainer track: explaining principles and data.
 
-## 风格提示词
+## Style prompt
 
-用 Manim 做一个讲 [概念] 的视频，要通俗易懂，有例子，能引人思考。配音用 edge-tts，中文。
+Use Manim to make a video explaining [concept], easy to follow, with examples, and thought-provoking. Voiceover with edge-tts, in the user's language.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[用 Manim 讲导数](https://prompt-motion.com/linearuncle-5d2bae)（原提示词就是中文的）
+[Explaining derivatives with Manim](https://prompt-motion.com/linearuncle-5d2bae) (the original prompt was in Chinese)
 
-### 配合 skill
+### Paired skill
 
 S4 Manim skill。

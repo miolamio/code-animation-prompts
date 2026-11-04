@@ -1,4 +1,4 @@
-// A–G 参考实现共用的小工具函数
+// Small utility functions shared by the A–G reference implementations
 const SANS = '"Noto Sans SC", "PingFang SC", sans-serif';
 const MONO = '"IBM Plex Mono", ui-monospace, monospace';
 const TAU = Math.PI * 2;

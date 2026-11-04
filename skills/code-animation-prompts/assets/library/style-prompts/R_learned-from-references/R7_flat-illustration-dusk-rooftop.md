@@ -1,22 +1,22 @@
-# R7 扁平插画 · 黄昏屋顶
+# R7 Flat Illustration Dusk Rooftop
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：黄昏的大渐变天，三层平涂的城市剪影，屋顶上一块"夜城"大霓虹字，一个人和一只猫坐在楼边，后面一列轻轨开过。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: A big gradient dusk sky, three layers of flat-fill city silhouettes, big "NIGHT CITY" neon letters on the rooftop, a person and a cat sitting at the edge of the building, a light-rail train passing behind.
 
-## 风格提示词
+## Style prompt
 
-黄昏的大渐变天，三层平涂的城市剪影，屋顶上一块"夜城"大霓虹字，一个人和一只猫坐在楼边，后面一列轻轨开过。
+A big gradient dusk sky, three layers of flat-fill city silhouettes, big "NIGHT CITY" neon letters on the rooftop, a person and a cat sitting at the edge of the building, a light-rail train passing behind.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-P&D Studio 的 Cyberpunk Neon City
+P&D Studio's Cyberpunk Neon City
 
-### 相近的旧编号
+### Related earlier ID
 
 V3
 
-### 定死的画法
+### Fixed rendering rules
 
-不描边；只有天是渐变，其他全是平涂；越远的楼越接近天的颜色；发光只给霓虹字、灯串和小灯。
+No outlines; only the sky is a gradient, everything else is flat fill; the farther the building, the closer it is to the sky's color; glow only for the neon letters, string lights and small lamps.

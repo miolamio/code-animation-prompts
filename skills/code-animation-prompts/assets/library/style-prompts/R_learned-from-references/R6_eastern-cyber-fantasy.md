@@ -1,22 +1,22 @@
-# R6 东方赛博 · 国风幻想
+# R6 Eastern Cyber Fantasy
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：纸色的天，一轮大红日头，一行鹤飞过；水边一座五层飞檐楼阁，身上挂着"不夜城""酒家"霓虹竖招牌和一块屏，塔尖套着青色的全息光环；后面是淡墨的未来塔楼和山，电缆上挂着一串串小红灯笼；水上一叶小船、一个戴斗笠的人，倒影像水墨一样化开。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: Paper-colored sky, one huge red sun, a line of cranes flying past; by the water, a five-story pavilion with flying eaves, hung with vertical neon signs reading "不夜城" (sleepless city) and "酒家" (tavern) and a screen, its spire ringed by a cyan holographic halo; behind it, pale-ink futuristic towers and mountains, strings of small red lanterns hanging from power cables; on the water, a small boat and a figure in a conical bamboo hat, reflections dissolving like ink wash.
 
-## 风格提示词
+## Style prompt
 
-纸色的天，一轮大红日头，一行鹤飞过；水边一座五层飞檐楼阁，身上挂着"不夜城""酒家"霓虹竖招牌和一块屏，塔尖套着青色的全息光环；后面是淡墨的未来塔楼和山，电缆上挂着一串串小红灯笼；水上一叶小船、一个戴斗笠的人，倒影像水墨一样化开。
+Paper-colored sky, one huge red sun, a line of cranes flying past; by the water, a five-story pavilion with flying eaves, hung with vertical neon signs reading "不夜城" (sleepless city) and "酒家" (tavern) and a screen, its spire ringed by a cyan holographic halo; behind it, pale-ink futuristic towers and mountains, strings of small red lanterns hanging from power cables; on the water, a small boat and a figure in a conical bamboo hat, reflections dissolving like ink wash.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-08 东方赛博 · 国风幻想
+08 Eastern Cyber · Chinese-Style Fantasy
 
-### 相近的旧编号
+### Related earlier ID
 
 C1、Z1、L19、M30
 
-### 定死的画法
+### Fixed rendering rules
 
-纸色底，墨分浓淡做远近；颜色只有墨、纸、朱红，霓虹只点一点青；墨块边上有洇开的淡墨，檐上有干笔擦痕；水边一带雾把楼脚化开；竖排题字和一方印章收住画面。
+Paper-colored ground, ink divided into dark and light tones to create depth; the only colors are ink, paper and vermilion, with just a touch of cyan for the neon; ink blocks have pale ink bleeding out at their edges, eaves have dry-brush scuff marks; a band of mist along the waterline dissolves the feet of the buildings; a vertical inscription and one seal close off the picture.

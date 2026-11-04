@@ -1,15 +1,15 @@
-# M3 文字建筑（口播金句专用）
+# M3 Word Architecture (for Voiceover Key Lines)
 
-- 分类：M 动态风格 · 文字和金句类
-- 长什么样：只用文字。每个词有一个"结构上的角色"：有的是梁，有的是柱子，有的是地板。前面的词搭起来，最后一句话"站"在前面搭好的东西上。
-- 适合：结尾金句"学习，相信自己"。全片最值得做的一段。
+- Category: M Motion Styles · Text and Key Lines
+- Looks like: Text only. Each word has a "structural role": some are beams, some are columns, some are the floor. The earlier words build up, and the final sentence "stands" on what has been built.
+- Best for: The closing key line "Learn, believe in yourself". The most worthwhile section of the whole film.
 
-## 风格提示词
+## Style prompt
 
-做一段 [20] 秒、只用文字的口播动画。台词按顺序是：[第1句]、[第2句]……每个关键词有一个结构上的角色，比如"学习"是地基，"相信"是柱子，"自己"是站在上面的人。文字用真实的字形轮廓搭出来，每一句都改变画面的结构。最后一句必须"站"在前面那些词搭好的东西上。配色：深色背景、纸色字、一个强调色。不要麦克风、人群、旗子这类俗套画面，不要素材视频。做完挑 8 帧检查，读起来顺序对，最后的平台确实是前面的元素搭起来的。
+Make a [20]-second voiceover animation using text only. The lines, in order, are: [line 1], [line 2]... Each key word has a structural role; for example "learn" is the foundation, "believe" is the column, and "yourself" is the person standing on top. Build the text from real glyph outlines, and make every line change the structure of the picture. The final line must "stand" on what the earlier words have built. Palette: dark background, paper-colored text, one accent color. No clichés like microphones, crowds or flags, and no stock footage. When done, pick 8 frames to check: it reads in the right order, and the final platform really is built from the earlier elements.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[把一段话搭成建筑](https://prompt-motion.com/gdgtify-287ddf)
+[Building a passage of text into architecture](https://prompt-motion.com/gdgtify-287ddf)

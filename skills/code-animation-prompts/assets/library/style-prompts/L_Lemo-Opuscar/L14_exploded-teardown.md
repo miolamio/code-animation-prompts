@@ -1,10 +1,10 @@
-# L14 爆炸图拆解（Exploded Teardown）
+# L14 Exploded Teardown
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：开源键盘的一半在一次环绕中逐层拆开，看到主控再合拢，标上真实尺寸。
-- 适合：拆开看里面，比如 AI 由哪几部分组成
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: Half of an open-source keyboard comes apart layer by layer in a single orbit, shows the controller, then closes up again, labelled with real dimensions.
+- Best for: Opening something up to see inside, e.g. what parts an AI is made of
 
-## 风格提示词
+## Style prompt
 
 # Exploded Teardown — Style Prompt
 
@@ -132,8 +132,8 @@ Decided per film: which product and revision, which layers to separate and in wh
 
 How our demo was made (story, shots, score, title card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 21 Keys, Opened

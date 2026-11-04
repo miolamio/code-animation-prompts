@@ -1,15 +1,15 @@
-# M29 日落天空的 3D 空镜加一句话
+# M29 3D Sunset Sky with One Line
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：3D 场景，日落、紫色的云、海面反光，镜头慢慢飞，画面上写一句短话。
-- 适合：情绪最高的那一句话，比如"现在不就是最好的时候吗"。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: A 3D scene with sunset, purple clouds and reflections on the sea; the camera flies slowly, and a short line is written on screen.
+- Best for: The emotional peak, one line such as "Isn't right now the best time?"
 
-## 风格提示词
+## Style prompt
 
-用网页 3D 做一个日落的海面，紫色积云、海面反光，镜头像动画电影那样慢慢飞过去。画面上写一句：[一句话]。
+Use web 3D to make a sunset sea with purple cumulus clouds and reflections on the water; the camera glides slowly past like in an animated film. Write one line on screen: [one line].
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[日落空战](https://prompt-motion.com/nft-chen-5f8bb0)（中文原提示词）
+[Sunset air battle](https://prompt-motion.com/nft-chen-5f8bb0) (original prompt in Chinese)

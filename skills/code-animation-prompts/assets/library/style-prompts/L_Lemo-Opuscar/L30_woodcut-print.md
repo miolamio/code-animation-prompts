@@ -1,10 +1,10 @@
-# L30 木刻版画（Woodcut Print）
+# L30 Woodcut Print
 
-- 分类：L Lemo-Opuscar · 印刷与版画
-- 长什么样：村子用一整个冬天铸一口钟，钟声第一次响起，雪停了。
-- 适合：粗犷、有力量
+- Category: L Lemo-Opuscar · Printing and printmaking
+- Looks like: A village spends a whole winter casting a bell; when it rings for the first time, the snow stops.
+- Best for: Rugged, powerful
 
-## 风格提示词
+## Style prompt
 
 # Woodcut Print — Style Prompt
 
@@ -127,8 +127,8 @@ You decide the story, characters (or none), plates, opening, ending, camera path
 
 How our demo was made (story, shots, score, end card, build, engine reference): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Bell Founder

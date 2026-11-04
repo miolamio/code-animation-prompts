@@ -1,9 +1,9 @@
-# K17 几何
+# K17 Geometric
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：用圆、方、三角拼出来
-- 适合：讲结构、讲系统
+- Category: K Cartoon Styles · Art style
+- Looks like: Assembled from circles, squares and triangles
+- Best for: Explaining structures and systems
 
-## 风格提示词
+## Style prompt
 
-用圆、方、三角拼出来
+Assembled from circles, squares and triangles

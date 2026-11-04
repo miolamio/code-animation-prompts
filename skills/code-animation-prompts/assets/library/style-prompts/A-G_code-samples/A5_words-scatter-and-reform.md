@@ -1,22 +1,22 @@
-# A5 字散了再聚
+# A5 Words Scatter and Reform
 
-- 分类：A–G 代码样片 · A 字
-- 长什么样：一句话散成粒子，聚成另一句话。
-- 适合：转念、换一种理解
-- 关键词：散开、聚成、变成
+- Category: A–G Code Samples · A Words
+- Looks like: A sentence scatters into particles and reforms into a different sentence.
+- Best for: a change of heart, a new way of understanding
+- Keywords: scatter, reform, transform
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"字散了再聚"的动画：一句话散成粒子，聚成另一句话。
-适合讲：转念、换一种理解
-关键词：散开、聚成、变成
+Use code (Canvas 2D) to draw an animation of "Words Scatter and Reform": A sentence scatters into particles and reforms into a different sentence.
+Good for telling: a change of heart, a new way of understanding
+Keywords: scatter, reform, transform
 
-下面是我们自己写的参考实现：一个绘制函数 S.A5(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.A5(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.A5 = (c, w, h, t, s, dpr) => {
   if (!s.init) {
-    s.init = 1; const P = ['都是我的错', '那不是我的错'], pts = [];
+    s.init = 1; const P = ["It's all my fault", "It wasn't my fault"], pts = [];
     for (const p of P) {
       const [oc, ox] = offscreen(w, h, 1), lines = h > w ? [p.slice(0, Math.ceil(p.length / 2)), p.slice(Math.ceil(p.length / 2))] : [p];
       const fs = Math.min(w * 0.82 / Math.max(...lines.map(l => l.length)), h * 0.34 / lines.length);

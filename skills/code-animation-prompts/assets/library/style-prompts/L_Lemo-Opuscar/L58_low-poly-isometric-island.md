@@ -1,10 +1,10 @@
-# L58 低多边形等距（Low-poly Isometric Island）
+# L58 Low-poly Isometric Island
 
-- 分类：L Lemo-Opuscar · 材质与 3D
-- 长什么样：空海里一格格长出小岛和村庄，每放一块响一个音符，直到星空。
-- 适合：小岛、小世界
+- Category: L Lemo-Opuscar · Materials and 3D
+- Looks like: Little islands and villages grow tile by tile in an empty sea, a note sounds with every piece placed, until the starry sky.
+- Best for: Islands, small worlds
 
-## 风格提示词
+## Style prompt
 
 # Low-poly Isometric Island — Style Prompt
 
@@ -117,8 +117,8 @@ You decide the world (island, town, orchard, factory floor, planet), what grows 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Island That Grew

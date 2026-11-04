@@ -1,10 +1,10 @@
-# L3 倒计时分屏（Live Countdown Split-screen）
+# L3 Live Countdown Split-screen
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：阿尔忒弥斯二号发射的最后一分钟，一秒不剪：格子从 1 开到 9，点火合成 1。
-- 适合：对比、倒计时，比如"三个月"
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: The last minute before the Artemis II launch, without cutting a second: cells open from 1 up to 9, and at ignition they merge back into 1.
+- Best for: Comparison, countdowns, such as "three months"
 
-## 风格提示词
+## Style prompt
 
 # Live Countdown Split-screen — Style Prompt
 
@@ -86,10 +86,10 @@ Layers, top to bottom:
 - **Clock inversion.** At zero the clock block flips from dark with an orange T− to orange with dark T+, and its header changes (countdown → elapsed). *Fits:* polls closing, a store opening.
 - **Control strip.** Segments in the clock header (who has control: ground → vehicle → mission control; prosecution → jury → judge); the active one fills orange on the call that hands it over, with a short flash. The story's turns live here.
 - **The grid fills on the count.** Empty grid slots show as dashed "standby" frames; each spoken number opens one camera. *Fits:* "three, two, one" before a premiere.
-- **Sync badge.** Top-right of each video cell: `● 实时同步 LIVE SYNC` (synced), `○ 同一时段 · 未逐帧同步 SAME WINDOW` (hatched, grey: footage from the same minutes without a usable clock), `慢动作还原 1× REAL-TIME` (slow-motion re-timed). Honesty is part of the look.
+- **Sync badge.** Top-right of each video cell: `● LIVE SYNC` (synced), `○ SAME WINDOW · not frame-synced` (hatched, grey: footage from the same minutes without a usable clock), `1× REAL-TIME` (slow-motion re-timed). Honesty is part of the look.
 - **Planned vs heard checklist.** Official milestones with their planned times tick as the clock passes them; when the native audio actually says one, a red "heard −32.1" tag with a small waveform appears beside it. *Fits:* a court schedule against what was said; a train timetable against the platform announcement.
 - **Second countdown.** After zero, a smaller clock counts to the next official milestone (`−1:47 to booster separation, expected T+2:09`) along a schematic profile drawn by time, not distance. *Fits:* the next race split; the next ballot count.
-- **Event flag.** An orange bar with black type slides in at the bottom of the relevant cell on its call (`RS-25 ×4 启动 ENGINE START · T−6.36`), held ≥ the reading time.
+- **Event flag.** An orange bar with black type slides in at the bottom of the relevant cell on its call (`RS-25 ×4 ENGINE START · T−6.36`), held ≥ the reading time.
 - **Punch-in on a call.** A hard digital punch-in on the relevant detail when the commentary names it, from a higher-resolution extraction of the same source.
 - **Document by rows.** A paper close-up shows two or three rows; a highlight bar and an annotation band below the paper translate the row; the window moves only between rows (its edges in the white space).
 
@@ -137,8 +137,8 @@ The agent decides per film: the event, where real time starts and ends, the numb
 
 How our demo was made (story, layouts, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Counting Itself Down

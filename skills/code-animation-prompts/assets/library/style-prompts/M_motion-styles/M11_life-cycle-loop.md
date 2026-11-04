@@ -1,15 +1,15 @@
-# M11 人生循环
+# M11 Life Cycle Loop
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：同一个人从小到老，最后无缝接回开头。
-- 适合："学无止境"、"一直在学"这种讲长时间的段落。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: The same person from childhood to old age, then seamlessly back to the beginning.
+- Best for: Passages about a long span of time, such as "never stop learning" or "always learning".
 
-## 风格提示词
+## Style prompt
 
-做一段 [20] 秒的动画，同一个人从 [阶段1] 到 [阶段2] 到 [阶段3]……最后无缝接回开头，可以循环播放。
+Make a [20]-second animation of the same person going from [stage 1] to [stage 2] to [stage 3]... and finally seamlessly back to the beginning, so it can play on a loop.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[人生循环](https://prompt-motion.com/loicrambo-ad6830)
+[Life cycle loop](https://prompt-motion.com/loicrambo-ad6830)

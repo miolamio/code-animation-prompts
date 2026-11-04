@@ -1,10 +1,10 @@
-# L21 一笔画（One-line Drawing）
+# L21 One-line Drawing
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：一根不离纸的线画完一个人的一生，再把笔交给孩子。
-- 适合：一条线讲到底，和样片库 C2、M4 一起看
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: A single line that never leaves the paper draws a whole life, then hands the pen to a child.
+- Best for: One line telling the whole story; view together with sample library C2 and M4
 
-## 风格提示词
+## Style prompt
 
 # One-line Drawing — Style Prompt
 
@@ -119,8 +119,8 @@ You decide what the line draws, whether it reveals one final picture, where it s
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Line That Never Lifted

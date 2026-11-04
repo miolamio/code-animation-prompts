@@ -1,10 +1,10 @@
-# L40 数据叙事（Data Storytelling）
+# L40 Data Storytelling
 
-- 分类：L Lemo-Opuscar · 信息与发布
-- 长什么样：一百年的夏季气温，图表本身就是故事。
-- 适合：用图表讲故事
+- Category: L Lemo-Opuscar · Information and launch
+- Looks like: A hundred years of summer temperatures; the chart itself is the story.
+- Best for: Telling a story with charts
 
-## 风格提示词
+## Style prompt
 
 # Data Storytelling — Style Prompt
 
@@ -128,8 +128,8 @@ You decide the dataset, the chart, the human scale, the notes, the opening, the 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 A Hundred Summers

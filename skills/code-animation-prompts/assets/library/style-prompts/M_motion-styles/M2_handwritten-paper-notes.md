@@ -1,15 +1,15 @@
-# M2 纸感手写笔记
+# M2 Handwritten Paper Notes
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：米白纸面，马克笔批注一笔一笔画出来，手写字，大号粗体标题字，偶尔整个画面"啪"一下切到深色。
-- 适合：列要点、讲方法、"你可以这样做"的段落。
+- Category: M Motion Styles · Explainers
+- Looks like: Cream paper; marker annotations drawn stroke by stroke, handwritten text, big bold headlines, and now and then the whole frame snaps to dark.
+- Best for: Listing points, explaining methods, "here is how you can do it" passages.
 
-## 风格提示词
+## Style prompt
 
-纸感手写笔记风格。米白纸面背景，配色只用纸色、墨黑和两个强调色，深色模式用炭灰。马克笔批注一笔一笔画出来，手写字用描边动画（stroke-dashoffset）写出来，标题用很大的粗体字。每 1.5 到 2 秒出一个新点子，每次转场只做一个主要动作。动作要有真实的缓动、挤压拉伸和跟随。不要出现播放条、时间码这些界面元素。
+Handwritten paper-note style. Cream paper background; the palette uses only paper color, ink black and two accent colors, with charcoal gray for dark mode. Marker annotations are drawn stroke by stroke, handwriting is written with stroke animation (stroke-dashoffset), and headlines use very large bold type. Bring in a new idea every 1.5 to 2 seconds, with only one main action per transition. Motion needs real easing, squash and stretch, and follow-through. No interface elements such as a play bar or timecode.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[纸感产品发布片](https://prompt-motion.com/ik-builds-b8bdcf)（用 HyperFrames + GSAP 做的，提示词写得特别细）
+[Paper-style product launch film](https://prompt-motion.com/ik-builds-b8bdcf) (made with HyperFrames + GSAP; the prompt is especially detailed)

@@ -1,10 +1,10 @@
-# L18 水彩笔刷（Watercolor Brush）
+# L18 Watercolor Brush
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：跟着降雨从澳洲红色腹地一路画到绿色海岸，一镜到底。
-- 适合：情绪段，温柔
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: Follow the rainfall from the red Australian outback all the way to the green coast, in a single continuous take.
+- Best for: Emotional passages, gentle
 
-## 风格提示词
+## Style prompt
 
 # Watercolor Brush — Style Prompt
 
@@ -118,8 +118,8 @@ You decide the subject, the structure, what gets painted, the palette logic, whe
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Follow the Rain

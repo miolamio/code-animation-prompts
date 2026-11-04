@@ -1,17 +1,17 @@
-# E2 剪纸层叠
+# E2 Layered Paper Cut-Outs
 
-- 分类：A–G 代码样片 · E 图形与纸
-- 长什么样：一层层纸片有阴影，前快后慢地移动。
-- 适合：童年、故事、温柔的段落
-- 关键词：剪纸、纸片、层叠
+- Category: A–G Code Samples · E Shapes and Paper
+- Looks like: Layer upon layer of paper pieces with shadows, the front moving fast and the back slow.
+- Best for: childhood, stories, tender passages
+- Keywords: paper-cut, paper pieces, layering
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"剪纸层叠"的动画：一层层纸片有阴影，前快后慢地移动。
-适合讲：童年、故事、温柔的段落
-关键词：剪纸、纸片、层叠
+Use code (Canvas 2D) to draw an animation of "Layered Paper Cut-Outs": Layer upon layer of paper pieces with shadows, the front moving fast and the back slow.
+Good for telling: childhood, stories, tender passages
+Keywords: paper-cut, paper pieces, layering
 
-下面是我们自己写的参考实现：一个绘制函数 S.E2(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.E2(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.E2 = (c, w, h, t, s, dpr) => {

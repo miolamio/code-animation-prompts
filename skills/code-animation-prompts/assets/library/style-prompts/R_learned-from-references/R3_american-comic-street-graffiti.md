@@ -1,22 +1,22 @@
-# R3 美式漫画 · 潮流涂鸦
+# R3 American Comic Street Graffiti
 
-- 分类：R 照参考学来的 · 赛博朋克（第一批）
-- 长什么样：黄底，品红和青的闪电劈开画面，网点、喷漆、往外炸的速度线；粗黑描边的人一拳打出画面，旁边一个大拟声字。
+- Category: R Learned from References · Cyberpunk (Batch 1)
+- Looks like: Yellow ground, magenta and cyan lightning splits the picture; halftone dots, spray paint, speed lines bursting outward; a person with thick black outlines throws a punch out of the picture, with one big onomatopoeic word beside them.
 
-## 风格提示词
+## Style prompt
 
-黄底，品红和青的闪电劈开画面，网点、喷漆、往外炸的速度线；粗黑描边的人一拳打出画面，旁边一个大拟声字。
+Yellow ground, magenta and cyan lightning splits the picture; halftone dots, spray paint, speed lines bursting outward; a person with thick black outlines throws a punch out of the picture, with one big onomatopoeic word beside them.
 
-## 补充
+## Notes
 
-### 学的是哪张参考
+### Reference studied
 
-04 美式漫画 · 潮流涂鸦
+04 American Comics · Street Graffiti
 
-### 相近的旧编号
+### Related earlier ID
 
 K13、X18
 
-### 定死的画法
+### Fixed rendering rules
 
-粗黑描边；只用黄、品红、青、蓝四个颜色平涂；阴影是整块的深紫，压一层网点；不发光、不虚化；人往动作的方向整个倾过去。
+Thick black outlines; flat fill in only four colors: yellow, magenta, cyan and blue; shadows are solid deep-purple blocks overlaid with a layer of halftone dots; no glow, no blur; the figure leans entirely into the direction of the action.

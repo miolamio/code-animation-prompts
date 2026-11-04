@@ -1,22 +1,22 @@
-# A4 字的隧道
+# A4 Word Tunnel
 
-- 分类：A–G 代码样片 · A 字
-- 长什么样：字排成一圈一圈，镜头往里钻。
-- 适合：想不通、越想越深
-- 关键词：隧道、旋转、往里钻
+- Category: A–G Code Samples · A Words
+- Looks like: Words form ring after ring, and the shot burrows inward.
+- Best for: being unable to make sense of something, thoughts spiraling deeper
+- Keywords: tunnel, rotation, burrowing inward
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"字的隧道"的动画：字排成一圈一圈，镜头往里钻。
-适合讲：想不通、越想越深
-关键词：隧道、旋转、往里钻
+Use code (Canvas 2D) to draw an animation of "Word Tunnel": Words form ring after ring, and the shot burrows inward.
+Good for telling: being unable to make sense of something, thoughts spiraling deeper
+Keywords: tunnel, rotation, burrowing inward
 
-下面是我们自己写的参考实现：一个绘制函数 S.A4(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.A4(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.A4 = (c, w, h, t, s) => {
   c.fillStyle = '#04050a'; c.fillRect(0, 0, w, h);
-  const N = 14, R = Math.hypot(w, h) * 0.5, txt = '为什么是我为什么不能说为什么';
+  const N = 14, R = Math.hypot(w, h) * 0.5, txt = 'Why me? Why can I not say it? Why?';
   c.textAlign = 'center'; c.textBaseline = 'middle';
   for (let i = 0; i < N; i++) {
     const p = ((i / N) + t * 0.08) % 1, r = R * (0.03 + Math.pow(p, 2.6) * 1.6), a = Math.sin(Math.PI * p) * .9;

@@ -1,15 +1,15 @@
-# M24 四段式发布片
+# M24 Four-Part Launch Film
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：大环境、痛点、解决办法、好处，四段，最后 logo 动画收尾。
-- 适合：介绍一个新工具、一个 skill 的段落。
+- Category: M Motion Styles · Explainers
+- Looks like: The big picture, the pain point, the solution, the benefits: four parts, ending with a logo animation.
+- Best for: Passages introducing a new tool or skill.
 
-## 风格提示词
+## Style prompt
 
-你是一个资深动态设计师。做一段 [30] 秒的视频，4 到 5 个场景：为什么现在这件事重要、大家现在的麻烦、[工具] 怎么解决、用了以后的好处。文字逐词出现，用弹簧物理做动作，元素踩着节拍进场，不要突然冒出来。每出现一个元素配一个很轻的音效，其他时候安静。最后用 logo 动画加一句话收尾。做完自己渲染出来逐帧检查，有重叠、被裁掉、太赶的地方改好再给我。
+You are a senior motion designer. Make a [30]-second video with 4 to 5 scenes: why this matters now, what trouble people have today, how [tool] solves it, the benefits after using it. Text appears word by word, motion uses spring physics, and elements enter on the beat; nothing pops in abruptly. Give each element that appears a very light sound effect, and stay quiet otherwise. End with a logo animation and one line. When done, render it yourself and check frame by frame; fix any overlaps, clipping or rushed spots before handing it over.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[SaaS 发布片](https://prompt-motion.com/aschapmann-131210)
+[SaaS launch film](https://prompt-motion.com/aschapmann-131210)

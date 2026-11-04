@@ -1,9 +1,9 @@
-# K34 赛博霓虹
+# K34 Cyber Neon
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：深色底，霓虹光
-- 适合：讲未来
+- Category: K Cartoon Styles · Art style
+- Looks like: Dark base, neon light
+- Best for: Talking about the future
 
-## 风格提示词
+## Style prompt
 
-深色底，霓虹光
+Dark base, neon light

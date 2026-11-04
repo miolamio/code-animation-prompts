@@ -1,10 +1,10 @@
-# L45 1930s 橡皮管卡通（1930s Rubber Hose Cartoon）
+# L45 1930s Rubber Hose Cartoon
 
-- 分类：L Lemo-Opuscar · 卡通与动画
-- 长什么样：一只咖啡杯满厨房追一块逃跑的方糖。
-- 适合：复古卡通、搞笑
+- Category: L Lemo-Opuscar · Cartoon and animation
+- Looks like: A coffee cup chases a runaway sugar cube all over the kitchen.
+- Best for: Retro cartoon, comedy
 
-## 风格提示词
+## Style prompt
 
 # 1930s Rubber Hose Cartoon — Style Prompt
 
@@ -117,8 +117,8 @@ You decide the location (or several), the cast, the structure, the opening, the 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Coffee Cup Chase

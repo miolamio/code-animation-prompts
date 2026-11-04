@@ -1,8 +1,8 @@
 # H6 Capsule
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：胶囊形状，奶油纸，糖果配色，Bodoni 衬线标题
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Capsule shapes, cream paper, candy palette, Bodoni serif headlines
 
-## 风格提示词
+## Style prompt
 
-胶囊形状，奶油纸，糖果配色，Bodoni 衬线标题
+Capsule shapes, cream paper, candy palette, Bodoni serif headlines

@@ -1,8 +1,8 @@
 # H12 Editorial Forest
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：绿、粉、奶油的杂志配色，衬线标题，细线
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Magazine palette of green, pink and cream, serif headlines, thin lines
 
-## 风格提示词
+## Style prompt
 
-绿、粉、奶油的杂志配色，衬线标题，细线
+Magazine palette of green, pink and cream, serif headlines, thin lines

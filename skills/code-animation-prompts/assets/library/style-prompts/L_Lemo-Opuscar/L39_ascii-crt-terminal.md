@@ -1,10 +1,10 @@
-# L39 ASCII / CRT 终端（ASCII / CRT Terminal）
+# L39 ASCII / CRT Terminal
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：月球基地的 AI 沉睡 40 年后被唤醒，用字符画出“家”来回复。
-- 适合：讲代码、讲 AI，和样片库 E3 字符画一起看
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: An AI on a lunar base is awakened after sleeping for 40 years and replies by drawing "home" in characters.
+- Best for: Talking about code and AI; view together with sample library E3 ASCII Art
 
-## 风格提示词
+## Style prompt
 
 # ASCII / CRT Terminal: Style Prompt
 
@@ -120,8 +120,8 @@ You decide who types, what the screen is for, the grids, the opening, the ending
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Tranquility.log

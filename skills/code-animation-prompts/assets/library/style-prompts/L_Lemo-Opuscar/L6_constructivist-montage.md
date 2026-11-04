@@ -1,10 +1,10 @@
-# L6 构成主义蒙太奇（Constructivist Montage）
+# L6 Constructivist Montage
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：帝国大厦的小册子写着建造者，工地实拍和老照片给出答案：每天 2,500 人。
-- 适合：有力量的号召
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: The Empire State Building's brochure names its builders; site footage and old photos give the answer: 2,500 people every day.
+- Best for: A powerful call to action
 
-## 风格提示词
+## Style prompt
 
 # Constructivist Montage — Style Prompt
 
@@ -52,7 +52,7 @@ Not **Data Storytelling** or a keynote: no centred headline with bullets, no sli
 
 - **Bilingual pairs**: Chinese block, then one English line in Oswald directly under it (or on the neighbouring band). Each language one line, measured.
 - **Placement**: along the −18° axis on a band, or as an ink / red block; never centred on the frame, never a header. Numbers can be bigger than the words that explain them.
-- **Tags**: every archive window carries its footage tag (`FILM · <TITLE> · <PLACE> <YEAR>`, `PHOTO · <AUTHOR> <YEAR>`), every fact a source tag (`来源 · <PUBLISHER> <YEAR>`). If the footage is not of the subject itself, the tag says what it really is.
+- **Tags**: every archive window carries its footage tag (`FILM · <TITLE> · <PLACE> <YEAR>`, `PHOTO · <AUTHOR> <YEAR>`), every fact a source tag (`SOURCE · <PUBLISHER> <YEAR>`). If the footage is not of the subject itself, the tag says what it really is.
 - **Subtitles** stay bottom-left in a 960–1056 px strip; key type keeps above y 930 while narration runs. Subtitles hold ≥ max(1.8 s, speech + 0.6 s). On-screen text follows `readcheck.mjs` (CJK ÷ 4.5 + other ÷ 15 + 1.5 s, fully in frame); a comparison holds every item ≥ 2.5 s before its verdict.
 
 ## 5. Edit grammar
@@ -140,7 +140,7 @@ Every number, date and claim on screen or in the voice comes from an official or
 - **Red on red**: a red answer block on a red exposure ground disappears; switch it to ink.
 - **A face as hero**: ordinary identifiable workers appear in groups, at work, in quick cuts; no slow motion or close-up protagonist.
 - **Counters read as facts**: label only the end value and dated anchors; a caption beside a counter must match the number shown at every frame (stop the count on the caption's value while it is up).
-- **A number without a unit**: every counter carries its unit in the same layout as elsewhere (小时 / 层 / 人 MEN).
+- **A number without a unit**: every counter carries its unit in the same layout as elsewhere (HOURS / FLOORS / MEN).
 - **Ink type over a window**: a line that runs past a photo's edge disappears into dark film; give it a paper tab or keep it clear of the window.
 - **The verdict covering what was compared**: place it where no item is, after the hold.
 - **Too many documents**: one marked sentence per document shot; a page with three highlights is a slide.
@@ -156,8 +156,8 @@ The agent decides per film: structure, which archive and documents, which format
 
 Our demo: [DEMO.md](DEMO.md).
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 410 Days

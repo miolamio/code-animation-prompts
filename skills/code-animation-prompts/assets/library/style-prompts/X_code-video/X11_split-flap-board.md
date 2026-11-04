@@ -1,9 +1,9 @@
-# X11 翻牌显示板（Split-flap board）
+# X11 Split-flap board
 
-- 分类：X code-video · code-video
-- 适合：机场那种翻牌，适合标题和数字
+- Category: X code-video · code-video
+- Best for: airport-style split-flap displays; good for titles and numbers
 
-## 风格提示词
+## Style prompt
 
 # Style: split-flap board
 

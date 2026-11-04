@@ -1,9 +1,9 @@
-# X23 绘本（Picture storybook）
+# X23 Picture storybook
 
-- 分类：X code-video · code-video
-- 适合：温暖地讲故事
+- Category: X code-video · code-video
+- Best for: warm storytelling
 
-## 风格提示词
+## Style prompt
 
 # Style: picture storybook
 

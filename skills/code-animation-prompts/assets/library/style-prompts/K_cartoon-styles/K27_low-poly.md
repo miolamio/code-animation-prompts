@@ -1,9 +1,9 @@
-# K27 低多边形
+# K27 Low Poly
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：很少的面拼出来的 3D
-- 适合：科技感
+- Category: K Cartoon Styles · Art style
+- Looks like: 3D built from very few faces
+- Best for: A tech feel
 
-## 风格提示词
+## Style prompt
 
-很少的面拼出来的 3D
+3D built from very few faces

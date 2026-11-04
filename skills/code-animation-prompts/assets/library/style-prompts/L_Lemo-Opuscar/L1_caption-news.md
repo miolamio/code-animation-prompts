@@ -1,10 +1,10 @@
-# L1 字幕新闻（Caption News）
+# L1 Caption News
 
-- 分类：L Lemo-Opuscar · 剪辑与纪实
-- 长什么样：美国一年死掉 130 万箱蜜蜂，总数却涨了 6%：静音也能看懂的新闻。
-- 适合：不开声音也能看懂，适合竖屏版
+- Category: L Lemo-Opuscar · Editing and documentary
+- Looks like: The US loses 1.3 million bee colonies a year, yet the total rises 6%: news you can follow with the sound off.
+- Best for: Understandable without sound; suits a vertical-format version
 
-## 风格提示词
+## Style prompt
 
 # Caption News — Style Prompt
 
@@ -28,8 +28,8 @@ Not **Data Storytelling** (charts are short inserts between footage, never the w
 | Footage | full bleed | video, photo, document or data card; never a vertical frame pillar-boxed in the middle |
 | Caption card | left aligned at x 120; Chinese baseline y ≈ 948, English baseline y ≈ 1014 | one line per language, never wrapped |
 | Channel bug | top left, x 96 y 52, 46 px high | yellow block with a fictional channel name + topic in Chinese and English small caps |
-| Source tag | under the bug, y 108, 36 px | white "来源" + dark label (`USDA NASS · 2026.08.03`, `… · 第 13 页`); only on data and document shots, slides in 0.2 s |
-| Footage credit | top right, 19 px on a 50 % dark chip | `视频 作者 · CC BY 3.0`; every CC BY shot carries it |
+| Source tag | under the bug, y 108, 36 px | white "Source" + dark label (`USDA NASS · 2026.08.03`, `… · p. 13`); only on data and document shots, slides in 0.2 s |
+| Footage credit | top right, 19 px on a 50 % dark chip | `Video Author · CC BY 3.0`; every CC BY shot carries it |
 | Lower third | x 120, y 742, 96 px high | yellow bar + label + one English line; for a place, date or speaker, never for the main sentence |
 
 Under the caption: a bottom gradient (0 → 84 % from y 560) plus a soft dark radial from the bottom-left corner; a top gradient (55 % → 0 over 200 px) under the bug and the credit. Data cards use a lighter gradient that starts at y 820. Graphics and charts sit right of centre and bleed to the frame edge; their title and source sit top left, never centred.
@@ -57,9 +57,9 @@ Vertical 9:16 is a different layout, not a crop: put the caption under a 1080×1
 
 - **Ledger card** (the data-card ground): `#151512` sheet, faint ruled lines every 54 px (4.5 % white), a thin red double margin at x 78/86 — the "account book" that ties every chart together. It slides in from the right over 0.18 s; inside, a slow push (×1.025–1.03 over the shot).
 - **Colour meaning**: honey `#FFC21A` = the point / gains / the highlight; red `#FF4A3D` = losses, the spike, the bad number; ivory = everything else; grey `#8D8B83` = labels and units; `#5E5C55` = the bars that don't matter.
-- **Numbers**: Inter Tight 800 with fixed-width digit cells (`num()` in `demo/main.js`), so a rolling counter never jitters. Counters roll with ease-out and turn their colour when they arrive. Units in Chinese (箱, 万箱) set smaller after the number.
+- **Numbers**: Inter Tight 800 with fixed-width digit cells (`num()` in `demo/main.js`), so a rolling counter never jitters. Counters roll with ease-out and turn their colour when they arrive. Units (e.g. boxes, 10k boxes) set smaller after the number.
 - **Charts**: titled top left in Chinese (Noto Sans SC 900 64 px, ≤ 6 characters so it can be read in the shot) with one grey English line; lines draw segment by segment (eio); the key point gets a bigger dot, an expanding ring (0.7 s) and a block label; bars grow from the left one after another (first one slower and longer if it is the point).
-- **Map**: state shapes from Natural Earth, projected (Albers), sequential fill in five steps of one hue, states without data in dark grey with a "未单列" legend swatch; the subject state outlined in yellow with a leader and a label; the map pushes in on it.
+- **Map**: state shapes from Natural Earth, projected (Albers), sequential fill in five steps of one hue, states without data in dark grey with a "not listed separately" legend swatch; the subject state outlined in yellow with a leader and a label; the map pushes in on it.
 - **Documents**: the PDF page rendered at 220 dpi as white paper on a dark desk (±1–2° tilt, soft shadow, vignette), pushed in slowly; highlighter rectangles placed from `pdftotext -bbox` coordinates (1 pt = 3.0556 px), `multiply` blend, swept left → right in 0.3–0.5 s; the number read from it is re-set as a big yellow block beside the page. The printed text is picture; what must be read is re-set in type.
 - **Split screen**: two halves with a 4 px yellow divider that drops first; the "bad" half desaturated, darkened and tinted red, the "good" half in full grade; a label block (Chinese + English word) and a counter in each; a shared stamp centred on the divider.
 - **Grid**: three panels (632 px, 12 px gaps) rising staggered; each one lights up (yellow border, label turns yellow) on the word that names it; numbered 1–2–3.
@@ -142,8 +142,8 @@ The agent decides per film: topic, the turn, which formats are spent where, foot
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Bee Ledger

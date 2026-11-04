@@ -1,9 +1,9 @@
-# X31 数学证明讲课（Math proof lecture）
+# X31 Math proof lecture
 
-- 分类：X code-video · code-video
-- 适合：一步步推出结论
+- Category: X code-video · code-video
+- Best for: deriving a conclusion step by step
 
-## 风格提示词
+## Style prompt
 
 # Style: math proof lecture
 

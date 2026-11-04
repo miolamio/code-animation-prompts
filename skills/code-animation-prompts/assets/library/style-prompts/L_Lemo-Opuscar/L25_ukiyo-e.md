@@ -1,10 +1,10 @@
-# L25 浮世绘（Ukiyo-e）
+# L25 Ukiyo-e
 
-- 分类：L Lemo-Opuscar · 东方传统
-- 长什么样：旅人走向远山，每个镜头都是一幅版画；巨浪是高潮，结尾是远山与整幅画轴拉远。
-- 适合：日式、海浪
+- Category: L Lemo-Opuscar · Eastern tradition
+- Looks like: A traveller walks toward distant mountains, every shot is a woodblock print; the great wave is the climax, and the ending pulls back from the distant mountains to the whole scroll.
+- Best for: Japanese style, ocean waves
 
-## 风格提示词
+## Style prompt
 
 # Ukiyo-e — Style Prompt
 
@@ -67,7 +67,7 @@ The camera moves *over* prints and between them; it never rotates in 3D space in
 | Pull-back from one sheet to many | The series seen whole | a summary; a timeline; a collection |
 | Crash-zoom into the texture (grain, specks, fibres) | The medium itself becomes the image | a dream; a breakdown; a memory dissolving |
 | Pan across a triptych (three sheets side by side) | One scene too wide for one sheet | a procession; a battle; a festival |
-| Hard cut to a blank sheet | Ma (間), a held breath | aftermath; a pause before a decision |
+| Hard cut to a blank sheet | Ma, a held breath | aftermath; a pause before a decision |
 
 Framing: bold cropping and extreme foreground elements (a branch, a post, a lantern crossing the frame) are native; depth by stacking, never by perspective. Allowed transitions: scroll slides, printing reveals, a wash back to paper, a cut to blank. No cross-dissolves, no 3D flips.
 
@@ -117,8 +117,8 @@ You decide the constant subject (or none), the number of views, the characters, 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Toward the Mountain

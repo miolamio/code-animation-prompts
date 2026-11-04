@@ -1,8 +1,8 @@
 # H2 BlockFrame
 
-- 分类：H 现成版式 · 现成版式
-- 长什么样：新粗野主义，粗黑边框，硬投影，糖果色点缀
+- Category: H Ready-Made Layouts · Ready-Made Layouts
+- Looks like: Neo-brutalism, thick black borders, hard drop shadows, candy-color accents
 
-## 风格提示词
+## Style prompt
 
-新粗野主义，粗黑边框，硬投影，糖果色点缀
+Neo-brutalism, thick black borders, hard drop shadows, candy-color accents

@@ -1,10 +1,10 @@
-# L15 显微镜故事（Microscope Story）
+# L15 Microscope Story
 
-- 分类：L Lemo-Opuscar · 实证影像
-- 长什么样：一镜从肝组织玻片推到单个细胞核，两个圆逐像素数出 2.4 倍的蓝。
-- 适合：一层层放大，讲眼睛、神经这类感知科普很合适
+- Category: L Lemo-Opuscar · Evidence imagery
+- Looks like: One shot pushes from a liver tissue slide down to a single cell nucleus, and two circles are counted pixel by pixel to show 2.4 times the blue.
+- Best for: Zooming in layer by layer; well suited to science explainers on perception, such as the eye or nerves
 
-## 风格提示词
+## Style prompt
 
 # Microscope Story — Style Prompt
 
@@ -113,8 +113,8 @@ The agent decides the specimen, the stain or modality, what is counted, the came
 
 How our demo was made (story, shots, score, title card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Measured Blue

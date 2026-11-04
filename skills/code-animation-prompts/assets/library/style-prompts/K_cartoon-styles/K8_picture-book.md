@@ -1,8 +1,8 @@
-# K8 绘本
+# K8 Picture Book
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：形状软，有纸的纹理，暖色
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: Soft shapes, paper texture, warm colors
 
-## 风格提示词
+## Style prompt
 
-儿童绘本插画，柔和造型，纸张纹理，暖色 / children's book
+children's book

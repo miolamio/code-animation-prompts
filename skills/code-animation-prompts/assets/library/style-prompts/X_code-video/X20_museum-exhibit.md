@@ -1,9 +1,9 @@
-# X20 博物馆展览（Museum exhibit）
+# X20 Museum exhibit
 
-- 分类：X code-video · code-video
-- 适合：把东西一件件摆出来讲
+- Category: X code-video · code-video
+- Best for: laying things out one by one and explaining them
 
-## 风格提示词
+## Style prompt
 
 # Style: museum exhibit tour
 

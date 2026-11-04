@@ -1,10 +1,10 @@
-# L33 瑞士动态排版（Swiss Motion Graphics）
+# L33 Swiss Motion Graphics
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：一张音乐会海报按瑞士设计的五条规则自己排版，第五条是只打破一条。
-- 适合：干净的文字排版
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: A concert poster lays itself out following five rules of Swiss design; the fifth rule is to break only one.
+- Best for: Clean typography
 
-## 风格提示词
+## Style prompt
 
 # Swiss Motion Graphics — Style Prompt
 
@@ -120,8 +120,8 @@ You decide the system, what the grid means, the exception (or none), the signal 
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Five Rules for a Poster

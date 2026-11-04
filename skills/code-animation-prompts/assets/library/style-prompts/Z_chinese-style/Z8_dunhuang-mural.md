@@ -1,8 +1,8 @@
-# Z8 敦煌
+# Z8 Dunhuang Mural
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：壁画色，飞天，矿物颜料 / Dunhuang mural
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Mural colors, flying apsaras, mineral pigments / Dunhuang mural
 
-## 风格提示词
+## Style prompt
 
-壁画色，飞天，矿物颜料 / Dunhuang mural
+Mural colors, flying apsaras, mineral pigments / Dunhuang mural

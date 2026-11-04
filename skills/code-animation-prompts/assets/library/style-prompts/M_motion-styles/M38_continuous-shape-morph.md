@@ -1,15 +1,15 @@
-# M38 一个形状变到底
+# M38 Continuous Shape Morph
 
-- 分类：M 动态风格 · 结构和镜头类（用来把不同风格串起来）
-- 长什么样：同一个形状不停变：按钮、加载圈、播放器、滑块、开关……每次变都是鼠标真的点了一下。
-- 适合：一口气列很多例子的段落，比如"整理表格、写周报、批量改文件、做自媒体"。
+- Category: M Motion Styles · Structure and Camera (for linking different styles together)
+- Looks like: The same shape keeps changing: button, loading ring, player, slider, switch... and every change is triggered by a real mouse click.
+- Best for: Passages listing many examples in one breath, such as "organizing spreadsheets, writing weekly reports, batch-editing files, running a content channel".
 
-## 风格提示词
+## Style prompt
 
-一个形状从头到尾不切，依次变成 [例子1、例子2、例子3……]，变的是大小、圆角和颜色。每次变化都由鼠标真的点击或拖动触发。到处用弹簧，最多一点点回弹。镜头跟着放大，让每个状态填满画面。最后一帧和第一帧一样。
+One shape, with no cuts from start to finish, turns in turn into [example 1, example 2, example 3...]; what changes is its size, corner radius and color. Every change is triggered by a real mouse click or drag. Use springs everywhere, with at most a little overshoot. The camera zooms along so each state fills the frame. The last frame matches the first frame.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[一个形状变遍界面](https://prompt-motion.com/twoclipping-5cba86)
+[One shape morphing through interfaces](https://prompt-motion.com/twoclipping-5cba86)

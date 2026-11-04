@@ -1,15 +1,15 @@
-# M13 手绘定格，第一人称
+# M13 First-Person Hand-Drawn Stop-Motion
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：手绘的、一帧一帧有点抖的定格动画，画面里的东西自己开口说话。
-- 适合：让一个东西替你说话。比如让"那个抓公告的小工具"自己介绍自己。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: Hand-drawn stop-motion, a little jittery frame by frame, where the thing on screen speaks for itself.
+- Best for: Letting an object speak for you, for example letting "that little tool that scrapes announcements" introduce itself.
 
-## 风格提示词
+## Style prompt
 
-做一段手绘定格动画。你就是 [东西]，用第一人称跟观众介绍你自己。
+Make a hand-drawn stop-motion animation. You are [the thing]; introduce yourself to the audience in the first person.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[手绘定格讲产品](https://prompt-motion.com/nikolajankovic-ce4ff4)
+[Hand-drawn stop-motion about a product](https://prompt-motion.com/nikolajankovic-ce4ff4)

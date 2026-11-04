@@ -1,15 +1,15 @@
-# M30 东方意境
+# M30 Eastern Poetic Mood
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：古典诗词里的画面，比如月夜、江水、楼阁，可以配可交互的网页。
-- 适合：讲心境、讲文化的段落，也适合做片头。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: Scenes from classical poetry, such as a moonlit night, a river, a pavilion; can be paired with an interactive web page.
+- Best for: Passages about state of mind or culture; also good as opening titles.
 
-## 风格提示词
+## Style prompt
 
-根据你对我的了解，选一个我可能喜欢的东方古典意境（比如月夜、江水、楼阁），做一个 [30] 秒的视频，再做一个可以交互的网页版。
+Based on what you know about me, pick an Eastern classical poetic mood I might like (for example a moonlit night, a river, a pavilion), make a [30]-second video, and also make an interactive web version.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[滕王阁月夜江景](https://prompt-motion.com/demitiyageekzen-7770ad)（中文原提示词）
+[Moonlit river view at Tengwang Pavilion](https://prompt-motion.com/demitiyageekzen-7770ad) (original prompt in Chinese)

@@ -1,10 +1,10 @@
-# L17 蜡笔儿童绘本（Crayon Picture Book）
+# L17 Crayon Picture Book
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：月亮失眠了，小女孩爬上屋顶给它唱摇篮曲。
-- 适合：温暖、童年、回忆
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.
+- Best for: Warm, childhood, memories
 
-## 风格提示词
+## Style prompt
 
 # Crayon Picture Book — Style Prompt
 
@@ -114,8 +114,8 @@ You decide the structure, the characters (or none), the page, the opening, the e
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Moon Can't Sleep

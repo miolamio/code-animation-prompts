@@ -1,10 +1,10 @@
-# L28 Risograph 丝网印刷（Risograph Print）
+# L28 Risograph Print
 
-- 分类：L Lemo-Opuscar · 印刷与版画
-- 长什么样：周日早晨骑车穿过城市：面包店、公园、河边，每到一处加一版油墨，最后三版套印。
-- 适合：杂志感、潮
+- Category: L Lemo-Opuscar · Printing and printmaking
+- Looks like: Cycling through the city on a Sunday morning: bakery, park, riverside; each stop adds one ink layer, and the last three layers are overprinted.
+- Best for: Magazine feel, trendy
 
-## 风格提示词
+## Style prompt
 
 # Risograph Print — Style Prompt
 
@@ -130,8 +130,8 @@ You decide the inks and what each plate means, the structure, characters (or non
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Sunday Ride

@@ -1,9 +1,9 @@
-# K38 情景喜剧
+# K38 Sitcom Cartoon
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：像《辛普森一家》，平涂，动作少
-- 适合：生活小场景
+- Category: K Cartoon Styles · Art style
+- Looks like: Like *The Simpsons*, flat fill, little action
+- Best for: Small everyday scenes
 
-## 风格提示词
+## Style prompt
 
-像《辛普森一家》，平涂，动作少
+Like *The Simpsons*, flat fill, little action

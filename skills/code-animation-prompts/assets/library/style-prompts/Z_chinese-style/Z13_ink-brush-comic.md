@@ -1,8 +1,8 @@
-# Z13 水墨漫画
+# Z13 Ink-Brush Comic
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：毛笔线条加水墨晕染的漫画 / ink-brush comic
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Comic with brush lines and ink wash bleed / ink-brush comic
 
-## 风格提示词
+## Style prompt
 
-毛笔线条加水墨晕染的漫画 / ink-brush comic
+Comic with brush lines and ink wash bleed / ink-brush comic

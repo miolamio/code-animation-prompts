@@ -1,10 +1,10 @@
-# L20 油画厚涂（Impasto Oil Painting）
+# L20 Impasto Oil Painting
 
-- 分类：L Lemo-Opuscar · 手绘与绘画
-- 长什么样：灰色雨中广场，第一把红伞撑开，圆舞曲把整个广场刷上颜色。
-- 适合：浓烈的情绪
+- Category: L Lemo-Opuscar · Hand-drawn and painting
+- Looks like: A gray, rainy square; the first red umbrella opens, and a waltz paints the whole square with color.
+- Best for: Intense emotion
 
-## 风格提示词
+## Style prompt
 
 # Impasto · Palette Knife — Style Prompt
 
@@ -129,8 +129,8 @@ You decide the structure, the cast (or none), the sets, the opening, the ending,
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Colour of Rain

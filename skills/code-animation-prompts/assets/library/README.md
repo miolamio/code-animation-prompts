@@ -1,52 +1,52 @@
-# 代码动画风格提示词
+# Code Animation Style Prompts
 
-一共 **341 种**风格，每种一个提示词，Opus 5.5 能用，DeepSeek 也能用。其中 193 种带静帧。
+A total of **341 styles**, one prompt each. They work with Opus 5.5 and also with DeepSeek. Of these, 193 come with stills.
 
-有一些是从网上收集来的，很多是我自己整理、自己做出来、自己总结的。
+Some were collected from the web; many I organized, made and summarized myself.
 
-## 里面有什么
+## What's inside
 
-| 文件夹 / 文件 | 是什么 |
+| Folder / file | What it is |
 |---|---|
-| `style-picker.html` | 挑选网页。用 Chrome 或 Edge 直接双击打开，不用联网。可以按类别筛、搜索、放大看静帧、看提示词、勾选、导出清单。不要把它和"style-prompts"文件夹分开。 |
-| `style-prompts/` | 341 种风格，每种一个 `.md` 提示词，带静帧的旁边有一张同名 `.jpg` |
-| `examples/` | 两组实测：同一份详细提示词交给 Opus 5.5 和 DeepSeek 的对比；只给一句话交给 DeepSeek 的结果 |
-| `licenses-and-sources.md`、`third-party-licenses/` | 每一类风格从哪来、用什么许可 |
+| `style-picker.html` | The picker page. Double-click to open it directly in Chrome or Edge; no internet connection needed. You can filter by category, search, enlarge stills, read prompts, tick styles and export a list. Do not separate it from the "style-prompts" folder. |
+| `style-prompts/` | 341 styles, each with one `.md` prompt; those with a still have a `.jpg` of the same name beside them |
+| `examples/` | Two real tests: the same detailed prompt given to Opus 5.5 and to DeepSeek, compared; and the result of giving DeepSeek just one sentence |
+| `licenses-and-sources.md`, `third-party-licenses/` | Where each category of styles comes from and which license it uses |
 
-### 341 种怎么分
+### How the 341 are divided
 
-| 类别 | 数量 | 是什么 |
+| Category | Count | What it is |
 |---|---|---|
-| A–G 代码样片 | 26 | 字、粒子、线与墨、光与天气、图形与纸、讲解、质感；每种附参考实现代码 |
-| M 动态风格 | 40 | 整段视频怎么动、怎么剪、怎么讲 |
-| K 卡通画风 | 38 | 角色和画面长什么样 |
-| Z 中国风 | 15 | 水墨、工笔、剪纸、皮影、敦煌…… |
-| H 现成版式 | 12 | 配色加字体的整套搭配 |
-| L Lemo-Opuscar | 59 | 开源项目 Lemo-Opuscar 的风格，每种有完整做法 |
-| V mg-styles-15 | 15 | 开源项目 mg-styles-15 的动态风格 |
-| X code-video | 31 | 开源项目 code-video 的风格 |
-| R 照参考学来的 | 7 | 照参考学着用代码画的赛博朋克 |
-| O 奥斯卡 98 部 | 98 | 98 部奥斯卡最佳影片，每部一种画风 |
+| A–G Code Samples | 26 | Type, particles, line and ink, light and weather, shapes and paper, explainers, material feel; each comes with reference implementation code |
+| M Motion Styles | 40 | How a whole video moves, cuts and tells its story |
+| K Cartoon Styles | 38 | What the characters and the picture look like |
+| Z Chinese Style | 15 | Ink wash, gongbi, paper-cut, shadow puppets, Dunhuang... |
+| H Ready-Made Layouts | 12 | Complete pairings of color palette and typeface |
+| L Lemo-Opuscar | 59 | Styles from the open-source project Lemo-Opuscar, each with a complete method |
+| V mg-styles-15 | 15 | Motion styles from the open-source project mg-styles-15 |
+| X code-video | 31 | Styles from the open-source project code-video |
+| R Learned from References | 7 | Cyberpunk drawn in code, learned by following references |
+| O 98 Best Picture Winners | 98 | 98 Oscar Best Picture winners, one art style each |
 
-## 怎么用
+## How to use
 
-**用 DeepSeek Harness（或 Claude Code）：**
+**With DeepSeek Harness (or Claude Code):**
 
-1. 把这个文件夹放到它能读到的地方，跟它说："读一下这个文件夹，我要用里面的风格做代码动画。"
-2. 在 `style-picker.html` 里挑好风格，点"已选清单"复制，发给它。
-3. 讲清楚你想表达什么：讲什么内容、多长、横屏还是竖屏、镜头怎么走、几种风格怎么接在一起。
-4. **记得说要不要配乐和音效。**不说的话，它多半做出来是没声音的。
-5. 让它输出一个能在浏览器里打开的 html，再让它渲成视频。
+1. Put this folder somewhere it can read, and tell it: "Read this folder. I want to use the styles in it to make code animations."
+2. Pick your styles in `style-picker.html`, click "Selected list" to copy, and send it over.
+3. Be clear about what you want to express: what the content is, how long it runs, landscape or vertical format, how the shots move, and how several styles join together.
+4. **Remember to say whether you want music and sound effects.** If you don't say, it will most likely come out silent.
+5. Have it output an html file that opens in a browser, then have it render that to video.
 
-**直接用一个风格：**打开那一种的 `.md`，把"风格提示词"那一段复制给模型，再加上你的内容。有些提示词里有 `{{ }}`，那是要你自己填的地方。
+**Using one style directly:** Open that style's `.md`, copy the "Style prompt" section to the model, and add your content. Some prompts contain `{{ }}`, which marks the places for you to fill in.
 
-**小提示：**提示词写得越细（颜色、时间、镜头都写死），不同模型做出来越接近；只给一句话也能做，但每次结果都不一样，也更慢。`examples/` 里两种都有。
+**Tip:** The more detailed the prompt (colors, timing and shots all fixed), the closer the results from different models; a single sentence also works, but the result differs every time and it is slower. `examples/` has both.
 
-## 约定
+## Terms
 
-- 全部免费，不用私信，不用买课。
-- 你可以免费用、免费转给别人；转的时候也请免费分享。
-- **禁止把这些内容包装成课程、付费 skills 或任何收费的东西拿去卖。**
-- 其中来自开源项目的部分，保留它们原来的许可和署名，见 `licenses-and-sources.md`。
+- 全部免费，不用私信，不用买课。 All of it is free: no private message needed, no course to buy.
+- 你可以免费用、免费转给别人；转的时候也请免费分享。 You may use this for free and pass it on to others for free; when you pass it on, please also share it for free.
+- **禁止把这些内容包装成课程、付费 skills 或任何收费的东西拿去卖。** **Packaging this content as a course, a paid skill or anything else that charges money, and selling it, is prohibited.**
+- The parts that come from open-source projects keep their original licenses and attribution; see `licenses-and-sources.md`.
 
-觉得有用，欢迎一键三连支持。谢谢大家，我还会持续开源更多的干货。
+If you find this useful, a like, a coin and a favorite are welcome as support. Thank you all, and I will keep open-sourcing more useful material.

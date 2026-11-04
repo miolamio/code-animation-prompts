@@ -1,9 +1,9 @@
-# K16 中世纪现代
+# K16 Mid-Century Modern
 
-- 分类：K 卡通画风 · 画面风格
-- 长什么样：几何、平、颜色少而大胆，像 50 年代广告
-- 适合：有设计感的讲解
+- Category: K Cartoon Styles · Art style
+- Looks like: Geometric, flat, few bold colors, like a 1950s advertisement
+- Best for: Explainers with a design feel
 
-## 风格提示词
+## Style prompt
 
-几何、平、颜色少而大胆，像 50 年代广告
+Geometric, flat, few bold colors, like a 1950s advertisement

@@ -1,15 +1,15 @@
-# M12 剪纸皮影
+# M12 Paper-Cut Shadow Puppets
 
-- 分类：M 动态风格 · 情绪和氛围类（感受线最常用）
-- 长什么样：纸剪的剪影在光后面演戏，配轻轻的声音。
-- 适合：讲"家"、讲回忆、讲温暖的段落。竖屏很合适。
+- Category: M Motion Styles · Mood and Atmosphere (most used in the Feeling track)
+- Looks like: Paper-cut silhouettes perform behind a light, with soft sound.
+- Best for: Passages about home, memories, warmth. Works well in vertical format.
 
-## 风格提示词
+## Style prompt
 
-用纯 JavaScript 做一段 [30 到 60] 秒的竖屏 9:16 动画，剪纸皮影戏的风格。配轻柔合适的声音，声音也用代码做。主题是：[一个问题，比如"是什么让一个地方变成家"]。
+Using pure JavaScript, make a [30 to 60]-second vertical 9:16 animation in the style of a paper-cut shadow puppet play. Add soft, fitting sound, also generated in code. Topic: [a question, such as "what makes a place feel like home"].
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[剪纸皮影讲"家"](https://prompt-motion.com/x4b47x-9cc84f)
+[Paper-cut shadow puppets on "home"](https://prompt-motion.com/x4b47x-9cc84f)

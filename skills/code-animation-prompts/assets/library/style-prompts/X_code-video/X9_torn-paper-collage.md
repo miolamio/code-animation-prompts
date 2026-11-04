@@ -1,9 +1,9 @@
-# X9 撕纸拼贴（Torn-paper collage）
+# X9 Torn-paper collage
 
-- 分类：X code-video · code-video
-- 适合：回忆、拼凑
+- Category: X code-video · code-video
+- Best for: memories, piecing things together
 
-## 风格提示词
+## Style prompt
 
 # Style: torn-paper collage
 

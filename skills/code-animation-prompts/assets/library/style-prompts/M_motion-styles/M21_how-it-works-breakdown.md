@@ -1,15 +1,15 @@
-# M21 原理拆解（它是怎么工作的）
+# M21 How It Works Breakdown
 
-- 分类：M 动态风格 · 讲解类
-- 长什么样：把一个东西拆开，一步一步演示里面怎么运转。
-- 适合：抓公告那个例子（定时、抓取、筛选、总结、提醒），讲"它到底是怎么做到的"。
+- Category: M Motion Styles · Explainers
+- Looks like: Take a thing apart and demonstrate step by step how it works inside.
+- Best for: The announcement-scraping example (schedule, fetch, filter, summarize, remind), explaining "how exactly it does that".
 
-## 风格提示词
+## Style prompt
 
-做一段动态图形，讲清楚 [东西] 是怎么工作的。把过程拆成 [3 到 5] 步，每一步一个画面，前一步的结果变成下一步的开头，最后合起来看全貌。
+Make a motion graphic that explains clearly how [thing] works. Break the process into [3 to 5] steps, one picture per step; the result of each step becomes the start of the next, and at the end put them together to show the whole.
 
-## 补充
+## Notes
 
-### 参考
+### Reference
 
-[讲橄榄球转播的黄线是怎么来的](https://prompt-motion.com/jayscambler-3f8889)、[讲限流算法](https://prompt-motion.com/parkerrex-1a54fe)、[AI 数据中心里面在干什么](https://prompt-motion.com/sayan-shanky-f850d8)
+[How the yellow line in football broadcasts works](https://prompt-motion.com/jayscambler-3f8889), [Rate-limiting algorithms](https://prompt-motion.com/parkerrex-1a54fe), [What goes on inside an AI data center](https://prompt-motion.com/sayan-shanky-f850d8)

@@ -1,10 +1,10 @@
-# L53 1920s 默片（1920s Silent Film）
+# L53 1920s Silent Film
 
-- 分类：L Lemo-Opuscar · 电影与时代
-- 长什么样：面包店学徒追一个滚走的面包，最后掰成两半分给饿肚子的小女孩。
-- 适合：字幕卡、怀旧
+- Category: L Lemo-Opuscar · Film and eras
+- Looks like: A baker's apprentice chases a rolling loaf of bread, and finally breaks it in two to share with a hungry little girl.
+- Best for: Title cards, nostalgia
 
-## 风格提示词
+## Style prompt
 
 # 1920s Silent Film — Style Prompt
 
@@ -114,8 +114,8 @@ You decide the genre (comedy, melodrama, adventure, newsreel), the characters, t
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 The Runaway Loaf

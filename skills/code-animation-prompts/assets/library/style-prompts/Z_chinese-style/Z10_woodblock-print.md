@@ -1,8 +1,8 @@
-# Z10 木版画
+# Z10 Woodblock Print
 
-- 分类：Z 中国风 · 中国风
-- 长什么样：木刻线条，套色 / woodblock print
+- Category: Z Chinese Style · Chinese Style
+- Looks like: Woodcut lines, multi-color registration / woodblock print
 
-## 风格提示词
+## Style prompt
 
-木刻线条，套色 / woodblock print
+Woodcut lines, multi-color registration / woodblock print

@@ -1,9 +1,9 @@
-# X18 漫画书（Comic book issue）
+# X18 Comic book issue
 
-- 分类：X code-video · code-video
-- 适合：分格讲故事
+- Category: X code-video · code-video
+- Best for: telling a story in panels
 
-## 风格提示词
+## Style prompt
 
 # Style: comic book issue (cover, page turns, splash pages)
 

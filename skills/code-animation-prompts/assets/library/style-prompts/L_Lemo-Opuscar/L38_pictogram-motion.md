@@ -1,10 +1,10 @@
-# L38 象形运动图形（Pictogram Motion）
+# L38 Pictogram Motion
 
-- 分类：L Lemo-Opuscar · 图形与排版
-- 长什么样：2026 亚运会 43 个大项，几何象形人卡着节拍快闪。
-- 适合：小图标卡点，讲步骤、讲数字
+- Category: L Lemo-Opuscar · Graphics and typography
+- Looks like: The 43 sports of the 2026 Asian Games, geometric pictogram figures flashing fast on the beat.
+- Best for: Small icons synced to the beat, for explaining steps and numbers
 
-## 风格提示词
+## Style prompt
 
 # Pictogram Motion — Style Prompt
 
@@ -124,8 +124,8 @@ You decide the items, grouping, verbs, palette, chapter order, any long take, th
 
 How our demo was made (story, shots, score, end card, build, engine reference): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Aichi-Nagoya 2026 — All 43 Sports

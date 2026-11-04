@@ -1,8 +1,8 @@
-# K1 扁平矢量
+# K1 Flat Vector Character
 
-- 分类：K 卡通画风 · 适合做"我"的
-- 长什么样：线条粗细一致，平涂没有阴影，颜色干净明亮
+- Category: K Cartoon Styles · Best for drawing "me"
+- Looks like: Consistent line weight, flat fill with no shading, clean bright colors
 
-## 风格提示词
+## Style prompt
 
-扁平矢量插画，平涂，统一线宽，无阴影 / flat vector, consistent line weight, no shading
+flat vector, consistent line weight, no shading

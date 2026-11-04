@@ -1,17 +1,17 @@
-# B4 星空连线
+# B4 Starfield Connections
 
-- 分类：A–G 代码样片 · B 粒子
-- 长什么样：点和点连成网，中间那颗暖的是你。
-- 适合：人和人的关系、联结、孤独
-- 关键词：星座、连线、网
+- Category: A–G Code Samples · B Particles
+- Looks like: Points connect into a web, and the warm one in the middle is you.
+- Best for: relationships between people, connection, loneliness
+- Keywords: constellation, connecting lines, web
 
-## 风格提示词
+## Style prompt
 
-用代码（Canvas 2D）画一段"星空连线"的动画：点和点连成网，中间那颗暖的是你。
-适合讲：人和人的关系、联结、孤独
-关键词：星座、连线、网
+Use code (Canvas 2D) to draw an animation of "Starfield Connections": Points connect into a web, and the warm one in the middle is you.
+Good for telling: relationships between people, connection, loneliness
+Keywords: constellation, connecting lines, web
 
-下面是我们自己写的参考实现：一个绘制函数 S.B4(c, w, h, t, s)，c 是 canvas 的 2D context，w/h 是宽高，t 是秒，s 是给这个函数存状态用的空对象。公共的小工具函数在同一文件夹的 _shared-functions.js 里。
+Below is our own reference implementation: a drawing function S.B4(c, w, h, t, s), where c is the canvas 2D context, w/h are the width and height, t is in seconds, and s is an empty object for this function to store state in. The shared small utility functions are in _shared-functions.js in the same folder.
 
 ```js
 S.B4 = (c, w, h, t, s) => {

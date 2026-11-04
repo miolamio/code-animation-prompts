@@ -1,10 +1,10 @@
-# L47 科幻情景喜剧卡通（Sci-Fi Sitcom Toon）
+# L47 Sci-Fi Sitcom Toon
 
-- 分类：L Lemo-Opuscar · 卡通与动画
-- 长什么样：厌世天才开传送门只想买杯咖啡，却穿过越来越离谱的平行宇宙。
-- 适合：轻松搞笑
+- Category: L Lemo-Opuscar · Cartoon and animation
+- Looks like: A world-weary genius opens a portal just to buy a coffee, and passes through ever more absurd parallel universes.
+- Best for: Light and funny
 
-## 风格提示词
+## Style prompt
 
 # Sci-Fi Sitcom Toon — Style Prompt
 
@@ -126,8 +126,8 @@ You decide the premise, the cast, the worlds, the jokes, the opening, the ending
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
 
-## 补充
+## Notes
 
-### 示范片
+### Demo film
 
 Coffee Run
