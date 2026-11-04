@@ -32,14 +32,14 @@ def main():
     catalog = dict(total=len(entries), with_still=stats["withStill"],
                    series=[dict(id=m["id"], name=m["label"], count=counts[m["id"]]) for m in raw["meta"]], entries=entries)
     (SKILL / "references/catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    lines = [f"# {catalog['total']} 种风格索引", "", f"从离线挑选器生成。点击名称阅读提示词；{catalog['with_still']} 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
+    lines = [f"# Index of {catalog['total']} styles", "", f"Generated from the offline picker. Click a name to read its prompt; {catalog['with_still']} entries have stills, the rest are text references.", "", "[Back to README](../README.md)", ""]
     for series in catalog["series"]:
-        lines += [f'## {series["name"]} · {series["count"]}', "", "| 编号 | 风格 | 参考 |", "|---|---|---|"]
+        lines += [f'## {series["name"]} · {series["count"]}', "", "| ID | Style | Reference |", "|---|---|---|"]
         for e in entries:
             if e["series"] == series["id"]:
                 link = "../skills/code-animation-prompts/"
                 name = e["name"].replace("|", "\\|")
-                shot = f'[静帧]({quote(link + e["image"])})' if e["image"] else "文字参考"
+                shot = f'[Still]({quote(link + e["image"])})' if e["image"] else "Text reference"
                 lines.append(f'| {e["id"]} | [{name}]({quote(link + e["file"])}) | {shot} |')
         lines.append("")
     (ROOT / "docs").mkdir(exist_ok=True)

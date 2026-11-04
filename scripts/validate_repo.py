@@ -65,7 +65,7 @@ def main():
     assert f'**{stills} 张静帧 + {text_only} 份文字参考**' in readme, "README table counts are stale"
     skill = (SKILL / "SKILL.md").read_text(encoding="utf-8")
     assert f'{stills} 张参考静帧' in skill and f'{text_only} 个条目没有静帧' in skill, "Skill counts are stale"
-    assert f'{stills} 个条目附静帧' in (ROOT / "docs/STYLES.md").read_text(encoding="utf-8"), "Style index count is stale"
+    assert f'{stills} entries have stills' in (ROOT / "docs/STYLES.md").read_text(encoding="utf-8"), "Style index count is stale"
     prompt = re.search(r'```text\n(请将 https://github.com/XiaoyeCodes/code-animation-prompts.*?)(?:\n```)', readme, re.S).group(1)
     assert prompt in (ROOT / "prompts/one-click-import.md").read_text(encoding="utf-8")
     print(f"PASS: {unchanged} original files unchanged; {modified} documented modifications; "

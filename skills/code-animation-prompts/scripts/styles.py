@@ -46,7 +46,7 @@ def main():
         print((ROOT / rows[0]["file"]).read_text(encoding="utf-8"))
     else:
         for e in rows[:args.limit]:
-            print(f'{e["id"]:>4}  {e["name"]}  [{e["series"]}]  ' + ("有静帧" if e["image"] else "文字参考"))
+            print(f'{e["id"]:>4}  {e["name"]}  [{e["series"]}]  ' + ("has still" if e["image"] else "text reference"))
             print(f'      {e["description"]}\n      {e["file"]}')
         print(f"\n{len(rows)} matches; showing {min(len(rows), args.limit)}.")
     return 0
