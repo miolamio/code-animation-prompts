@@ -1,47 +1,47 @@
 ---
 name: code-animation-prompts
-description: 使用 341 种风格提示词和参考静帧制作代码动画、HTML 动效或视频。适用于按风格编号选型、组合视觉风格、把内容转成可编辑动画并渲染成片。
+description: Make code animations, HTML motion graphics and rendered videos using 341 style prompts and 196 reference stills. Use when the user asks for a code animation, animated explainer, motion graphics, kinetic typography, title sequence, particle effect or Canvas, SVG, CSS or Three.js animation; names a style ID such as B3, Z5 or R1 or pastes a list from the style picker; wants to choose or combine visual styles; or wants editable HTML animation rendered to MP4.
 ---
 
 # Code Animation Prompts
 
-将用户的内容转成有明确视觉风格、可编辑、可复现的代码动画。素材库在本技能的 `assets/library/`，包含 341 份提示词、196 张参考静帧、离线挑选器和原始示例。
+Turn the user's content into a code animation with a clear visual style that is editable and reproducible. The library is in this skill's `assets/library/` and contains 341 prompts, 196 reference stills, an offline picker and original examples.
 
-## 找到合适的风格
+## Find the right style
 
-以本文件所在目录为技能根目录，执行脚本时使用它的绝对路径；不要假定当前工作目录是技能目录。
+Treat this file's directory as the skill root and use its absolute path when running scripts; do not assume the current working directory is the skill directory.
 
 ```bash
-python "<技能目录>/scripts/styles.py" search 水墨
-python "<技能目录>/scripts/styles.py" search 粒子 --series AG
-python "<技能目录>/scripts/styles.py" show B3
-python "<技能目录>/scripts/styles.py" list --series Z
+python "<skill-dir>/scripts/styles.py" search ink
+python "<skill-dir>/scripts/styles.py" search particle --series AG
+python "<skill-dir>/scripts/styles.py" show B3
+python "<skill-dir>/scripts/styles.py" list --series Z
 ```
 
-索引见 [references/catalog.json](references/catalog.json)，只含编号、名称、标签与文件路径。优先查索引，再读取选中的 Markdown 和同名静帧；不要一次加载全部提示词。没有 Python 时直接查索引与文件。
+The index is [references/catalog.json](references/catalog.json) and holds only IDs, names, tags and file paths. Check the index first, then read the chosen Markdown and its matching still; do not load all prompts at once. Without Python, read the index and files directly.
 
-- 用户给了编号或挑选器导出的清单：精确匹配，保留编号和名称。
-- 用户只描述气质：给出 2–3 个匹配项，说明色彩、运动和适用内容；用户已要求直接制作时选择最匹配的一项并继续。
-- A–G 是带代码的样片；M 是运动／叙事；K、Z、R 是画风；H 是版式；L、V、X 是第三方风格；O 是电影视觉参考。不要把多个风格的全部约束机械叠加，应确定主画风、运动方式和版式各自的职责。
-- 145 个条目没有静帧；明确说明文字参考，不虚构截图。
-- **B6 只存在于原始示例目录，不在 341 个风格条目中。** 用户点名 B6 时阅读 `assets/library/示例/B6_光速穿梭·爆炸·重聚_同一份提示词/提示词.md`，不要冒充索引中有 B6。
+- The user gave an ID or a list exported from the picker: match exactly and keep the ID and name.
+- The user only described a mood: offer 2 or 3 matches and explain color, motion and suitable content. If the user already asked you to go ahead, pick the best match and continue.
+- A-G are code samples; M is motion and narrative; K, Z and R are art styles; H is layout; L, V and X are third-party styles; O is film visual reference. Do not mechanically stack every constraint from several styles; decide which one sets the art style, which sets the motion and which sets the layout.
+- 145 entries have no still; say plainly that they are text references and do not invent screenshots.
+- **B6 exists only in the original examples directory and is not among the 341 style entries.** When the user names B6, read `assets/library/examples/B6_warp-explode-reunite_same-prompt/prompt.md` and do not pretend the index contains B6.
 
-## 从提示词到可编辑动画
+## From prompt to editable animation
 
-从用户要求中提取内容、时长、画幅、字幕及声音选择。遵循用户已经给定的参数；缺失且不影响内容时可采用 12 秒、1920×1080、30 fps、无声预览，并说明假设。不要把无声预览描述成已经配音或配乐的成片。
+Extract the content, duration, aspect ratio, captions and sound choices from the request. Follow the parameters the user gave. If something is missing and does not affect the content, you may assume 12 seconds, 1920x1080, 30 fps and a silent preview, and state those assumptions. Do not describe a silent preview as a finished piece with voiceover or music.
 
-读取所选提示词，填充 `{{ }}` 占位符，保留形成该风格的核心视觉特征。原提示词中的“只输出代码”等措辞是局部素材模板，不能覆盖当前用户的交付需求。原始示例的模型名称是素材记录，不代表本技能验证过这些模型。
+Read the chosen prompt, fill in the `{{ }}` placeholders and keep the core visual traits that define the style. Wording in a prompt such as "output only code" belongs to the source template and cannot override what the current user asked to receive. Model names in the original examples are a record from the pack and do not mean this skill has verified those models.
 
-一般从 HTML + Canvas／SVG／CSS 开始；复杂空间镜头可用 Three.js，已有 Remotion 等工程则沿用工程。选择满足画面要求的实现，不强制改框架。需要外部字体、图片、库或音频时，检查来源与实际可用性。
+Generally start with HTML plus Canvas, SVG or CSS. Use Three.js for complex spatial shots, and stay with Remotion or another engine if the project already uses it. Choose the implementation that meets the visual requirement; do not force a framework change. When you need external fonts, images, libraries or audio, check their source and actual availability.
 
-浏览器动画需要稳定导出时，采用 [references/rendering.md](references/rendering.md) 的时间接口：画面由秒数 `t` 决定，随机数固定种子，导出时关闭实时循环。模板见 [assets/starter/index.html](assets/starter/index.html)，它只演示接口，不是 341 个风格之一。
+When a browser animation needs stable export, use the time interface in [references/rendering.md](references/rendering.md): the picture is determined by the time `t` in seconds, random numbers use a fixed seed, and the real-time loop is off during export. The template is [assets/starter/index.html](assets/starter/index.html); it only demonstrates the interface and is not one of the 341 styles.
 
-在用户工作目录中保存项目，保留技能素材库原样。将文案、颜色、节奏等常改参数集中配置；长片先确定镜头顺序与每段时间，再实现。
+Save the project in the user's working directory and leave the skill's library as it is. Centralize frequently changed parameters such as copy, colors and pacing. For longer pieces, settle the shot order and the timing of each section before implementing.
 
-## 验收与交付
+## Review and delivery
 
-打开动画，检查首帧、中段、尾帧及转场：字体、溢出、黑帧、图像加载、字幕可读性。确认相同时间重复渲染一致，并且不同时间确实有预期运动。
+Open the animation and check the first frame, the middle, the last frame and the transitions for fonts, overflow, black frames, image loading and caption legibility. Confirm that rendering the same time twice gives the same result, and that different times show the expected motion.
 
-用户要 MP4 时，实际渲染并检查分辨率、时长、帧率和声音轨。可使用随附的 `scripts/render_video.py`，接口和依赖见渲染说明。若缺少渲染依赖，交付已完成的 HTML、源码与准确的运行命令，并明确视频尚未导出；不能把 HTML 或录屏命令当成成片。
+When the user wants an MP4, actually render it and check its resolution, duration, frame rate and audio track. You can use the included `scripts/render_video.py`; its interface and dependencies are in the rendering notes. If rendering dependencies are missing, deliver the finished HTML, the source and accurate run commands, and say clearly that the video has not been exported. Do not present HTML or a screen-recording command as a finished video.
 
-交付实际文件链接，说明所用风格编号、运行方法、视频规格与声音状态。保留素材内的来源及第三方许可；免费分享约定见 [references/attribution.md](references/attribution.md)。
+Deliver links to the actual files, and state the style IDs used, how to run it, the video specs and the sound status. Keep the sources and third-party licenses in the material; the free-sharing terms are in [references/attribution.md](references/attribution.md).

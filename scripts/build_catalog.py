@@ -8,13 +8,18 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/code-animation-prompts"
 LIBRARY = SKILL / "assets/library"
+MEDIA_NOTES = ROOT / "docs/translation/media-with-chinese.json"
 
 
 def main():
-    html = (LIBRARY / "风格挑选.html").read_text(encoding="utf-8")
+    html = (LIBRARY / "style-picker.html").read_text(encoding="utf-8")
     raw = json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>', html, re.S).group(1))
+    notes = {k: v["note"] for k, v in json.loads(MEDIA_NOTES.read_text(encoding="utf-8"))["stills"].items()}
     entries = []
     for e in raw["entries"]:
+        note = notes.pop(e["id"], None)
+        if e.get("note") != note:
+            raise ValueError(f'{e["id"]}: picker note differs from {MEDIA_NOTES.name}; make them match')
         for field in ["file", "img"]:
             if e.get(field):
                 path = (LIBRARY / e[field]).resolve()
@@ -23,23 +28,28 @@ def main():
         entries.append(dict(id=e["id"], name=e["name"], series=e["s"], category=e["cat"],
                             description=e.get("desc", ""), fit=e.get("fit", ""), tags=e.get("tags", []),
                             file="assets/library/" + e["file"],
-                            image="assets/library/" + e["img"] if e.get("img") else ""))
+                            image="assets/library/" + e["img"] if e.get("img") else "",
+                            **({"reference_note": note} if note else {})))
+    if notes:
+        raise ValueError(f"Notes for unknown entries in {MEDIA_NOTES.name}: {sorted(notes)}")
     counts = dict(Counter(e["series"] for e in entries))
-    stats = json.loads((LIBRARY / "_统计.json").read_text(encoding="utf-8"))
+    stats = json.loads((LIBRARY / "_stats.json").read_text(encoding="utf-8"))
     assert len(entries) == stats["total"] == len({e["id"] for e in entries})
     assert sum(bool(e["image"]) for e in entries) == stats["withStill"]
     assert counts == stats["bySeries"]
     catalog = dict(total=len(entries), with_still=stats["withStill"],
                    series=[dict(id=m["id"], name=m["label"], count=counts[m["id"]]) for m in raw["meta"]], entries=entries)
     (SKILL / "references/catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    lines = [f"# {catalog['total']} 种风格索引", "", f"从离线挑选器生成。点击名称阅读提示词；{catalog['with_still']} 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
+    lines = [f"# Index of {catalog['total']} styles", "", f"Generated from the offline picker. Click a name to read its prompt; {catalog['with_still']} entries have stills, the rest are text references. A note after a still means it shows Chinese or no longer matches its prompt.", "", "[Back to README](../README.md)", ""]
     for series in catalog["series"]:
-        lines += [f'## {series["name"]} · {series["count"]}', "", "| 编号 | 风格 | 参考 |", "|---|---|---|"]
+        lines += [f'## {series["name"]} · {series["count"]}', "", "| ID | Style | Reference |", "|---|---|---|"]
         for e in entries:
             if e["series"] == series["id"]:
                 link = "../skills/code-animation-prompts/"
                 name = e["name"].replace("|", "\\|")
-                shot = f'[静帧]({quote(link + e["image"])})' if e["image"] else "文字参考"
+                shot = f'[Still]({quote(link + e["image"])})' if e["image"] else "Text reference"
+                if e.get("reference_note"):
+                    shot += " · Note: " + e["reference_note"].replace("|", "\\|")
                 lines.append(f'| {e["id"]} | [{name}]({quote(link + e["file"])}) | {shot} |')
         lines.append("")
     (ROOT / "docs").mkdir(exist_ok=True)

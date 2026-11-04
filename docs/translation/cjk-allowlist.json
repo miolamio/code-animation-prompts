@@ -1,0 +1,23 @@
+[
+  {"path": "docs/translation/**", "literals": null, "reason": "translation-record"},
+  {"path": "docs/superpowers/**", "literals": null, "reason": "translation-record"},
+  {"path": "scripts/translation/**", "literals": null, "reason": "translation-record"},
+
+  {"path": "skills/code-animation-prompts/assets/library/examples/B6_warp-explode-reunite_same-prompt/DeepSeek-V4.1-Flash_High.html", "literals": null, "reason": "media-source"},
+  {"path": "skills/code-animation-prompts/assets/library/examples/B6_warp-explode-reunite_same-prompt/Opus5.5_High.html", "literals": null, "reason": "media-source"},
+
+  {"path": "LICENSE.md", "literals": ["全部免费，不用私信，不用买课。", "你可以免费用、免费转给别人；转的时候也请免费分享。", "禁止把这些内容包装成课程、付费 skills 或任何收费的东西拿去卖。"], "reason": "license-quote"},
+  {"path": "skills/code-animation-prompts/assets/library/README.md", "literals": ["全部免费，不用私信，不用买课。", "你可以免费用、免费转给别人；转的时候也请免费分享。", "禁止把这些内容包装成课程、付费 skills 或任何收费的东西拿去卖。"], "reason": "license-quote"},
+
+  {"path": "LICENSE.md", "literals": ["俯仰观照"], "reason": "attribution"},
+  {"path": "README.md", "literals": ["俯仰观照"], "reason": "attribution"},
+  {"path": "skills/code-animation-prompts/references/attribution.md", "literals": ["俯仰观照"], "reason": "attribution"},
+  {"path": "skills/code-animation-prompts/assets/library/examples/B6_warp-explode-reunite_same-prompt/prompt.md", "literals": ["俯仰观照"], "reason": "attribution"},
+
+  {"path": "skills/code-animation-prompts/assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.md", "literals": ["家"], "reason": "style-literal"},
+  {"path": "skills/code-animation-prompts/assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.md", "literals": ["俯仰"], "reason": "style-literal"},
+  {"path": "skills/code-animation-prompts/assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.md", "literals": ["囍"], "reason": "style-literal"},
+  {"path": "skills/code-animation-prompts/assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.md", "literals": ["不夜城", "酒家"], "reason": "style-literal"},
+  {"path": "skills/code-animation-prompts/assets/library/style-picker.html", "literals": ["家", "囍", "不夜城", "酒家"], "reason": "style-literal"},
+  {"path": "skills/code-animation-prompts/references/catalog.json", "literals": ["不夜城", "酒家"], "reason": "style-literal"}
+]
