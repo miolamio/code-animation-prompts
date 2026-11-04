@@ -6,6 +6,9 @@ tags, prompt and string `extra` items come from the entry's .md. Anything with n
 still holds Chinese (or is a `desc_en` needing a decision) goes to .build/translation/picker-todo.json.
 Answers live in .build/translation/picker-translations.json as {key: value}; a null value removes the field.
 
+docs/translation/media-with-chinese.json supplies each listed still's `note`. Fields the page renders as
+plain text lose their emphasis markers; `prompt` keeps its text, because the page copies it verbatim.
+
 Rerunnable: the input may already be migrated, and a second run changes nothing. Any entry that
 cannot be mapped raises MigrationError, leaving the page untouched.
 """
@@ -26,6 +29,10 @@ NOTES_RE = re.compile(r"^## Notes[ \t]*$", re.M)
 REWRITE_NOTE_RE = re.compile(r"\A> This prompt (?:is|was) [^\n]*\n*")
 LABEL_RE = re.compile(r"^- ([^:\n]+): (.*)$", re.M)
 FIT_LABELS = ("Best for", "Style")
+ASTERISK_EMPHASIS_RE = re.compile(r"(?<![\w*])(\*{1,3})(?=[^\s*])([^*\n]*?[^\s*])\1(?![\w*])")
+UNDERSCORE_EMPHASIS_RE = re.compile(r"(?<![\w/_])(_{1,3})(?=[^\s_])([^_\n]*?[^\s_])\1(?![\w/_]|\.\w)")
+PLAIN_TEXT_FIELDS = ("name", "cat", "desc", "fit", "tags", "year")
+MEDIA_NOTES = "docs/translation/media-with-chinese.json"
 
 
 class MigrationError(Exception):
@@ -132,6 +139,43 @@ def apply_translations(data, translations):
             target[path[-1]] = value
 
 
+def strip_emphasis(value):
+    """Remove Markdown emphasis markers from a string or a list of strings."""
+    if isinstance(value, list):
+        return [strip_emphasis(item) for item in value]
+    if not isinstance(value, str):
+        return value
+    return UNDERSCORE_EMPHASIS_RE.sub(r"\2", ASTERISK_EMPHASIS_RE.sub(r"\2", value))
+
+
+def strip_plain_text(data):
+    for meta in data["meta"]:
+        for field in ("label", "note"):
+            if field in meta:
+                meta[field] = strip_emphasis(meta[field])
+    for entry in data["entries"]:
+        for field in PLAIN_TEXT_FIELDS:
+            if field in entry:
+                entry[field] = strip_emphasis(entry[field])
+        for item in entry.get("extra", []):
+            item["t"] = strip_emphasis(item["t"])
+
+
+def apply_notes(data, notes):
+    """Make each entry's `note` match `notes`, so an ID dropped from the list loses its note."""
+    entries = {e["id"]: e for e in data["entries"]}
+    for entry_id, note in notes.items():
+        if not entries.get(entry_id, {}).get("img"):
+            raise MigrationError(f"{entry_id}: media note for an entry with no still")
+        if foreign(note):
+            raise MigrationError(f"{entry_id}: media note still holds Chinese")
+    for entry in data["entries"]:
+        if entry["id"] in notes:
+            entry["note"] = notes[entry["id"]]
+        else:
+            entry.pop("note", None)
+
+
 def find_todo(data, hints, keep):
     """List every field still needing a translation or a decision."""
     todo = []
@@ -172,7 +216,7 @@ def check_groups(old_entries, new_entries):
             raise MigrationError(f"{series}: category group {new_cat} merges {old_cat} and {backward[series, new_cat]}")
 
 
-def migrate(data, library, glossary, translations=None, keep=None):
+def migrate(data, library, glossary, translations=None, keep=None, notes=None):
     """Return (migrated blob, todo items). `data` is not modified."""
     keep = keep or {}
     original = data["entries"]
@@ -181,6 +225,8 @@ def migrate(data, library, glossary, translations=None, keep=None):
     for entry in data["entries"]:
         hints.update(migrate_entry(entry, library, glossary, keep.get(entry["file"], ())))
     apply_translations(data, translations or {})
+    strip_plain_text(data)
+    apply_notes(data, notes or {})
     check_groups(original, data["entries"])
     return data, find_todo(data, hints, keep)
 
@@ -210,7 +256,8 @@ def run(root=ROOT):
     keep = {path.removeprefix(LIBRARY + "/"): literals
             for path, literals in read_json(root / BUILD / "keep-literals.json", {}).items()}
     translations = read_json(root / BUILD / "picker-translations.json", {})
-    data, todo = migrate(parse_blob(html), library, glossary, translations=translations, keep=keep)
+    notes = {entry_id: item["note"] for entry_id, item in read_json(root / MEDIA_NOTES, {"stills": {}})["stills"].items()}
+    data, todo = migrate(parse_blob(html), library, glossary, translations=translations, keep=keep, notes=notes)
     new_html = BLOB_RE.sub(lambda m: m.group(1) + dump_blob(data) + m.group(3), html, count=1)
     page.write_bytes(new_html.encode("utf-8"))
     todo_path = root / BUILD / "picker-todo.json"

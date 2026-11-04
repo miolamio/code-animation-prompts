@@ -67,7 +67,8 @@
         "piling up"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/A1_word-rain.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/A1_word-rain.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/A1_word-rain.jpg",
+      "reference_note": "This still shows the original demo's Chinese phrases."
     },
     {
       "id": "A2",
@@ -82,7 +83,8 @@
         "deleting"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/A2_cursor-typing.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/A2_cursor-typing.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/A2_cursor-typing.jpg",
+      "reference_note": "The prompt now uses English strings, so this still shows the original Chinese version."
     },
     {
       "id": "A3",
@@ -97,7 +99,8 @@
         "on the beat"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/A3_big-type-impact.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/A3_big-type-impact.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/A3_big-type-impact.jpg",
+      "reference_note": "The prompt now uses English strings, so this still shows the original Chinese version."
     },
     {
       "id": "A4",
@@ -112,7 +115,8 @@
         "burrowing inward"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/A4_word-tunnel.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/A4_word-tunnel.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/A4_word-tunnel.jpg",
+      "reference_note": "The prompt now uses English strings, so this still shows the original Chinese version."
     },
     {
       "id": "A5",
@@ -127,7 +131,8 @@
         "transform"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/A5_words-scatter-and-reform.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/A5_words-scatter-and-reform.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/A5_words-scatter-and-reform.jpg",
+      "reference_note": "The prompt now uses English strings, so this still shows the original Chinese version."
     },
     {
       "id": "B1",
@@ -172,7 +177,8 @@
         "scattering"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/B3_particles-forming-shapes.jpg",
+      "reference_note": "This still shows a Chinese caption. A Chinese character is also part of what the prompt asks for."
     },
     {
       "id": "B4",
@@ -202,7 +208,8 @@
         "slow"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/B5_breathing-circle.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/B5_breathing-circle.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/B5_breathing-circle.jpg",
+      "reference_note": "This still shows the original demo's Chinese caption."
     },
     {
       "id": "C1",
@@ -217,7 +224,8 @@
         "rice paper"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/C1_spreading-ink-wash.jpg",
+      "reference_note": "This still shows Chinese seal characters, which the prompt still asks for."
     },
     {
       "id": "C2",
@@ -382,7 +390,8 @@
         "growth"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/F1_growing-charts.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/F1_growing-charts.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/F1_growing-charts.jpg",
+      "reference_note": "This still shows the original demo's Chinese chart labels."
     },
     {
       "id": "F2",
@@ -397,7 +406,8 @@
         "relationship diagram"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/F2_relationship-diagram.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/F2_relationship-diagram.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/F2_relationship-diagram.jpg",
+      "reference_note": "The prompt now uses English strings, so this still shows the original Chinese version."
     },
     {
       "id": "F3",
@@ -412,7 +422,8 @@
         "left and right"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/F3_split-screen-comparison.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/F3_split-screen-comparison.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/F3_split-screen-comparison.jpg",
+      "reference_note": "This still shows the original demo's Chinese labels."
     },
     {
       "id": "G1",
@@ -442,7 +453,8 @@
         "interference"
       ],
       "file": "assets/library/style-prompts/A-G_code-samples/G2_signal-glitch.md",
-      "image": "assets/library/style-prompts/A-G_code-samples/G2_signal-glitch.jpg"
+      "image": "assets/library/style-prompts/A-G_code-samples/G2_signal-glitch.jpg",
+      "reference_note": "This still shows the original demo's Chinese caption."
     },
     {
       "id": "M1",
@@ -453,7 +465,8 @@
       "fit": "Passages explaining concepts and principles. For example, \"the large language model is the brain, the Harness is the hands and feet\".",
       "tags": [],
       "file": "assets/library/style-prompts/M_motion-styles/M1_hand-drawn-whiteboard-explainer.md",
-      "image": "assets/library/style-prompts/M_motion-styles/M1_hand-drawn-whiteboard-explainer.jpg"
+      "image": "assets/library/style-prompts/M_motion-styles/M1_hand-drawn-whiteboard-explainer.jpg",
+      "reference_note": "This still shows the original demo's Chinese labels."
     },
     {
       "id": "M2",
@@ -893,7 +906,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/K_cartoon-styles/K1_flat-vector-character.md",
-      "image": "assets/library/style-prompts/K_cartoon-styles/K1_flat-vector-character.jpg"
+      "image": "assets/library/style-prompts/K_cartoon-styles/K1_flat-vector-character.jpg",
+      "reference_note": "This still shows the original sample's Chinese labels."
     },
     {
       "id": "K2",
@@ -904,7 +918,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/K_cartoon-styles/K2_chibi.md",
-      "image": "assets/library/style-prompts/K_cartoon-styles/K2_chibi.jpg"
+      "image": "assets/library/style-prompts/K_cartoon-styles/K2_chibi.jpg",
+      "reference_note": "This still shows the original sample's Chinese labels."
     },
     {
       "id": "K3",
@@ -915,7 +930,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/K_cartoon-styles/K3_kawaii.md",
-      "image": "assets/library/style-prompts/K_cartoon-styles/K3_kawaii.jpg"
+      "image": "assets/library/style-prompts/K_cartoon-styles/K3_kawaii.jpg",
+      "reference_note": "This still shows the original sample's Chinese labels."
     },
     {
       "id": "K4",
@@ -944,7 +960,7 @@
       "name": "Ligne Claire",
       "series": "K",
       "category": "Best for a first-person main character (\"me\", your own avatar)",
-      "description": "Even lines, flat fill, like *The Adventures of Tintin*",
+      "description": "Even lines, flat fill, like The Adventures of Tintin",
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/K_cartoon-styles/K6_ligne-claire.md",
@@ -1296,7 +1312,7 @@
       "name": "Sitcom Cartoon",
       "series": "K",
       "category": "Art style",
-      "description": "Like *The Simpsons*, flat fill, little action",
+      "description": "Like The Simpsons, flat fill, little action",
       "fit": "Small everyday scenes",
       "tags": [],
       "file": "assets/library/style-prompts/K_cartoon-styles/K38_sitcom-cartoon.md",
@@ -1355,7 +1371,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.md",
-      "image": "assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.jpg"
+      "image": "assets/library/style-prompts/Z_chinese-style/Z5_chinese-paper-cutting.jpg",
+      "reference_note": "This still shows the double-happiness character, which is the subject the prompt still asks for."
     },
     {
       "id": "Z6",
@@ -1476,7 +1493,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/H_ready-made-layouts/H1_biennale-yellow.md",
-      "image": "assets/library/style-prompts/H_ready-made-layouts/H1_biennale-yellow.jpg"
+      "image": "assets/library/style-prompts/H_ready-made-layouts/H1_biennale-yellow.jpg",
+      "reference_note": "This still shows the original layout sketch's Chinese text."
     },
     {
       "id": "H2",
@@ -1608,7 +1626,8 @@
       "fit": "Understandable without sound; suits a vertical-format version",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L1_caption-news.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L1_caption-news.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L1_caption-news.jpg",
+      "reference_note": "This still shows the demo film's Chinese titles and labels."
     },
     {
       "id": "L2",
@@ -1619,7 +1638,8 @@
       "fit": "Telling about \"the past\", nostalgia",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L2_1920s-newsreel.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L2_1920s-newsreel.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L2_1920s-newsreel.jpg",
+      "reference_note": "This still shows the demo film's Chinese titles and subtitles."
     },
     {
       "id": "L3",
@@ -1630,7 +1650,8 @@
       "fit": "Comparison, countdowns, such as \"three months\"",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L3_live-countdown-split-screen.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L3_live-countdown-split-screen.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L3_live-countdown-split-screen.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels."
     },
     {
       "id": "L4",
@@ -1652,7 +1673,8 @@
       "fit": "Matching several sources onto one timeline; in science explainers, telling how things came about",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L5_visual-investigation.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L5_visual-investigation.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L5_visual-investigation.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L6",
@@ -1663,7 +1685,8 @@
       "fit": "A powerful call to action",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L6_constructivist-montage.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L6_constructivist-montage.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L6_constructivist-montage.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels."
     },
     {
       "id": "L7",
@@ -1674,7 +1697,8 @@
       "fit": "Freeze-frames and line drawing to explain, breaking down a single moment",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L7_sports-telestrator.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L7_sports-telestrator.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L7_sports-telestrator.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L8",
@@ -1685,7 +1709,8 @@
       "fit": "News-flash style openings",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L8_broadcast-news-package.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L8_broadcast-news-package.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L8_broadcast-news-package.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L9",
@@ -1696,7 +1721,8 @@
       "fit": "Talking about places and extents",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L9_satellite-briefing.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L9_satellite-briefing.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L9_satellite-briefing.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels."
     },
     {
       "id": "L10",
@@ -1707,7 +1733,8 @@
       "fit": "Comparing several options side by side",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L10_engineering-comparison-board.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L10_engineering-comparison-board.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L10_engineering-comparison-board.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L11",
@@ -1718,7 +1745,8 @@
       "fit": "A high-tech feel, \"scan it all\"",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L11_lidar-survey.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L11_lidar-survey.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L11_lidar-survey.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L12",
@@ -1729,7 +1757,8 @@
       "fit": "Projecting data onto a white model",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L12_projection-on-white-model.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L12_projection-on-white-model.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L12_projection-on-white-model.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L13",
@@ -1740,7 +1769,8 @@
       "fit": "Turning numbers into a pile of physical objects",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L13_data-physicalization.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L13_data-physicalization.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L13_data-physicalization.jpg",
+      "reference_note": "This still shows the demo film's Chinese titles and labels."
     },
     {
       "id": "L14",
@@ -1751,7 +1781,8 @@
       "fit": "Opening something up to see inside, e.g. what parts an AI is made of",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L14_exploded-teardown.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L14_exploded-teardown.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L14_exploded-teardown.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L15",
@@ -1762,7 +1793,8 @@
       "fit": "Zooming in layer by layer; well suited to science explainers on perception, such as the eye or nerves",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L15_microscope-story.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L15_microscope-story.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L15_microscope-story.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L16",
@@ -1773,7 +1805,8 @@
       "fit": "Going through old records, remembering the past",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L16_archive-light-table.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L16_archive-light-table.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L16_archive-light-table.jpg",
+      "reference_note": "This still shows the demo film's Chinese labels and subtitles."
     },
     {
       "id": "L17",
@@ -1806,7 +1839,8 @@
       "fit": "Eastern mood; view together with Z1 and M30",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L19_chinese-ink-wash.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L19_chinese-ink-wash.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L19_chinese-ink-wash.jpg",
+      "reference_note": "This still shows the demo film's brush-drawn Chinese characters."
     },
     {
       "id": "L20",
@@ -1894,7 +1928,8 @@
       "fit": "Light passing through layers, warm",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L27_paper-cut-lightbox.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L27_paper-cut-lightbox.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L27_paper-cut-lightbox.jpg",
+      "reference_note": "This still shows the demo film's Chinese subtitles."
     },
     {
       "id": "L28",
@@ -1916,7 +1951,8 @@
       "fit": "Exposes and revelations, dossiers",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L29_halftone-dossier.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L29_halftone-dossier.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L29_halftone-dossier.jpg",
+      "reference_note": "This still shows the demo film's Chinese text."
     },
     {
       "id": "L30",
@@ -2169,7 +2205,8 @@
       "fit": "Variety-show feel",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L52_game-show-flat.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L52_game-show-flat.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L52_game-show-flat.jpg",
+      "reference_note": "This still shows the demo film's Chinese title and labels."
     },
     {
       "id": "L53",
@@ -2213,7 +2250,8 @@
       "fit": "Telling a story by turning pages",
       "tags": [],
       "file": "assets/library/style-prompts/L_Lemo-Opuscar/L56_paper-pop-up-book.md",
-      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L56_paper-pop-up-book.jpg"
+      "image": "assets/library/style-prompts/L_Lemo-Opuscar/L56_paper-pop-up-book.jpg",
+      "reference_note": "This still shows the demo film's Chinese subtitle."
     },
     {
       "id": "L57",
@@ -2763,7 +2801,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R1_cinematic-neon-rain.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R1_cinematic-neon-rain.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R1_cinematic-neon-rain.jpg",
+      "reference_note": "This still shows Chinese neon signs."
     },
     {
       "id": "R2",
@@ -2774,7 +2813,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R2_80s-90s-retro-anime.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R2_80s-90s-retro-anime.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R2_80s-90s-retro-anime.jpg",
+      "reference_note": "This still shows Chinese signs on the skyline."
     },
     {
       "id": "R3",
@@ -2785,7 +2825,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R3_american-comic-street-graffiti.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R3_american-comic-street-graffiti.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R3_american-comic-street-graffiti.jpg",
+      "reference_note": "This still shows a Chinese comic sound word."
     },
     {
       "id": "R4",
@@ -2796,7 +2837,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R4_apocalyptic-industrial-sci-fi.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R4_apocalyptic-industrial-sci-fi.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R4_apocalyptic-industrial-sci-fi.jpg",
+      "reference_note": "This still shows a small Chinese warning sign."
     },
     {
       "id": "R5",
@@ -2807,7 +2849,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R5_pixel-cyber-retro-game.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R5_pixel-cyber-retro-game.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R5_pixel-cyber-retro-game.jpg",
+      "reference_note": "This still shows Chinese neon lettering."
     },
     {
       "id": "R6",
@@ -2818,7 +2861,8 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R6_eastern-cyber-fantasy.jpg",
+      "reference_note": "This still shows Chinese title characters."
     },
     {
       "id": "R7",
@@ -2829,14 +2873,15 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/style-prompts/R_learned-from-references/R7_flat-illustration-dusk-rooftop.md",
-      "image": "assets/library/style-prompts/R_learned-from-references/R7_flat-illustration-dusk-rooftop.jpg"
+      "image": "assets/library/style-prompts/R_learned-from-references/R7_flat-illustration-dusk-rooftop.jpg",
+      "reference_note": "This still shows Chinese neon lettering."
     },
     {
       "id": "O1",
       "name": "Wings",
       "series": "O",
       "category": "Silent and Early Sound 1927–1938",
-      "description": "a WWI dogfight built in three.js and graded like a 1927 orthochromatic print: whitened sky, very deep blacks, an overall amber tint, gate weave and scratches. *Wings* is famous for aerial combat shot with cameras strapped to the planes, so most camera positions here are mounted on aircraft.",
+      "description": "a WWI dogfight built in three.js and graded like a 1927 orthochromatic print: whitened sky, very deep blacks, an overall amber tint, gate weave and scratches. Wings is famous for aerial combat shot with cameras strapped to the planes, so most camera positions here are mounted on aircraft.",
       "fit": "silent-era 3D air combat · orthochromatic black-and-white + amber tint",
       "tags": [
         "3D·B&W"
@@ -2940,7 +2985,7 @@
       "name": "The Great Ziegfeld",
       "series": "O",
       "category": "Silent and Early Sound 1927–1938",
-      "description": "a rotating spiral \"wedding cake\" stage built in three.js, in MGM silver black-and-white: satin, chiffon and ostrich feathers set against deep black, with Clawd the only color. The 175-step spiral stage of *A Pretty Girl Is Like a Melody* is this film's signature scene.",
+      "description": "a rotating spiral \"wedding cake\" stage built in three.js, in MGM silver black-and-white: satin, chiffon and ostrich feathers set against deep black, with Clawd the only color. The 175-step spiral stage of A Pretty Girl Is Like a Melody is this film's signature scene.",
       "fit": "silver black-and-white 3D spiral wedding-cake stage",
       "tags": [
         "3D·B&W"
@@ -2953,7 +2998,7 @@
       "name": "The Life of Emile Zola",
       "series": "O",
       "category": "Silent and Early Sound 1927–1938",
-      "description": "newspaper letterpress printing combined with 1890s line-engraved illustrations: wood-type headlines, densely set metal-type body text, ink spread and dropout on yellowed newsprint, and figures drawn in hatching. The film's most famous image is the front page of *L'Aurore* on 13 January 1898 with \"J'Accuse...!\".",
+      "description": "newspaper letterpress printing combined with 1890s line-engraved illustrations: wood-type headlines, densely set metal-type body text, ink spread and dropout on yellowed newsprint, and figures drawn in hatching. The film's most famous image is the front page of L'Aurore on 13 January 1898 with \"J'Accuse...!\".",
       "fit": "newspaper letterpress + line-engraved illustration",
       "tags": [
         "2D·B&W"
@@ -2979,7 +3024,7 @@
       "name": "Gone with the Wind",
       "series": "O",
       "category": "Color and War 1939–1949",
-      "description": "impasto oil painting: palette-knife color blocks, ridges of piled paint, the heat of Technicolor - skies burning from gold to blood red, red earth, black silhouettes. Full color arrives with *Gone with the Wind*, and its first fully colored image is Tara at sunset.",
+      "description": "impasto oil painting: palette-knife color blocks, ridges of piled paint, the heat of Technicolor - skies burning from gold to blood red, red earth, black silhouettes. Full color arrives with Gone with the Wind, and its first fully colored image is Tara at sunset.",
       "fit": "Technicolor impasto oil painting",
       "tags": [
         "2D"
@@ -2992,7 +3037,7 @@
       "name": "Rebecca",
       "series": "O",
       "category": "Color and War 1939–1949",
-      "description": "charcoal on rough-grained paper: velvet blacks, smudged greys, with moonlight and fog erased out with an eraser. Hitchcock's *Rebecca* is a black-and-white Gothic dream, the estate first in fog and then in fire, and charcoal can draw both.",
+      "description": "charcoal on rough-grained paper: velvet blacks, smudged greys, with moonlight and fog erased out with an eraser. Hitchcock's Rebecca is a black-and-white Gothic dream, the estate first in fog and then in fire, and charcoal can draw both.",
       "fit": "Gothic charcoal drawing",
       "tags": [
         "2D·B&W"
@@ -3278,7 +3323,7 @@
       "name": "Lawrence of Arabia",
       "series": "O",
       "category": "The Swinging Sixties 1960–1969",
-      "description": "epic-poster gouache with visible brush direction and strong warm-cool contrast: an amber desert against a cobalt-blue sky. The original *Lawrence of Arabia* poster was painted by Howard Terpning in exactly this manner.",
+      "description": "epic-poster gouache with visible brush direction and strong warm-cool contrast: an amber desert against a cobalt-blue sky. The original Lawrence of Arabia poster was painted by Howard Terpning in exactly this manner.",
       "fit": "Terpning epic-poster gouache",
       "tags": [
         "2D"
@@ -3356,7 +3401,7 @@
       "name": "Oliver!",
       "series": "O",
       "category": "The Swinging Sixties 1960–1969",
-      "description": "a Victorian toy paper theatre: hand-colored lithographed cardboard figures with scissor-cut white edges, layered scenery slotted onto sliding rods, candle footlights beneath a gilded proscenium casting shadows on the scenery. *Oliver!* is a musical and fits a Victorian family's small stage perfectly.",
+      "description": "a Victorian toy paper theatre: hand-colored lithographed cardboard figures with scissor-cut white edges, layered scenery slotted onto sliding rods, candle footlights beneath a gilded proscenium casting shadows on the scenery. Oliver! is a musical and fits a Victorian family's small stage perfectly.",
       "fit": "Victorian toy paper theatre",
       "tags": [
         "2.5D"
@@ -3382,7 +3427,7 @@
       "name": "Patton",
       "series": "O",
       "category": "New Hollywood 1970–1979",
-      "description": "a lithograph look imitating 1940s US war bond posters: graded flat folds, dark contours, halftone shadows, yellowed paper. It matches the opening of *Patton*: the small general addressing the troops before a giant flag filling the stage.",
+      "description": "a lithograph look imitating 1940s US war bond posters: graded flat folds, dark contours, halftone shadows, yellowed paper. It matches the opening of Patton: the small general addressing the troops before a giant flag filling the stage.",
       "fit": "WWII war bond lithograph poster",
       "tags": [
         "2D"
@@ -3421,8 +3466,8 @@
       "name": "The Sting",
       "series": "O",
       "category": "New Hollywood 1970–1979",
-      "description": "magazine illustration in the line of Leyendecker and Rockwell: lit planes, parallel brushstrokes, crisp dark contours. The film's chapter cards imitate *Saturday Evening Post* covers, and the 1936 betting parlor is drawn the same way.",
-      "fit": "*Saturday Evening Post* illustration",
+      "description": "magazine illustration in the line of Leyendecker and Rockwell: lit planes, parallel brushstrokes, crisp dark contours. The film's chapter cards imitate Saturday Evening Post covers, and the 1936 betting parlor is drawn the same way.",
+      "fit": "Saturday Evening Post illustration",
       "tags": [
         "2D"
       ],
@@ -3447,7 +3492,7 @@
       "name": "One Flew Over the Cuckoo's Nest",
       "series": "O",
       "category": "New Hollywood 1970–1979",
-      "description": "a quiet realism in the manner of Edward Hopper: large flat pale green walls, hard-edged parallelograms of low morning light, people kept apart from one another. This suits the ward in *One Flew Over the Cuckoo's Nest*: order under fluorescent light, broken by one escape.",
+      "description": "a quiet realism in the manner of Edward Hopper: large flat pale green walls, hard-edged parallelograms of low morning light, people kept apart from one another. This suits the ward in One Flew Over the Cuckoo's Nest: order under fluorescent light, broken by one escape.",
       "fit": "Hopper-style American realist oil painting",
       "tags": [
         "2D"

@@ -1,20 +1,20 @@
-# 素材与许可
+# Material and licenses
 
-本技能封装的是随项目提供的「代码动画_341种风格提示词_免费」素材包。原作者的说明、提示词、示例与许可保留在 `../assets/library/`。XiaoyeCodes 负责本仓库的技能封装、检索／安装／渲染脚本和展示文档，不将素材包中的全部作品声明为自己的原创。
+This skill packages the free pack titled "Code Animation: 341 Style Prompts (Free)" that came with the project. The pack's notes, prompts, examples and licenses are kept in `../assets/library/`, with prompts and notes translated into English in this fork. XiaoyeCodes is responsible for the upstream skill packaging, the search, install and render scripts and the display docs, and does not claim all works in the pack as its own original work. This fork is an unofficial, free English translation of [XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts).
 
-- [原始说明](../assets/library/README.md)：免费使用、免费转发；禁止将这些内容包装成课程、付费 skills 或其他收费内容出售。
-- [原始来源说明](../assets/library/licenses-and-sources.md)：原整理者对自制／改写部分的说明。
-- [Lemo-Opuscar](../assets/library/third-party-licenses/Lemo-Opuscar_LICENSE.txt)：MIT，Copyright (c) 2026 LemoLab。
-- [mg-styles-15](../assets/library/third-party-licenses/mg-styles-15_LICENSE.txt)：MIT，Copyright (c) 2026 Vincentwei1021。
-- [code-video](../assets/library/third-party-licenses/code-video_LICENSE.txt)：MIT，Copyright (c) 2026 Bae-ChangHyun。
+- [Pack notes](../assets/library/README.md): free to use and free to pass on; packaging this content as a course, paid skills or anything else sold for money is prohibited.
+- [Pack source notes](../assets/library/licenses-and-sources.md): the curator's notes on the parts they made or rewrote.
+- [Lemo-Opuscar](../assets/library/third-party-licenses/Lemo-Opuscar_LICENSE.txt): MIT, Copyright (c) 2026 LemoLab.
+- [mg-styles-15](../assets/library/third-party-licenses/mg-styles-15_LICENSE.txt): MIT, Copyright (c) 2026 Vincentwei1021.
+- [code-video](../assets/library/third-party-licenses/code-video_LICENSE.txt): MIT, Copyright (c) 2026 Bae-ChangHyun.
 
-感谢原素材整理者——哔哩哔哩 [**俯仰观照**](https://space.bilibili.com/3690990015613855/?spm_id_from=333.788.upinfo.detail.click) 的资源分享。
+Thanks to the original curator, [**俯仰观照 (Fuyang Guanzhao)**](https://space.bilibili.com/3690990015613855/?spm_id_from=333.788.upinfo.detail.click) on Bilibili, for sharing these resources.
 
-## 社区补充与原包基线
+## Community additions and the pack baseline
 
-- **Strange Leo (@strangeyu911-tech)**：通过 [PR #1](https://github.com/XiaoyeCodes/code-animation-prompts/pull/1) 提供 K1 扁平矢量、K2 Q 版、K3 卡哇伊三张 1920×1080 JPEG 参考说明卡。这些是社区新增作品，不是原包自带的图片。
-- 作者说明图片通过 SVG 绘制并渲染，但 PR 只提交 JPEG，未附 SVG 源文件；本仓库不把 JPEG 宣称为可编辑的矢量源码。
-- 原始素材包含 193 张静帧；加上社区补图后，当前目录有 196 张。原包 `README.md` 中的 193 保留为历史原文，当前数量以 `catalog.json` 与挑选器为准。
-- 仓库的 `docs/source-manifest.json` 保留原始 555 个文件的哈希基线，不用当前文件重新覆盖它。[library-changes.json](library-changes.json) 记录两处有意修改（挑选器、统计）及三张新增图片的哈希、来源和原因，并随技能安装。校验分别核对原始未改动文件、登记的修改与新增素材。
+- **Strange Leo (@strangeyu911-tech)**: contributed three 1920x1080 JPEG reference cards through [PR #1](https://github.com/XiaoyeCodes/code-animation-prompts/pull/1): K1 Flat Vector Character, K2 Chibi and K3 Kawaii. These are community additions, not images that shipped with the original pack.
+- The author says the images were drawn in SVG and rendered, but the PR only submitted JPEGs with no SVG source files. This repository does not present the JPEGs as editable vector source.
+- The original pack has 193 stills; with the community additions, the current catalog has 196. The 193 in the library `README.md` is retained as a historical statement; for current counts, use `catalog.json` and the picker.
+- The repository's `docs/source-manifest.json` holds the library's hash baseline; do not overwrite it with current files to make validation pass. [library-changes.json](library-changes.json) records the hashes, sources and reasons for registered library changes, including the three added images, and installs with the skill.
 
-不同来源的内容保留各自许可。免费分享约定不改写第三方 MIT 文本；整个合集不能简单标成全部 MIT。电影、艺术风格与示例名称是参考描述，不代表官方合作或背书。
+Content from different sources keeps its own license. The free-sharing terms do not rewrite the third-party MIT text, and the collection as a whole cannot simply be labelled MIT. Film, art style and example names are descriptive references and do not imply official partnership or endorsement.

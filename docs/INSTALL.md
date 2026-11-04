@@ -1,74 +1,74 @@
-# 安装到 Claude Code / Codex
+# Install for Claude Code / Codex
 
-本仓库针对有本地文件和终端能力的 Claude Code 与 Codex。先下载完整仓库（包含原始视频约 75 MiB，另有 README 图片），安装的是 `skills/code-animation-prompts/` 整个目录。
+This repository targets Claude Code and Codex with local file and terminal access. Download the full repository first (the library is about 75 MiB including the sample videos, plus the README images). What gets installed is the entire `skills/code-animation-prompts/` directory.
 
-## 一句话交给助手
+## Hand it to your assistant in one go
 
-[复制一键导入提示词](../prompts/one-click-import.md)。助手会下载仓库、读取说明、选择当前工具的安装位置，并验证风格查询。
+[Copy the one-click import prompt](../prompts/one-click-import.md). The assistant downloads the repository, reads the instructions, chooses the install location for the current tool and verifies style lookup.
 
-## Python 安装脚本
+## Python install script
 
-需要 Python 3.10+，不依赖第三方包。在仓库根目录运行：
+Requires Python 3.10+ and no third-party packages. From the repository root, run:
 
 ```bash
 python scripts/install_skill.py --target codex
 python scripts/install_skill.py --target claude
 ```
 
-选择其中一条即可。`--target both` 会安装到两个位置。`--dry-run` 只显示路径，不写入文件。
+Pick one of these. `--target both` installs to both locations. `--dry-run` only shows the paths and writes no files.
 
-| 工具 | 用户级目录 | 项目级目录 |
+| Tool | User-level directory | Project-level directory |
 |---|---|---|
-| Codex | `~/.agents/skills/code-animation-prompts/` | `<项目>/.agents/skills/code-animation-prompts/` |
-| Claude Code | `~/.claude/skills/code-animation-prompts/` | `<项目>/.claude/skills/code-animation-prompts/` |
+| Codex | `~/.agents/skills/code-animation-prompts/` | `<project>/.agents/skills/code-animation-prompts/` |
+| Claude Code | `~/.claude/skills/code-animation-prompts/` | `<project>/.claude/skills/code-animation-prompts/` |
 
-`~` 指用户主目录；Windows 通常是 `C:\Users\用户名`。路径按 [OpenAI 官方技能文档](https://learn.chatgpt.com/docs/build-skills) 和 [Claude Code 官方技能文档](https://code.claude.com/docs/en/skills) 整理。
+`~` means your home directory; on Windows it is usually `C:\Users\<username>`. These paths follow the [official OpenAI skills docs](https://learn.chatgpt.com/docs/build-skills) and the [official Claude Code skills docs](https://code.claude.com/docs/en/skills).
 
-安装到指定项目：
+To install into a specific project:
 
 ```bash
-python scripts/install_skill.py --target codex --scope project --project-dir "你的项目路径"
-python scripts/install_skill.py --target claude --scope project --project-dir "你的项目路径"
+python scripts/install_skill.py --target codex --scope project --project-dir "your/project/path"
+python scripts/install_skill.py --target claude --scope project --project-dir "your/project/path"
 ```
 
-不要同时在同一助手的用户级和项目级重复安装同名技能，避免出现多个同名入口。
+Do not install the same skill at both the user level and the project level for one assistant, or you may see several entries with the same name.
 
-## 不使用 Python
+## Without Python
 
-手动把仓库里的 `skills/code-animation-prompts/` 整个目录复制到表中的位置。最终应存在：
+Manually copy the whole `skills/code-animation-prompts/` directory from the repository to a location in the table. You should end up with:
 
 ```text
-<安装位置>/code-animation-prompts/SKILL.md
-<安装位置>/code-animation-prompts/assets/library/style-picker.html
-<安装位置>/code-animation-prompts/references/catalog.json
+<install-location>/code-animation-prompts/SKILL.md
+<install-location>/code-animation-prompts/assets/library/style-picker.html
+<install-location>/code-animation-prompts/references/catalog.json
 ```
 
-只复制 `SKILL.md` 会丢失风格库。不要改变 `assets/library/` 内文件之间的相对位置。
+Copying only `SKILL.md` loses the style library. Do not change the relative positions of files inside `assets/library/`.
 
-## 验证安装
+## Verify the install
 
-将 `<技能目录>` 换成真实安装路径：
+Replace `<skill-dir>` with the real install path:
 
 ```bash
-python "<技能目录>/scripts/styles.py" search 水墨
-python "<技能目录>/scripts/styles.py" show B3
+python "<skill-dir>/scripts/styles.py" search ink
+python "<skill-dir>/scripts/styles.py" show B3
 ```
 
-开始新会话后，Codex 可输入 `$code-animation-prompts`；Claude Code 可输入 `/code-animation-prompts`。也可以直接说“使用 code-animation-prompts 制作一段动画”。如果当前会话未显示新技能，重新启动会话；账户或管理员设置可能影响技能发现。
+After starting a new session, type `$code-animation-prompts` in Codex or `/code-animation-prompts` in Claude Code. You can also just say "use code-animation-prompts to make an animation". If the new skill doesn't appear in the current session, restart the session; account or admin settings may affect skill discovery.
 
-## 更新
+## Update
 
-安装脚本不覆盖已有目录。更新前保存自己的修改，将旧技能目录备份到技能扫描目录之外；然后拉取仓库并重新运行安装命令。不要把带 `SKILL.md` 的备份留在 `.agents/skills/` 或 `.claude/skills/` 下面，否则可能仍被扫描。
+The install script does not overwrite an existing directory. Before updating, save your own changes and back up the old skill directory outside the skill scan directories; then pull the repository and run the install command again. Do not leave a backup containing `SKILL.md` under `.agents/skills/` or `.claude/skills/`, as it may still get scanned.
 
-更新仓库中的素材索引和检查完整性：
+To update the library index in the repository and check its integrity:
 
 ```bash
 python scripts/build_catalog.py
 python scripts/validate_repo.py
 ```
 
-## 可选：视频导出
+## Optional: video export
 
-安装 skill 不会自动安装浏览器或 FFmpeg。需要实际导出视频时，再按 [渲染说明](../skills/code-animation-prompts/references/rendering.md) 配置依赖。
+Installing the skill does not install a browser or FFmpeg. When you actually need to export video, set up the dependencies using the [rendering notes](../skills/code-animation-prompts/references/rendering.md).
 
-[返回 README](../README.md)
+[Back to README](../README.md)

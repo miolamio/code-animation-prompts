@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Code Animation · 渲染接口示例</title>
+<title>Code Animation - Render Interface Example</title>
 <style>
   * { box-sizing: border-box; } html, body { margin: 0; background: #080d18; overflow: hidden; }
   canvas { display: block; width: 100vw; height: 100vh; }
@@ -11,7 +11,7 @@
 <script>
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
-const config = {title: '让代码动起来', subtitle: 'CODE → MOTION', duration: 12};
+const config = {title: 'Bring Code to Life', subtitle: 'CODE TO MOTION', duration: 12};
 function draw(t) {
   canvas.width = innerWidth; canvas.height = innerHeight;
   const w = canvas.width, h = canvas.height, scale = Math.min(w / 1280, h / 720);
@@ -27,7 +27,7 @@ function draw(t) {
   }
   ctx.globalAlpha = 1; ctx.textAlign = 'center'; ctx.fillStyle = '#b8f777';
   ctx.font = '18px Arial'; ctx.fillText(config.subtitle, 0, -54);
-  ctx.fillStyle = '#f3f5fb'; ctx.font = 'bold 58px "Microsoft YaHei", "PingFang SC", sans-serif';
+  ctx.fillStyle = '#f3f5fb'; ctx.font = 'bold 58px Arial, sans-serif';
   ctx.fillText(config.title, 0, 24);
   ctx.fillStyle = '#8290aa'; ctx.font = '16px Arial';
   ctx.fillText('EDITABLE HTML  /  DETERMINISTIC FRAMES', 0, 72);

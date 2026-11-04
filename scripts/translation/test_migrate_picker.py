@@ -132,8 +132,8 @@ class Fixture(unittest.TestCase):
         for name, text in MD.items():
             (self.lib / name).write_text(text, encoding="utf-8")
 
-    def migrate(self, data=None, translations=None, keep=None):
-        return mp.migrate(data or blob(), self.lib, GLOSSARY, translations=translations, keep=keep)
+    def migrate(self, data=None, translations=None, keep=None, notes=None):
+        return mp.migrate(data or blob(), self.lib, GLOSSARY, translations=translations, keep=keep, notes=notes)
 
     def entry(self, data, entry_id):
         return next(e for e in data["entries"] if e["id"] == entry_id)
@@ -279,6 +279,70 @@ class Translations(Fixture):
             self.migrate(translations={"Z9.desc": "x"})
 
 
+class Emphasis(Fixture):
+    def write(self, name, old, new):
+        path = self.lib / name
+        path.write_text(path.read_text(encoding="utf-8").replace(old, new), encoding="utf-8")
+
+    def test_plain_text_fields_lose_emphasis(self):
+        self.write("O1_wings.md", "- Looks like: A dogfight.", "- Looks like: A dogfight from *Wings* and **more** and _this_.")
+        self.write("O1_wings.md", "- Style: silent 3D", "- Style: *silent* 3D")
+        self.write("O1_wings.md", "Clawd plays a pilot.", "Clawd reads *The Post*.")
+        o1 = self.entry(self.migrate()[0], "O1")
+        self.assertEqual(o1["desc"], "A dogfight from Wings and more and this.")
+        self.assertEqual(o1["fit"], "silent 3D · amber tint")
+        self.assertEqual(o1["extra"][1]["t"], "Clawd reads The Post.")
+
+    def test_list_extras_and_translations_lose_emphasis(self):
+        o1 = self.entry(self.migrate(translations={"O1.extra.0.t": ["*three.js* 3D", "amber tint"]})[0], "O1")
+        self.assertEqual(o1["extra"][0]["t"], ["three.js 3D", "amber tint"])
+
+    def test_other_asterisks_and_underscores_are_kept(self):
+        for text in ["2 * 3 * 4", "3*4*5", "*.jpg and *.png", "snake_case_name", "__init__.py",
+                     "[Demo](https://example.com/_a_/b_c_d)"]:
+            self.assertEqual(mp.strip_emphasis(text), text)
+
+    def test_link_text_loses_emphasis_and_url_is_kept(self):
+        self.assertEqual(mp.strip_emphasis("[*Demo*](https://example.com/a_b_c)"), "[Demo](https://example.com/a_b_c)")
+
+    def test_prompt_keeps_its_markdown(self):
+        self.write("M1_white.md", "You are a motion engineer.", "You are a *motion* engineer.")
+        self.assertIn("*motion*", self.entry(self.migrate()[0], "M1")["prompt"])
+
+    def test_rerun_is_identical(self):
+        self.write("O1_wings.md", "- Looks like: A dogfight.", "- Looks like: *Wings*.")
+        first, _ = self.migrate()
+        self.assertEqual(self.migrate(json.loads(json.dumps(first)))[0], first)
+
+
+class MediaNotes(Fixture):
+    def test_listed_entry_gets_its_note_and_others_do_not(self):
+        data, todo = self.migrate(notes={"A1": "Shows Chinese."})
+        self.assertEqual(self.entry(data, "A1")["note"], "Shows Chinese.")
+        self.assertNotIn("note", self.entry(data, "O1"))
+        self.assertNotIn("A1.note", {item["key"] for item in todo})
+
+    def test_rerun_is_identical(self):
+        first, _ = self.migrate(notes={"A1": "Shows Chinese."})
+        self.assertEqual(self.migrate(json.loads(json.dumps(first)), notes={"A1": "Shows Chinese."})[0], first)
+
+    def test_note_is_removed_when_the_id_leaves_the_list(self):
+        first, _ = self.migrate(notes={"A1": "Shows Chinese."})
+        self.assertNotIn("note", self.entry(self.migrate(json.loads(json.dumps(first)))[0], "A1"))
+
+    def test_unknown_id_is_refused(self):
+        with self.assertRaisesRegex(mp.MigrationError, "Z9.*no still"):
+            self.migrate(notes={"Z9": "x"})
+
+    def test_entry_without_a_still_is_refused(self):
+        with self.assertRaisesRegex(mp.MigrationError, "M1.*no still"):
+            self.migrate(notes={"M1": "x"})
+
+    def test_chinese_note_is_refused(self):
+        with self.assertRaisesRegex(mp.MigrationError, "A1.*Chinese"):
+            self.migrate(notes={"A1": "显示中文"})
+
+
 class FailsLoudly(Fixture):
     def test_entry_missing_from_glossary(self):
         data = blob()
@@ -378,6 +442,15 @@ class Files(unittest.TestCase):
         mp.run(self.root)
         data = mp.parse_blob(self.picker())
         self.assertIn("</script><!-- x", next(e for e in data["entries"] if e["id"] == "M1")["prompt"])
+
+    def test_media_notes_file_is_applied_and_second_run_is_byte_identical(self):
+        (self.root / mp.MEDIA_NOTES).write_text(json.dumps(
+            {"stills": {"A1": {"reason": "shows-chinese", "note": "Shows Chinese."}}, "other": {}}), encoding="utf-8")
+        mp.run(self.root)
+        html = self.picker()
+        self.assertEqual(next(e for e in mp.parse_blob(html)["entries"] if e["id"] == "A1")["note"], "Shows Chinese.")
+        mp.run(self.root)
+        self.assertEqual(self.picker(), html)
 
     def test_page_without_data_block_fails(self):
         (self.lib / "style-picker.html").write_text("<html></html>", encoding="utf-8")

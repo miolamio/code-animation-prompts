@@ -41,8 +41,12 @@ def main():
         print("No matching styles. B6 is an example, not a catalog entry.", file=sys.stderr)
         return 1
     if args.json:
+        if args.command != "show":
+            rows = [{k: v for k, v in e.items() if k != "reference_note"} for e in rows]
         print(json.dumps(rows[:args.limit], ensure_ascii=False, indent=2))
     elif args.command == "show":
+        if rows[0].get("reference_note"):
+            print(f'Reference note: {rows[0]["reference_note"]}\n')
         print((ROOT / rows[0]["file"]).read_text(encoding="utf-8"))
     else:
         for e in rows[:args.limit]:
